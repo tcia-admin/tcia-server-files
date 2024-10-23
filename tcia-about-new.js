@@ -155,7 +155,6 @@
     }
 
     
-document.addEventListener('DOMContentLoaded', function() {
     // Modify the existing Three.js setup
     const scene = new THREE.Scene();
     const camera = new THREE.OrthographicCamera(
@@ -344,7 +343,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 showMemberPopup(teamMembers[memberIndex]);
             }
         });
-
         if (!isMobile) {
             requestAnimationFrame(animateCards);
         }
@@ -733,4 +731,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Call the function to create pillars
     createPillars();
-});
