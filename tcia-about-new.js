@@ -1,5 +1,6 @@
 
-    // Add this to the top of your script, after importing Three.js
+   
+   // Add this to the top of your script, after importing Three.js
     function poissonDiskSampling(width, height, radius, k = 30) {
         const grid = [];
     const active = [];
@@ -154,7 +155,7 @@
     }
 
     
-
+document.addEventListener('DOMContentLoaded', function() {
     // Modify the existing Three.js setup
     const scene = new THREE.Scene();
     const camera = new THREE.OrthographicCamera(
@@ -732,3 +733,4 @@
 
     // Call the function to create pillars
     createPillars();
+});
