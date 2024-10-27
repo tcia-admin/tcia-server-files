@@ -271,15 +271,31 @@
         }
         console.log('Populating team members');
 
-        const containerRect = teamMembersContainer.getBoundingClientRect();
+        // Clear existing container styles for mobile
+        if (window.innerWidth <= 768) {
+            teamMembersContainer.style.display = 'flex';
+            teamMembersContainer.style.overflowX = 'auto';
+            teamMembersContainer.style.scrollSnapType = 'x mandatory';
+            teamMembersContainer.style.padding = '20px';
+            teamMembersContainer.style.gap = '20px';
+            teamMembersContainer.style.height = 'auto';
+        }
 
         teamMembers.forEach((member, index) => {
             const memberElement = document.createElement('div');
             memberElement.classList.add('team-member-card');
             
-            // Add 'board-member' class if the role is "TCIA Board Member"
             if (member.role === "TCIA Board Member") {
                 memberElement.classList.add('board-member');
+            }
+
+            // Add mobile-specific styles
+            if (window.innerWidth <= 768) {
+                memberElement.style.position = 'relative';
+                memberElement.style.flex = '0 0 auto';
+                memberElement.style.scrollSnapAlign = 'center';
+                memberElement.style.left = 'auto';
+                memberElement.style.top = 'auto';
             }
             
             memberElement.innerHTML = `
@@ -295,8 +311,8 @@
                 </div>
             `;
             teamMembersContainer.appendChild(memberElement);
-            console.log(`Added team member ${index + 1}: ${member.name}`);
 
+            // Only apply floating animation for desktop
             if (!isMobile) {
                 let position;
                 do {
@@ -318,7 +334,7 @@
             }
         });
 
-        // Event delegation for hover and click events
+        // Event handlers remain the same
         teamMembersContainer.addEventListener('mouseenter', (event) => {
             if (event.target.closest('.team-member-card')) {
                 isHovering = true;
@@ -343,6 +359,8 @@
                 showMemberPopup(teamMembers[memberIndex]);
             }
         });
+
+        // Only animate cards on desktop
         if (!isMobile) {
             requestAnimationFrame(animateCards);
         }
@@ -695,3 +713,4 @@
 
     // Call the function to create pillars
     createPillars();
+
