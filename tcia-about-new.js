@@ -611,46 +611,10 @@
         });
     }
 
-    // Function to place content in the top bar
-    function placeTopBarContent(content, position) {
-        const sectionIndex = Math.floor(position / 10);
-        const section = document.querySelector(`.top-bar-section[data-position="${sectionIndex * 10}"]`);
-        if (section) {
-            section.innerHTML = content;
-            console.log(`Content placed at position ${position}:`, content);
-            
-            // Add direct event listeners
-            if (content.includes('toggle-nav')) {
-                const toggleNav = section.querySelector('#toggle-nav');
-                if (toggleNav) {
-                    toggleNav.addEventListener('click', () => {
-                        console.log('Nav toggle clicked (direct)');
-                        toggleNavOverlay();
-                    });
-                }
-            }
-            // Commenting out the dark mode toggle
-            /*
-            if (content.includes('dark-mode-toggle')) {
-                const darkModeToggle = section.querySelector('#dark-mode-toggle');
-                if (darkModeToggle) {
-                    darkModeToggle.addEventListener('click', () => {
-                        console.log('Dark mode toggle clicked (direct)');
-                        toggleDarkMode();
-                    });
-                }
-            }
-            */
-        } else {
-            console.error(`No section found for position ${position}`);
-        }
-    }
 
     // Call setup functions after the DOM is fully loaded
     document.addEventListener('DOMContentLoaded', () => {
         console.log('DOM fully loaded');
-        placeTopBarContent('<button id="toggle-nav">≡</button>', 0);
-        placeTopBarContent('<img id="org-logo" src="https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e68fb3a1-fb3e-4647-be0d-cfdf6834cf3f/tcia-logo-no-bg.png?content-type=image%2Fpng" alt="TCIA Logo">', 10);
         
         setupNavButtons();
         
