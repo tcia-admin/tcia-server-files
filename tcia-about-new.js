@@ -223,13 +223,14 @@
             bio: "Yashada Nikam holds a Master's Degree in Data Science and works as a Data Scientist at Twin Cities Innovation Alliance. \n With a curious and analytical mindset, she is adept at diving deep into diverse datasets, asking insightful questions, and presenting compelling narratives through data visualization, making it accessible and relatable. \n When she’s not glued to her computer, Yashada loves to bake sugary goods, write prose poetry and time loses all its meaning once she picks up a book!",
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d8d6ae52-2837-42f2-9ad2-7d4dec6d3c9d/Capture+d%E2%80%99e%CC%81cran+2024-10-18+a%CC%80+12.07.33%E2%80%AFPM.png?content-type=image%2Fpng"
         },
-        */
+        
         {
             name: "Khanh Tu",
             role: "Digital Marketer and Graphic Designer",
             bio: "Khanh Tu is a digital marketer and graphic designer who develops and executes effective digital marketing strategies for TCIA. She holds a Bachelor of Science in Marketing and is a self-taught graphic designer. Khanh creates visually compelling designs while ensuring brand consistency across TCIA’s platforms, enhancing its visual identity. \n In her free time, Khanh enjoys working on digital art and personal creative projects, including pen-palling, bullet journaling, and film photography.",
             image: "https://picsum.photos/id/1013/200/200"
         },
+        */
         {
             name: "Sudanna Morris",
             role: "Admin",
