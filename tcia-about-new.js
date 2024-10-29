@@ -216,12 +216,14 @@
             bio: "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA’s annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition. \nAasim is also lead innovator and steward leader of iAskc, a digital transformation company providing organizational agility solutions for enterprises across the globe. Aasim brings his experience as a visionary thought leader and certified Scaled Agile® Program Consultant Expert Agile, to support organizations in improving their value delivery from a people-focused approach. Aasim effectively leverages his experience of 20+ years of working in the areas of Agile teams, Design Thinking, Lean Practices, SAFe Transformation, Change Management, Strategic Planning, Organizational Design, and Human Resource Strategy.",
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/47442c50-0cbf-4ca3-8502-1a4dd9c490f8/Aasim+Shabazz_+headshot+1.png?content-type=image%2Fpng"
         },
+       /*
         {
             name: "Yashada Nikam",
             role: "Data Scientist",
             bio: "Yashada Nikam holds a Master's Degree in Data Science and works as a Data Scientist at Twin Cities Innovation Alliance. \n With a curious and analytical mindset, she is adept at diving deep into diverse datasets, asking insightful questions, and presenting compelling narratives through data visualization, making it accessible and relatable. \n When she’s not glued to her computer, Yashada loves to bake sugary goods, write prose poetry and time loses all its meaning once she picks up a book!",
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d8d6ae52-2837-42f2-9ad2-7d4dec6d3c9d/Capture+d%E2%80%99e%CC%81cran+2024-10-18+a%CC%80+12.07.33%E2%80%AFPM.png?content-type=image%2Fpng"
         },
+        */
         {
             name: "Khanh Tu",
             role: "Digital Marketer and Graphic Designer",
@@ -234,12 +236,14 @@
             bio: "Sudanna Morris is a Project Manager and Admin Coordinator at TCIA.  She manages different initiatives and special projects from planning to execution phase. This ensures that all projects and action items are delivered efficiently and are consistent with organizational goals. Outside of work, Sudanna unwinds by watching drama, comedy, and action movies and spend quality time with family and friends.",
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/b05be2d7-86a4-448c-bc5a-f974f6ac2105/Sudanna.png?content-type=image%2Fpng"
         },
+       /*
         {
             name: "Jadyn Mardy",
             role: "Digital Marketer and Video Editor",
             bio: "Jadyn is a marketing coordinator and video editor for TCIA and has been thrilled to be a part of the team for over a year. Jadyn is a senior double majoring in Child Studies and Film and Media studies and largely manages TCIA’s social media and communication presents and edits all video content. Along with a love for storytelling through visual media, she loves writing about aspects of data justice, AI use and summarizing reports that explore the same. \n Originally from NY, Jadyn is currently a Bostonian impersonator who loves to rollerblade, watch movies and stay up late writing.",
             image: "https://picsum.photos/id/1015/200/200"
         },
+        */
         {
             name: "Marika Pfefferkorn",
             role: "Co-founder Twin Cities Innovation Alliance (TCIA) & Executive Director, Midwest Center for School Transformation (MCST)",
