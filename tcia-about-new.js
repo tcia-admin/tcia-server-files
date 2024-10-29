@@ -237,14 +237,12 @@
             bio: "Sudanna Morris is a Project Manager and Admin Coordinator at TCIA.  She manages different initiatives and special projects from planning to execution phase. This ensures that all projects and action items are delivered efficiently and are consistent with organizational goals. Outside of work, Sudanna unwinds by watching drama, comedy, and action movies and spend quality time with family and friends.",
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/b05be2d7-86a4-448c-bc5a-f974f6ac2105/Sudanna.png?content-type=image%2Fpng"
         },
-       /*
         {
             name: "Jadyn Mardy",
             role: "Digital Marketer and Video Editor",
             bio: "Jadyn is a marketing coordinator and video editor for TCIA and has been thrilled to be a part of the team for over a year. Jadyn is a senior double majoring in Child Studies and Film and Media studies and largely manages TCIA’s social media and communication presents and edits all video content. Along with a love for storytelling through visual media, she loves writing about aspects of data justice, AI use and summarizing reports that explore the same. \n Originally from NY, Jadyn is currently a Bostonian impersonator who loves to rollerblade, watch movies and stay up late writing.",
-            image: "https://picsum.photos/id/1015/200/200"
+            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/84e29030-d5ad-4d72-8474-505f2288748e/JadynMardy.jpg?content-type=image%2Fjpeg"
         },
-        */
         {
             name: "Marika Pfefferkorn",
             role: "Co-founder Twin Cities Innovation Alliance (TCIA) & Executive Director, Midwest Center for School Transformation (MCST)",
