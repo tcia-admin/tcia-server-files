@@ -265,6 +265,9 @@
         }
         console.log('Populating team members');
 
+        // Get container dimensions early
+        const containerRect = teamMembersContainer.getBoundingClientRect();
+
         // Clear existing container styles for mobile
         if (window.innerWidth <= 768) {
             teamMembersContainer.style.display = 'flex';
@@ -707,3 +710,4 @@
 
     // Call the function to create pillars
     createPillars();
+
