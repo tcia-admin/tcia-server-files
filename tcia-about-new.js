@@ -195,7 +195,7 @@ if (window.tciaInitialized) {
        starCanvas.style.display = 'none';
    }
    
-   // Handle window resize
+   // Handle window resize with improved error handling
    const debounce = (func, delay) => {
        let timeoutId;
        return (...args) => {
@@ -203,21 +203,39 @@ if (window.tciaInitialized) {
            timeoutId = setTimeout(() => func(...args), delay);
        };
    };
-   
-   window.addEventListener('resize', debounce(() => {
-       const width = window.innerWidth;
-       const height = window.innerHeight;
-       camera.left = width / -2;
-       camera.right = width / 2;
-       camera.top = height / 2;
-       camera.bottom = height / -2;
-       camera.updateProjectionMatrix();
-       renderer.setSize(width, height);
-       
-       // Recreate star background on resize
-       scene.remove(starBackground);
-       starBackground = addStarBackground(scene, width, height);
-   }, 250));
+
+   // Use a safer approach for window resize
+   const safeResize = debounce(() => {
+       try {
+           const width = window.innerWidth;
+           const height = window.innerHeight;
+           
+           if (camera) {
+               camera.left = width / -2;
+               camera.right = width / 2;
+               camera.top = height / 2;
+               camera.bottom = height / -2;
+               camera.updateProjectionMatrix();
+           }
+           
+           if (renderer) {
+               renderer.setSize(width, height);
+           }
+           
+           // Only recreate star background if it exists and scene exists
+           if (starBackground && scene) {
+               scene.remove(starBackground);
+               starBackground = addStarBackground(scene, width, height);
+           }
+       } catch (err) {
+           console.warn('Error during resize:', err);
+       }
+   }, 250);
+
+   // Replace the existing resize listener
+   window.removeEventListener('resize', window.tciaResizeHandler);
+   window.tciaResizeHandler = safeResize;
+   window.addEventListener('resize', window.tciaResizeHandler);
    
    // Browser detection utility
    function isEdgeBrowser() {
