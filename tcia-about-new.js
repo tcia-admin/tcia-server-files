@@ -401,28 +401,4 @@ if (window.tciaInitialized) {
             orbitElement.appendChild(pillarElement);
         });
     }
-
-    // Add this to your JavaScript
-    function diagnoseEventFlow() {
-        document.body.addEventListener('click', e => {
-            console.log('Body click detected:', e.target);
-        }, true); // Capture phase
-        
-        document.body.addEventListener('mouseover', e => {
-            console.log('Mouseover detected:', e.target);
-        }, true);
-        
-        const teamContainer = document.getElementById('team-members');
-        if (teamContainer) {
-            teamContainer.addEventListener('click', e => {
-                console.log('Team container click detected:', e.target);
-                if (e.target.closest('.card-back')) {
-                    console.log('Click on card back inside team container');
-                }
-            }, true);
-        }
-    }
-
-    // Call this in your initialization
-    diagnoseEventFlow();
 }
