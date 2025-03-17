@@ -30,10 +30,24 @@ if (window.tciaInitialized) {
             // Add a listener to hide canvas when scrolled past the about section
             window.addEventListener('scroll', () => {
                 const aboutRect = aboutPage.getBoundingClientRect();
-                // If we've scrolled past the about section, hide the canvas
-                if (aboutRect.bottom < 0) {
+                const windowHeight = window.innerHeight;
+                
+                // Calculate how much of the about page is still visible
+                const visibleHeight = Math.min(windowHeight, aboutRect.bottom) - Math.max(0, aboutRect.top);
+                const visibilityRatio = visibleHeight / windowHeight;
+                
+                // If we've scrolled completely past the about section, hide the canvas
+                if (aboutRect.bottom <= 0 || aboutRect.top >= windowHeight) {
                     canvas.style.opacity = '0';
-                } else {
+                } 
+                // If we're at the end of the about section, start fading out
+                else if (aboutRect.bottom < windowHeight) {
+                    // Calculate a fade out effect as we approach the end
+                    const fadeRatio = aboutRect.bottom / windowHeight;
+                    canvas.style.opacity = fadeRatio.toString();
+                } 
+                // Otherwise show it fully
+                else {
                     canvas.style.opacity = '1';
                 }
             });
@@ -100,6 +114,9 @@ if (window.tciaInitialized) {
         }, 250);
         
         window.addEventListener('resize', resizeDebounce);
+        
+        // Trigger the scroll handler immediately to set initial state
+        window.dispatchEvent(new Event('scroll'));
     };
     
     // Utility function for debouncing that we'll use for resize
