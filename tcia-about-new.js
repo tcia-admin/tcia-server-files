@@ -4,6 +4,79 @@ if (window.tciaInitialized) {
 } else {
     window.tciaInitialized = true;
     
+    // Replace THREE.js star background with simple canvas background
+    const setupStarBackground = () => {
+        // Get the canvas
+        const canvas = document.getElementById('star-background');
+        if (!canvas) return;
+        
+        // Make sure the canvas is visible
+        canvas.style.display = 'block';
+        
+        // Set proper size
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        const ctx = canvas.getContext('2d');
+        
+        // Create stars
+        const stars = [];
+        const starCount = Math.min(window.innerWidth * window.innerHeight / 3000, 300);
+        
+        for (let i = 0; i < starCount; i++) {
+            stars.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                radius: Math.random() * 1.5 + 0.5,
+                opacity: Math.random() * 0.8 + 0.2,
+                speed: Math.random() * 0.05 + 0.01
+            });
+        }
+        
+        // Animation function
+        function animateStars() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#000000';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw stars
+            stars.forEach(star => {
+                ctx.beginPath();
+                ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+                ctx.fill();
+                
+                // Move star (simple parallax effect)
+                star.y += star.speed;
+                
+                // Reset if off screen
+                if (star.y > canvas.height) {
+                    star.y = 0;
+                    star.x = Math.random() * canvas.width;
+                }
+            });
+            
+            // Throttle to 30fps for performance
+            setTimeout(() => {
+                requestAnimationFrame(animateStars);
+            }, 1000 / 30);
+        }
+        
+        // Start animation
+        animateStars();
+        
+        // Handle resize
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            // Redistribute stars on resize
+            stars.forEach(star => {
+                star.x = Math.random() * canvas.width;
+                star.y = Math.random() * canvas.height;
+            });
+        });
+    };
+    
     // Instead of directly declaring scene, check if it already exists
     window.tciaScene = window.tciaScene || new THREE.Scene();
     const scene = window.tciaScene;
@@ -307,6 +380,9 @@ if (window.tciaInitialized) {
         
         // Move your document.addEventListener('DOMContentLoaded', ...) logic here
         document.addEventListener('DOMContentLoaded', () => {
+            // Setup the star background
+            setupStarBackground();
+            
             // Insert content
             insertContent();
             
