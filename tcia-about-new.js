@@ -13,6 +13,32 @@ if (window.tciaInitialized) {
         // Make sure the canvas is visible
         canvas.style.display = 'block';
         
+        // Limit the canvas to only cover the about-page section
+        canvas.style.position = 'fixed';
+        canvas.style.top = '0';
+        canvas.style.left = '0';
+        canvas.style.width = '100vw';
+        canvas.style.height = '100vh';
+        canvas.style.zIndex = '-1';
+        
+        // This is the key change - make the canvas only appear within the about-page section
+        const aboutPage = document.getElementById('about-page');
+        if (aboutPage) {
+            aboutPage.style.position = 'relative'; // Ensure the section creates a stacking context
+            aboutPage.style.zIndex = '0'; // Ensure positive z-index
+            
+            // Add a listener to hide canvas when scrolled past the about section
+            window.addEventListener('scroll', () => {
+                const aboutRect = aboutPage.getBoundingClientRect();
+                // If we've scrolled past the about section, hide the canvas
+                if (aboutRect.bottom < 0) {
+                    canvas.style.opacity = '0';
+                } else {
+                    canvas.style.opacity = '1';
+                }
+            });
+        }
+        
         // Set proper size
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
