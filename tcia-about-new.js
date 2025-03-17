@@ -178,36 +178,11 @@ if (window.tciaInitialized) {
             teamMembersContainer.appendChild(memberElement);
         });
 
-        // UPDATED EVENT HANDLERS - Fix for Chromium
-        // Remove the capture phase (true) parameter and modify event handlers
-        teamMembersContainer.addEventListener('mouseenter', (event) => {
-            if (event.target.closest('.team-member-card')) {
-                event.target.closest('.team-member-card').classList.add('glow');
-            }
-        });
-
-        teamMembersContainer.addEventListener('mouseleave', (event) => {
-            if (event.target.closest('.team-member-card')) {
-                event.target.closest('.team-member-card').classList.remove('glow');
-            }
-        });
-
-        // Improved click handler to work across browsers
-        teamMembersContainer.addEventListener('click', (event) => {
-            // Find the closest card-back OR card-inner element to support clicks on various elements
-            const cardElement = event.target.closest('.card-back') || event.target.closest('.card-inner');
-            if (cardElement) {
-                // Do NOT use stopPropagation() as it causes issues in Chromium
-                // event.preventDefault(); - Remove this too if still having issues
-                
-                const memberCard = event.target.closest('.team-member-card');
-                if (memberCard) {
-                    const memberIndex = Array.from(teamMembersContainer.children).indexOf(memberCard);
-                    if (memberIndex >= 0 && memberIndex < teamMembers.length) {
-                        showMemberPopup(teamMembers[memberIndex]);
-                    }
-                }
-            }
+        // Add direct click handlers to each card back
+        document.querySelectorAll('.card-back').forEach((back, index) => {
+            back.addEventListener('click', () => {
+                showMemberPopup(teamMembers[index]);
+            });
         });
     }
     
