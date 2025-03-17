@@ -39,16 +39,26 @@ if (window.tciaInitialized) {
                 // If we've scrolled completely past the about section, hide the canvas
                 if (aboutRect.bottom <= 0 || aboutRect.top >= windowHeight) {
                     canvas.style.opacity = '0';
+                    canvas.style.pointerEvents = 'none'; // Disable pointer events
                 } 
                 // If we're at the end of the about section, start fading out
                 else if (aboutRect.bottom < windowHeight) {
                     // Calculate a fade out effect as we approach the end
                     const fadeRatio = aboutRect.bottom / windowHeight;
                     canvas.style.opacity = fadeRatio.toString();
+                    
+                    // When we're close to the footer (less than 30% of the screen showing about page)
+                    // disable pointer events to allow clicking on footer links
+                    if (fadeRatio < 0.3) {
+                        canvas.style.pointerEvents = 'none';
+                    } else {
+                        canvas.style.pointerEvents = 'auto';
+                    }
                 } 
                 // Otherwise show it fully
                 else {
                     canvas.style.opacity = '1';
+                    canvas.style.pointerEvents = 'auto';
                 }
             });
         }
