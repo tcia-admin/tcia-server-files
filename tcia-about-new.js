@@ -163,26 +163,37 @@ if (window.tciaInitialized) {
             memberElement.style.left = 'auto';
             memberElement.style.top = 'auto';
             
-            memberElement.innerHTML = `
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="${member.image}" alt="${member.name}" class="member-image" loading="lazy">
-                        <div class="member-name">${member.name}</div>
-                    </div>
-                    <div class="card-back">
-                        <h3 class="member-role">${member.role}</h3>
-                        <p>Click for more info</p>
-                    </div>
-                </div>
+            // Create a simpler card structure
+            const cardInner = document.createElement('div');
+            cardInner.className = 'card-inner';
+            
+            const cardFront = document.createElement('div');
+            cardFront.className = 'card-front';
+            cardFront.innerHTML = `
+                <img src="${member.image}" alt="${member.name}" class="member-image" loading="lazy">
+                <div class="member-name">${member.name}</div>
             `;
-            teamMembersContainer.appendChild(memberElement);
-        });
-
-        // Add direct click handlers to each card back
-        document.querySelectorAll('.card-back').forEach((back, index) => {
-            back.addEventListener('click', () => {
+            
+            const cardBack = document.createElement('div');
+            cardBack.className = 'card-back';
+            cardBack.setAttribute('data-index', index);
+            cardBack.innerHTML = `
+                <h3 class="member-role">${member.role}</h3>
+                <p>Click for more info</p>
+            `;
+            
+            // Add the direct click handler here - before adding to DOM
+            cardBack.onclick = function(e) {
+                console.log('Card back clicked:', index);
                 showMemberPopup(teamMembers[index]);
-            });
+                e.stopPropagation();
+            };
+            
+            cardInner.appendChild(cardFront);
+            cardInner.appendChild(cardBack);
+            memberElement.appendChild(cardInner);
+            
+            teamMembersContainer.appendChild(memberElement);
         });
     }
     
