@@ -60,6 +60,16 @@ if (window.tciaInitialized) {
                     canvas.style.opacity = '1';
                     canvas.style.pointerEvents = 'auto';
                 }
+
+                // Add this inside the scroll event listener
+                const footer = document.querySelector('footer'); 
+                if (footer) {
+                    const footerRect = footer.getBoundingClientRect();
+                    // If footer is visible at all, disable pointer events on canvas
+                    if (footerRect.top < windowHeight) {
+                        canvas.style.pointerEvents = 'none';
+                    }
+                }
             });
         }
         
