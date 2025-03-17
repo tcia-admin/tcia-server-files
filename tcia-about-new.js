@@ -196,37 +196,6 @@ if (window.tciaInitialized) {
             teamMembersContainer.appendChild(memberElement);
         });
 
-        // After creating all cards, add a special event handler for the entire container
-        teamMembersContainer.addEventListener('click', function(e) {
-            console.log('Container click handler activated');
-            
-            // Try direct target first (works in Firefox)
-            let cardBack = e.target.closest('.card-back');
-            
-            // If no card back was found directly, check if we're clicking on a flipped card
-            // This is our fallback for Chromium browsers
-            if (!cardBack) {
-                const card = e.target.closest('.team-member-card');
-                if (card) {
-                    // Check if this card is flipped
-                    const cardInner = card.querySelector('.card-inner');
-                    if (cardInner && window.getComputedStyle(cardInner).transform.includes('matrix')) {
-                        // If it's flipped, find the card-back inside it
-                        cardBack = card.querySelector('.card-back');
-                    }
-                }
-            }
-            
-            // Now process the card back if found by either method
-            if (cardBack) {
-                const index = cardBack.getAttribute('data-index');
-                if (index !== null) {
-                    console.log('Processing click for card back index:', index);
-                    showMemberPopup(teamMembers[parseInt(index)]);
-                    e.stopPropagation();
-                }
-            }
-        });
     }
     
     function showMemberPopup(member) {
