@@ -1,66 +1,72 @@
-function poissonDiskSampling(width, height, radius, k = 30) {
-    const grid = [];
-   const active = [];
-   const cellSize = radius / Math.sqrt(2);
-   const cols = Math.floor(width / cellSize);
-   const rows = Math.floor(height / cellSize);
-   
-   for (let i = 0; i < cols * rows; i++) {
-       grid[i] = undefined;
-   }
-   
-   function addSample(sample) {
-       active.push(sample);
-       const i = Math.floor(sample.x / cellSize);
-       const j = Math.floor(sample.y / cellSize);
-       grid[i + j * cols] = sample;
-   }
-   
-   addSample({x: Math.random() * width, y: Math.random() * height});
-   
-   while (active.length > 0) {
-       const randomIndex = Math.floor(Math.random() * active.length);
-       const point = active[randomIndex];
-       let found = false;
-   
-       for (let n = 0; n < k; n++) {
-           const angle = Math.random() * Math.PI * 2;
-           const newRadius = radius + Math.random() * radius;
-           const newX = point.x + Math.cos(angle) * newRadius;
-           const newY = point.y + Math.sin(angle) * newRadius;
-   
-           if (newX >= 0 && newX < width && newY >= 0 && newY < height) {
-               let cellX = Math.floor(newX / cellSize);
-               let cellY = Math.floor(newY / cellSize);
-               let valid = true;
-   
-               for (let i = -1; i <= 1; i++) {
-                   for (let j = -1; j <= 1; j++) {
-                       const neighbor = grid[(cellX + i) + (cellY + j) * cols];
-                       if (neighbor) {
-                           const dx = neighbor.x - newX;
-                           const dy = neighbor.y - newY;
-                           if (dx * dx + dy * dy < radius * radius) {
-                               valid = false;
+// Add this check at the start of your file to prevent duplicate initialization
+if (window.tciaInitialized) {
+    console.log('TCIA script already initialized, skipping');
+} else {
+    window.tciaInitialized = true;
+    
+    function poissonDiskSampling(width, height, radius, k = 30) {
+        const grid = [];
+       const active = [];
+       const cellSize = radius / Math.sqrt(2);
+       const cols = Math.floor(width / cellSize);
+       const rows = Math.floor(height / cellSize);
+       
+       for (let i = 0; i < cols * rows; i++) {
+           grid[i] = undefined;
+       }
+       
+       function addSample(sample) {
+           active.push(sample);
+           const i = Math.floor(sample.x / cellSize);
+           const j = Math.floor(sample.y / cellSize);
+           grid[i + j * cols] = sample;
+       }
+       
+       addSample({x: Math.random() * width, y: Math.random() * height});
+       
+       while (active.length > 0) {
+           const randomIndex = Math.floor(Math.random() * active.length);
+           const point = active[randomIndex];
+           let found = false;
+       
+           for (let n = 0; n < k; n++) {
+               const angle = Math.random() * Math.PI * 2;
+               const newRadius = radius + Math.random() * radius;
+               const newX = point.x + Math.cos(angle) * newRadius;
+               const newY = point.y + Math.sin(angle) * newRadius;
+       
+               if (newX >= 0 && newX < width && newY >= 0 && newY < height) {
+                   let cellX = Math.floor(newX / cellSize);
+                   let cellY = Math.floor(newY / cellSize);
+                   let valid = true;
+       
+                   for (let i = -1; i <= 1; i++) {
+                       for (let j = -1; j <= 1; j++) {
+                           const neighbor = grid[(cellX + i) + (cellY + j) * cols];
+                           if (neighbor) {
+                               const dx = neighbor.x - newX;
+                               const dy = neighbor.y - newY;
+                               if (dx * dx + dy * dy < radius * radius) {
+                                   valid = false;
+                               }
                            }
                        }
                    }
-               }
-   
-               if (valid) {
-                   found = true;
-                   addSample({x: newX, y: newY});
-                   break;
+       
+                   if (valid) {
+                       found = true;
+                       addSample({x: newX, y: newY});
+                       break;
+                   }
                }
            }
+       
+           if (!found) {
+               active.splice(randomIndex, 1);
+           }
        }
-   
-       if (!found) {
-           active.splice(randomIndex, 1);
-       }
-   }
-   
-   return grid.filter(point => point !== undefined);
+       
+       return grid.filter(point => point !== undefined);
    }
    
    function addStarBackground(scene, width, height, options = {}) {
@@ -152,13 +158,17 @@ function poissonDiskSampling(width, height, radius, k = 30) {
    }
    
    
-   // Modify the existing Three.js setup
-   let scene = new THREE.Scene();
-   const camera = new THREE.OrthographicCamera(
+   // Instead of directly declaring scene, check if it already exists
+   window.tciaScene = window.tciaScene || new THREE.Scene();
+   const scene = window.tciaScene;
+   
+   // Use window.tciaCamera instead of declaring a new camera
+   window.tciaCamera = window.tciaCamera || new THREE.OrthographicCamera(
        window.innerWidth / -2, window.innerWidth / 2, 
        window.innerHeight / 2, window.innerHeight / -2, 
        0.1, 1000
    );
+   const camera = window.tciaCamera;
    camera.position.z = 1;
    
    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('star-background'), alpha: true });
@@ -453,58 +463,63 @@ function poissonDiskSampling(width, height, radius, k = 30) {
        });
    }
    
-   // Initialize everything when DOM is loaded
-   document.addEventListener('DOMContentLoaded', () => {
-       // Insert content
-       insertContent();
+   // Make sure your event listeners and DOM handlers only get attached once
+   if (!window.tciaEventListenersAttached) {
+       window.tciaEventListenersAttached = true;
        
-       // Setup navigation
-       setupNavButtons();
-       
-       // Create pillars if not on mobile
-       if (!isMobile) {
-           createPillars();
-       }
-       
-       // Populate team members
-       populateTeamMembers();
-       
-       // Setup popup close handlers
-       document.addEventListener('click', (event) => {
-           if (event.target.classList.contains('close') || 
-               event.target === document.getElementById('member-popup')) {
-               closeMemberPopup();
+       // Move your document.addEventListener('DOMContentLoaded', ...) logic here
+       document.addEventListener('DOMContentLoaded', () => {
+           // Insert content
+           insertContent();
+           
+           // Setup navigation
+           setupNavButtons();
+           
+           // Create pillars if not on mobile
+           if (!isMobile) {
+               createPillars();
            }
+           
+           // Populate team members
+           populateTeamMembers();
+           
+           // Setup popup close handlers
+           document.addEventListener('click', (event) => {
+               if (event.target.classList.contains('close') || 
+                   event.target === document.getElementById('member-popup')) {
+                   closeMemberPopup();
+               }
+           });
+           
+           document.querySelector('.popup-content').addEventListener('click', (event) => {
+               event.stopPropagation();
+           });
+           
+           document.querySelector('.close').addEventListener('click', closeMemberPopup);
+           
+           // Observe elements for animation
+           const elementsToAnimate = [
+               '#who-we-are-title',
+               '#who-we-are-statement',
+               '#who-we-are-statement-2',
+               '#mission-title',
+               '#mission-statement',
+               '#org-quote',
+               '#team-heading'
+           ];
+           
+           elementsToAnimate.forEach(selector => {
+               const element = document.querySelector(selector);
+               if (element) {
+                   gsap.set(element, { opacity: 0 });
+                   observer.observe(element);
+               }
+           });
+           
+           // Simple fade-in for main title
+           gsap.to("#main-title", { opacity: 1, duration: 0.8 });
        });
-       
-       document.querySelector('.popup-content').addEventListener('click', (event) => {
-           event.stopPropagation();
-       });
-       
-       document.querySelector('.close').addEventListener('click', closeMemberPopup);
-       
-       // Observe elements for animation
-       const elementsToAnimate = [
-           '#who-we-are-title',
-           '#who-we-are-statement',
-           '#who-we-are-statement-2',
-           '#mission-title',
-           '#mission-statement',
-           '#org-quote',
-           '#team-heading'
-       ];
-       
-       elementsToAnimate.forEach(selector => {
-           const element = document.querySelector(selector);
-           if (element) {
-               gsap.set(element, { opacity: 0 });
-               observer.observe(element);
-           }
-       });
-       
-       // Simple fade-in for main title
-       gsap.to("#main-title", { opacity: 1, duration: 0.8 });
-   });
+   }
    
    // TCIA colors
    const tciaColors = [
@@ -548,3 +563,4 @@ function poissonDiskSampling(width, height, radius, k = 30) {
            orbitElement.appendChild(pillarElement);
        });
    }
+}
