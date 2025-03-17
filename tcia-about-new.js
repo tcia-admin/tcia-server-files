@@ -1,4 +1,3 @@
-// Add this to the top of script, after importing Three.js
 function poissonDiskSampling(width, height, radius, k = 30) {
     const grid = [];
    const active = [];
