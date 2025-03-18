@@ -1,48 +1,50 @@
-{
-                image:'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ae1fe48-01ac-4004-b3cb-0b63ba5bcedf/Houston+Diagnostic+Report+-+Title+Page.png?content-type=image%2Fpng',
-                title:'Digital surveillance in Texas schools: A System Reinforcing Inequality Under the Guise of Safety',
-                date: 'December 15, 2023',
-                type: 'REPORT',
-                downloadUrl: 'https://www.tciamn.org/s/report-houston-12-02.pdf',
-                tooltip: 'Download - Digital Surveillance in Texas Schools - PDF'
-            },
-            {
-                image: 'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png',
-                title: 'Automating School Surveillance: How Student Vape Detection Technologies Threaten to Expand the School-to-Prison Pipeline in Minnesota and Beyond',
-                date: 'December 15, 2023',
-                type: 'REPORT',
-                downloadUrl: 'https://www.tciamn.org/s/NoticeCoalitionMNVapeReport2.pdf',
-                tooltip: 'Download - Automating School Surveillance - PDF'
-            },
-            {
-                image: 'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png',
-                title: 'Vape Detection Report Fact Sheet',
-                date: 'December 15, 2023',
-                type: 'FACT SHEET',
-                downloadUrl: 'https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf',
-                tooltip: 'Download - Vape Detection Report Fact Sheet - PDF'
-            },
-            {
-                image: 'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/123ddc1a-cf1f-4af3-aa19-6a764c10a6e1/cctv-surveillance-camera-stock-1920p.jpg',
-                title: 'NOTICE Coalition Open Letter to the U.S. Department of Education',
-                date: 'January 25, 2024',
-                type: 'REPORT',
-                downloadUrl: 'https://www.tciamn.org/s/2024NoticeCoalitionEDLetter.pdf',
-                tooltip: 'Download - NOTICE Coalition Open Letter to the U.S. Department of Education - PDF'
-            },
-            {
-                image: 'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2244eb1a-d6ed-446e-b230-f133497de37b/Dangerous+Data+Image.png',
-                title: 'Dangerous Data: What Communities Should Know about Artificial Intelligence, the School-to-Prison Pipeline, and School Surveillance',
-                date: 'December 15, 2023',
-                type: 'REPORT',
-                downloadUrl: 'https://www.tciamn.org/s/dangerous_data_brochure_v6.pdf',
-                tooltip: 'Download - Dangerous Data - PDF'
-            },
-            {
-                image: 'https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/34516a90-5459-4064-8649-702b9d1cd38b/Digitizing+Image.png',
-                title: 'Digitizing the School to Prison Pipeline: Pasco County\'s At-Risk Youth Program, NAACP Legal Defense Fund',
-                date: 'December 15, 2023',
-                type: 'REPORT',
-                downloadUrl: 'https://www.tciamn.org/s/2024-11-26-LDF-Pasco-Report27.pdf',
-                tooltip: 'Download - Digitizing the School to Prison Pipeline - PDF'
-            }
+[
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ae1fe48-01ac-4004-b3cb-0b63ba5bcedf/Houston+Diagnostic+Report+-+Title+Page.png?content-type=image%2Fpng",
+    "title": "Digital surveillance in Texas schools: A System Reinforcing Inequality Under the Guise of Safety",
+    "date": "December 15, 2023",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/report-houston-12-02.pdf",
+    "tooltip": "Download - Digital Surveillance in Texas Schools - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
+    "title": "Automating School Surveillance: How Student Vape Detection Technologies Threaten to Expand the School-to-Prison Pipeline in Minnesota and Beyond",
+    "date": "December 15, 2023",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/NoticeCoalitionMNVapeReport2.pdf",
+    "tooltip": "Download - Automating School Surveillance - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
+    "title": "Vape Detection Report Fact Sheet",
+    "date": "December 15, 2023",
+    "type": "FACT SHEET",
+    "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
+    "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/123ddc1a-cf1f-4af3-aa19-6a764c10a6e1/cctv-surveillance-camera-stock-1920p.jpg",
+    "title": "NOTICE Coalition Open Letter to the U.S. Department of Education",
+    "date": "January 25, 2024",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/2024NoticeCoalitionEDLetter.pdf",
+    "tooltip": "Download - NOTICE Coalition Open Letter to the U.S. Department of Education - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2244eb1a-d6ed-446e-b230-f133497de37b/Dangerous+Data+Image.png",
+    "title": "Dangerous Data: What Communities Should Know about Artificial Intelligence, the School-to-Prison Pipeline, and School Surveillance",
+    "date": "December 15, 2023",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/dangerous_data_brochure_v6.pdf",
+    "tooltip": "Download - Dangerous Data - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/34516a90-5459-4064-8649-702b9d1cd38b/Digitizing+Image.png",
+    "title": "Digitizing the School to Prison Pipeline: Pasco County's At-Risk Youth Program, NAACP Legal Defense Fund",
+    "date": "December 15, 2023",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/2024-11-26-LDF-Pasco-Report27.pdf",
+    "tooltip": "Download - Digitizing the School to Prison Pipeline - PDF"
+  }
+]
