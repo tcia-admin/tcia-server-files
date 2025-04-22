@@ -178,6 +178,12 @@ if (window.tciaInitialized) {
            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ea26ba91-d173-4d56-ae12-ba17f311b48c/Marika-3.jpeg?content-type=image%2Fjpeg"
        },
        {
+            name: "Hawwa",
+            role: "Graphic Artist & Cartoonist",
+            bio: "Hawwa is an illustrator and graphic designer based in North Minneapolis. Hawwa uses her work to explore themes such as personal identity and community connection. Often working in the realm of small press, Hawwa has had her work published by Mizna, Juxtaposition Arts, Hope Community, and Public Functionary. She is also a co-founder of the Black Indie Comix Club, an organizer for the Autoptic Comic Arts Festival, and an educator at the Walker Art Center.",
+            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0705c878-921b-429b-83ab-9a300758f5f8/Hawwa2.JPG?content-type=image%2Fjpeg"
+       },
+       {
            name: "Dr. Talaya Tolfree",
            role: "TCIA Board Member",
            bio: "",
