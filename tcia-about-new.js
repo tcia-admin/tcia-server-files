@@ -184,6 +184,12 @@ if (window.tciaInitialized) {
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0705c878-921b-429b-83ab-9a300758f5f8/Hawwa2.JPG?content-type=image%2Fjpeg"
        },
        {
+            name: "Leon Thompson",
+            role: "Web Developer",
+            bio: "",
+            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/7403a8fc-cc66-44b3-b7d2-be6341fe6d89/Leon.jpeg?content-type=image%2Fjpeg"
+       },
+       {
            name: "Dr. Talaya Tolfree",
            role: "TCIA Board Member",
            bio: "",
