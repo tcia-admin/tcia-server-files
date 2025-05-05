@@ -1,5 +1,30 @@
 [
   {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
+    "title": "Automating School Surveillance: How Student Vape Detection Technologies Threaten to Expand the School-to-Prison Pipeline in Minnesota and Beyond",
+    "date": "December 19, 2024",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/NoticeCoalitionMNVapeReport2.pdf",
+    "tooltip": "Download - Automating School Surveillance - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
+    "title": "Vape Detection Report Fact Sheet",
+    "date": "December 18, 2024",
+    "type": "FACT SHEET",
+    "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
+    "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
+  },
+  {
+    "image": "http://i3.ytimg.com/vi/GK6kJ418oqY/hqdefault.jpg", 
+    "title": "Trust But Verify: Using AI Audits to Guide Responsible Government Tech",
+    "date": "April 1, 2025",
+    "type": "VIDEO",
+    "videoUrl": "https://www.youtube.com/embed/GK6kJ418oqY",
+    "downloadUrl": "https://youtu.be/GK6kJ418oqY", 
+    "tooltip": "Watch - Video Title"
+  },
+  {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b1a771a-4fce-4357-895c-52583b89376b/Digital+Pushout+Cover.png?content-type=image%2Fpng",
     "title": "Digital Pushout - SEF Issues Forum",
     "date": "March 25, 2025",
@@ -22,22 +47,6 @@
     "type": "REPORT",
     "downloadUrl": "https://www.tciamn.org/s/report-houston-12-02.pdf",
     "tooltip": "Download - Digital Surveillance in Texas Schools - PDF"
-  },
-  {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
-    "title": "Automating School Surveillance: How Student Vape Detection Technologies Threaten to Expand the School-to-Prison Pipeline in Minnesota and Beyond",
-    "date": "December 19, 2024",
-    "type": "REPORT",
-    "downloadUrl": "https://www.tciamn.org/s/NoticeCoalitionMNVapeReport2.pdf",
-    "tooltip": "Download - Automating School Surveillance - PDF"
-  },
-  {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
-    "title": "Vape Detection Report Fact Sheet",
-    "date": "December 18, 2024",
-    "type": "FACT SHEET",
-    "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
-    "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
   },
   {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/123ddc1a-cf1f-4af3-aa19-6a764c10a6e1/cctv-surveillance-camera-stock-1920p.jpg",
