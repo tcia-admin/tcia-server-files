@@ -16,13 +16,21 @@
     "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
   },
   {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/24eb4361-da02-4d11-85a5-2080ad2108f7/Notice+Project+Presentation.png?content-type=image%2Fpng",
+    "title": "AI Surveillance in Education",
+    "date": "May 5, 2025",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/Notice-Project-Presentation.pdf",
+    "tooltip": "Download - AI Surveillance in Education - PDF"
+  },
+  {
     "image": "http://i3.ytimg.com/vi/GK6kJ418oqY/hqdefault.jpg", 
     "title": "Trust But Verify: Using AI Audits to Guide Responsible Government Tech",
     "date": "May 5, 2025",
     "type": "VIDEO",
     "videoUrl": "https://www.youtube.com/embed/GK6kJ418oqY",
     "downloadUrl": "https://youtu.be/GK6kJ418oqY", 
-    "tooltip": "Watch - Video Title"
+    "tooltip": "Watch - Trust But Verify: Using AI Audits to Guide Responsible Government Tech"
   },
   {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b1a771a-4fce-4357-895c-52583b89376b/Digital+Pushout+Cover.png?content-type=image%2Fpng",
