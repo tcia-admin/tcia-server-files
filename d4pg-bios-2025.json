@@ -1,536 +1,72 @@
 {
-  "speakers": [
-    {
-      "id": "speaker-cierra-kaler-jones",
-      "name": "Dr. Cierra Kaler-Jones, Ph.D. (she/her)",
-      "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
-      "bio": [
-        "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
-      ],
-      "social": {
-        "personal": [
-          {"type": "instagram", "url": "https://instagram.com/_cierrajade_"},
-          {"type": "twitter", "url": "https://twitter.com/_cierrajade_"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/cierrakalerjones/"},
-          {"type": "website", "url": "https://www.cierrakalerjones.com", "display": "cierrakalerjones.com"}
-        ],
-        "organization": {
-          "name": "Rethinking Schools",
-          "links": [
-            {"type": "instagram", "url": "https://instagram.com/rethinkingschools"},
-            {"type": "twitter", "url": "https://twitter.com/RethinkSchools"},
-            {"type": "website", "url": "https://www.rethinkingschools.org", "display": "rethinkingschools.org"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-roderick-crooks",
-      "name": "Dr. Roderic N. Crooks (he/him/his)",
-      "title": "PLACEHOLDER TITLE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
-      "bio": [
-        "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
-      ],
-      "social": {
-        "personal": [
-          {"type": "website", "url": "https://www.rncrooks.info", "display": "rncrooks.info"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-aasim-shabazz",
-      "name": "Aasim Shabazz",
-      "title": "Changemaker, Innovator and Co-Founder of TCIA",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f9244928-2e9c-4d07-80ab-c092f5f896d9/AS2+%281%29.png",
-      "bio": [
-        "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"}
-        ],
-        "organization": {
-          "name": "Twin Cities Innovation Alliance",
-          "links": [
-            {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-tanya-clark",
-      "name": "Dr. Tanya Clark",
-      "title": "SENIOR ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/280e9b30-c72e-448a-9058-3ab585825bef/TC2.png",
-      "bio": [
-        "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
-        "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
-        "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/tanya-clark-863762248/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-skye-christensen",
-      "name": "Skye Christensen",
-      "title": "CEO, SUM AND CIRCLE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/cfbd2192-9a63-4b9d-9b39-3ecfafca119e/KC2.png",
-      "bio": [
-        "Skye Christensen has over 15 years of experience in social benefit leadership, focusing on community health, youth development, cultural representation in the arts and media, and equitable access to education. She helps community leaders and organizations create strategic communications plans and execute them to achieve their goals. Skye has facilitated strategic planning and branding through stakeholder development, mission-driven storytelling, content creation, public relations, and thought leadership. Skye believes that strategic communication is crucial for driving transformational change and social impact, and she is passionate about sharing her knowledge with those striving to make a positive difference in the world."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/skyebluec"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/skye-christensen-a198596/"}
-        ],
-        "organization": {
-          "name": "Sum and Circle",
-          "links": [
-            {"type": "website", "url": "https://www.sumandcircle.com", "display": "sumandcircle.com"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-sophie-wang",
-      "name": "Sophie Wang",
-      "title": "Agent for Algorithmic Justice, Zine maker, and Artist",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2da6fcc-a1ee-4e19-a7ba-a54cb7ac9e06/SW2.png",
-      "bio": [
-        "Sophie Wang is a researcher, educator, artist, and zine maker currently based in Minneapolis and with roots in Los Angeles. She makes zines/comics/art that bring a critical power lens to science, technology, epistemology, and forms of knowledge-making. Her work draws from experience organizing with radical scientists/knowledge workers and working on collaborative campaigns as part of Free Radicals with Stop LAPD Spying Coalition against police surveillance technology and the use of predictive policing by the LAPD."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/shufshenwang"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/shufshenwang/"},
-          {"type": "website", "url": "https://wangshuf.com", "display": "wangshuf.com"}
-        ],
-        "organizations": [
-          {
-            "name": "Free Radicals",
-            "links": [
-              {"type": "instagram", "url": "https://instagram.com/freeradsorg"},
-              {"type": "twitter", "url": "https://twitter.com/freeradsorg"},
-              {"type": "website", "url": "https://freerads.org", "display": "freerads.org"}
-            ]
-          },
-          {
-            "name": "Stop LAPD Spying Coalition",
-            "links": [
-              {"type": "instagram", "url": "https://instagram.com/stoplapdspying"},
-              {"type": "twitter", "url": "https://twitter.com/stoplapdspying"},
-              {"type": "website", "url": "https://stoplapdspying.org", "display": "stoplapdspying.org"}
-            ]
-          }
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-catherine-squires",
-      "name": "Dr. Catherine Squires",
-      "title": "WRITER, EDITOR, & YOGA PRACTITIONER",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/5b3367f9-8d0a-4aa8-b0a4-ef23dbcb5764/CS2.png",
-      "bio": [
-        "Dr. Catherine R. Squires has engaged in multiple community partnerships in the Twin Cities to uplift and share local Black histories, support BIPOC writers, share accessible yoga practices, curate panels, host conferences and facilitate intergenerational story sharing. Catherine is the author of multiple books and articles on media, race, gender, and politics, including Dispatches from the Color Line (2007) and The Post-Racial Mystique (2014), and the edited collection Dangerous Discourses: Feminism, Gun Violence & Civic Life (2016). After a two-plus decade career in academia, she retired from her position as Associate Dean of the Humphrey School of Public Affairs and Professor of Communication Studies at the University of Minnesota, where she is now professor emerita. Dr. Squires is currently working to support the work of local organizations, editing, writing, and facilitating healing spaces."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/catupnorth"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/catherine-r-squires-3379657/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-ruth-idakula",
-      "name": "Ruth Idakula",
-      "title": "PROGRAM DIRECTOR, DIGNITY IN SCHOOLS",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/42dca7b5-d96e-4f13-80fd-bf23547cbd94/RI2.png",
-      "bio": [
-        "For nearly two decades, Ruth Idakula has dedicated her life energy to organizing, education and advocacy for social, racial, and economic justice and equity. Born and raised in Nigeria, Ruth has been a resident of New Orleans for over 23 years. As a proud mother of three sons, she was called into public education organizing, advocacy and policy development by the blatantly racist takeover and privatization of public schools in New Orleans after Hurricane Katrina in 2005. Ruth's leadership is grounded in sustaining spiritual practices and serves as a faith leader, religious educator, and facilitator for collective liberation in New Orleans and beyond."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://x.com/IdakulaRuth"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/ruth-idakula-367b7591/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-liz-sullivan-yuknis",
-      "name": "Liz Sullivan-Yuknis",
-      "title": "Co-Executive Director at Partners for Dignity and Rights",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2b4a77b0-52e9-4b01-a211-1cc52248da54/LS2+%281%29.png",
-      "bio": [
-        "Liz recently transitioned from Education Campaigns Director to Co-Executive Director at Partners for Dignity & Rights. She shares her time continuing to support our education work with the Dignity in Schools Campaign, while also supporting organizational development, operations and management at Partners for Dignity & Rights. With the Dignity in Schools Campaign, she works with youth, families, organizers and advocates to promote policy change in public education to guarantee students' rights to dignity and a quality education. She has carried out research projects to document human rights violations in U.S. public schools, and has provided trainings to parents, youth and organizers about how to incorporate human rights standards and strategies into their advocacy."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/liz-sullivan-yuknis-94335910/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-ed-vogel",
-      "name": "Ed Vogel",
-      "title": "SENIOR POLICY RESEARCHER, SURVEILLANCE RESISTANCE LAB",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/8ef8a01c-5af0-40e6-b9ec-ee7716514a11/EV2.png",
-      "bio": [
-        "Ed is the Senior Policy Researcher with the Surveillance Resistance Lab. He has more than fifteen years of experience in movement spaces and organizing in Chicago as a member of Lucy Parsons Labs, Chicago Community Bond Fund, Believers Bail Out, and Free Us: the Chicago EM Collective. Ed is currently a board member with Chicago Torture Justice Center, Corporate Accountability Lab, Ecosystems of Care, and DontCallThePolice.com"
-      ],
-      "social": {
-        "personal": [],
-        "organizations": [
-          {
-            "name": "Surveillance Resistance Lab",
-            "links": [
-              {"type": "twitter", "url": "https://twitter.com/S_ResistanceLab"},
-              {"type": "linkedin", "url": "https://www.linkedin.com/company/surveillance-resistance-lab/"}
-            ]
-          },
-          {
-            "name": "Dont Call The Police",
-            "links": [
-              {"type": "website", "url": "https://DontCallThePolice.com", "display": "DontCallThePolice.com"}
-            ]
-          }
-        ]
-      },
-      "workshops": [
+    "speakers": [
         {
-          "title": "Panelist: Challenging Carceral Technologies in Schools",
-          "description": "As schools increasingly adopt digital technologies, students, teachers, and their families are increasingly subjected to more monitoring by school officials and police, at school and at home. This panel will discuss some of the technologies in use, the harms of these technologies, and ways we can build movements to resist and reimagine the role of technology for educational equity and justice."
-        }
-      ]
-    },
-    {
-      "id": "speaker-chelsea-barabas",
-      "name": "Chelsea Barabas",
-      "title": "PHD RESEARCHER, MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/6e444f70-cf64-423f-a00a-5b6438bca855/CB2+%281%29.png",
-      "bio": [
-        "Chelsea is in the doctoral program of Media, Arts and Sciences at MIT, where she examines the spread of algorithmic decision-making tools in the US criminal legal system. She works to unpack and transform mainstream narratives around school safety, criminal justice reform, and data-driven decision making."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/chels_bar"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/chelsea-barabas-b1247821/"}
-        ]
-      },
-      "workshops": [
-        {
-          "title": "Panelist: Challenging Carceral Technologies in Schools",
-          "description": "As schools increasingly adopt digital technologies, students, teachers, and their families are increasingly subjected to more monitoring by school officials and police, at school and at home. This panel will discuss some of the technologies in use, the harms of these technologies, and ways we can build movements to resist and reimagine the role of technology for educational equity and justice."
-        }
-      ]
-    },
-    {
-      "id": "speaker-walter-greason",
-      "name": "Dr Walter D. Greason",
-      "title": "PROFESSOR & DISTINGUISHED CHAIR OF HISTORY, MACALESTER COLLEGE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0d54f74c-843d-44fc-9fa0-8635d7814650/WG2.png",
-      "bio": [
-        "Dr. Walter Greason, Ph.D., DeWitt Wallace Professor in the Department of History at Macalester College is the preeminent historian of Afrofuturism, the Black Speculative Arts, and digital economies in the world today. Named one of \"Today's Black History Makers\" by The Philadelphia Daily News, Dr. Greason has written more than one hundred academic articles and essays. His work has appeared on Huffington Post, National Public Radio, and The Atlantic among other popular, professional and scholarly journals. He is also the author, editor, and contributor to eighteen books, including Suburban Erasure, The Land Speaks, Cities Imagined, Illmatic Consequences, and The Black Reparations Project.",
-        "From 2007 – 2012, Dr. Greason was an advisor to Building One America, the coalition that designed the American Recovery and Reinvestment Act (2009). He also served as the Founding President of the T. Thomas Fortune Foundation, an organization that saved the National Historic Landmark dedicated to the leading, militant journalist of the nineteenth century. Dr. Greason's digital humanities projects, \"The Wakanda Syllabus\" and \"The Racial Violence Syllabus\", produced global responses in the last six years. His work in historic preservation and virtual reality continues to inspire new research around the world. Dr. Greason currently writes about the racial wealth gap and the patterns of economic globalization."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/WalterDGreason"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/wealthbuilder2050/"},
-          {"type": "website", "url": "https://walterdgreason.com", "display": "walterdgreason.com"},
-          {"type": "website", "url": "https://geniuslocus.com", "display": "geniuslocus.com"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-marika-pfefferkorn",
-      "name": "Marika Pfefferkorn",
-      "title": "Disruptor, Builder and Cofounder of TCIA",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d122beb1-dc0e-4926-bd14-a53aa07d73df/MP2+%281%29.png",
-      "bio": [
-        "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/Maptruenorth"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"}
-        ],
-        "organization": {
-          "name": "Twin Cities Innovation Alliance",
-          "links": [
-            {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
-          ]
-        }
-      },
-      "workshops": [
-        {
-          "title": "Panelist: Challenging Carceral Technologies in Schools",
-          "description": "As schools increasingly adopt digital technologies, students, teachers, and their families are increasingly subjected to more monitoring by school officials and police, at school and at home. This panel will discuss some of the technologies in use, the harms of these technologies, and ways we can build movements to resist and reimagine the role of technology for educational equity and justice."
+            "id": "speaker-cierra-kaler-jones",
+            "name": "Dr. Cierra Kaler-Jones, Ph.D. (she/her)",
+            "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+                "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
+            ],
+            "social": {
+                "personal": [
+                    {
+                        "type": "instagram",
+                        "url": "https://instagram.com/_cierrajade_"
+                    },
+                    {
+                        "type": "twitter",
+                        "url": "https://twitter.com/_cierrajade_"
+                    },
+                    {
+                        "type": "linkedin",
+                        "url": "https://www.linkedin.com/in/cierrakalerjones/"
+                    },
+                    {
+                        "type": "website",
+                        "url": "https://www.cierrakalerjones.com",
+                        "display": "cierrakalerjones.com"
+                    }
+                ],
+                "organization": {
+                    "name": "Rethinking Schools",
+                    "links": [
+                        {
+                            "type": "instagram",
+                            "url": "https://instagram.com/rethinkingschools"
+                        },
+                        {
+                            "type": "twitter",
+                            "url": "https://twitter.com/RethinkSchools"
+                        },
+                        {
+                            "type": "website",
+                            "url": "https://www.rethinkingschools.org",
+                            "display": "rethinkingschools.org"
+                        }
+                    ]
+                }
+            },
+            "workshops": []
         },
         {
-          "title": "Panel Moderator: Covid 19, Technology and School Discipline: A Community Research Report",
-          "description": ""
-        },
-        {
-          "title": "Co-Facilitator: D4PG Improv",
-          "description": "Improv is a tool that fosters creativity, spontaneity, and adaptability. It can be used to break down complex concepts and help individuals and groups process new ideas providing space for reflection and curiosity. Following a day of workshops and panels join us as we use improv to unpack day one of D4PG – All are welcome, no experience necessary, and fun will be had by all!"
+            "id": "speaker-roderick-crooks",
+            "name": "Dr. Roderic N. Crooks (he/him/his)",
+            "title": "PLACEHOLDER TITLE",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
+            "bio": [
+                "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
+            ],
+            "social": {
+                "personal": [
+                    {
+                        "type": "website",
+                        "url": "https://www.rncrooks.info",
+                        "display": "rncrooks.info"
+                    }
+                ]
+            },
+            "workshops": []
         }
-      ]
-    },
-    {
-      "id": "speaker-michael-dando",
-      "name": "Dr. Michael Dando",
-      "title": "AUTHOR, ARTIST, EDUCATOR, & SCHOLAR, ST. CLOUD STATE UNIVERSITY",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ce75e17e-53b1-4398-b7ce-d17f197cfe78/MD2+%281%29.png",
-      "bio": [
-        "An award-winning author, artist, educator, and scholar with two decades of classroom experience, his research and writing explore ways teachers and schools collaborate with communities to build collective, civically engaged, democratic opportunities and systems for social justice education. Particularly, his research examines ways youth employ various cultural forms, including hip-hop and comics, to construct social, cultural, and political identities and literacies that generate educational opportunities for sustained, critical, democratic engagement for social justice.",
-        "Dr. Michael B. Dando earned his PhD in Curriculum and Instruction with a focus on multicultural education from the University of Wisconsin-Madison and is currently an Assistant Professor of Communication Arts and Literature at St. Cloud State University in Minnesota."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/michael-dando-608158144/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-ambreasha-frazier",
-      "name": "Ambreasha Frazier",
-      "title": "STRATEGIST, TWIN CITIES INNOVATION ALLIANCE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c5fc2ca1-63a5-4585-af26-726372c0cddf/AF2.png",
-      "bio": [
-        "Ambreasha is a strategist who takes a connect-the-dots approach to bridge toward solutions. Ambreasha supports goal momentum by guiding action and implementation with a focus on being relationship-based, collaborative, and actionable in her work with teams, colleagues, partners, and collaborators.",
-        "Ambreasha has experience working in nonprofit startup management, program development, strategic planning, implementation, program/process improvement, and data & technology management. She has worked in the areas of economic community development, education, customer relationship management software development, and youth development.",
-        "Ambreasha holds a a Master's Degree in Public Policy from the Humphrey School of Public Affairs, with an emphasis in Economic Community Development. Ambreasha also holds a certification in Adaptive Strategic Execution from Duke University Corporate Education & a certification in Human-Centered Systems Thinking from IdeoU."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/fraziera/"}
-        ],
-        "organization": {
-          "name": "Twin Cities Innovation Alliance",
-          "links": [
-            {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-yashada-nikam",
-      "name": "Yashada Nikam",
-      "title": "DATA SCIENTIST, TWIN CITIES INNOVATION ALLIANCE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/77629f25-9c24-44b9-9346-dcca6da652d1/YN2.png",
-      "bio": [
-        "Yashada Nikam holds a Master's Degree in Data Science and works as a Data Scientist at Twin Cities Innovation Alliance. With a curious and analytical mindset, she is adept at diving deep into diverse datasets, asking insightful questions, and presenting compelling narratives through data visualization, making it accessible and relatable.",
-        "Outside of work Yashada enjoys writing and reading, reflecting her love for continuous learning and self-expression. Her strong commitment to giving back is evident in her volunteer work, teaching English, Science and Math to the underprivileged kids in India. This dedication highlights her compassionate nature and belief in the power of education.",
-        "Through these experiences, Yashada brings a unique blend of technical skill and human insight to her role, constantly striving to make data more accessible and impactful."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/yashada-nikam/"}
-        ],
-        "organization": {
-          "name": "Twin Cities Innovation Alliance",
-          "links": [
-            {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-eric-solomon",
-      "name": "Eric Solomon",
-      "title": "FOUNDER & CEO, THE HUMAN OS",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/21cfd319-96aa-4256-acf0-85b551ee5703/ES2.png",
-      "bio": [
-        "Eric has carved a niche at the convergence of psychology, branding, technology, and creativity, boasting a career peppered with high-profile roles. His journey began in academia, where he earned his Ph.D. in psychology. Transitioning to the business world, Eric led strategy for agencies before holding leadership positions at giants like YouTube, Spotify, Google, Instagram, and Bonobos. In 2019, he founded The Human Operating System, an advisory platform dedicated to integrating human-centric strategies in business."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/ericinnyc/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-heather-willems",
-      "name": "Heather Willems",
-      "title": "CEO & VISUAL STRATEGIST, TWOLINE STUDIOS",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/57f8dc8e-15b6-4811-b7c3-c3339596d121/HW2.png",
-      "bio": [
-        "Heather, founder of TwoLine Studios and bestselling co-author of \"Draw Your Big Idea,\" revolutionizes creative problem-solving in business through art and storytelling. A Graphic Facilitation pioneer, Heather's global influence is marked by her transformation of complex business strategies into visual narratives. With a Stanford University certification in compassionate leadership, she is dedicated to fostering empathetic leadership and mitigating burnout with creative practices, promoting a workplace culture of compassion and understanding."
-      ],
-      "social": {
-        "personal": [
-          {"type": "twitter", "url": "https://twitter.com/Heather_Willems"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/heather-willems/"}
-        ],
-        "organization": {
-          "name": "TwoLine Studios",
-          "links": [
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/twolinestudios/"}
-          ]
-        }
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-alicia-ranney",
-      "name": "Alicia Ranney",
-      "title": "VP OF DATA & EVALUATION, METROPOLITAN ALLIANCE OF CONNECTED COMMUNITIES",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ab247959-40a9-4633-b57d-1b11a0e39f8f/AR2.png",
-      "bio": [
-        "Alicia Ranney (she/her) is the Vice President of Data and Evaluation at MACC. She has over a decade of experience supporting nonprofit social service providers in strategic data decision-making, database development, and uplifting data justice in all aspects of evaluation. She spends her off work time enjoying her family, and wishing for a deeper relationship with her two cats (but who is she kidding)."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/alicia-ranney-3516709/"}
-        ]
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-cassandra-hendricks",
-      "name": "Cassandra Hendricks",
-      "title": "DATA CONSULTANT, METROPOLITAN ALLIANCE OF CONNECTED COMMUNITIES",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/99c2d6eb-e493-41be-8325-9cff49967b38/CH2.png",
-      "bio": [
-        "Cassandra Hendricks (they/them) is a Data Consultant at MACC. They are deeply invested in the public sector and have spent the last decade working to build youth voice in public libraries and the labor movement. Lessons from these roles inform their current work integrating data justice into human services work. In their free time they grow food, cook food, and share food in community."
-      ],
-      "social": {
-        "personal": []
-      },
-      "workshops": []
-    },
-    {
-      "id": "speaker-shanya-karuman",
-      "name": "Shanya Karuman",
-      "title": "",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/71a5886c-4486-4f57-8c91-f10f8571b55f/SK2.png",
-      "bio": [
-        "A first-generation Asian American woman, Shayna is the daughter of social worker Pooiseong koong and doctor Philip Karuman. she is a middle sister to zara and avisha karuman two incredibly smart and strong women. she has also been shaped by several incredible educators including Cathy Weber Schwartz, Rashonda Ross and Hollie Mackey, learning additionally from numerous community leaders storytellers, aunties uncles and especially friends. other communities she has been a part of include Boston, Pittsburgh, Carmel, Minot and Singapore and ipoh, Malaysia. Moving frequently has played a large part in how Shayna connects with others as well as recognizing the opportunity to translate emotion and otherness into art and opportunity.",
-        "Inspired and Enraged by the rise in police brutality and asian american hate during and following Covid 19, during her bachelor's and master's degrees at North Dakota State University, shayna began to organize with other wonderful Asian American students and BIPOC youth to process and translate their shared realities into opportunities with the greater AAPI community. Co-Founder of the Asian Night Market alongside Hannah Flohr and Sacred Mauricio, Shayna enjoys furthering opportunities for AAPI entrepreneurs and organizations to connect with the Fargo Moorhead community. In the third year of its existence, the Asian night market has hosted about 30 different AAPI vendors across several industries growing from 500 to 1,400 attendees and is buidling an online community and database for AAPI entrepreneurship.",
-        "Themes such as identity and love are Shayna's main inspiration and story behind her ART and community organizing. Studying architecture, shayna is encouraged by the application of design principles and processes throughout racial justice and civic engagement. In Shayna's free time, she enjoys volunteering with organizations aiding in food security,playing rugby and experimenting with photography, textile dying and portraiture. Participation in her community helps ground her beliefs and understanding of the way others navigate their goals and identity. Recently relocating from the Fargo, Moorhead Area Shayna is honored to continue organizing in both communities in an effort to connect and grow intersection context around the histories of AAPI Racial Justice and activism amongst the legacy of Hmong, Vietnamese, and Laotian organizing"
-      ],
-      "social": {
-        "personal": []
-      },
-      "workshops": [
-        {
-          "title": "Co-Facilitator: D4PG Improv",
-          "description": "Improv is a tool that fosters creativity, spontaneity, and adaptability. It can be used to break down complex concepts and help individuals and groups process new ideas providing space for reflection and curiosity. Following a day of workshops and panels join us as we use improv to unpack day one of D4PG – All are welcome, no experience necessary, and fun will be had by all!"
-        }
-      ]
-    },
-    {
-      "id": "speaker-shreya-sampath",
-      "name": "Shreya Sampath",
-      "title": "SOPHOMORE INTERNATIONAL AFFAIRS AND ECONOMICS MAJOR, THE GEORGE WASHINGTON UNIVERSITY",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/3b953c54-b890-4e72-8f58-cc09ea9f926a/SS2.png",
-      "bio": [
-        "Shreya Sampath is a rising sophomore at The George Washington University studying international affairs and economics. Passionate about representing Gen Z in the equitable technology conversation, Shreya is an executive member of Encode Justice, a youth-led coalition fighting for human rights in the digital age. As Director of Chapter Projects, she advises more than 20 U.S. chapters advocating in the privacy, surveillance, and AI governance space. She also co-led an investigation into school surveillance, partnering with ACLU-NJ. Recognized by the Princeton Prize in Race Relations for her work, she is excited to mobilize local communities to fight for algorithmic justice."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/shreya-sampath/"}
-        ]
-      },
-      "workshops": [
-        {
-          "title": "Panelist: Challenging Carceral Technologies in Schools",
-          "description": "As schools increasingly adopt digital technologies, students, teachers, and their families are increasingly subjected to more monitoring by school officials and police, at school and at home. This panel will discuss some of the technologies in use, the harms of these technologies, and ways we can build movements to resist and reimagine the role of technology for educational equity and justice."
-        },
-        {
-          "title": "Co-Facilitator: Encode Justice MN",
-          "description": "Encode Justice is the world's first and largest youth movement for safe, equitable AI. Powered by 1,000 young people across every inhabited continent, we believe AI must be steered in a direction that benefits society. Join us for this session as we engage with Minnesota youth to rebuild a local chapter."
-        }
-      ]
-    },
-    {
-      "id": "speaker-matt-stempeck",
-      "name": "Matt Stempeck",
-      "title": "CURATOR, CIVIC TECH FIELD GUIDE",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/68c3c415-ae2a-43c2-88ad-33d23c8323d2/MS2.png",
-      "bio": [
-        "Matt Stempeck curates the Civic Tech Field Guide, the most comprehensive collection of democracy tech projects in the world. He's also Librarian at the London College of Political Technology at Newspeak House, and a Corporate Overlord at Bad Idea Factory, building digital experiences for clients like the Boston Globe.",
-        "Matt was most recently the Technologist in Residence at Cornell Tech, where he helped launch the Siegel PiTech Impact Fellowship, which embeds highly technical PhD students to contribute their skills within public interest organizations.",
-        "In 2016, he led the Digital Mobilization team at Hillary for America. Matt also served as Director of Civic Technology at Microsoft in New York City.",
-        "Matt became / earned a Master of Science at the MIT Media Lab's Center for Civic Media, where he created an award-winning app to fight digital misinformation, one of the first. Matt also holds a Bachelor of Arts with high honors from the University of Maryland College Park, where he wrote his undergraduate thesis on the disruption participatory media brought to political journalism.",
-        "Originally from Boston, Matt's now based in Lisbon, Portugal."
-      ],
-      "social": {
-        "personal": [
-          {"type": "instagram", "url": "https://instagram.com/mstem"},
-          {"type": "twitter", "url": "https://twitter.com/mstem"},
-          {"type": "mastodon", "url": "https://mastodon.social/@Mstem@mastodon.cloud"},
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/mattstempeck/"}
-        ],
-        "organization": {
-          "name": "Civic Tech Field Guide",
-          "links": [
-            {"type": "instagram", "url": "https://instagram.com/civictechguide"},
-            {"type": "twitter", "url": "https://twitter.com/civictechguide"},
-            {"type": "mastodon", "url": "https://mastodon.social/@civictech@urbanists.social"},
-            {"type": "linkedin", "url": "https://www.linkedin.com/company/civic-tech-field-guide/"}
-          ]
-        }
-      },
-      "workshops": [
-        {
-          "title": "Local contributions to global movements: You are not alone in this work",
-          "description": "In this presentation, I will introduce the Civic Tech Field Guide, the largest collection of tech for social good projects in the world. We'll explore how local initiatives contribute to global movements, emphasizing the importance of learning from each other, rejuvenating through connections, and partnering to advance our missions in complementary ways. Through powerful examples, I'll demonstrate how collaboration and shared knowledge can amplify our impact and drive positive change on a larger scale. Join me to discover how we are all interconnected in our missions."
-        }
-      ]
-    },
-    {
-      "id": "speaker-ellie-sprangler",
-      "name": "Ellie Sprangler",
-      "title": "",
-      "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4c430b50-6ae5-4b93-9f6d-4927a191f866/ES.png",
-      "bio": [
-        "Ellie Spangler is a current student at Macalester College, majoring in Political Science and Economics. Her primary area of study is at the intersection between political economics and digital sociology. She has conducted research with the Twin Cities Innovation Alliance's NOTICE Coalition over the course of the past year. She is currently interning at AFT through the Roosevelt Network's fellowship program. At AFT she studies educational datafication and AI classroom integration."
-      ],
-      "social": {
-        "personal": [
-          {"type": "linkedin", "url": "https://www.linkedin.com/in/ellie-spangler/"}
-        ],
-        "organizations": [
-          {
-            "name": "American Federation of Teachers",
-            "links": [
-              {"type": "linkedin", "url": "https://www.linkedin.com/company/aft/"}
-            ]
-          },
-          {
-            "name": "Twin Cities Innovation Alliance",
-            "links": [
-              {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
-              {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
-            ]
-          }
-        ]
-      },
-      "workshops": []
-    }
-  ]
+    ]
 }
