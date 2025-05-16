@@ -67,6 +67,70 @@
                 ]
             },
             "workshops": []
+        },
+        {
+            "id": "speaker-tanya-clark",
+            "name": "Dr. Tanya Clark",
+            "title": "ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/493110ca-3040-450d-8062-cc39a284a8c5/Tanya+Mini+Card+D4Pg+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+              "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
+              "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
+              "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
+            ],
+            "social": {
+              "personal": [
+                {"type": "linkedin", "url": "https://www.linkedin.com/in/tanya-clark-863762248/"}
+              ]
+            },
+            "workshops": []
+        },
+        {
+            "id": "speaker-marika-pfefferkorn",
+            "name": "Marika Pfefferkorn",
+            "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44f8a303-77c6-44f4-a5d7-07075d993c89/Marika+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+              "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
+            ],
+            "social": {
+              "personal": [
+                {"type": "twitter", "url": "https://twitter.com/Maptruenorth"},
+                {"type": "linkedin", "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"}
+              ],
+              "organization": {
+                "name": "Twin Cities Innovation Alliance",
+                "links": [
+                  {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
+                  {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
+                ]
+              }
+            },
+            "workshops": [
+              
+            ]
+        },
+        {
+            "id": "speaker-aasim-shabazz",
+            "name": "Aasim Shabazz",
+            "title": "TCIA CO-FOUNDER, PRESIDENT",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4dca1ea8-d439-4755-9808-60aff19f33d6/Aasim+Shabazz+Mini+Card+2025.png?content-type=image%2Fpng",
+            "bio": [
+              "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
+            ],
+            "social": {
+              "personal": [
+                {"type": "linkedin", "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"}
+              ],
+              "organization": {
+                "name": "Twin Cities Innovation Alliance",
+                "links": [
+                  {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
+                  {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
+                ]
+              }
+            },
+            "workshops": []
         }
     ]
 }
