@@ -184,7 +184,7 @@ if (window.tciaInitialized) {
             image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0705c878-921b-429b-83ab-9a300758f5f8/Hawwa2.JPG?content-type=image%2Fjpeg"
        },
        {
-           name: "Raaya Chek",
+           name: "Rayya Chek",
            role: "Graphics Artist",
            bio: "",
            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b4f0335-4bb4-4195-8803-8abf2a64c63b/Raaya2.jpg?content-type=image%2Fjpeg"
