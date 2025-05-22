@@ -1,0 +1,129 @@
+{
+    "day": "Friday",
+    "date": "July 18",
+    "events": [
+      {
+        "id": "day3-breakfast",
+        "type": "break",
+        "startTime": "8:30",
+        "endTime": "9:30",
+        "title": "Breakfast",
+        "location": "dining-hall",
+        "description": "Start your final day with breakfast and conversations with fellow attendees."
+      },
+      {
+        "id": "day3-keynote",
+        "type": "keynote",
+        "startTime": "9:30",
+        "endTime": "10:30",
+        "title": "Keynote: Reimagining Our Digital Future",
+        "location": "main-auditorium",
+        "description": "Professor Jackson will explore radical visions for digital futures that center community values, shared prosperity, and collective liberation. Drawing on historical social movements and contemporary technological developments, this talk will outline pathways toward more equitable and just relationships with technology.",
+        "people": {
+          "speakers": [
+            {
+              "name": "Professor Amara Jackson",
+              "title": null,
+              "image": null
+            }
+          ]
+        },
+        "tags": ["Future Visioning", "Digital Liberation"]
+      },
+      {
+        "id": "day3-break1",
+        "type": "break",
+        "startTime": "10:30",
+        "endTime": "11:00",
+        "title": "Morning Break",
+        "location": "main-hall",
+        "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
+      },
+      {
+        "id": "day3-actionlabs",
+        "type": "workshop",
+        "startTime": "11:00",
+        "endTime": "12:30",
+        "title": "Action Labs: From Ideas to Implementation",
+        "location": "various-rooms",
+        "description": "These collaborative sessions will bring together participants to develop concrete action plans around key conference themes. Choose the lab that most interests you:\n- Lab 1 (Room A): Building Community Data Governance Models\n- Lab 2 (Room B): Designing Digital Justice Campaigns\n- Lab 3 (Room C): Creating Tech Accountability Frameworks\n- Lab 4 (Room D): Developing Community Tech Cooperatives",
+        "tags": ["Collaborative", "Action Planning"]
+      },
+      {
+        "id": "day3-lunch",
+        "type": "break",
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "title": "Lunch Break",
+        "location": "dining-hall",
+        "description": "Enjoy your final lunch at D4PG 2025, sharing takeaways and continuing conversations."
+      },
+      {
+        "id": "day3-panel",
+        "type": "panel",
+        "startTime": "14:00",
+        "endTime": "15:30",
+        "title": "Panel: Building Sustainable Digital Movements",
+        "location": "main-auditorium",
+        "description": "This closing panel brings together organizers, technologists, and funders to discuss strategies for sustaining digital movements for social change. Speakers will share insights on building resilient organizational structures, securing resources, and maintaining momentum over time.",
+        "people": {
+          "moderator": {
+            "name": "Aisha Montgomery",
+            "title": null,
+            "image": null
+          },
+          "panelists": [
+            {
+              "name": "Grace Chan",
+              "title": null,
+              "image": null
+            },
+            {
+              "name": "David Okafor",
+              "title": null,
+              "image": null
+            },
+            {
+              "name": "Luis Mendez",
+              "title": null,
+              "image": null
+            },
+            {
+              "name": "Tiana Washington",
+              "title": null,
+              "image": null
+            }
+          ]
+        },
+        "tags": ["Sustainability", "Digital Movements"]
+      },
+      {
+        "id": "day3-closing",
+        "type": "keynote",
+        "startTime": "15:45",
+        "endTime": "17:00",
+        "title": "Closing Session: Collective Visioning",
+        "location": "main-auditorium",
+        "description": "Join us for an interactive closing session where we'll collectively synthesize key insights from the conference and co-create visions for the future of D4PG's work. We'll also share opportunities for continued engagement throughout the year.",
+        "people": {
+          "speakers": [
+            {
+              "name": "Aasim Shabazz & D4PG Team",
+              "title": "Facilitators",
+              "image": null
+            }
+          ]
+        }
+      },
+      {
+        "id": "day3-farewell",
+        "type": "social",
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "title": "Farewell Reception",
+        "location": "campus-garden",
+        "description": "Conclude your D4PG experience with a farewell reception. Exchange contact information with new connections, reflect on the experience, and enjoy light refreshments before departure.",
+        "tags": ["Networking", "Celebration"]
+      }
+    ]
+  }
