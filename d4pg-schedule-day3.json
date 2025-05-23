@@ -18,7 +18,7 @@
         "endTime": "10:30",
         "title": "Keynote: Reimagining Our Digital Future",
         "location": "main-auditorium",
-        "description": "Professor Jackson will explore radical visions for digital futures that center community values, shared prosperity, and collective liberation. Drawing on historical social movements and contemporary technological developments, this talk will outline pathways toward more equitable and just relationships with technology.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "people": {
           "speakers": [
             {
@@ -46,7 +46,7 @@
         "endTime": "12:30",
         "title": "Action Labs: From Ideas to Implementation",
         "location": "various-rooms",
-        "description": "These collaborative sessions will bring together participants to develop concrete action plans around key conference themes. Choose the lab that most interests you:\n- Lab 1 (Room A): Building Community Data Governance Models\n- Lab 2 (Room B): Designing Digital Justice Campaigns\n- Lab 3 (Room C): Creating Tech Accountability Frameworks\n- Lab 4 (Room D): Developing Community Tech Cooperatives",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "tags": ["Collaborative", "Action Planning"]
       },
       {
@@ -65,7 +65,7 @@
         "endTime": "15:30",
         "title": "Panel: Building Sustainable Digital Movements",
         "location": "main-auditorium",
-        "description": "This closing panel brings together organizers, technologists, and funders to discuss strategies for sustaining digital movements for social change. Speakers will share insights on building resilient organizational structures, securing resources, and maintaining momentum over time.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "people": {
           "moderator": {
             "name": "Aisha Montgomery",
