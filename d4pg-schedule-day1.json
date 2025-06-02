@@ -70,28 +70,28 @@
             "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "people": {
                 "moderator": {
-                    "name": "Dr. Roderic Crooks",
+                    "name": "Dr. Roderic N. Crooks",
                     "title": null,
                     "image": null
                 },
                 "panelists": [
                     {
-                        "name": "Maya Johnson",
+                        "name": "Marika Pfefferkorn",
                         "title": null,
                         "image": "https://picsum.photos/200/200?random=2"
                     },
                     {
-                        "name": "Carlos Rodriguez",
+                        "name": "Dr. Angela D. R. Smith",
                         "title": null,
                         "image": "https://picsum.photos/200/200?random=3"
                     },
                     {
-                        "name": "Dr. Sarah Thompson",
+                        "name": "Dr. Tanya Clark",
                         "title": null,
                         "image": null
                     },
                     {
-                        "name": "Dr. James Wilson",
+                        "name": "Dr. Imène Ghernati",
                         "title": null,
                         "image": null
                     }
@@ -122,7 +122,7 @@
             "people": {
                 "speakers": [
                     {
-                        "name": "Elena Washington",
+                        "name": "Anita Chikkatur",
                         "title": "Facilitator",
                         "image": null
                     }
@@ -149,31 +149,31 @@
             "endTime": "17:30",
             "title": "Panel: Afrofuturism and Digital Imagination",
             "location": "main-auditorium",
-            "description": "This panel explores how Afrofuturist perspectives can reshape our imagination around technology, culture, and social justice in digital spaces.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "people": {
                 "moderator": {
-                    "name": "Malik Johnson",
+                    "name": "Dr. Angela D. R. Smith",
                     "title": null,
                     "image": null
                 },
                 "panelists": [
                     {
-                        "name": "Nia Robinson",
+                        "name": "Dr. Cierra Kaler-Jones",
                         "title": null,
                         "image": null
                     },
                     {
-                        "name": "Dr. Andre Thomas",
+                        "name": "Dr. Imène Ghernati",
                         "title": null,
                         "image": null
                     },
                     {
-                        "name": "Zora Campbell",
+                        "name": "Marika Pfefferkorn",
                         "title": null,
                         "image": null
                     },
                     {
-                        "name": "Marcus Bell",
+                        "name": "Anita Chikkatur",
                         "title": null,
                         "image": null
                     }
@@ -191,7 +191,7 @@
             "endTime": "20:00",
             "title": "Welcome Reception",
             "location": "campus-garden",
-            "description": "Join us for an evening of networking, light refreshments, and music. Meet speakers, panelists, and fellow attendees in a relaxed setting.",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "tags": [
                 "Networking",
                 "Food & Drinks"
