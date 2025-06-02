@@ -1,186 +1,186 @@
 {
-    "day": "Thursday",
-    "date": "July 17",
-    "events": [
-      {
-        "id": "day2-breakfast",
-        "type": "break",
-        "startTime": "8:30",
-        "endTime": "9:30",
-        "title": "Breakfast",
-        "location": "dining-hall",
-        "description": "Start your day with a nutritious breakfast while connecting with other attendees."
+  "day": "Thursday",
+  "date": "July 17",
+  "events": [
+    {
+      "id": "day2-breakfast",
+      "type": "break",
+      "startTime": "8:30",
+      "endTime": "9:30",
+      "title": "Breakfast",
+      "location": "dining-hall",
+      "description": "Start your day with a nutritious breakfast while connecting with other attendees."
+    },
+    {
+      "id": "day2-keynote",
+      "type": "keynote",
+      "startTime": "9:30",
+      "endTime": "10:30",
+      "title": "Keynote: AI Governance and Community Power",
+      "location": "main-auditorium",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Tanya Clark",
+            "title": null,
+            "image": null
+          }
+        ]
       },
-      {
-        "id": "day2-keynote",
-        "type": "keynote",
-        "startTime": "9:30",
-        "endTime": "10:30",
-        "title": "Keynote: AI Governance and Community Power",
-        "location": "main-auditorium",
-        "description": "Dr. Santos will address how communities can shape AI governance structures to ensure these powerful technologies serve public interest rather than reinforce existing power dynamics.",
-        "people": {
-          "speakers": [
-            {
-              "name": "Dr. Miguel Santos",
-              "title": null,
-              "image": null
-            }
-          ]
+      "tags": ["AI Ethics", "Governance"]
+    },
+    {
+      "id": "day2-break1",
+      "type": "break",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "title": "Morning Break",
+      "location": "main-hall",
+      "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
+    },
+    {
+      "id": "day2-workshop1",
+      "type": "workshop",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "title": "Workshop: Digital Storytelling for Change",
+      "location": "workshop-a",
+      "description": "Learn how to craft compelling digital narratives that center community experiences and mobilize for social change. This workshop will cover the basics of narrative structure, media creation, and distribution platforms.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Cierra Kaler-Jones",
+            "title": "Facilitator",
+            "image": null
+          }
+        ]
+      },
+      "tags": ["Hands-on", "Storytelling"]
+    },
+    {
+      "id": "day2-workshop2",
+      "type": "workshop",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "title": "Workshop: Community Data Collection & Analysis",
+      "location": "workshop-b",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Imène Ghernati",
+            "title": "Facilitator",
+            "image": null
+          }
+        ]
+      },
+      "tags": ["Data Science", "Community Research"]
+    },
+    {
+      "id": "day2-lunch",
+      "type": "break",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "title": "Lunch Break",
+      "location": "dining-hall",
+      "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
+    },
+    {
+      "id": "day2-panel",
+      "type": "panel",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "Panel: Emerging Technologies & Digital Rights",
+      "location": "main-auditorium",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "people": {
+        "moderator": {
+          "name": "Dr. Roderic N. Crooks",
+          "title": null,
+          "image": null
         },
-        "tags": ["AI Ethics", "Governance"]
-      },
-      {
-        "id": "day2-break1",
-        "type": "break",
-        "startTime": "10:30",
-        "endTime": "11:00",
-        "title": "Morning Break",
-        "location": "main-hall",
-        "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
-      },
-      {
-        "id": "day2-workshop1",
-        "type": "workshop",
-        "startTime": "11:00",
-        "endTime": "12:30",
-        "title": "Workshop: Digital Storytelling for Change",
-        "location": "workshop-a",
-        "description": "Learn how to craft compelling digital narratives that center community experiences and mobilize for social change. This workshop will cover the basics of narrative structure, media creation, and distribution platforms.",
-        "people": {
-          "speakers": [
-            {
-              "name": "Jasmine Rivera",
-              "title": "Facilitator",
-              "image": null
-            }
-          ]
-        },
-        "tags": ["Hands-on", "Storytelling"]
-      },
-      {
-        "id": "day2-workshop2",
-        "type": "workshop",
-        "startTime": "11:00",
-        "endTime": "12:30",
-        "title": "Workshop: Community Data Collection & Analysis",
-        "location": "workshop-b",
-        "description": "This hands-on workshop will teach participants how to design and implement community-centered data collection projects. Learn practical approaches to gather, analyze, and visualize data that can inform community advocacy efforts.",
-        "people": {
-          "speakers": [
-            {
-              "name": "Dr. Anthony Parker",
-              "title": "Facilitator",
-              "image": null
-            }
-          ]
-        },
-        "tags": ["Data Science", "Community Research"]
-      },
-      {
-        "id": "day2-lunch",
-        "type": "break",
-        "startTime": "12:30",
-        "endTime": "14:00",
-        "title": "Lunch Break",
-        "location": "dining-hall",
-        "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
-      },
-      {
-        "id": "day2-panel",
-        "type": "panel",
-        "startTime": "14:00",
-        "endTime": "15:30",
-        "title": "Panel: Emerging Technologies & Digital Rights",
-        "location": "main-auditorium",
-        "description": "This panel examines how emerging technologies like AR/VR, blockchain, and advanced AI systems are reshaping our understanding of digital rights and necessitating new frameworks for technology governance.",
-        "people": {
-          "moderator": {
-            "name": "Leila Hernandez",
+        "panelists": [
+          {
+            "name": "Dr. Angela D. R. Smith",
             "title": null,
             "image": null
           },
-          "panelists": [
-            {
-              "name": "Dr. Kamari Wilson",
-              "title": null,
-              "image": null
-            },
-            {
-              "name": "Tyra Foster",
-              "title": null,
-              "image": null
-            },
-            {
-              "name": "Jordan Roberts",
-              "title": null,
-              "image": null
-            },
-            {
-              "name": "Sam Patel",
-              "title": null,
-              "image": null
-            }
-          ]
-        },
-        "tags": ["Digital Rights", "Emerging Tech"]
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Anita Chikkatur",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Tanya Clark",
+            "title": null,
+            "image": null
+          }
+        ]
       },
-      {
-        "id": "day2-break2",
-        "type": "break",
-        "startTime": "15:30",
-        "endTime": "16:00",
-        "title": "Afternoon Break",
-        "location": "main-hall",
-        "description": "Recharge with refreshments before the final sessions of the day."
+      "tags": ["Digital Rights", "Emerging Tech"]
+    },
+    {
+      "id": "day2-break2",
+      "type": "break",
+      "startTime": "15:30",
+      "endTime": "16:00",
+      "title": "Afternoon Break",
+      "location": "main-hall",
+      "description": "Recharge with refreshments before the final sessions of the day."
+    },
+    {
+      "id": "day2-workshop3",
+      "type": "workshop",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "title": "Workshop: Building Digital Coalitions",
+      "location": "workshop-a",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Marika Pfefferkorn",
+            "title": "Facilitator",
+            "image": null
+          }
+        ]
       },
-      {
-        "id": "day2-workshop3",
-        "type": "workshop",
-        "startTime": "16:00",
-        "endTime": "17:30",
-        "title": "Workshop: Building Digital Coalitions",
-        "location": "workshop-a",
-        "description": "Learn practical strategies for building and sustaining digital coalitions across diverse stakeholders. This workshop will cover best practices for online organizing, collaborative decision-making, and maintaining momentum in virtual spaces.",
-        "people": {
-          "speakers": [
-            {
-              "name": "Keisha Williams",
-              "title": "Facilitator",
-              "image": null
-            }
-          ]
-        },
-        "tags": ["Coalition Building", "Digital Organizing"]
+      "tags": ["Coalition Building", "Digital Organizing"]
+    },
+    {
+      "id": "day2-workshop4",
+      "type": "workshop",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "title": "Workshop: Ethics of AI in Community Contexts",
+      "location": "workshop-b",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Angela D. R. Smith",
+            "title": "Facilitator",
+            "image": null
+          }
+        ]
       },
-      {
-        "id": "day2-workshop4",
-        "type": "workshop",
-        "startTime": "16:00",
-        "endTime": "17:30",
-        "title": "Workshop: Ethics of AI in Community Contexts",
-        "location": "workshop-b",
-        "description": "This workshop explores ethical frameworks for deploying AI systems in community contexts. Participants will work through case studies and develop guidelines for AI implementation that centers community values and needs.",
-        "people": {
-          "speakers": [
-            {
-              "name": "Dr. Alejandro Rios",
-              "title": "Facilitator",
-              "image": null
-            }
-          ]
-        },
-        "tags": ["AI Ethics", "Practical Applications"]
-      },
-      {
-        "id": "day2-dinner",
-        "type": "social",
-        "startTime": "18:30",
-        "endTime": "21:00",
-        "title": "Conference Dinner & Cultural Celebration",
-        "location": "great-hall",
-        "description": "Join us for a special evening celebrating the intersection of technology, culture, and community. The event will feature performances from local artists and a keynote conversation between distinguished speakers exploring the role of cultural expression in reimagining technological futures.",
-        "tags": ["Celebration", "Cultural Performances", "Networking"]
-      }
-    ]
-  }
+      "tags": ["AI Ethics", "Practical Applications"]
+    },
+    {
+      "id": "day2-dinner",
+      "type": "social",
+      "startTime": "18:30",
+      "endTime": "21:00",
+      "title": "Conference Dinner & Cultural Celebration",
+      "location": "great-hall",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "tags": ["Celebration", "Cultural Performances", "Networking"]
+    }
+  ]
+}
