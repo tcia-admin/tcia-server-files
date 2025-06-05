@@ -163,6 +163,47 @@
             "workshops": []
         },
         {
+            "id": "speaker-vyjayanthi-vadrevu",
+            "name": "Vyjayanthi Vadrevu",
+            "title": "FOUNDER OF INCLUYA, APPLIED ANTHROPOLOGIST",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/eb638328-a754-423b-a672-42bd938761f8/Vyjayanthi+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+                "Vyjayanthi Neha Vadrevu is the founder of Incluya, an emotionally intelligent AI coach leading people from financial anxiety to financial resilience. The company was born out of her years of anthropological research for Capital One and Charles Schwab, where her philosophy of looking at problems holistically and culturally led to deeply impactful solutions.",
+                "Her path as an anthropologist was inspired by her multicultural upbringing in Chicago, and her training in Indian classical dance, which she has cultivated since her childhood, and performed at venues like the Kennedy Center and Symphony Space. She was an adjunct professor of Applied Anthropology and Autoethnography at the City University of New York."
+            ],
+            "social": {
+                "personal": [
+                    {
+                        "type": "linkedin",
+                        "url": "https://www.linkedin.com/in/vyjayanthi-vadrevu/"
+                    }
+                ],
+                "organizations": [
+                    {
+                        "name": "Incluya",
+                        "links": [
+                            {
+                                "type": "website",
+                                "url": "https://www.incluya.com/",
+                                "display": "incluya.com"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rasa",
+                        "links": [
+                            {
+                                "type": "website",
+                                "url": "https://www.rasa.nyc/about",
+                                "display": "rasa.nyc"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "workshops": []
+        },
+        {
             "id": "speaker-marika-pfefferkorn",
             "name": "Marika Pfefferkorn",
             "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
