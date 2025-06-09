@@ -57,6 +57,17 @@
             "bio": [
                 "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
             ],
+            "promotional": {
+                "books": [
+                    {
+                        "title": "Access is Capture: How Edtech Reproduces Racial Inequality",
+                        "cover_image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2f6e15da-b3fc-4413-888d-6501f6f3b28b/roderic-book-cover.png?content-type=image%2Fpng",
+                        "purchase_url": "https://bookshop.org/p/books/access-is-capture-how-edtech-reproduces-racial-inequality-roderic-n-crooks/21346902?ean=9780520393288&next=t",
+                        "label": "buy newest book, \"Access is Capture: How Edtech Reproduces Racial Inequality\"",
+                        "description": "Dr. Crooks' latest work examining how educational technology perpetuates racial inequality"
+                    }
+                ]
+            },
             "social": {
                 "personal": [
                     {
