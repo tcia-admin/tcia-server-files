@@ -215,6 +215,66 @@
             "workshops": []
         },
         {
+            "id": "speaker-kill-joy",
+            "name": "Kill Joy",
+            "title": "STREET ARTIST & PUPPETEER, KITCHEN TABLE PUPPET & PRESS GROUP",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ff5e2dd0-6ba5-41d1-8ca5-acd49f7f6f49/Kill+Joy+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+                "Kill Joy’s work is grounded in honoring the earth and seeking environmental and social justice through both radically imaginative worlds and supporting frontline social movements. Her work is an interpretation of world mythology and a study of nature’s cycles. She integrates storytelling and ancient symbolism with calls to spiritual and political awareness and action. Kill joy is an artist-in-residence at the American Civil Liberties Union of Texas, ACLU TX, and a fellow and artist-in-residence at No Data About Us Without Us. Killy joy works as a street artist and as a puppeteer at Kitchen Table Puppets and Press Group."
+            ],
+            "social": {
+                "personal": [
+                    {
+                        "type": "instagram",
+                        "url": "https://www.instagram.com/kill.joy.land/?hl=en"
+                    },
+                    {
+                        "type": "website",
+                        "url": "https://joyland.space/",
+                        "display": "joyland.space"
+                    }
+                ],
+                "organization": {
+                    "name": "Kitchen Table Puppets and Press Group",
+                    "links": [
+                        {
+                            "type": "instagram",
+                            "url": "https://www.instagram.com/kitchentable.puppetspress/?hl=en"
+                        }
+                    ]
+                }
+            },
+            "workshops": []
+        },
+        {
+            "id": "speaker-marta-shore",
+            "name": "Marta Shore",
+            "title": "LECTURER, BIOSTATISTICS & HEALTH DATA SCIENCE, U OF M",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2aa6d604-5a9e-4a66-8d5b-bed369bd5db6/Marta+Shore+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+            "bio": [
+                "Marta Shore teaches biostatistics and biostatistical literacy at the University of Minnesota's School of Public Health.  She is the co-founder and co-chair of the Biostatistics and Health Data Science Community Outreach and Engagement Committee (BCOE), which works with public school science teachers to integrate statistics and data science into their curriculum.  She also teaches crop art and coordinates crop art exhibitions. "
+            ],
+            "social": {
+                "personal": [
+                    {
+                        "type": "linkedin",
+                        "url": "https://www.linkedin.com/in/marta-shore-45600531/"
+                    }
+                ],
+                "organization": {
+                    "name": "Biostat Community Outreach and Engagement Committee (BCOE)",
+                    "links": [
+                        {
+                            "type": "website",
+                            "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/outreach-and-engagement/",
+                            "display": "BCOE Committee"
+                        }
+                    ]
+                }
+            },
+            "workshops": []
+        },
+        {
             "id": "speaker-marika-pfefferkorn",
             "name": "Marika Pfefferkorn",
             "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
