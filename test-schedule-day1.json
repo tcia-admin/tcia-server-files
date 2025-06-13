@@ -112,6 +112,15 @@
       "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
     },
     {
+      "id": "day1-break2",
+      "type": "break",
+      "startTime": "15:30",
+      "endTime": "16:00",
+      "title": "Afternoon Break",
+      "location": "main-hall",
+      "description": "Recharge with refreshments and connect with other attendees."
+    },
+    {
       "id": "day1-workshop1",
       "type": "workshop",
       "startTime": "14:00",
@@ -132,15 +141,6 @@
         "Hands-on",
         "Data Privacy"
       ]
-    },
-    {
-      "id": "day1-break2",
-      "type": "break",
-      "startTime": "15:30",
-      "endTime": "16:00",
-      "title": "Afternoon Break",
-      "location": "main-hall",
-      "description": "Recharge with refreshments and connect with other attendees."
     },
     {
       "id": "day1-panel2",
