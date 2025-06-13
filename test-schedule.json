@@ -1,22 +1,37 @@
 {
   "changes": [
     {
-      "id": 1749833144868,
-      "type": "add",
+      "id": 1749834374956,
+      "type": "reorder",
       "data": {
-        "id": "new-1749833144868",
-        "title": "Another Event",
-        "startTime": "11:23",
-        "endTime": "12:24",
-        "type": "social",
-        "location": "dining-hall",
-        "speakers": [
-          "Rob Robberson"
-        ],
-        "description": "Event description of "
+        "eventId": "day3-keynote"
       },
-      "day": "day1",
-      "timestamp": "2025-06-13T16:45:44.868Z"
+      "day": "day3",
+      "timestamp": "2025-06-13T17:06:14.956Z"
+    },
+    {
+      "id": 1749834420398,
+      "type": "edit",
+      "data": {
+        "id": "day2-keynote",
+        "title": "Keynote: AI Governance and Community Power",
+        "startTime": "09:20",
+        "endTime": "10:30",
+        "type": "keynote",
+        "location": "main-auditorium",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "people": {
+          "speakers": [
+            {
+              "name": "Dr. Tanya Clark",
+              "title": null,
+              "image": null
+            }
+          ]
+        }
+      },
+      "day": "day2",
+      "timestamp": "2025-06-13T17:07:00.398Z"
     }
   ]
 }
