@@ -28,7 +28,10 @@
           }
         ]
       },
-      "tags": ["Future Visioning", "Digital Liberation"]
+      "tags": [
+        "Future Visioning",
+        "Digital Liberation"
+      ]
     },
     {
       "id": "day3-break1",
@@ -47,14 +50,17 @@
       "title": "Action Labs: From Ideas to Implementation",
       "location": "various-rooms",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "tags": ["Collaborative", "Action Planning"]
+      "tags": [
+        "Collaborative",
+        "Action Planning"
+      ]
     },
     {
       "id": "day3-lunch",
-      "type": "break",
+      "title": "Dejeuner Break",
       "startTime": "12:30",
       "endTime": "14:00",
-      "title": "Lunch Break",
+      "type": "break",
       "location": "dining-hall",
       "description": "Enjoy your final lunch at D4PG 2025, sharing takeaways and continuing conversations."
     },
@@ -95,7 +101,10 @@
           }
         ]
       },
-      "tags": ["Sustainability", "Digital Movements"]
+      "tags": [
+        "Sustainability",
+        "Digital Movements"
+      ]
     },
     {
       "id": "day3-closing",
@@ -123,7 +132,10 @@
       "title": "Farewell Reception",
       "location": "campus-garden",
       "description": "Conclude your D4PG experience with a farewell reception. Exchange contact information with new connections, reflect on the experience, and enjoy light refreshments before departure.",
-      "tags": ["Networking", "Celebration"]
+      "tags": [
+        "Networking",
+        "Celebration"
+      ]
     }
   ]
 }
