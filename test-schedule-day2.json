@@ -4,10 +4,10 @@
   "events": [
     {
       "id": "day2-breakfast",
-      "type": "break",
-      "startTime": "8:30",
-      "endTime": "9:30",
       "title": "Breakfast",
+      "startTime": "08:00",
+      "endTime": "09:30",
+      "type": "break",
       "location": "dining-hall",
       "description": "Start your day with a nutritious breakfast while connecting with other attendees."
     },
@@ -28,7 +28,10 @@
           }
         ]
       },
-      "tags": ["AI Ethics", "Governance"]
+      "tags": [
+        "AI Ethics",
+        "Governance"
+      ]
     },
     {
       "id": "day2-break1",
@@ -56,7 +59,10 @@
           }
         ]
       },
-      "tags": ["Hands-on", "Storytelling"]
+      "tags": [
+        "Hands-on",
+        "Storytelling"
+      ]
     },
     {
       "id": "day2-workshop2",
@@ -75,7 +81,10 @@
           }
         ]
       },
-      "tags": ["Data Science", "Community Research"]
+      "tags": [
+        "Data Science",
+        "Community Research"
+      ]
     },
     {
       "id": "day2-lunch",
@@ -123,7 +132,10 @@
           }
         ]
       },
-      "tags": ["Digital Rights", "Emerging Tech"]
+      "tags": [
+        "Digital Rights",
+        "Emerging Tech"
+      ]
     },
     {
       "id": "day2-break2",
@@ -151,7 +163,10 @@
           }
         ]
       },
-      "tags": ["Coalition Building", "Digital Organizing"]
+      "tags": [
+        "Coalition Building",
+        "Digital Organizing"
+      ]
     },
     {
       "id": "day2-workshop4",
@@ -170,7 +185,10 @@
           }
         ]
       },
-      "tags": ["AI Ethics", "Practical Applications"]
+      "tags": [
+        "AI Ethics",
+        "Practical Applications"
+      ]
     },
     {
       "id": "day2-dinner",
@@ -180,7 +198,11 @@
       "title": "Conference Dinner & Cultural Celebration",
       "location": "great-hall",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "tags": ["Celebration", "Cultural Performances", "Networking"]
+      "tags": [
+        "Celebration",
+        "Cultural Performances",
+        "Networking"
+      ]
     }
   ]
 }
