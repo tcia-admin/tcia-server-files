@@ -1,1 +1,22 @@
-{}
+{
+  "changes": [
+    {
+      "id": 1749833144868,
+      "type": "add",
+      "data": {
+        "id": "new-1749833144868",
+        "title": "Another Event",
+        "startTime": "11:23",
+        "endTime": "12:24",
+        "type": "social",
+        "location": "dining-hall",
+        "speakers": [
+          "Rob Robberson"
+        ],
+        "description": "Event description of "
+      },
+      "day": "day1",
+      "timestamp": "2025-06-13T16:45:44.868Z"
+    }
+  ]
+}
