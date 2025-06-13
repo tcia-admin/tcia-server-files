@@ -126,16 +126,12 @@
     },
     {
       "id": "day3-farewell",
-      "type": "social",
+      "title": "Cya",
       "startTime": "17:00",
       "endTime": "18:30",
-      "title": "Farewell Reception",
+      "type": "social",
       "location": "campus-garden",
-      "description": "Conclude your D4PG experience with a farewell reception. Exchange contact information with new connections, reflect on the experience, and enjoy light refreshments before departure.",
-      "tags": [
-        "Networking",
-        "Celebration"
-      ]
+      "description": "Conclude your D4PG experience with a farewell reception. Exchange contact information with new connections, reflect on the experience, and enjoy light refreshments before departure."
     }
   ]
 }
