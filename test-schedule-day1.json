@@ -1,201 +1,201 @@
 {
-    "day": "Wednesday",
-    "date": "July 16",
-    "events": [
-        {
-            "id": "day1-registration",
-            "type": "break",
-            "startTime": "8:00",
-            "endTime": "9:00",
-            "title": "Registration & Breakfast",
-            "location": "main-hall",
-            "description": "Start your D4PG experience by checking in at the registration desk. Enjoy a light breakfast and connect with fellow attendees."
+  "day": "Wednesday",
+  "date": "July 16",
+  "events": [
+    {
+      "id": "day1-registration",
+      "title": "Cookies at Breakfast",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "type": "break",
+      "location": "main-hall",
+      "description": "Start your D4PG experience by checking in at the registration desk. Enjoy a light breakfast and connect with fellow attendees."
+    },
+    {
+      "id": "day1-welcome",
+      "type": "keynote",
+      "startTime": "9:00",
+      "endTime": "9:30",
+      "title": "Welcome & Opening Remarks",
+      "location": "main-auditorium",
+      "description": "Join D4PG's founder for an inspiring introduction to this year's conference theme: \"Co-Powering an Emergent Horizon Part II: Reimagining Our Relationship with the Future.\"",
+      "people": {
+        "speakers": [
+          {
+            "name": "Aasim Shabazz",
+            "title": "D4PG Founder",
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "day1-keynote1",
+      "type": "keynote",
+      "startTime": "9:30",
+      "endTime": "10:30",
+      "title": "Keynote: Reimagining Digital Justice Through Data Sovereignty",
+      "location": "main-auditorium",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Cierra Kaler-Jones",
+            "title": null,
+            "image": null
+          }
+        ]
+      },
+      "tags": [
+        "Digital Justice",
+        "Data Sovereignty"
+      ]
+    },
+    {
+      "id": "day1-break1",
+      "type": "break",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "title": "Morning Break",
+      "location": "main-hall",
+      "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
+    },
+    {
+      "id": "day1-panel1",
+      "type": "panel",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "title": "Panel: Community-Based Approaches to Tech & Democracy",
+      "location": "main-auditorium",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "people": {
+        "moderator": {
+          "name": "Dr. Roderic N. Crooks",
+          "title": null,
+          "image": null
         },
-        {
-            "id": "day1-welcome",
-            "type": "keynote",
-            "startTime": "9:00",
-            "endTime": "9:30",
-            "title": "Welcome & Opening Remarks",
-            "location": "main-auditorium",
-            "description": "Join D4PG's founder for an inspiring introduction to this year's conference theme: \"Co-Powering an Emergent Horizon Part II: Reimagining Our Relationship with the Future.\"",
-            "people": {
-                "speakers": [
-                    {
-                        "name": "Aasim Shabazz",
-                        "title": "D4PG Founder",
-                        "image": null
-                    }
-                ]
-            }
+        "panelists": [
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": "https://picsum.photos/200/200?random=2"
+          },
+          {
+            "name": "Dr. Angela D. R. Smith",
+            "title": null,
+            "image": "https://picsum.photos/200/200?random=3"
+          },
+          {
+            "name": "Dr. Tanya Clark",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Imène Ghernati",
+            "title": null,
+            "image": null
+          }
+        ]
+      },
+      "tags": [
+        "Community Tech",
+        "Digital Democracy"
+      ]
+    },
+    {
+      "id": "day1-lunch",
+      "type": "break",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "title": "Lunch Break",
+      "location": "dining-hall",
+      "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
+    },
+    {
+      "id": "day1-workshop1",
+      "type": "workshop",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "Workshop: Data Privacy Tools for Community Advocates",
+      "location": "workshop-a",
+      "description": "This interactive workshop will introduce practical tools and strategies for community advocates to protect personal and collective data. Participants will learn how to conduct community data audits and create privacy protection plans.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Anita Chikkatur",
+            "title": "Facilitator",
+            "image": null
+          }
+        ]
+      },
+      "tags": [
+        "Hands-on",
+        "Data Privacy"
+      ]
+    },
+    {
+      "id": "day1-break2",
+      "type": "break",
+      "startTime": "15:30",
+      "endTime": "16:00",
+      "title": "Afternoon Break",
+      "location": "main-hall",
+      "description": "Recharge with refreshments and connect with other attendees."
+    },
+    {
+      "id": "day1-panel2",
+      "type": "panel",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "title": "Panel: Afrofuturism and Digital Imagination",
+      "location": "main-auditorium",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "people": {
+        "moderator": {
+          "name": "Dr. Angela D. R. Smith",
+          "title": null,
+          "image": null
         },
-        {
-            "id": "day1-keynote1",
-            "type": "keynote",
-            "startTime": "9:30",
-            "endTime": "10:30",
-            "title": "Keynote: Reimagining Digital Justice Through Data Sovereignty",
-            "location": "main-auditorium",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "people": {
-                "speakers": [
-                    {
-                        "name": "Dr. Cierra Kaler-Jones",
-                        "title": null,
-                        "image": null
-                    }
-                ]
-            },
-            "tags": [
-                "Digital Justice",
-                "Data Sovereignty"
-            ]
-        },
-        {
-            "id": "day1-break1",
-            "type": "break",
-            "startTime": "10:30",
-            "endTime": "11:00",
-            "title": "Morning Break",
-            "location": "main-hall",
-            "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
-        },
-        {
-            "id": "day1-panel1",
-            "type": "panel",
-            "startTime": "11:00",
-            "endTime": "12:30",
-            "title": "Panel: Community-Based Approaches to Tech & Democracy",
-            "location": "main-auditorium",
-            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "people": {
-                "moderator": {
-                    "name": "Dr. Roderic N. Crooks",
-                    "title": null,
-                    "image": null
-                },
-                "panelists": [
-                    {
-                        "name": "Marika Pfefferkorn",
-                        "title": null,
-                        "image": "https://picsum.photos/200/200?random=2"
-                    },
-                    {
-                        "name": "Dr. Angela D. R. Smith",
-                        "title": null,
-                        "image": "https://picsum.photos/200/200?random=3"
-                    },
-                    {
-                        "name": "Dr. Tanya Clark",
-                        "title": null,
-                        "image": null
-                    },
-                    {
-                        "name": "Dr. Imène Ghernati",
-                        "title": null,
-                        "image": null
-                    }
-                ]
-            },
-            "tags": [
-                "Community Tech",
-                "Digital Democracy"
-            ]
-        },
-        {
-            "id": "day1-lunch",
-            "type": "break",
-            "startTime": "12:30",
-            "endTime": "14:00",
-            "title": "Lunch Break",
-            "location": "dining-hall",
-            "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
-        },
-        {
-            "id": "day1-workshop1",
-            "type": "workshop",
-            "startTime": "14:00",
-            "endTime": "15:30",
-            "title": "Workshop: Data Privacy Tools for Community Advocates",
-            "location": "workshop-a",
-            "description": "This interactive workshop will introduce practical tools and strategies for community advocates to protect personal and collective data. Participants will learn how to conduct community data audits and create privacy protection plans.",
-            "people": {
-                "speakers": [
-                    {
-                        "name": "Anita Chikkatur",
-                        "title": "Facilitator",
-                        "image": null
-                    }
-                ]
-            },
-            "tags": [
-                "Hands-on",
-                "Data Privacy"
-            ]
-        },
-        {
-            "id": "day1-break2",
-            "type": "break",
-            "startTime": "15:30",
-            "endTime": "16:00",
-            "title": "Afternoon Break",
-            "location": "main-hall",
-            "description": "Recharge with refreshments and connect with other attendees."
-        },
-        {
-            "id": "day1-panel2",
-            "type": "panel",
-            "startTime": "16:00",
-            "endTime": "17:30",
-            "title": "Panel: Afrofuturism and Digital Imagination",
-            "location": "main-auditorium",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "people": {
-                "moderator": {
-                    "name": "Dr. Angela D. R. Smith",
-                    "title": null,
-                    "image": null
-                },
-                "panelists": [
-                    {
-                        "name": "Dr. Cierra Kaler-Jones",
-                        "title": null,
-                        "image": null
-                    },
-                    {
-                        "name": "Dr. Imène Ghernati",
-                        "title": null,
-                        "image": null
-                    },
-                    {
-                        "name": "Marika Pfefferkorn",
-                        "title": null,
-                        "image": null
-                    },
-                    {
-                        "name": "Anita Chikkatur",
-                        "title": null,
-                        "image": null
-                    }
-                ]
-            },
-            "tags": [
-                "Afrofuturism",
-                "Digital Arts"
-            ]
-        },
-        {
-            "id": "day1-reception",
-            "type": "social",
-            "startTime": "18:00",
-            "endTime": "20:00",
-            "title": "Welcome Reception",
-            "location": "campus-garden",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "tags": [
-                "Networking",
-                "Food & Drinks"
-            ]
-        }
-    ]
+        "panelists": [
+          {
+            "name": "Dr. Cierra Kaler-Jones",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Imène Ghernati",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Anita Chikkatur",
+            "title": null,
+            "image": null
+          }
+        ]
+      },
+      "tags": [
+        "Afrofuturism",
+        "Digital Arts"
+      ]
+    },
+    {
+      "id": "day1-reception",
+      "type": "social",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "title": "Welcome Reception",
+      "location": "campus-garden",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "tags": [
+        "Networking",
+        "Food & Drinks"
+      ]
+    }
+  ]
 }
