@@ -1808,47 +1808,142 @@ h2 {
     object-fit: cover; /* Ensure the image covers the specified area */
 }
 
-/* Universal Styles for the Speaker Section */
+/* Updated speaker section styling to accommodate arrows */
 .speaker-section {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 0 1em;
+    position: relative;
     margin: var(--spacing-3xl) 0;
+    padding: 0 80px; /* Add padding to make room for arrows */
 }
 
 .speaker-row {
     display: inline-flex;
     gap: 1em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0 1em;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
 }
 
-/* Styles for All Screen Sizes */
-@media (min-width: 601px) {
-    .speaker-section {
-        overflow-x: auto;
-    }
+.speaker-row::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
 
-    .speaker-row {
-        display: inline-flex;
-    }
+.speaker-scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: pulse-arrow 2s infinite;
+}
 
-    .speaker {
-        flex: 0 0 24%; /* Adjust the width for desktop screens */
+.speaker-scroll-arrow:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: var(--d4pg-coral);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 25px rgba(255, 127, 109, 0.4);
+}
+
+.speaker-scroll-arrow:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.speaker-scroll-left {
+    left: 10px;
+}
+
+.speaker-scroll-right {
+    right: 10px;
+}
+
+.arrow-icon {
+    width: 28px;
+    height: 28px;
+    fill: var(--d4pg-navy);
+    transition: fill 0.3s ease;
+}
+
+.speaker-scroll-arrow:hover .arrow-icon {
+    fill: var(--d4pg-coral);
+}
+
+/* Pulse animation for arrows */
+@keyframes pulse-arrow {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 10px rgba(255, 255, 255, 0);
     }
 }
 
-/* Mobile Styles */
-@media (max-width: 600px) {
+/* Hide arrows when not needed */
+.speaker-scroll-arrow.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%) scale(0.8);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
     .speaker-section {
-        overflow-x: auto;
+        padding: 0 70px;
     }
-
-    .speaker-row {
-        display: inline-flex;
-        gap: 1em;
+    
+    .speaker-scroll-arrow {
+        width: 50px;
+        height: 50px;
     }
+    
+    .speaker-scroll-left {
+        left: 10px;
+    }
+    
+    .speaker-scroll-right {
+        right: 10px;
+    }
+    
+    .arrow-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
 
-    .speaker {
-        flex: 0 0 80%; /* Adjust the width to make images fit well in a single row */
+@media (max-width: 480px) {
+    .speaker-section {
+        padding: 0 60px;
+    }
+    
+    .speaker-scroll-arrow {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .speaker-scroll-left {
+        left: 5px;
+    }
+    
+    .speaker-scroll-right {
+        right: 5px;
+    }
+    
+    .arrow-icon {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -3936,115 +4031,6 @@ h2 {
 }
 
 /* Icon-only social links styling */
-.speaker-section {
-    position: relative;
-}
 
-.speaker-scroll-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.9);
-    border: 3px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 10;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    animation: pulse-arrow 2s infinite;
-}
 
-.speaker-scroll-arrow:hover {
-    background: rgba(255, 255, 255, 1);
-    border-color: var(--d4pg-coral);
-    transform: translateY(-50%) scale(1.1);
-    box-shadow: 0 6px 25px rgba(255, 127, 109, 0.4);
-}
-
-.speaker-scroll-arrow:active {
-    transform: translateY(-50%) scale(0.95);
-}
-
-.speaker-scroll-left {
-    left: -30px;
-}
-
-.speaker-scroll-right {
-    right: -30px;
-}
-
-.arrow-icon {
-    width: 28px;
-    height: 28px;
-    fill: var(--d4pg-navy);
-    transition: fill 0.3s ease;
-}
-
-.speaker-scroll-arrow:hover .arrow-icon {
-    fill: var(--d4pg-coral);
-}
-
-/* Pulse animation for arrows */
-@keyframes pulse-arrow {
-    0%, 100% {
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(255, 255, 255, 0.7);
-    }
-    50% {
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 0 10px rgba(255, 255, 255, 0);
-    }
-}
-
-/* Hide arrows when not needed */
-.speaker-scroll-arrow.hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-50%) scale(0.8);
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-    .speaker-scroll-arrow {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .speaker-scroll-left {
-        left: -25px;
-    }
-    
-    .speaker-scroll-right {
-        right: -25px;
-    }
-    
-    .arrow-icon {
-        width: 24px;
-        height: 24px;
-    }
-}
-
-@media (max-width: 480px) {
-    .speaker-scroll-arrow {
-        width: 45px;
-        height: 45px;
-    }
-    
-    .speaker-scroll-left {
-        left: -22px;
-    }
-    
-    .speaker-scroll-right {
-        right: -22px;
-    }
-    
-    .arrow-icon {
-        width: 20px;
-        height: 20px;
-    }
-}
 
