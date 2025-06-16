@@ -3896,3 +3896,43 @@ h2 {
         font-size: var(--font-size-med);
     }
 }
+
+/* Social icon PNG styling */
+.social-icon-png {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    filter: brightness(0) invert(1); /* Make SVGs white */
+    transition: filter 0.3s ease;
+}
+
+/* Adjust PNG icons in large icon containers */
+.social-icon-large .social-icon-png {
+    width: 24px;
+    height: 24px;
+}
+
+/* Handle PNG icons in website links */
+.speaker-social-link.website .social-icon-png {
+    width: 16px;
+    height: 16px;
+    margin-right: var(--spacing-xs);
+}
+
+/* Hover effects for PNG icons */
+.speaker-social-link:hover .social-icon-png {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(2000%) hue-rotate(210deg);
+}
+
+/* Fallback for browsers that don't support complex filters */
+@supports not (filter: brightness(0) invert(1)) {
+    .social-icon-png {
+        opacity: 0.9;
+    }
+    
+    .speaker-social-link:hover .social-icon-png {
+        opacity: 1;
+    }
+}
+
+/* Icon-only social links styling */
