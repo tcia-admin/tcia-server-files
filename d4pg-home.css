@@ -3064,11 +3064,11 @@ h2 {
 }
 
 .speaker-modal-photo img {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 16px;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     display: block;
 }
