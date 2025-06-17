@@ -92,24 +92,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "new-1750181203090",
-      "title": "stop",
-      "startTime": "23:00",
-      "endTime": "23:10",
-      "type": "panel",
-      "location": "TBD",
-      "description": "",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Imène Ghernati",
-            "title": null,
-            "image": null
-          }
-        ]
-      }
     }
   ]
 }
