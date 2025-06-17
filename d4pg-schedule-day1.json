@@ -3,28 +3,6 @@
   "date": "July 16",
   "events": [
     {
-      "id": "day1-keynote1",
-      "type": "keynote",
-      "startTime": "9:30",
-      "endTime": "10:30",
-      "title": "Keynote: Reimagining Digital Justice Through Data Sovereignty",
-      "location": "main-auditorium",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Cierra Kaler-Jones",
-            "title": null,
-            "image": null
-          }
-        ]
-      },
-      "tags": [
-        "Digital Justice",
-        "Data Sovereignty"
-      ]
-    },
-    {
       "id": "day1-break1",
       "type": "break",
       "startTime": "10:30",
