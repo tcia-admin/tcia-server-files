@@ -3,15 +3,6 @@
   "date": "July 16",
   "events": [
     {
-      "id": "day1-break1",
-      "type": "break",
-      "startTime": "10:30",
-      "endTime": "11:00",
-      "title": "Morning Break",
-      "location": "main-hall",
-      "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
-    },
-    {
       "id": "day1-panel1",
       "type": "panel",
       "startTime": "11:00",
