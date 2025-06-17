@@ -141,15 +141,6 @@
       "title": "Afternoon Break",
       "location": "main-hall",
       "description": "Recharge with refreshments and connect with other attendees."
-    },
-    {
-      "id": "new-1750180080144",
-      "title": "New Break",
-      "startTime": "17:30",
-      "endTime": "18:45",
-      "type": "break",
-      "location": "TBD",
-      "description": ""
     }
   ]
 }
