@@ -83,6 +83,24 @@
       "title": "Afternoon Break",
       "location": "main-hall",
       "description": "Recharge with refreshments and connect with other attendees."
+    },
+    {
+      "id": "new-1750181128479",
+      "title": "New Break Break",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Roderic N. Crooks (he/him/his)",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
