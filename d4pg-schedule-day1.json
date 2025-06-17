@@ -3,15 +3,6 @@
   "date": "July 16",
   "events": [
     {
-      "id": "day1-registration",
-      "type": "break",
-      "startTime": "8:00",
-      "endTime": "9:00",
-      "title": "Registration & Breakfast",
-      "location": "main-hall",
-      "description": "Start your D4PG experience by checking in at the registration desk. Enjoy a light breakfast and connect with fellow attendees."
-    },
-    {
       "id": "day1-welcome",
       "type": "keynote",
       "startTime": "9:00",
