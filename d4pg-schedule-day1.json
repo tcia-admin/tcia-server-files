@@ -216,6 +216,29 @@
           }
         ]
       }
+    },
+    {
+      "id": "new-1750177694884",
+      "title": "Test Panel",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "type": "panel",
+      "location": "TBD",
+      "description": "Panel Test",
+      "people": {
+        "speakers": [
+          {
+            "name": "Aasim",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
