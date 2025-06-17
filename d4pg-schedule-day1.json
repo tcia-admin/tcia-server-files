@@ -141,48 +141,6 @@
       "title": "Afternoon Break",
       "location": "main-hall",
       "description": "Recharge with refreshments and connect with other attendees."
-    },
-    {
-      "id": "day1-panel2",
-      "type": "panel",
-      "startTime": "16:00",
-      "endTime": "17:30",
-      "title": "Panel: Afrofuturism and Digital Imagination",
-      "location": "main-auditorium",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "people": {
-        "moderator": {
-          "name": "Dr. Angela D. R. Smith",
-          "title": null,
-          "image": null
-        },
-        "panelists": [
-          {
-            "name": "Dr. Cierra Kaler-Jones",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Dr. Imène Ghernati",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Marika Pfefferkorn",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Anita Chikkatur",
-            "title": null,
-            "image": null
-          }
-        ]
-      },
-      "tags": [
-        "Afrofuturism",
-        "Digital Arts"
-      ]
     }
   ]
 }
