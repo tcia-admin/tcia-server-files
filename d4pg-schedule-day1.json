@@ -3,24 +3,6 @@
   "date": "July 16",
   "events": [
     {
-      "id": "day1-welcome",
-      "type": "keynote",
-      "startTime": "9:00",
-      "endTime": "9:30",
-      "title": "Welcome & Opening Remarks",
-      "location": "main-auditorium",
-      "description": "Join D4PG's founder for an inspiring introduction to this year's conference theme: \"Co-Powering an Emergent Horizon Part II: Reimagining Our Relationship with the Future.\"",
-      "people": {
-        "speakers": [
-          {
-            "name": "Aasim Shabazz",
-            "title": "D4PG Founder",
-            "image": null
-          }
-        ]
-      }
-    },
-    {
       "id": "day1-keynote1",
       "type": "keynote",
       "startTime": "9:30",
