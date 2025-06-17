@@ -28,7 +28,10 @@
           }
         ]
       },
-      "tags": ["AI Ethics", "Governance"]
+      "tags": [
+        "AI Ethics",
+        "Governance"
+      ]
     },
     {
       "id": "day2-break1",
@@ -56,26 +59,10 @@
           }
         ]
       },
-      "tags": ["Hands-on", "Storytelling"]
-    },
-    {
-      "id": "day2-workshop2",
-      "type": "workshop",
-      "startTime": "11:00",
-      "endTime": "12:30",
-      "title": "Workshop: Community Data Collection & Analysis",
-      "location": "workshop-b",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Imène Ghernati",
-            "title": "Facilitator",
-            "image": null
-          }
-        ]
-      },
-      "tags": ["Data Science", "Community Research"]
+      "tags": [
+        "Hands-on",
+        "Storytelling"
+      ]
     },
     {
       "id": "day2-lunch",
@@ -123,7 +110,10 @@
           }
         ]
       },
-      "tags": ["Digital Rights", "Emerging Tech"]
+      "tags": [
+        "Digital Rights",
+        "Emerging Tech"
+      ]
     },
     {
       "id": "day2-break2",
@@ -151,26 +141,10 @@
           }
         ]
       },
-      "tags": ["Coalition Building", "Digital Organizing"]
-    },
-    {
-      "id": "day2-workshop4",
-      "type": "workshop",
-      "startTime": "16:00",
-      "endTime": "17:30",
-      "title": "Workshop: Ethics of AI in Community Contexts",
-      "location": "workshop-b",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Angela D. R. Smith",
-            "title": "Facilitator",
-            "image": null
-          }
-        ]
-      },
-      "tags": ["AI Ethics", "Practical Applications"]
+      "tags": [
+        "Coalition Building",
+        "Digital Organizing"
+      ]
     },
     {
       "id": "day2-dinner",
@@ -180,7 +154,11 @@
       "title": "Conference Dinner & Cultural Celebration",
       "location": "great-hall",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "tags": ["Celebration", "Cultural Performances", "Networking"]
+      "tags": [
+        "Celebration",
+        "Cultural Performances",
+        "Networking"
+      ]
     }
   ]
 }
