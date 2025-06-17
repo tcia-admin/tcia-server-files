@@ -183,39 +183,6 @@
         "Afrofuturism",
         "Digital Arts"
       ]
-    },
-    {
-      "id": "new-1750177244780",
-      "title": "Test Panel",
-      "startTime": "18:00",
-      "endTime": "19:30",
-      "type": "panel",
-      "location": "TBD",
-      "description": "Panel description",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Angela D. R. Smith",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Dr. Anita Chikkatur (she/her/hers)",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "John Marshall",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Jacob Johns",
-            "title": null,
-            "image": null
-          }
-        ]
-      }
     }
   ]
 }
