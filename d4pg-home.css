@@ -3073,7 +3073,6 @@ h2 {
 .speaker-modal-name {
     font-size: var(--font-size-2xl);
     color: var(--d4pg-white);
-    margin-bottom: var(--spacing-sm);
     font-family: var(--font-accent);
     font-weight: bold;
 }
