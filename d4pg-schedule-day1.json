@@ -74,6 +74,24 @@
         "Hands-on",
         "Data Privacy"
       ]
+    },
+    {
+      "id": "new-1750266677624",
+      "title": "Test Event",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "type": "keynote",
+      "location": "TBD",
+      "description": "Test Keynote Event",
+      "people": {
+        "speakers": [
+          {
+            "name": "Aasim Shabazz",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
