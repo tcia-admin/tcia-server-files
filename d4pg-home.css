@@ -4048,3 +4048,20 @@ h2 {
     }
 }
 
+
+/* Additional styling for pronouns in speaker modals */
+.speaker-pronouns {
+    font-family: var(--font-accent);
+    font-size: var(--font-size-med);
+    font-weight: 500;
+    color: var(--d4pg-light-blue);
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: var(--spacing-sm);
+    font-style: italic;
+}
+
+.speaker-title-text {
+    /* Inherits styling from parent .speaker-modal-title */
+}
+
