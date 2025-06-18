@@ -1,344 +1,284 @@
 {
-    "speakers": [
-        {
-            "id": "speaker-cierra-kaler-jones",
-            "name": "Dr. Cierra Kaler-Jones, Ph.D. (she/her)",
-            "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "instagram",
-                        "url": "https://instagram.com/_cierrajade_"
-                    },
-                    {
-                        "type": "twitter",
-                        "url": "https://twitter.com/_cierrajade_"
-                    },
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/cierrakalerjones/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.cierrakalerjones.com",
-                        "display": "cierrakalerjones.com"
-                    }
-                ],
-                "organization": {
-                    "name": "Rethinking Schools",
-                    "links": [
-                        {
-                            "type": "instagram",
-                            "url": "https://instagram.com/rethinkingschools"
-                        },
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/RethinkSchools"
-                        },
-                        {
-                            "type": "website",
-                            "url": "https://www.rethinkingschools.org",
-                            "display": "rethinkingschools.org"
-                        }
-                    ]
+  "speakers": [
+      {
+          "id": "speaker-cierra-kaler-jones",
+          "name": "Dr. Cierra Kaler-Jones, Ph.D.",
+          "pronouns": "she/her",
+          "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "instagram",
+                      "url": "https://instagram.com/_cierrajade_"
+                  },
+                  {
+                      "type": "twitter",
+                      "url": "https://twitter.com/_cierrajade_"
+                  },
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/cierrakalerjones/"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://www.cierrakalerjones.com",
+                      "display": "cierrakalerjones.com"
+                  }
+              ],
+              "organization": {
+                  "name": "Rethinking Schools",
+                  "links": [
+                      {
+                          "type": "instagram",
+                          "url": "https://instagram.com/rethinkingschools"
+                      },
+                      {
+                          "type": "twitter",
+                          "url": "https://twitter.com/RethinkSchools"
+                      },
+                      {
+                          "type": "website",
+                          "url": "https://www.rethinkingschools.org",
+                          "display": "rethinkingschools.org"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-roderic-crooks",
+          "name": "Dr. Roderic N. Crooks",
+          "pronouns": "he/him/his",
+          "title": "ASSISTANT PROFESSOR, DEPARTMENT OF INFORMATICS, UC IRVINE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
+          ],
+          "promotional": {
+              "books": [
+                  {
+                      "title": "Access is Capture: How Edtech Reproduces Racial Inequality",
+                      "cover_image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2f6e15da-b3fc-4413-888d-6501f6f3b28b/roderic-book-cover.png?content-type=image%2Fpng",
+                      "purchase_url": "https://bookshop.org/p/books/access-is-capture-how-edtech-reproduces-racial-inequality-roderic-n-crooks/21346902?ean=9780520393288&next=t",
+                      "label": "Learn More",
+                      "description": ""
+                  }
+              ]
+          },
+          "social": {
+              "personal": [
+                  {
+                      "type": "website",
+                      "url": "https://www.rncrooks.info",
+                      "display": "rncrooks.info"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-angela-smith",
+          "name": "Dr. Angela D. R. Smith",
+          "title": "ASSISTANT PROFESSOR, SCHOOL OF INFORMATION, UTX AUSTIN",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e6264e6e-93e8-4c04-bca8-9134ae2c302d/Dr.+Smith+Mini+Card+2025+1.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Angela Smith is an Assistant Professor at the [School of Information](https://www.ischool.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). Dr. Smith received her doctoral degree from Northwestern University in Technology & Social Behavior, a joint degree in Communications and Computer Science. Her research is in the field of Human-Computer Interaction, Computer-Supported Cooperative Work, and Information Sciences. Her current research explores how critical and intersectional theoretical lenses can inform an assets-based participatory design of technologies to support historically marginalized groups, such as individuals of color and individuals experiencing homelessness, in pursuing sustainable, emancipatory transformations and socially responsible technology experiences. Through qualitative, participatory design methods, Dr. Smith seeks to co-construct knowledge, conscientiazation, and design interventions with my populations."
+          ],
+          "social": {
+            "personal": [
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/angeladrobinsonsmith"},
+              {"type": "website", "url": "https://angeladrsmith.com", "display": "angeladrsmith.com"}
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-imene-ghernati",
+          "name": "Dr. Imène Ghernati",
+          "title": "FOUNDER OF THE STEAM LEARNING INSTITUTE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/282899bc-0c6a-4362-8144-e6e1a15a04d9/Dr.+Imene+Ghernati+Mini+Card+D4PG+2025+1.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Imène Ghernati (إيمان غرناطي) is the founder of the STEAM Learning Institute. She has over 30 years of education experience preparing students, teachers, and leaders for diverse classrooms. A former veterinarian and scientist, she has spent the past 15 years in urban education in the Bay Area. She is also the co-founder of the Summer Academy Program, a partnership between Gateway Schools and the University of San Francisco, where she directed the program for two years and started a Makerspace. Imène is from the Algerian Diaspora and has lived in the Bay area since 2008. She is the proud mother of two multicultural boys."
+          ],
+          "social": {
+            "personal": [
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/im%C3%A8ne-ghernati-phd-%D8%A5%D9%8A%D9%85%D8%A7%D9%86-%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-201ab84/"},
+              {"type": "instagram", "url": "https://www.instagram.com/ifghernati/"},
+              {"type": "website", "url": "https://www.steamlearninginstitute.com/", "display": "steamlearninginstitute.com"}
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-tanya-clark",
+          "name": "Dr. Tanya Clark",
+          "title": "ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/493110ca-3040-450d-8062-cc39a284a8c5/Tanya+Mini+Card+D4Pg+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
+            "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
+            "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
+          ],
+          "social": {
+            "personal": [
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/tanya-clark-863762248/"}
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-anita-chikkatur",
+          "name": "Dr. Anita Chikkatur",
+          "pronouns": "she/her/hers",
+          "title": "PROFESSOR IN THE DEPARTMENT OF EDUCATIONAL STUDIES, CARLETON COLLEGE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d3fe6b38-3351-4bb6-88a7-dc51a1655165/Anita+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+            "Professor in the Department of Educational Studies, Carleton College, Northfield, MN.Anita attended public middle and high schools in New York City and identifies deeply as a New Yorker. Her research and teaching interests include student and teacher perspectives on race, gender, and sexuality and issues of diversity and difference in educational institutions. Her research broadly focuses on how educational institutions can be supportive and resource-full environments for everyone (students, teachers, and staff) so that no one has to be individually resilient or exceptional. From 2018-2022, she was the co-principal investigator on an AmeriCorps-funded participatory action research (PAR) project in Faribault, Minnesota, collaborating with youth, parents, teachers, and administrators. You can find more information about the project [here](https://participatoryactionresearch.sites.carleton.edu/carleton-faribault-par-collaboration/)(also available in [Spanish](https://participatoryactionresearch.sites.carleton.edu/es/inicio/) and [Somali](https://participatoryactionresearch.sites.carleton.edu/so/home/) ). [That website](https://participatoryactionresearch.sites.carleton.edu/) also has general resources and information about PAR.",
+            "She is currently the principal investigator of a second AmeriCorps funded grant that builds on the networks developed from the first grant and focuses on Youth Participatory Action Research in five Minnesota school districts. More information about this grant can be found [here](https://participatoryactionresearch.sites.carleton.edu/2022-americorps-ypar-grant/). Anita is a member of the [Education for Liberation Network, Minnesota chapter](https://www.edliberation.org/chapters/edlibmn/) and of The Spoilers Collective, a group of academics of color, who produce [a podcast called “The Drip”](https://thedrippingspoilers.com/?page_id=65) where they discuss books by authors of color."
+          ],
+          "social": {
+            "personal": [
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/anita-chikkatur-b492514/"},
+              {"type": "website", "url": "https://thedrippingspoilers.com/?page_id=65", "display": "thedrippingspoilers.com"}
+            ]
+          },
+          "workshops": []
+      },
+      {
+        "id": "speaker-vyjayanthi-vadrevu",
+        "name": "Vyjayanthi Vadrevu",
+        "title": "FOUNDER OF INCLUYA, APPLIED ANTHROPOLOGIST",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/eb638328-a754-423b-a672-42bd938761f8/Vyjayanthi+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+        "bio": [
+            "Vyjayanthi Neha Vadrevu is the founder of Incluya, an emotionally intelligent AI coach leading people from financial anxiety to financial resilience. The company was born out of her years of anthropological research for Capital One and Charles Schwab, where her philosophy of looking at problems holistically and culturally led to deeply impactful solutions.",
+            "Her path as an anthropologist was inspired by her multicultural upbringing in Chicago, and [her training in Indian classical dance](https://vimeo.com/413808975?embedded=true&source=vimeo_logo&owner=1128734), which she has cultivated since her childhood, and performed at venues like the Kennedy Center and Symphony Space. She was an adjunct professor of Applied Anthropology and Autoethnography at the City University of New York."
+        ],
+        "social": {
+            "personal": [
+                {
+                    "type": "linkedin",
+                    "url": "https://www.linkedin.com/in/vyjayanthi-vadrevu/"
                 }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-roderic-crooks",
-            "name": "Dr. Roderic N. Crooks (he/him/his)",
-            "title": "ASSISTANT PROFESSOR, DEPARTMENT OF INFORMATICS, UC IRVINE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
             ],
-            "promotional": {
-                "books": [
-                    {
-                        "title": "Access is Capture: How Edtech Reproduces Racial Inequality",
-                        "cover_image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2f6e15da-b3fc-4413-888d-6501f6f3b28b/roderic-book-cover.png?content-type=image%2Fpng",
-                        "purchase_url": "https://bookshop.org/p/books/access-is-capture-how-edtech-reproduces-racial-inequality-roderic-n-crooks/21346902?ean=9780520393288&next=t",
-                        "label": "Learn More",
-                        "description": ""
-                    }
-                ]
-            },
-            "social": {
-                "personal": [
+            "organizations": [
+              {
+                "name": "Incluya",
+                "links": [
                     {
                         "type": "website",
-                        "url": "https://www.rncrooks.info",
-                        "display": "rncrooks.info"
+                        "url": "https://www.incluya.com/",
+                        "display": "incluya.com"
                     }
                 ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-angela-smith",
-            "name": "Dr. Angela D. R. Smith",
-            "title": "ASSISTANT PROFESSOR, SCHOOL OF INFORMATION, UTX AUSTIN",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e6264e6e-93e8-4c04-bca8-9134ae2c302d/Dr.+Smith+Mini+Card+2025+1.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Angela Smith is an Assistant Professor at the [School of Information](https://www.ischool.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). Dr. Smith received her doctoral degree from Northwestern University in Technology & Social Behavior, a joint degree in Communications and Computer Science. Her research is in the field of Human-Computer Interaction, Computer-Supported Cooperative Work, and Information Sciences. Her current research explores how critical and intersectional theoretical lenses can inform an assets-based participatory design of technologies to support historically marginalized groups, such as individuals of color and individuals experiencing homelessness, in pursuing sustainable, emancipatory transformations and socially responsible technology experiences. Through qualitative, participatory design methods, Dr. Smith seeks to co-construct knowledge, conscientiazation, and design interventions with my populations."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/angeladrobinsonsmith"
-                    },
+              },
+              {
+                "name": "Rasa",
+                "links": [
                     {
                         "type": "website",
-                        "url": "https://angeladrsmith.com",
-                        "display": "angeladrsmith.com"
+                        "url": "https://www.rasa.nyc/about",
+                        "display": "rasa.nyc"
                     }
                 ]
-            },
-            "workshops": []
+              }
+          ]
         },
-        {
-            "id": "speaker-imene-ghernati",
-            "name": "Dr. Imène Ghernati",
-            "title": "FOUNDER OF THE STEAM LEARNING INSTITUTE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/282899bc-0c6a-4362-8144-e6e1a15a04d9/Dr.+Imene+Ghernati+Mini+Card+D4PG+2025+1.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Imène Ghernati (إيمان غرناطي) is the founder of the STEAM Learning Institute. She has over 30 years of education experience preparing students, teachers, and leaders for diverse classrooms. A former veterinarian and scientist, she has spent the past 15 years in urban education in the Bay Area. She is also the co-founder of the Summer Academy Program, a partnership between Gateway Schools and the University of San Francisco, where she directed the program for two years and started a Makerspace. Imène is from the Algerian Diaspora and has lived in the Bay area since 2008. She is the proud mother of two multicultural boys."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/im%C3%A8ne-ghernati-phd-%D8%A5%D9%8A%D9%85%D8%A7%D9%86-%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-201ab84/"
-                    },
-                    {
-                        "type": "instagram",
-                        "url": "https://www.instagram.com/ifghernati/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.steamlearninginstitute.com/",
-                        "display": "steamlearninginstitute.com"
-                    }
-                ]
-            },
-            "workshops": []
+        "workshops": []
+      },
+      {
+        "id": "speaker-kill-joy",
+        "name": "Kill Joy",
+        "title": "STREET ARTIST & PUPPETEER, KITCHEN TABLE PUPPET & PRESS GROUP",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ff5e2dd0-6ba5-41d1-8ca5-acd49f7f6f49/Kill+Joy+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+        "bio": [
+          "Kill Joy’s work is grounded in honoring the earth and seeking environmental and social justice through both radically imaginative worlds and supporting frontline social movements. Her work is an interpretation of world mythology and a study of nature’s cycles. She integrates storytelling and ancient symbolism with calls to spiritual and political awareness and action. Kill joy is an artist-in-residence at the American Civil Liberties Union of Texas, ACLU TX, and a fellow and artist-in-residence at No Data About Us Without Us. Killy joy works as a street artist and as a puppeteer at Kitchen Table Puppets and Press Group."
+        ],
+        "social": {
+          "personal": [
+            {"type": "instagram", "url": "https://www.instagram.com/kill.joy.land/?hl=en"},
+            {"type": "website", "url": "https://joyland.space/", "display": "joyland.space"}
+          ],
+          "organization": {
+            "name": "Kitchen Table Puppets and Press Group",
+            "links": [
+              {"type": "instagram", "url": "https://www.instagram.com/kitchentable.puppetspress/?hl=en"}
+            ]
+          }
         },
-        {
-            "id": "speaker-tanya-clark",
-            "name": "Dr. Tanya Clark",
-            "title": "ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/493110ca-3040-450d-8062-cc39a284a8c5/Tanya+Mini+Card+D4Pg+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
-                "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
-                "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/tanya-clark-863762248/"
-                    }
-                ]
-            },
-            "workshops": []
+        "workshops": []
+      },
+      {
+        "id": "speaker-marta-shore",
+        "name": "Marta Shore",
+        "title": "LECTURER, BIOSTATISTICS & HEALTH DATA SCIENCE, U OF M",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2aa6d604-5a9e-4a66-8d5b-bed369bd5db6/Marta+Shore+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+        "bio": [
+          "Marta Shore teaches biostatistics and biostatistical literacy at the University of Minnesota's School of Public Health.  She is the co-founder and co-chair of the Biostatistics and Health Data Science Community Outreach and Engagement Committee (BCOE), which works with public school science teachers to integrate statistics and data science into their curriculum.  She also teaches crop art and coordinates crop art exhibitions. "
+        ],
+        "social": {
+          "personal": [
+            {"type": "linkedin", "url": "https://www.linkedin.com/in/marta-shore-45600531/"}
+          ],
+          "organization": {
+            "name": "Biostat Community Outreach and Engagement Committee (BCOE)",
+            "links": [
+              {"type": "website", "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/outreach-and-engagement/", "display": "BCOE Committee"}
+            ]
+          }
         },
-        {
-            "id": "speaker-anita-chikkatur",
-            "name": "Dr. Anita Chikkatur (she/her/hers)",
-            "title": "PROFESSOR IN THE DEPARTMENT OF EDUCATIONAL STUDIES, CARLETON COLLEGE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d3fe6b38-3351-4bb6-88a7-dc51a1655165/Anita+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Professor in the Department of Educational Studies, Carleton College, Northfield, MN.Anita attended public middle and high schools in New York City and identifies deeply as a New Yorker. Her research and teaching interests include student and teacher perspectives on race, gender, and sexuality and issues of diversity and difference in educational institutions. Her research broadly focuses on how educational institutions can be supportive and resource-full environments for everyone (students, teachers, and staff) so that no one has to be individually resilient or exceptional. From 2018-2022, she was the co-principal investigator on an AmeriCorps-funded participatory action research (PAR) project in Faribault, Minnesota, collaborating with youth, parents, teachers, and administrators. You can find more information about the project [here](https://participatoryactionresearch.sites.carleton.edu/carleton-faribault-par-collaboration/)(also available in [Spanish](https://participatoryactionresearch.sites.carleton.edu/es/inicio/) and [Somali](https://participatoryactionresearch.sites.carleton.edu/so/home/) ). [That website](https://participatoryactionresearch.sites.carleton.edu/) also has general resources and information about PAR.",
-                "She is currently the principal investigator of a second AmeriCorps funded grant that builds on the networks developed from the first grant and focuses on Youth Participatory Action Research in five Minnesota school districts. More information about this grant can be found [here](https://participatoryactionresearch.sites.carleton.edu/2022-americorps-ypar-grant/). Anita is a member of the [Education for Liberation Network, Minnesota chapter](https://www.edliberation.org/chapters/edlibmn/) and of The Spoilers Collective, a group of academics of color, who produce [a podcast called “The Drip”](https://thedrippingspoilers.com/?page_id=65) where they discuss books by authors of color."
+        "workshops": []
+      },
+      {
+          "id": "speaker-marika-pfefferkorn",
+          "name": "Marika Pfefferkorn",
+          "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44f8a303-77c6-44f4-a5d7-07075d993c89/Marika+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+            "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
+          ],
+          "social": {
+            "personal": [
+              {"type": "twitter", "url": "https://twitter.com/Maptruenorth"},
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"}
             ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/anita-chikkatur-b492514/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://thedrippingspoilers.com/?page_id=65",
-                        "display": "thedrippingspoilers.com"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-vyjayanthi-vadrevu",
-            "name": "Vyjayanthi Vadrevu",
-            "title": "FOUNDER OF INCLUYA, APPLIED ANTHROPOLOGIST",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/eb638328-a754-423b-a672-42bd938761f8/Vyjayanthi+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Vyjayanthi Neha Vadrevu is the founder of Incluya, an emotionally intelligent AI coach leading people from financial anxiety to financial resilience. The company was born out of her years of anthropological research for Capital One and Charles Schwab, where her philosophy of looking at problems holistically and culturally led to deeply impactful solutions.",
-                "Her path as an anthropologist was inspired by her multicultural upbringing in Chicago, and [her training in Indian classical dance](https://vimeo.com/413808975?embedded=true&source=vimeo_logo&owner=1128734), which she has cultivated since her childhood, and performed at venues like the Kennedy Center and Symphony Space. She was an adjunct professor of Applied Anthropology and Autoethnography at the City University of New York."
+            "organization": {
+              "name": "Twin Cities Innovation Alliance",
+              "links": [
+                {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
+                {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
+              ]
+            }
+          },
+          "workshops": [
+            
+          ]
+      },
+      {
+          "id": "speaker-aasim-shabazz",
+          "name": "Aasim Shabazz",
+          "title": "TCIA CO-FOUNDER, PRESIDENT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4dca1ea8-d439-4755-9808-60aff19f33d6/Aasim+Shabazz+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
+          ],
+          "social": {
+            "personal": [
+              {"type": "linkedin", "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"}
             ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/vyjayanthi-vadrevu/"
-                    }
-                ],
-                "organizations": [
-                    {
-                        "name": "Incluya",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.incluya.com/",
-                                "display": "incluya.com"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Rasa",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.rasa.nyc/about",
-                                "display": "rasa.nyc"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-kill-joy",
-            "name": "Kill Joy",
-            "title": "STREET ARTIST & PUPPETEER, KITCHEN TABLE PUPPET & PRESS GROUP",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ff5e2dd0-6ba5-41d1-8ca5-acd49f7f6f49/Kill+Joy+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Kill Joy’s work is grounded in honoring the earth and seeking environmental and social justice through both radically imaginative worlds and supporting frontline social movements. Her work is an interpretation of world mythology and a study of nature’s cycles. She integrates storytelling and ancient symbolism with calls to spiritual and political awareness and action. Kill joy is an artist-in-residence at the American Civil Liberties Union of Texas, ACLU TX, and a fellow and artist-in-residence at No Data About Us Without Us. Killy joy works as a street artist and as a puppeteer at Kitchen Table Puppets and Press Group."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "instagram",
-                        "url": "https://www.instagram.com/kill.joy.land/?hl=en"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://joyland.space/",
-                        "display": "joyland.space"
-                    }
-                ],
-                "organization": {
-                    "name": "Kitchen Table Puppets and Press Group",
-                    "links": [
-                        {
-                            "type": "instagram",
-                            "url": "https://www.instagram.com/kitchentable.puppetspress/?hl=en"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-marta-shore",
-            "name": "Marta Shore",
-            "title": "LECTURER, BIOSTATISTICS & HEALTH DATA SCIENCE, U OF M",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2aa6d604-5a9e-4a66-8d5b-bed369bd5db6/Marta+Shore+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Marta Shore teaches biostatistics and biostatistical literacy at the University of Minnesota's School of Public Health.  She is the co-founder and co-chair of the Biostatistics and Health Data Science Community Outreach and Engagement Committee (BCOE), which works with public school science teachers to integrate statistics and data science into their curriculum.  She also teaches crop art and coordinates crop art exhibitions. "
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/marta-shore-45600531/"
-                    }
-                ],
-                "organization": {
-                    "name": "Biostat Community Outreach and Engagement Committee (BCOE)",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/outreach-and-engagement/",
-                            "display": "BCOE Committee"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-marika-pfefferkorn",
-            "name": "Marika Pfefferkorn",
-            "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44f8a303-77c6-44f4-a5d7-07075d993c89/Marika+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "twitter",
-                        "url": "https://twitter.com/Maptruenorth"
-                    },
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"
-                    }
-                ],
-                "organization": {
-                    "name": "Twin Cities Innovation Alliance",
-                    "links": [
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/TCIAMN"
-                        },
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-aasim-shabazz",
-            "name": "Aasim Shabazz",
-            "title": "TCIA CO-FOUNDER, PRESIDENT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4dca1ea8-d439-4755-9808-60aff19f33d6/Aasim+Shabazz+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"
-                    }
-                ],
-                "organization": {
-                    "name": "Twin Cities Innovation Alliance",
-                    "links": [
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/TCIAMN"
-                        },
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        }
-    ]
+            "organization": {
+              "name": "Twin Cities Innovation Alliance",
+              "links": [
+                {"type": "twitter", "url": "https://twitter.com/TCIAMN"},
+                {"type": "linkedin", "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"}
+              ]
+            }
+          },
+          "workshops": []
+      }
+  ]
 }
