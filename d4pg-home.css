@@ -3935,6 +3935,12 @@ h2 {
     }
 }
 
+/* Speaker carousel container */
+.speaker-carousel-container {
+    position: relative;
+    overflow: visible;
+}
+
 /* Icon-only social links styling */
 .speaker-section {
     position: relative;
