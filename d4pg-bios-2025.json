@@ -234,6 +234,84 @@
         "workshops": []
       },
       {
+        "id": "speaker-mark-keierleber",
+        "name": "Mark Keierleber",
+        "title": "INVESTIGATIVE REPORTER, THE 74",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/777c88b0-ca1b-4124-9824-0be8b4d9f4f2/Mark+Keierleber+Mini+Card+2025.png?content-type=image%2Fpng",
+        "bio": [
+          "Mark is an investigative reporter at The 74. He specializes in covering school safety, school surveillance, and student civil rights. He is the author of the bi-weekly School (in)Security newsletter. His D4PG workshop on school safety and panel \"The State of Youth Surveillance\" explores how youth surveillance is on the rise in ways that are difficult to track or understand. Through this panel of educators, organizers, journalists, and researchers understand the state of EdTech. What we need to know, what we can expect, and what we can do about it. We invite you to join the conversation!",
+          "Check out Mark's [article on ShotSpotter](https://www.the74million.org/article/minneapolis-schools-secretly-partnered-with-shotspotter-surveillance-company-cyber-attack-reveals/) covering how Minneapolis schools secretly partnered with the surveillance company."
+        ],
+        "social": {
+          "personal": [
+            {"type": "linkedin", "url": "https://www.linkedin.com/in/mkeierleber/"},
+            {"type": "bluesky", "url": "https://bsky.app/profile/markkeierleber.bsky.social"}
+          ],
+          "organization": {
+            "name": "The 74",
+            "links": [
+              {"type": "website", "url": "https://www.the74million.org/", "display": "the74million.org"}
+            ]
+          }
+        },
+        "workshops": []
+      },
+      {
+        "id": "speaker-shreya-sampath",
+        "name": "Shreya Sampath",
+        "title": "RISING JUNIOR, THE GEORGE WASHINGTON UNIVERSITY",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/be52bab1-5d7c-43aa-9ad6-e24d78dc7576/Shreya+Sampath+Mini+Card+2025.png?content-type=image%2Fpng",
+        "bio": [
+          "Shreya Sampath is a rising junior at The George Washington University studying economics, international affairs, and technology policy. She is interested in exploring the impact of AI on civil rights, privacy, and trade, both in the U.S. and globally. With experience in government and youth advocacy, Shreya seeks to develop inclusive policies and empower youth to participate in policy making. She previously served on the executive board at Encode, and interned at the New Jersey Attorney General's Office, ACLU, and the U.S. Senate.",
+          "Beyond her professional career, Shreya is dedicated to community service, particularly in promoting diversity and cultural engagement. In her free time, she loves visiting art museums, sampling different coffee blends, and enjoying live music. Her D4PG workshop \"Youth Advocacy in Technology Policy\" is one you will want to engage with."
+        ],
+        "social": {
+          "personal": [
+            {"type": "linkedin", "url": "https://www.linkedin.com/in/shreya-sampath/"},
+            {"type": "podcast", "url": "https://creativitysquared.com/podcast/ep62-data-justice-a-i-reimagining-our-future-part-3/", "display": "Creatively Squared Podcast"}
+          ]
+        },
+        "workshops": []
+      },
+      {
+        "id": "speaker-alicia-ranney",
+        "name": "Alicia Ranney",
+        "pronouns": "she/her",
+        "title": "SENIOR MANAGEMENT CONSULTANT, MANAGEMENT ANALYSIS AND DEVELOPMENT, STATE OF MINNESOTA",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/194dd791-e473-43af-822f-055e3bc90c3b/Alicia+Ranney+Mini+Card+2025.jpeg?content-type=image%2Fjpeg",
+        "bio": [
+          "Alicia Ranney (she/her) is the Senior Management Consultant at Management Analysis and Development for the State of Minnesota Management and Budget Department. She has over a decade of experience supporting nonprofit social service providers in strategic data decision-making, database development, and uplifting data justice in all aspects of evaluation. She spends her off work time enjoying her family, and wishing for a deeper relationship with her two cats (but who is she kidding)."
+        ],
+        "social": {
+          "personal": [
+            {"type": "linkedin", "url": "https://www.linkedin.com/in/alicia-ranney-3516709/"}
+          ]
+        },
+        "workshops": []
+      },
+      {
+        "id": "speaker-adam-cowing",
+        "name": "Adam Cowing",
+        "title": "SENIOR CLIENT DATA CONSULTANT, MACC",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/855f278a-ad46-44b1-b7e8-7caf5628da6e/Adam+Cowing+Mini+Card+2025.PNG?content-type=image%2Fpng",
+        "bio": [
+          "Adam Cowing is Senior Client Data Consultant at MACC. He has a Masters in Public Policy from the Humphrey School of Public Affairs with a concentration in nonprofit leadership and management. He has skills and experience in data analysis, information systems management, program administration, policy implementation, program evaluation, and strong written and verbal communication."
+        ],
+        "social": {
+          "personal": [
+            {"type": "linkedin", "url": "https://www.linkedin.com/in/adamcowing/"}
+          ],
+          "organization": {
+            "name": "MACC",
+            "links": [
+              {"type": "website", "url": "https://www.macc-mn.org/AboutUs/Leadership.aspx", "display": "macc-mn.org"}
+            ]
+          }
+        },
+        "workshops": []
+      },
+      
+      {
           "id": "speaker-marika-pfefferkorn",
           "name": "Marika Pfefferkorn",
           "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
