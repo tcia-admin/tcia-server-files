@@ -3073,6 +3073,7 @@ h2 {
 .speaker-modal-name {
     font-size: var(--font-size-2xl);
     color: var(--d4pg-white);
+    margin-bottom: var(--spacing-sm);
     font-family: var(--font-accent);
     font-weight: bold;
 }
@@ -4051,8 +4052,8 @@ h2 {
 /* Additional styling for pronouns in speaker modals */
 .speaker-pronouns {
     font-family: var(--font-accent);
-    font-size: var(--font-size-med);
-    font-weight: 500;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
     color: var(--d4pg-light-blue);
     text-transform: none;
     letter-spacing: normal;
