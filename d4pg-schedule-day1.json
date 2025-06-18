@@ -45,35 +45,132 @@
       ]
     },
     {
-      "id": "day1-lunch",
-      "type": "break",
-      "startTime": "12:30",
-      "endTime": "14:00",
-      "title": "Lunch Break",
-      "location": "dining-hall",
-      "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
-    },
-    {
-      "id": "day1-workshop1",
+      "id": "new-1750268140711",
+      "title": "Understanding Data Rights and Tactics for Data Defense",
+      "startTime": "13:30",
+      "endTime": "15:00",
       "type": "workshop",
-      "startTime": "14:00",
-      "endTime": "15:30",
-      "title": "Workshop: Data Privacy Tools for Community Advocates",
-      "location": "workshop-a",
-      "description": "This interactive workshop will introduce practical tools and strategies for community advocates to protect personal and collective data. Participants will learn how to conduct community data audits and create privacy protection plans.",
+      "location": "TBD",
+      "description": "",
       "people": {
         "speakers": [
           {
-            "name": "Anita Chikkatur",
-            "title": "Facilitator",
+            "name": "Katya Abazajian",
+            "title": null,
             "image": null
           }
         ]
-      },
-      "tags": [
-        "Hands-on",
-        "Data Privacy"
-      ]
+      }
+    },
+    {
+      "id": "new-1750268251091",
+      "title": "Collaboratively Creating Flexible Data Science Learning Tools",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Marta Shore",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Anne Hackman",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750268321387",
+      "title": "Afrofuturism Writing Workshop - Title TBD",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Tanya Clark",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750268380158",
+      "title": "Part 1- Beyond Belonging: Cultivating Thriving Spaces in STEAM",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Imène Ghernati",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750268457279",
+      "title": "From Data Transcript to Narrative Tools: A Workshop on Using Participant-Centered Data in Transformative Ways.",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Madasen Briggs",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Khadijah Zahid",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Angie Mejia",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750268502811",
+      "title": "Circularity And Education",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Anita Chikkatur (she/her/hers)",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
