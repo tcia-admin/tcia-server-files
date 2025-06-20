@@ -4,126 +4,131 @@
   "events": [
     {
       "id": "day3-breakfast",
-      "type": "break",
-      "startTime": "8:30",
-      "endTime": "9:30",
-      "title": "Breakfast",
-      "location": "dining-hall",
+      "title": "Continental Breakfast & Welcome",
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "type": "keynote",
+      "location": "TBD",
       "description": "Start your final day with breakfast and conversations with fellow attendees."
     },
     {
-      "id": "day3-keynote",
-      "type": "keynote",
-      "startTime": "9:30",
+      "id": "new-1750448139133",
+      "title": "Plenary Discussion - Digital Resilience & Digital Futures",
+      "startTime": "09:30",
       "endTime": "10:30",
-      "title": "Keynote: Reimagining Our Digital Future",
-      "location": "main-auditorium",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "people": {
-        "speakers": [
-          {
-            "name": "Dr. Angela D. R. Smith",
-            "title": null,
-            "image": null
-          }
-        ]
-      },
-      "tags": ["Future Visioning", "Digital Liberation"]
-    },
-    {
-      "id": "day3-break1",
-      "type": "break",
-      "startTime": "10:30",
-      "endTime": "11:00",
-      "title": "Morning Break",
-      "location": "main-hall",
-      "description": "Refresh with coffee, tea, and light snacks while networking with other attendees."
-    },
-    {
-      "id": "day3-actionlabs",
-      "type": "workshop",
-      "startTime": "11:00",
-      "endTime": "12:30",
-      "title": "Action Labs: From Ideas to Implementation",
-      "location": "various-rooms",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "tags": ["Collaborative", "Action Planning"]
-    },
-    {
-      "id": "day3-lunch",
-      "type": "break",
-      "startTime": "12:30",
-      "endTime": "14:00",
-      "title": "Lunch Break",
-      "location": "dining-hall",
-      "description": "Enjoy your final lunch at D4PG 2025, sharing takeaways and continuing conversations."
-    },
-    {
-      "id": "day3-panel",
       "type": "panel",
-      "startTime": "14:00",
-      "endTime": "15:30",
-      "title": "Panel: Building Sustainable Digital Movements",
-      "location": "main-auditorium",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "people": {
-        "moderator": {
-          "name": "Anita Chikkatur",
-          "title": null,
-          "image": null
-        },
-        "panelists": [
-          {
-            "name": "Dr. Imène Ghernati",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Dr. Tanya Clark",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Marika Pfefferkorn",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Dr. Cierra Kaler-Jones",
-            "title": null,
-            "image": null
-          }
-        ]
-      },
-      "tags": ["Sustainability", "Digital Movements"]
-    },
-    {
-      "id": "day3-closing",
-      "type": "keynote",
-      "startTime": "15:45",
-      "endTime": "17:00",
-      "title": "Closing Session: Collective Visioning",
-      "location": "main-auditorium",
-      "description": "Join us for an interactive closing session where we'll collectively synthesize key insights from the conference and co-create visions for the future of D4PG's work. We'll also share opportunities for continued engagement throughout the year.",
+      "location": "TBD",
+      "description": "",
       "people": {
         "speakers": [
+          {
+            "name": "Sharon Kennedy Vickers",
+            "title": null,
+            "image": null
+          },
           {
             "name": "Aasim Shabazz",
-            "title": "Facilitator",
+            "title": null,
             "image": null
           }
         ]
       }
     },
     {
-      "id": "day3-farewell",
-      "type": "social",
-      "startTime": "17:00",
-      "endTime": "18:30",
-      "title": "Farewell Reception",
-      "location": "campus-garden",
-      "description": "Conclude your D4PG experience with a farewell reception. Exchange contact information with new connections, reflect on the experience, and enjoy light refreshments before departure.",
-      "tags": ["Networking", "Celebration"]
+      "id": "new-1750448261285",
+      "title": "Plenary Panel - Digital Sovereignty and Digital Justice",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "panel",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Jill Greender",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Alicia Ranney",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Adam Cowing",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750448306146",
+      "title": "Lunch & Table Discussions",
+      "startTime": "12:00",
+      "endTime": "12:45",
+      "type": "break",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750448357821",
+      "title": "Data Justice for Human Services",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Alicia Ranney",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Adam Cowing",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750448502037",
+      "title": "Understand Your Money Story with Incluva",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Vyjayanthi Vadrevu",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750448554801",
+      "title": "Faster, Smarter, Lonelier",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Jayden Thunberg",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
