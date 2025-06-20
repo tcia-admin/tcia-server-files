@@ -189,6 +189,156 @@
           }
         ]
       }
+    },
+    {
+      "id": "new-1750446565739",
+      "title": "Part 2- Beyond Belonging: Cultivating Thriving Spaces In Steam",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Imène Ghernati",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750446634034",
+      "title": "Storytelling for Justice: Data, AI, & Narrative Power-Building",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Cierra Kaler-Jones",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750446725062",
+      "title": "Promoting Historical Literacy through Critical Data Science",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Cassie Scharber",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750446966384",
+      "title": "Investigating AI Abuses: Criminalization, Surveillance, and Privatization",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Chelsea Barabas",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Ed Vogel",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Clarence Okoh",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750447075298",
+      "title": "AI workshop & Discussion - Final Title TBD",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Ishmael Israel",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750447195025",
+      "title": "Democratizing Energy Action: Leveraging Access, Collaboration, and Gamification ",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Andrew Butts",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750447497264",
+      "title": "Plenary Panel - NOTICE Fellows",
+      "startTime": "14:45",
+      "endTime": "15:45",
+      "type": "panel",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750447538550",
+      "title": "Puppet Performance - Title TBD",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "type": "social",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Kill Joy",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
