@@ -3,46 +3,31 @@
   "date": "July 16",
   "events": [
     {
-      "id": "day1-panel1",
-      "type": "panel",
-      "startTime": "11:00",
-      "endTime": "12:30",
-      "title": "Panel: Community-Based Approaches to Tech & Democracy",
-      "location": "main-auditorium",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "people": {
-        "moderator": {
-          "name": "Dr. Roderic N. Crooks",
-          "title": null,
-          "image": null
-        },
-        "panelists": [
-          {
-            "name": "Marika Pfefferkorn",
-            "title": null,
-            "image": "https://picsum.photos/200/200?random=2"
-          },
-          {
-            "name": "Dr. Angela D. R. Smith",
-            "title": null,
-            "image": "https://picsum.photos/200/200?random=3"
-          },
-          {
-            "name": "Dr. Tanya Clark",
-            "title": null,
-            "image": null
-          },
-          {
-            "name": "Dr. Imène Ghernati",
-            "title": null,
-            "image": null
-          }
-        ]
-      },
-      "tags": [
-        "Community Tech",
-        "Digital Democracy"
-      ]
+      "id": "new-1750442048273",
+      "title": "Breakfast & Opening Remarks",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "type": "keynote",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750442381253",
+      "title": "Warm Data Lab",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750442546880",
+      "title": "Lunch",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "type": "break",
+      "location": "TBD",
+      "description": ""
     },
     {
       "id": "new-1750268140711",
@@ -151,7 +136,7 @@
     },
     {
       "id": "new-1750268502811",
-      "title": "Circularity And Education",
+      "title": "Carcerality And Education",
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
@@ -166,6 +151,42 @@
           },
           {
             "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750442708531",
+      "title": "Conversation & Performance",
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "type": "social",
+      "location": "TBD",
+      "description": "Vyjayanthi Vadrevu in conversation with Aasim Shabazz",
+      "people": {
+        "speakers": [
+          {
+            "name": "Vyjayanthi Vadrevu",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750442869955",
+      "title": "\"Access as Surveillance: Edtech and Perpetually At-Risk Youth\"",
+      "startTime": "16:15",
+      "endTime": "17:00",
+      "type": "keynote",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Roderic N. Crooks",
             "title": null,
             "image": null
           }
