@@ -3,6 +3,53 @@
   "date": "July 17",
   "events": [
     {
+      "id": "new-1750444766716",
+      "title": "Continental Breakfast & Welcome",
+      "startTime": "08:30",
+      "endTime": "09:30",
+      "type": "keynote",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750444908365",
+      "title": "Plenary Panel - State of Surveillance",
+      "startTime": "09:30",
+      "endTime": "10:30",
+      "type": "panel",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Mark Keierleber",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Roderic N. Crooks",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Jeremy Eugene",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Shreya Sampath",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Katya Abazajian",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
       "id": "day2-lunch",
       "type": "break",
       "startTime": "12:30",
