@@ -50,13 +50,145 @@
       }
     },
     {
-      "id": "day2-lunch",
-      "type": "break",
-      "startTime": "12:30",
-      "endTime": "14:00",
-      "title": "Lunch Break",
-      "location": "dining-hall",
-      "description": "Enjoy a catered lunch and network with peers, speakers, and facilitators."
+      "id": "new-1750445130915",
+      "title": "The Power of the Narrative",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Candice Merriman",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750445239350",
+      "title": "Matthew Schutte Workshop - Final Title TBD",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Matthew Schutte",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750445297636",
+      "title": "Unlearning Surveillance: Power, Protection, and the Spyware We Carry",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Elina Castillo",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750445749129",
+      "title": "Using Data to Expose Youth Surveillance Harms ",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Mark Keierleber",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750445814460",
+      "title": "Spotlight on EdTech: Workshopping Abolitionist & Reformist Framework",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Chelsea Barabas",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Ed Vogel",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750446165148",
+      "title": "Spotlight on EdTech:  Auditing Vape Detection Technology in MN",
+      "startTime": "10:45",
+      "endTime": "11:45",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Clarence Okoh",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Todd Whitney",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750446262894",
+      "title": "Lunch & Keynote - Imagine That: Rehearsing Futures of Equity and Joy ",
+      "startTime": "12:00",
+      "endTime": "12:45",
+      "type": "keynote",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Angela D. R. Smith",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     }
   ]
 }
