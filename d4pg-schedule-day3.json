@@ -129,6 +129,24 @@
           }
         ]
       }
+    },
+    {
+      "id": "new-1750450750837",
+      "title": "Youth Summit Share Out",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "type": "social",
+      "location": "TBD",
+      "description": ""
+    },
+    {
+      "id": "new-1750450804057",
+      "title": "Closing Remarks & Call To Action",
+      "startTime": "15:30",
+      "endTime": "16:15",
+      "type": "keynote",
+      "location": "TBD",
+      "description": ""
     }
   ]
 }
