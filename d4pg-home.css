@@ -3647,7 +3647,7 @@ h2 {
 /* Main Workshop Showcase Layout */
 .workshops-showcase {
     margin-top: var(--spacing-3xl);
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
