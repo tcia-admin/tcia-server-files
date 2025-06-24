@@ -3692,25 +3692,7 @@ h2 {
     box-shadow: 0 12px 30px rgba(255, 127, 109, 0.4);
 }
 
-.day-tab.active::before {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: -3px;
-    right: -3px;
-    bottom: -3px;
-    background: linear-gradient(45deg, var(--d4pg-yellow), var(--d4pg-coral), var(--d4pg-blue), var(--d4pg-green));
-    border-radius: 18px;
-    z-index: -1;
-    opacity: 0.6;
-    animation: rotate-border 3s linear infinite;
-    pointer-events: none;
-}
 
-@keyframes rotate-border {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
 
 .day-tab-label {
     font-family: var(--font-accent);
