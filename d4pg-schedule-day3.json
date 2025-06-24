@@ -131,6 +131,42 @@
       }
     },
     {
+      "id": "new-1750780285148",
+      "title": "Zine Making Workshop",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Sophie Wang",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1750780096336",
+      "title": "Art As Information: New Methods of Creating Data Visualizations",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "TBD",
+      "description": "In this workshop, participants will explore new methods of creating data visualizations.  Using techniques developed by the Science Discovery unit at the University of Colorado (https://www.colorado.edu/sciencediscovery/), participants will learn the basics of beading and crop art by visualizing their own data (either bringing numerical data or a visualization) or using provided data. Participants will be provided with all the materials needed to bring their visualizations to life.",
+      "people": {
+        "speakers": [
+          {
+            "name": "Marta Shore",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
       "id": "new-1750450750837",
       "title": "Youth Summit Share Out",
       "startTime": "15:00",
