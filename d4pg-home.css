@@ -3675,6 +3675,8 @@ h2 {
     position: relative;
     backdrop-filter: blur(10px);
     min-width: 120px;
+    z-index: 10;
+    user-select: none;
 }
 
 .day-tab:hover {
