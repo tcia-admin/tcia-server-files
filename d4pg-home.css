@@ -3852,6 +3852,8 @@ h2 {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     box-shadow: 0 8px 25px rgba(255, 127, 109, 0.3);
+    position: relative;
+    z-index: 5;
 }
 
 .workshop-main-cta:hover {
