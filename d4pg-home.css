@@ -4386,9 +4386,11 @@ h2 {
 }
 
 .donation-benefits li::before {
-    content: '💝';
+    content: '◇';
     margin-right: var(--spacing-md);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
+    color: var(--d4pg-coral);
+    font-weight: bold;
 }
 
 .donation-form-container {
