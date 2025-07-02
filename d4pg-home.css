@@ -2182,39 +2182,13 @@ h2 {
 }
 
 /* Schedule button in nav */
-.nav-schedule-btn {
-    background: linear-gradient(135deg, var(--d4pg-coral) 0%, #ff6a54 100%);
-    color: white;
-    border: none;
-    padding: var(--spacing-sm) var(--spacing-lg);
-    border-radius: 25px;
-    font-family: var(--font-accent);
-    font-size: var(--font-size-med);
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm);
-    box-shadow: 0 4px 15px rgba(255, 127, 109, 0.3);
-}
 
-.nav-schedule-btn:hover {
-    background: linear-gradient(135deg, var(--d4pg-yellow) 0%, #f0d843 100%);
-    color: var(--d4pg-navy);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(243, 224, 75, 0.4);
-}
 
-.nav-schedule-btn .btn-icon {
-    font-size: var(--font-size-lg);
-    animation: pulse 2s infinite;
-}
 
-@keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-}
+
+
+
+
 
 /* Mobile adjustments for sidebar */
 @media screen and (max-width: 480px) {
@@ -2720,10 +2694,10 @@ h2 {
     width: 200%;
     height: 200%;
     background: linear-gradient(45deg, transparent 40%, rgba(255, 255, 255, 0.05) 50%, transparent 60%);
-    animation: shimmer 4s infinite;
+    animation: cta-shimmer 4s infinite;
 }
 
-@keyframes shimmer {
+@keyframes cta-shimmer {
     0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
     100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
 }
@@ -2995,9 +2969,7 @@ h2 {
     }
 }
 
-.community-join-btn:hover .btn-icon {
-    transform: translateX(5px);
-}
+
 
 .community-join-btn-disabled {
     display: inline-flex;
@@ -3030,22 +3002,7 @@ h2 {
 }
 
 /* Mobile Navigation Toggle */
-.nav-toggle {
-    display: none;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    color: var(--d4pg-white);
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: var(--spacing-sm);
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    min-width: 44px;
-    min-height: 44px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .nav-toggle:hover {
     background: rgba(255, 127, 109, 0.2);
@@ -3058,9 +3015,7 @@ h2 {
     font-weight: bold;
 }
 
-.nav-links.mobile-open {
-    display: flex !important;
-}
+
 
 /* Speaker Modal Styles */
 .speaker-modal {
@@ -3626,22 +3581,7 @@ h2 {
 }
 
 /* Mobile Navigation Toggle */
-.nav-toggle {
-    display: none;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    color: var(--d4pg-white);
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: var(--spacing-sm);
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    min-width: 44px;
-    min-height: 44px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .nav-toggle:hover {
     background: rgba(255, 127, 109, 0.2);
@@ -3654,9 +3594,7 @@ h2 {
     font-weight: bold;
 }
 
-.nav-links.mobile-open {
-    display: flex !important;
-}
+
 
 
 /* Replace existing workshops CSS with this */
@@ -4591,10 +4529,10 @@ h2 {
     height: 200%;
     background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
     transform: rotate(45deg);
-    animation: shimmer 3s ease-in-out infinite;
+    animation: donation-cta-shimmer 3s ease-in-out infinite;
 }
 
-@keyframes shimmer {
+@keyframes donation-cta-shimmer {
     0% {
         transform: translateX(-100%) translateY(-100%) rotate(45deg);
     }
