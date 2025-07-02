@@ -4662,6 +4662,7 @@ h2 {
     }
 }
 
+/*
 @media screen and (max-width: 480px) {
     .donation-section {
         padding: var(--spacing-2xl) 0;
@@ -4698,5 +4699,76 @@ h2 {
     
     .inline-donation-text {
         font-size: var(--font-size-base);
+    }
+}*/
+
+@media screen and (max-width: 600px) {
+    .donation-section {
+        padding: var(--spacing-xl) 0;
+    }
+    .donation-container {
+        padding: 0 var(--spacing-sm);
+    }
+    .donation-header {
+        text-align: center;
+        margin-bottom: var(--spacing-xl);
+    }
+    .donation-title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-md);
+    }
+    .donation-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: var(--spacing-lg);
+        max-width: 95vw;
+        line-height: 1.5;
+    }
+    .donation-content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xl);
+    }
+    .donation-info {
+        padding: var(--spacing-md);
+        border-radius: 14px;
+        font-size: 1rem;
+    }
+    .donation-info h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--spacing-md);
+    }
+    .donation-benefits {
+        margin-bottom: var(--spacing-lg);
+    }
+    .donation-benefits li {
+        font-size: 1rem;
+        padding: var(--spacing-xs) 0;
+        align-items: flex-start;
+        line-height: 1.5;
+    }
+    .donation-benefits li::before {
+        font-size: 1.2rem;
+        margin-right: var(--spacing-sm);
+        margin-top: 0.2em;
+    }
+    .donation-security {
+        margin-top: var(--spacing-md);
+        padding: var(--spacing-sm);
+        border-radius: 10px;
+        font-size: 0.95rem;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+        align-items: center;
+    }
+    .donation-form-container {
+        padding: var(--spacing-xs);
+        border-radius: 14px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+        border-width: 2px;
+    }
+    .donation-form-container iframe {
+        height: 420px;
+        min-height: 320px;
+        border-radius: 10px;
     }
 }
