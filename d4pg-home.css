@@ -4771,4 +4771,38 @@ h2 {
         min-height: 320px;
         border-radius: 10px;
     }
+    .donation-form-container {
+        display: none;
+    }
+    .donation-mobile-btn {
+        display: block;
+        width: 100%;
+        margin: var(--spacing-lg) 0 0 0;
+        padding: var(--spacing-lg) 0;
+        background: linear-gradient(135deg, var(--d4pg-coral) 0%, var(--d4pg-coral-dark) 100%);
+        color: var(--d4pg-white);
+        font-family: var(--font-accent);
+        font-size: 1.25rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 20px rgba(255,127,109,0.25);
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.2s, transform 0.2s;
+    }
+    .donation-mobile-btn:hover {
+        background: linear-gradient(135deg, var(--d4pg-yellow) 0%, #f0d843 100%);
+        color: var(--d4pg-navy);
+        transform: translateY(-2px) scale(1.03);
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .donation-mobile-btn {
+        display: none;
+    }
 }
