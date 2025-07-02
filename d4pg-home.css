@@ -4383,27 +4383,42 @@ h2 {
 .donation-cta-section {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: var(--spacing-2xl);
+    padding: var(--spacing-3xl);
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     margin-bottom: var(--spacing-3xl);
     text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta-title {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-3xl);
     color: var(--d4pg-white);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-2xl);
     font-family: var(--font-accent);
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .cta-benefits {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: var(--spacing-lg);
-    max-width: 800px;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+    max-width: 700px;
     margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .cta-benefits {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 900px) {
+    .cta-benefits {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .cta-benefit {
@@ -4411,7 +4426,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-md);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-xl);
     border-radius: 10px;
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.05);
@@ -4422,196 +4437,111 @@ h2 {
     transform: translateY(-5px);
 }
 
-.cta-icon {
-    font-size: 2rem;
-    margin-bottom: var(--spacing-sm);
-}
-
 .cta-content h4 {
-    font-size: var(--font-size-med);
+    font-size: var(--font-size-xl);
     color: var(--d4pg-white);
-    margin-bottom: var(--spacing-sm);
-    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .cta-content p {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-lg);
     color: var(--d4pg-white);
-    opacity: 0.9;
-    line-height: 1.5;
+    opacity: 0.95;
+    line-height: 1.7;
     text-align: center;
 }
 
 .donation-form-section {
     display: flex;
     justify-content: center;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .donation-form-card {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
-    padding: var(--spacing-2xl);
+    padding: var(--spacing-3xl);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     transition: all 0.3s ease;
 }
 
-.donation-form-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-}
-
-.form-header {
-    text-align: center;
-    margin-bottom: var(--spacing-lg);
-}
-
-.heart-icon {
-    font-size: 2rem;
-    margin-bottom: var(--spacing-sm);
-    animation: pulse 2s ease-in-out infinite;
-}
-
 .form-header h3 {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-2xl);
     color: var(--d4pg-navy);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
     font-family: var(--font-accent);
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .form-description {
-    font-size: var(--font-size-med);
+    font-size: var(--font-size-lg);
     color: var(--d4pg-navy);
     text-align: center;
-    margin-bottom: var(--spacing-lg);
-    line-height: 1.5;
-    opacity: 0.8;
-}
-
-.donation-form-embed {
-    margin-bottom: var(--spacing-lg);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.donation-form-embed iframe {
-    width: 100%;
-    height: 500px;
-    border: none;
-    border-radius: 10px;
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.7;
+    opacity: 0.85;
 }
 
 .form-note {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-med);
     color: var(--d4pg-navy);
     text-align: center;
     opacity: 0.7;
     font-style: italic;
 }
 
-/* Mobile responsiveness for donation section */
-@media screen and (max-width: 768px) {
-    .donation-section {
-        padding: var(--spacing-3xl) var(--spacing-md);
+@media screen and (max-width: 900px) {
+    .donation-cta-section,
+    .donation-form-section,
+    .donation-form-card {
+        max-width: 98vw;
+        padding: var(--spacing-xl);
     }
-
-    .donation-title {
-        font-size: var(--font-size-xl);
+    .cta-title {
+        font-size: var(--font-size-2xl);
     }
-
-    .donation-subtitle {
+    .cta-content h4 {
+        font-size: var(--font-size-lg);
+    }
+    .cta-content p {
         font-size: var(--font-size-med);
     }
-
-    .donation-cta-section {
-        padding: var(--spacing-xl);
-        margin-bottom: var(--spacing-2xl);
-    }
-
-    .cta-title {
-        font-size: var(--font-size-lg);
-    }
-
-    .cta-benefits {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-md);
-    }
-
-    .cta-benefit {
-        padding: var(--spacing-md);
-    }
-
-    .cta-icon {
-        font-size: 1.5rem;
-    }
-
-    .cta-content h4 {
-        font-size: var(--font-size-sm);
-    }
-
-    .cta-content p {
-        font-size: var(--font-size-xs);
-    }
-
-    .donation-form-section {
-        max-width: 100%;
-    }
-
-    .donation-form-card {
-        padding: var(--spacing-xl);
-    }
-
     .form-header h3 {
-        font-size: var(--font-size-lg);
+        font-size: var(--font-size-xl);
     }
-
     .form-description {
-        font-size: var(--font-size-sm);
-    }
-
-    .donation-form-embed iframe {
-        height: 400px;
+        font-size: var(--font-size-med);
     }
 }
 
-@media screen and (max-width: 480px) {
-    .donation-header {
-        margin-bottom: var(--spacing-2xl);
-    }
-
-    .donation-icon-group {
-        gap: var(--spacing-md);
-    }
-
-    .donation-icon {
-        font-size: 2rem;
-    }
-
-    .donation-cta-section {
-        padding: var(--spacing-lg);
-        margin-bottom: var(--spacing-xl);
-    }
-
-    .cta-benefits {
-        gap: var(--spacing-sm);
-    }
-
-    .cta-benefit {
-        padding: var(--spacing-md);
-    }
-
+@media screen and (max-width: 600px) {
+    .donation-cta-section,
+    .donation-form-section,
     .donation-form-card {
+        max-width: 100vw;
         padding: var(--spacing-lg);
     }
-
-    .donation-form-embed iframe {
-        height: 350px;
+    .cta-title {
+        font-size: var(--font-size-lg);
+    }
+    .cta-content h4 {
+        font-size: var(--font-size-med);
+    }
+    .cta-content p {
+        font-size: var(--font-size-sm);
+    }
+    .form-header h3 {
+        font-size: var(--font-size-lg);
+    }
+    .form-description {
+        font-size: var(--font-size-sm);
     }
 }
