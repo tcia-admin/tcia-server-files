@@ -4831,8 +4831,8 @@ h2 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
@@ -4842,18 +4842,52 @@ h2 {
     cursor: pointer;
     transition: all 0.3s ease;
     z-index: 2;
+    animation: pulse-arrow 2s infinite;
 }
 
 .workshop-carousel-nav:hover {
     background: rgba(255, 255, 255, 0.2);
+    animation: none;
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 127, 109, 0.3);
 }
 
 .workshop-carousel-prev {
-    left: 0;
+    left: 10px;
 }
 
 .workshop-carousel-next {
-    right: 0;
+    right: 10px;
+}
+
+.workshop-carousel-nav::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: all 0.3s ease;
+}
+
+.workshop-carousel-prev::before {
+    border-width: 8px 12px 8px 0;
+    border-color: transparent rgba(255, 255, 255, 0.8) transparent transparent;
+}
+
+.workshop-carousel-next::before {
+    border-width: 8px 0 8px 12px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.8);
+}
+
+.workshop-carousel-nav:hover::before {
+    border-color: transparent var(--d4pg-coral) transparent transparent;
+}
+
+.workshop-carousel-next:hover::before {
+    border-color: transparent transparent transparent var(--d4pg-coral);
 }
 
 @media screen and (max-width: 768px) {
