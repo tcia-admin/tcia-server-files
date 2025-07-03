@@ -172,12 +172,21 @@
       }
     },
     {
+      "id": "new-1751569557028",
+      "title": "FASTER, SMARTER, LONELIER: Reclaiming Humanity in the Age of AI",
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "HUM 404",
+      "description": "\"As technology accelerates, many of us are quietly losing the most irreplaceable part of our lives: our presence. In this intimate, story driven session, we will explore how the pursuit of convenience and automation is quietly disconnecting us from each other, and how reclaiming small moments of presence can be a radical act of justice, care, and community building.\n\nThrough personal storytelling, audience reflection, and real world examples from Denmark’s slow checkout lanes to AI supported classrooms, this session invites us to imagine a world where technology serves humanity, not replaces it. We will examine who gets erased first when people are removed from design, why connection must be the foundation of any just future, and how AI, when used intentionally, can return time to our lives rather than steal it.\n\nParticipants will leave not with a to do list, but with a question:\n\nWhat small, beautiful moment will you choose to protect?\n\nThis session is for anyone who cares about digital justice, ethical technology, and the quiet power of being human together.\""
+    },
+    {
       "id": "new-1750442708531",
       "title": "Conversation & Performance",
       "startTime": "15:15",
       "endTime": "16:00",
       "type": "social",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": "Vyjayanthi Vadrevu in conversation with Aasim Shabazz",
       "people": {
         "speakers": [
