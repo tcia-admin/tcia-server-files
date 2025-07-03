@@ -4806,3 +4806,98 @@ h2 {
         display: none;
     }
 }
+
+/* Workshop Title Carousel */
+.workshop-title-carousel {
+    margin: var(--spacing-xl) 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0 var(--spacing-lg);
+}
+
+.workshop-title-track {
+    display: flex;
+    gap: var(--spacing-md);
+    transition: transform 0.5s ease;
+}
+
+.workshop-title-item {
+    flex: 0 0 300px;
+    padding: var(--spacing-lg);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.workshop-title-item:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-2px);
+}
+
+.workshop-title-item.active {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--d4pg-coral);
+    box-shadow: 0 4px 20px rgba(255, 127, 109, 0.15);
+}
+
+.workshop-title-text {
+    color: var(--d4pg-white);
+    font-size: var(--font-size-med);
+    font-weight: 500;
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.4;
+}
+
+.workshop-title-time {
+    color: var(--d4pg-light-blue);
+    font-size: var(--font-size-sm);
+}
+
+.workshop-carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.workshop-carousel-nav:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.workshop-carousel-prev {
+    left: 0;
+}
+
+.workshop-carousel-next {
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .workshop-title-carousel {
+        margin: var(--spacing-lg) 0;
+    }
+
+    .workshop-title-item {
+        flex: 0 0 250px;
+        padding: var(--spacing-md);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .workshop-title-item {
+        flex: 0 0 200px;
+    }
+}
