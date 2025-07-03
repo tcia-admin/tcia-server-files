@@ -51,12 +51,12 @@
     },
     {
       "id": "new-1750445239350",
-      "title": "Matthew Schutte Workshop - Final Title TBD",
+      "title": "Unimaginable: A Co-Exploration",
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "TBD",
-      "description": "",
+      "location": "Davis Court",
+      "description": "We have the opportunity to attempt anything we can imagine, but our imagination itself can so often be quite limited. Through a lightly structured series of discussions, we will stretch one another's perception by weaving explorations of the past, the future and even the present, to push beyond the known, and into the unimaginable.",
       "people": {
         "speakers": [
           {
@@ -73,8 +73,8 @@
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "TBD",
-      "description": "",
+      "location": "CC 230",
+      "description": "In this session, human rights lawyer and advocacy strategist \nElina Castillo Jiménez explores the personal and political cost \nof surveillance — not just as policy or technology, but as a deeply embedded culture that many of us inherit, internalize, and even reproduce. From spyware used against journalists and activists,  to the subtle ways marginalized communities are policed online and offline, this conversation invites attendees to examine how systems of control are dressed up as security\n — and what it would mean to unlearn them. Rooted in Elina’s\n lived experience as an immigrant and daughter of the Caribbean, and grounded in over a decade of work on the frontlines of tech and human rights, this session blends storytelling, strategy, and analysis.\n\nElina will share what she’s had to unlearn — as a Black Latina, as a policy advisor working on the harms of AI and spyware, and as someone committed to building a future rooted in care, dignity, and collective safety. This session will challenge the audience to imagine what it would look like to replace control with consent, surveillance with solidarity, and safety with something we define for ourselves.",
       "people": {
         "speakers": [
           {
@@ -91,7 +91,7 @@
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 409",
       "description": "Investigative journalist Mark Keierleber will outline his in-depth reporting on data privacy issues in Minnesota public schools and their implications on students’ civil rights. Highlighted work includes in-depth reporting on the rise of digital surveillance tools used by schools to monitor students online and the rise of ransomware attacks in K-12 schools.",
       "people": {
         "speakers": [
@@ -109,7 +109,7 @@
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 400",
       "description": "You may be familiar with Critical Resistance's Reformist reforms vs. abolitionist steps to end the IMPRISONMENT framework.  The NOTICE Coalition imagines a similar framework specific to education and EdTech.  You are invited to workshop with us as we build a framework of our own.  We pulled together the building blocks, now we need your input to ensure that we are building a model that works for those of us in the work",
       "people": {
         "speakers": [
@@ -132,7 +132,7 @@
       "startTime": "12:00",
       "endTime": "12:45",
       "type": "keynote",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": "magine That: Rehearsing Futures of Equity and Joy invites educators and industry professionals to radically reimagine design, technology, and learning through the lens of justice-centered imagination. Drawing on Black feminist thought, Afrofuturism, and social justice computing research, this keynote explores what equity sounds like, tastes like, and feels like when it becomes the norm—not the exception. Anchored in academic studies such as the counterstory-driven practices of Black Sims modders and the critical consciousness fostered through social justice informatics curricula, the presentation highlights how marginalized communities aren’t merely resisting exclusion—they are building joyful, pluriversal futures—creating technologies that celebrate multiple ways of being rather than forcing universal conformity. It calls on technologists and educators to move beyond harm-reduction toward design that centers joy, collaboration, and cultural specificity. Grounded in Black feminist thought and Afrofuturist traditions from Octavia Butler to Ruha Benjamin, this keynote emphasizes imagination as both theory and praxis, urging audiences to view justice not just as a goal, but as a design principle. The talk culminates with a challenge: what would it look like if equity were embedded in every line of code, classroom discussion, and organizational value? Imagine that—and then see to it.",
       "people": {
         "speakers": [
@@ -150,7 +150,7 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 400",
       "description": "The workshop equips participants with hands-on learning experiences that foster engaging, joyful learning environments grounded in liberatory practices that center belonging, healing-centered education, critical love, positive racial identity, agency, sociopolitical consciousness, and culturally responsive practices.",
       "people": {
         "speakers": [
@@ -168,7 +168,7 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
+      "location": "Davis Court",
       "description": "This workshop explores the intersection of data, technology, and narrative power-building, equipping participants with strategies to counter harmful narratives and push forward liberatory, community-centered ones. Through collective discussion and interactive tools, we will analyze how digital justice, AI, and data privacy impact narratives, identify opportunities for cross-organizational collaboration, and explore ways to use data ethically to build community-driven stories that drive systemic change. ",
       "people": {
         "speakers": [
@@ -186,7 +186,7 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 402",
       "description": "This workshop introduces participants to a justice-oriented, data science history unit for high school students, part of a nationally-funded project. Workshop attendees will participate as students to engage in parts of a history lesson and see examples from project’s online platform created by our team that integrates CODAP (https://codap.concord.org/) and other tools. The history lesson draws inspiration from W.E.B. Du Bois’ data visualizations and invites students to examine the impact of the Voting Rights Act on U.S. elections, including unpacking the justice visions of historical figures who used data, ways data visualizations were received, and how data speaks to pivotal social issues around systemic, racial inequities. After the lesson, participants will engage in a group discussion about ways to weave data science into historical contexts. Finally, initial findings from a pilot of this unit will be shared.",
       "people": {
         "speakers": [
@@ -204,8 +204,8 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
-      "description": "",
+      "location": "HUM 401",
+      "description": "In this workshop, take a deeper dive into the State of Youth Surveillance Panel and hear from the No Tech  Criminalization in Education (NOTICE) Coalition.  The NOTICE Coalition has spent the past year researching across Education technologies in the US.  Engage with the latest case studies from Minnesota and Texas to better understand the landscape of Criminalization, Surveillance, and Privatization in Ed Tech.",
       "people": {
         "speakers": [
           {
@@ -233,12 +233,12 @@
     },
     {
       "id": "new-1750447075298",
-      "title": "AI workshop & Discussion - Final Title TBD",
+      "title": "Smart, Safe and Strategic: Leveraging AI Tools in Legal & Nonprofit Work ",
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
       "location": "TBD",
-      "description": "",
+      "description": "This session helps legal and nonprofit professionals responsibly integrate AI tools like ChatGPT into their workflows while safeguarding privacy, ethics, and compliance. Panelists will offer real-world use cases, live demonstrations, and frameworks to evaluate risk, policy, and productivity. Attendees will leave with practical prompts, governance strategies, and tools for using AI without compromising confidentiality. The session includes an interactive Q&A to address concerns and crowdsource solutions.",
       "people": {
         "speakers": [
           {
@@ -255,7 +255,7 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
+      "location": "CC 230",
       "description": "This presentation will cover three interrelated efforts to empower ordinary people to take energy action. The first, Green Neighbor Challenge, will introduce an interactive online toolkit designed to help US residents find and access the home energy programs and incentives available to them. Second, the Rural Electric Cooperative Scorecarding Initiative brings together an interstate alliance of energy advocates to collaboratively gather data as a foundation for decentralized member-owner organizing efforts. Third, Re⚡Volt is a forthcoming tabletop-style game about navigating your home energy transition that draws inspiration from the Residential Energy Consumption Survey and the Inflation Reduction Act.",
       "people": {
         "speakers": [
@@ -273,16 +273,16 @@
       "startTime": "14:45",
       "endTime": "15:45",
       "type": "panel",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": ""
     },
     {
       "id": "new-1750447538550",
-      "title": "Puppet Performance - Title TBD",
+      "title": "Puppet Show & Exhibition",
       "startTime": "16:00",
       "endTime": "17:00",
       "type": "social",
-      "location": "TBD",
+      "location": "JBD Theater",
       "description": "",
       "people": {
         "speakers": [
