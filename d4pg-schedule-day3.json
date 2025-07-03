@@ -113,24 +113,6 @@
       }
     },
     {
-      "id": "new-1750448554801",
-      "title": "Faster, Smarter, Lonelier",
-      "startTime": "13:00",
-      "endTime": "15:00",
-      "type": "workshop",
-      "location": "TBD",
-      "description": "",
-      "people": {
-        "speakers": [
-          {
-            "name": "Jayden Thunberg",
-            "title": null,
-            "image": null
-          }
-        ]
-      }
-    },
-    {
       "id": "new-1750780285148",
       "title": "Zine Making Workshop",
       "startTime": "13:00",
