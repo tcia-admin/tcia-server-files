@@ -1,61 +1,73 @@
 {
-    "conference": {
-        "name": "D4PG Conference 2025",
-        "theme": "Co-Powering an Emergent Horizon Part II: Reimagining Our Relationship with the Future",
-        "dates": {
-            "day1": {
-                "date": "July 16",
-                "day": "Wednesday",
-                "file": "d4pg-schedule-day1.json"
-            },
-            "day2": {
-                "date": "July 17",
-                "day": "Thursday",
-                "file": "d4pg-schedule-day2.json"
-            },
-            "day3": {
-                "date": "July 18",
-                "day": "Friday",
-                "file": "d4pg-schedule-day3.json"
-            }
-        },
-        "locations": {
-            "main-auditorium": {
-                "name": "Main Auditorium",
-                "image": "https://picsum.photos/200/120?random=101"
-            },
-            "dining-hall": {
-                "name": "Dining Hall",
-                "image": "https://picsum.photos/200/120?random=103"
-            },
-            "workshop-a": {
-                "name": "Workshop Room A",
-                "image": "https://picsum.photos/200/120?random=102"
-            },
-            "workshop-b": {
-                "name": "Workshop Room B",
-                "image": null
-            },
-            "main-hall": {
-                "name": "Main Hall",
-                "image": null
-            },
-            "campus-garden": {
-                "name": "Campus Garden",
-                "image": "https://picsum.photos/200/120?random=104"
-            },
-            "great-hall": {
-                "name": "Great Hall",
-                "image": null
-            },
-            "various-rooms": {
-                "name": "Various Rooms",
-                "image": null
-            },
-            "TBD": {
-                "name": "TBD",
-                "image": null
-            }
-        }
-    }
+  "conference": {
+      "name": "D4PG Conference 2025",
+      "theme": "Co-Powering an Emergent Horizon Part II: Reimagining Our Relationship with the Future",
+      "dates": {
+          "day1": {
+              "date": "July 16",
+              "day": "Wednesday",
+              "file": "d4pg-schedule-day1.json"
+          },
+          "day2": {
+              "date": "July 17",
+              "day": "Thursday",
+              "file": "d4pg-schedule-day2.json"
+          },
+          "day3": {
+              "date": "July 18",
+              "day": "Friday",
+              "file": "d4pg-schedule-day3.json"
+          }
+      },
+      "locations": {
+          "TBD": {
+              "name": "TBD",
+              "image": null
+          },
+          "Kagin Ballroom": {
+              "name": "Kagin Ballroom",
+              "image": null
+          },
+          "Davis Court": {
+              "name": "Davis Court",
+              "image": null
+          },
+          "HUM 401": {
+              "name": "HUM 401",
+              "image": null
+          },
+          "HUM 402": {
+              "name": "HUM 402",
+              "image": null
+          },
+          "HUM 404": {
+              "name": "HUM 404",
+              "image": null
+          },
+          "HUM 400": {
+              "name": "HUM 400",
+              "image": null
+          },
+          "HUM 409": {
+              "name": "HUM 409",
+              "image": null
+          },
+          "CC 229": {
+              "name": "CC 229",
+              "image": null
+          },
+          "CC 230": {
+              "name": "CC 230",
+              "image": null
+          },
+          "JBD Theater": {
+              "name": "JBD Theater",
+              "image": null
+          },
+          "LOCH, JBD, LOCH LOUNGE": {
+              "name": "LOCH, JBD, LOCH LOUNGE",
+              "image": null
+          }
+      }
+  }
 }
