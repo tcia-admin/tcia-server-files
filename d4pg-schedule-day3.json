@@ -8,7 +8,7 @@
       "startTime": "08:30",
       "endTime": "09:20",
       "type": "keynote",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": "Start your final day with breakfast and conversations with fellow attendees."
     },
     {
@@ -17,7 +17,7 @@
       "startTime": "09:30",
       "endTime": "10:30",
       "type": "panel",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": "",
       "people": {
         "speakers": [
@@ -36,11 +36,11 @@
     },
     {
       "id": "new-1750448261285",
-      "title": "Plenary Panel - Digital Sovereignty and Digital Justice",
+      "title": "Plenary Panel - Data Justice & Data Sovereignty ",
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "panel",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": "",
       "people": {
         "speakers": [
@@ -68,7 +68,16 @@
       "startTime": "12:00",
       "endTime": "12:45",
       "type": "break",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
+      "description": ""
+    },
+    {
+      "id": "new-1751571142626",
+      "title": "Bookstore / Market / Art Activities",
+      "startTime": "12:30",
+      "endTime": "15:00",
+      "type": "social",
+      "location": "Kagin Ballroom",
       "description": ""
     },
     {
@@ -77,7 +86,7 @@
       "startTime": "13:00",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 402",
       "description": "Funders and human service nonprofits rely on participant data for accountability, case management, compliance, and decision-making. How often are community members involved in decisions about what data are collected, how it’s used, and the resulting impact? What are the costs of collecting data without considering its implications? What are the opportunities missed when we continue with \"the way things have always been done\"? The Metropolitan Alliance of Connected Communities offers an equity lens for nonprofits to consider when designing their evaluation plans or data strategies",
       "people": {
         "speakers": [
@@ -100,7 +109,7 @@
       "startTime": "13:00",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "CC 230",
       "description": "In this immersive workshop, participants will be able to explore the origins of their financial triggers and thought patterns, led by Incluya’s founder Vyjayanthi Vadrevu. She will draw from her anthropological background to help attendees understand the money culture they grew up in, and practice ways to rewrite their money story. Participants will take part in Incluya’s mission to help individuals of all backgrounds to go from financial anxiety to financial resilience. Please note, all attendees will be working individually on their own stories to preserve confidentiality, and will not be asked to share anything unless they absolutely want to.",
       "people": {
         "speakers": [
@@ -114,12 +123,12 @@
     },
     {
       "id": "new-1750780285148",
-      "title": "Zine Making Workshop",
+      "title": "Making Zines About Tech and Social Justice",
       "startTime": "13:00",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
-      "description": "",
+      "location": "HUM 400",
+      "description": "How can we share histories, experiences, research, and/or lessons about technology through a social justice lens? One accessible form of producing and distributing these stories is through making a zine (pronounced “zeen” – from the word “magazine”) – an easily reproducible self-produced and self-published pamphlet or book made with text and/or images. This workshop will introduce you to the wide range of what zines can look like, what they can be used for, how they can be made individually or in collaboration, and get you started on making your own zine about tech, data, and social justice!",
       "people": {
         "speakers": [
           {
@@ -136,7 +145,7 @@
       "startTime": "13:00",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "Davis Court",
       "description": "In this workshop, participants will explore new methods of creating data visualizations.  Using techniques developed by the Science Discovery unit at the University of Colorado (https://www.colorado.edu/sciencediscovery/), participants will learn the basics of beading and crop art by visualizing their own data (either bringing numerical data or a visualization) or using provided data. Participants will be provided with all the materials needed to bring their visualizations to life.",
       "people": {
         "speakers": [
@@ -154,7 +163,7 @@
       "startTime": "15:00",
       "endTime": "15:30",
       "type": "social",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": ""
     },
     {
@@ -163,7 +172,7 @@
       "startTime": "15:30",
       "endTime": "16:15",
       "type": "keynote",
-      "location": "TBD",
+      "location": "Kagin Ballroom",
       "description": ""
     }
   ]
