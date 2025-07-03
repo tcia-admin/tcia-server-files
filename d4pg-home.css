@@ -4901,3 +4901,9 @@ h2 {
         flex: 0 0 200px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .workshop-title-carousel {
+        display: none !important;
+    }
+}
