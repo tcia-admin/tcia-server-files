@@ -17,16 +17,30 @@
       "startTime": "10:00",
       "endTime": "12:00",
       "type": "workshop",
-      "location": "TBD",
-      "description": ""
+      "location": "kagin-ballroom",
+      "description": "Nora Bateson defined the term “Warm Data” in 2012 as “contextual and relational information about complex systems. The Lab strengthens groups’ collective ability to perceive, discuss, and design responses to “wicked” problems through immersive exercises and deep conversations.  ",
+      "people": {
+        "speakers": [
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Aasim Shabazz",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     },
     {
       "id": "new-1750442546880",
       "title": "Lunch",
-      "startTime": "12:00",
-      "endTime": "13:00",
+      "startTime": "12:15",
+      "endTime": "13:15",
       "type": "break",
-      "location": "TBD",
+      "location": "kagin-ballroom",
       "description": ""
     },
     {
@@ -35,8 +49,8 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
-      "description": "",
+      "location": "hum-409",
+      "description": "In this workshop, participants will learn about the basics of data rights as a liberatory framework and begin identifying a opportunities for data rights to play a role in their organizing. Through a hands-on workshop activity, we’ll explore specific tactics that can help organizers understand how to fight back when data is being used as a tool to reinforce systems of oppression. Together we’ll explore how data rights can help us reclaim control over our communities’ information and cultural knowledge through data justice organizing.",
       "people": {
         "speakers": [
           {
@@ -53,7 +67,7 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "hum-401",
       "description": "In this workshop, we will share the process of working collaboratively with high school teachers to create learning materials.  This free web applet helps Minnesota students explore local air quality by locating the nearest monitoring station and examining both natural and human-made influences on their air quality. We will then encourage participants to explore the app, determine their own questions, and offer suggestions about improvements.",
       "people": {
         "speakers": [
@@ -76,7 +90,7 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "davis-court",
       "description": "",
       "people": {
         "speakers": [
@@ -94,7 +108,7 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "hum-400",
       "description": "The workshop equips participants with hands-on learning experiences that foster engaging, joyful learning environments grounded in liberatory practices that center belonging, healing-centered education, critical love, positive racial identity, agency, sociopolitical consciousness, and culturally responsive practices.",
       "people": {
         "speakers": [
@@ -112,7 +126,7 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
+      "location": "hum-402",
       "description": "",
       "people": {
         "speakers": [
@@ -140,8 +154,8 @@
       "startTime": "13:30",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "TBD",
-      "description": "This workshop is a train-the-trainer workshop so that attendees can bring this curriculum back to their community.  In this session, we will share our experiences as we developed and delivered this as an education studies class in the spring of 2025.  In the class, we examined how “carcerality” is an organizing feature of public education in the U.S. by exploring disciplinary processes, technology, and surveillance practices, curricular norms, and the built environment in schools, as well as attempts to challenge such carceral logics, especially through organized efforts of communities of color. ",
+      "location": "cc-229",
+      "description": "\"This workshop is a train-the-trainer workshop so that attendees can bring this curriculum back to their community.  In this session, we will share our experiences as we developed and delivered this as an education studies class in the spring of 2025.  In the class, we examined how “carcerality” is an organizing feature of public education in the U.S. by exploring disciplinary processes, technology, and surveillance practices, curricular norms, and the built environment in schools, as well as attempts to challenge such carceral logics, especially through organized efforts of communities of color. \n\nGoal: Introduce syllabus and opportunities to deliver classes at schools and in the community.  This session will highlight, readings, activities, project work and resources to successfully deliver this curriculum. \"",
       "people": {
         "speakers": [
           {
