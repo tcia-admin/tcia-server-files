@@ -158,6 +158,24 @@
       }
     },
     {
+      "id": "new-1751993441252",
+      "title": "CJSF Community of Practice Orientation",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "type": "workshop",
+      "location": "HUM 409",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "CJSF",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
       "id": "new-1750450750837",
       "title": "Youth Summit Share Out",
       "startTime": "15:00",
