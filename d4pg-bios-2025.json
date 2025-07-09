@@ -1,1217 +1,1217 @@
 {
-    "speakers": [
-        {
-            "id": "speaker-cierra-kaler-jones",
-            "name": "Dr. Cierra Kaler-Jones, Ph.D.",
-            "pronouns": "she/her",
-            "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "instagram",
-                        "url": "https://instagram.com/_cierrajade_"
-                    },
-                    {
-                        "type": "twitter",
-                        "url": "https://twitter.com/_cierrajade_"
-                    },
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/cierrakalerjones/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.cierrakalerjones.com",
-                        "display": "cierrakalerjones.com"
-                    }
-                ],
-                "organization": {
-                    "name": "Rethinking Schools",
-                    "links": [
-                        {
-                            "type": "instagram",
-                            "url": "https://instagram.com/rethinkingschools"
-                        },
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/RethinkSchools"
-                        },
-                        {
-                            "type": "website",
-                            "url": "https://www.rethinkingschools.org",
-                            "display": "rethinkingschools.org"
-                        }
-                    ]
+  "speakers": [
+      {
+          "id": "speaker-cierra-kaler-jones",
+          "name": "Dr. Cierra Kaler-Jones, Ph.D.",
+          "pronouns": "she/her",
+          "title": "NARRATIVE POWER-BUILDER & EXECUTIVE DIRECTOR, RETHINKING SCHOOLS",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c8296e90-ed02-4b13-8561-551041c30a10/Cierra+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Cierra Kaler-Jones is the first-ever Executive Director of Rethinking Schools, the nation's leading grassroots publisher for racial and social justice in education. She is also on the leadership team of the Zinn Education Project and a steering committee member of Black Lives Matter at School. Previously, she was the Director of Storytelling at Communities for Just Schools Fund. As a community-based researcher, Dr. Kaler-Jones supports communities in leveraging participatory, arts-based research methods for storytelling and narrative power-building. She runs a community-based program with Black girls that uses art and political education to fuel social change in the D.C. Metro Area. Over the past ten years, Cierra has learned alongside preschoolers, K-12 students, college students, and adults as a teaching artist. With her roots in dance and arts education, Cierra has also taught classes on U.S. history, public policy, storytelling, digital media, and social change & leadership. She believes that through storytelling, we can create narrative change that disrupts oppressive structures and systems, and build something more beautiful, loving, and liberatory instead."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "instagram",
+                      "url": "https://instagram.com/_cierrajade_"
+                  },
+                  {
+                      "type": "twitter",
+                      "url": "https://twitter.com/_cierrajade_"
+                  },
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/cierrakalerjones/"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://www.cierrakalerjones.com",
+                      "display": "cierrakalerjones.com"
+                  }
+              ],
+              "organization": {
+                  "name": "Rethinking Schools",
+                  "links": [
+                      {
+                          "type": "instagram",
+                          "url": "https://instagram.com/rethinkingschools"
+                      },
+                      {
+                          "type": "twitter",
+                          "url": "https://twitter.com/RethinkSchools"
+                      },
+                      {
+                          "type": "website",
+                          "url": "https://www.rethinkingschools.org",
+                          "display": "rethinkingschools.org"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-roderic-crooks",
+          "name": "Dr. Roderic N. Crooks",
+          "pronouns": "he/him/his",
+          "title": "ASSISTANT PROFESSOR, DEPARTMENT OF INFORMATICS, UC IRVINE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
+          ],
+          "promotional": {
+              "books": [
+                  {
+                      "title": "Access is Capture: How Edtech Reproduces Racial Inequality",
+                      "cover_image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2f6e15da-b3fc-4413-888d-6501f6f3b28b/roderic-book-cover.png?content-type=image%2Fpng",
+                      "purchase_url": "https://bookshop.org/p/books/access-is-capture-how-edtech-reproduces-racial-inequality-roderic-n-crooks/21346902?ean=9780520393288&next=t",
+                      "label": "Learn More",
+                      "description": ""
+                  }
+              ]
+          },
+          "social": {
+              "personal": [
+                  {
+                      "type": "website",
+                      "url": "https://www.rncrooks.info",
+                      "display": "rncrooks.info"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-angela-smith",
+          "name": "Dr. Angela D. R. Smith",
+          "title": "ASSISTANT PROFESSOR, SCHOOL OF INFORMATION, UTX AUSTIN",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e6264e6e-93e8-4c04-bca8-9134ae2c302d/Dr.+Smith+Mini+Card+2025+1.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Angela Smith is an Assistant Professor at the [School of Information](https://www.ischool.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). Dr. Smith received her doctoral degree from Northwestern University in Technology & Social Behavior, a joint degree in Communications and Computer Science. Her research is in the field of Human-Computer Interaction, Computer-Supported Cooperative Work, and Information Sciences. Her current research explores how critical and intersectional theoretical lenses can inform an assets-based participatory design of technologies to support historically marginalized groups, such as individuals of color and individuals experiencing homelessness, in pursuing sustainable, emancipatory transformations and socially responsible technology experiences. Through qualitative, participatory design methods, Dr. Smith seeks to co-construct knowledge, conscientiazation, and design interventions with my populations."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/angeladrobinsonsmith"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://angeladrsmith.com",
+                      "display": "angeladrsmith.com"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-imene-ghernati",
+          "name": "Dr. Imène Ghernati",
+          "title": "FOUNDER OF THE STEAM LEARNING INSTITUTE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/282899bc-0c6a-4362-8144-e6e1a15a04d9/Dr.+Imene+Ghernati+Mini+Card+D4PG+2025+1.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Imène Ghernati (إيمان غرناطي) is the founder of the STEAM Learning Institute. She has over 30 years of education experience preparing students, teachers, and leaders for diverse classrooms. A former veterinarian and scientist, she has spent the past 15 years in urban education in the Bay Area. She is also the co-founder of the Summer Academy Program, a partnership between Gateway Schools and the University of San Francisco, where she directed the program for two years and started a Makerspace. Imène is from the Algerian Diaspora and has lived in the Bay area since 2008. She is the proud mother of two multicultural boys."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/im%C3%A8ne-ghernati-phd-%D8%A5%D9%8A%D9%85%D8%A7%D9%86-%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-201ab84/"
+                  },
+                  {
+                      "type": "instagram",
+                      "url": "https://www.instagram.com/ifghernati/"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://www.steamlearninginstitute.com/",
+                      "display": "steamlearninginstitute.com"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-tanya-clark",
+          "name": "Dr. Tanya Clark",
+          "title": "ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/493110ca-3040-450d-8062-cc39a284a8c5/Tanya+Mini+Card+D4Pg+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
+              "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
+              "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/tanya-clark-863762248/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-anita-chikkatur",
+          "name": "Dr. Anita Chikkatur",
+          "pronouns": "she/her/hers",
+          "title": "PROFESSOR IN THE DEPARTMENT OF EDUCATIONAL STUDIES, CARLETON COLLEGE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d3fe6b38-3351-4bb6-88a7-dc51a1655165/Anita+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Professor in the Department of Educational Studies, Carleton College, Northfield, MN.Anita attended public middle and high schools in New York City and identifies deeply as a New Yorker. Her research and teaching interests include student and teacher perspectives on race, gender, and sexuality and issues of diversity and difference in educational institutions. Her research broadly focuses on how educational institutions can be supportive and resource-full environments for everyone (students, teachers, and staff) so that no one has to be individually resilient or exceptional. From 2018-2022, she was the co-principal investigator on an AmeriCorps-funded participatory action research (PAR) project in Faribault, Minnesota, collaborating with youth, parents, teachers, and administrators. You can find more information about the project [here](https://participatoryactionresearch.sites.carleton.edu/carleton-faribault-par-collaboration/)(also available in [Spanish](https://participatoryactionresearch.sites.carleton.edu/es/inicio/) and [Somali](https://participatoryactionresearch.sites.carleton.edu/so/home/) ). [That website](https://participatoryactionresearch.sites.carleton.edu/) also has general resources and information about PAR.",
+              "She is currently the principal investigator of a second AmeriCorps funded grant that builds on the networks developed from the first grant and focuses on Youth Participatory Action Research in five Minnesota school districts. More information about this grant can be found [here](https://participatoryactionresearch.sites.carleton.edu/2022-americorps-ypar-grant/). Anita is a member of the [Education for Liberation Network, Minnesota chapter](https://www.edliberation.org/chapters/edlibmn/) and of The Spoilers Collective, a group of academics of color, who produce [a podcast called “The Drip”](https://thedrippingspoilers.com/?page_id=65) where they discuss books by authors of color."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/anita-chikkatur-b492514/"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://thedrippingspoilers.com/?page_id=65",
+                      "display": "thedrippingspoilers.com"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-vyjayanthi-vadrevu",
+          "name": "Vyjayanthi Vadrevu",
+          "title": "FOUNDER OF INCLUYA, APPLIED ANTHROPOLOGIST",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/eb638328-a754-423b-a672-42bd938761f8/Vyjayanthi+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Vyjayanthi Neha Vadrevu is the founder of Incluya, an emotionally intelligent AI coach leading people from financial anxiety to financial resilience. The company was born out of her years of anthropological research for Capital One and Charles Schwab, where her philosophy of looking at problems holistically and culturally led to deeply impactful solutions.",
+              "Her path as an anthropologist was inspired by her multicultural upbringing in Chicago, and [her training in Indian classical dance](https://vimeo.com/413808975?embedded=true&source=vimeo_logo&owner=1128734), which she has cultivated since her childhood, and performed at venues like the Kennedy Center and Symphony Space. She was an adjunct professor of Applied Anthropology and Autoethnography at the City University of New York."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/vyjayanthi-vadrevu/"
+                  }
+              ],
+              "organizations": [
+                  {
+                      "name": "Incluya",
+                      "links": [
+                          {
+                              "type": "website",
+                              "url": "https://www.incluya.com/",
+                              "display": "incluya.com"
+                          }
+                      ]
+                  },
+                  {
+                      "name": "Rasa",
+                      "links": [
+                          {
+                              "type": "website",
+                              "url": "https://www.rasa.nyc/about",
+                              "display": "rasa.nyc"
+                          }
+                      ]
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-kill-joy",
+          "name": "Kill Joy",
+          "title": "STREET ARTIST & PUPPETEER, KITCHEN TABLE PUPPET & PRESS GROUP",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ff5e2dd0-6ba5-41d1-8ca5-acd49f7f6f49/Kill+Joy+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Kill Joy’s work is grounded in honoring the earth and seeking environmental and social justice through both radically imaginative worlds and supporting frontline social movements. Her work is an interpretation of world mythology and a study of nature’s cycles. She integrates storytelling and ancient symbolism with calls to spiritual and political awareness and action. Kill joy is an artist-in-residence at the American Civil Liberties Union of Texas, ACLU TX, and a fellow and artist-in-residence at No Data About Us Without Us. Killy joy works as a street artist and as a puppeteer at Kitchen Table Puppets and Press Group."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "instagram",
+                      "url": "https://www.instagram.com/kill.joy.land/?hl=en"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://joyland.space/",
+                      "display": "joyland.space"
+                  }
+              ],
+              "organization": {
+                  "name": "Kitchen Table Puppets and Press Group",
+                  "links": [
+                      {
+                          "type": "instagram",
+                          "url": "https://www.instagram.com/kitchentable.puppetspress/?hl=en"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-marta-shore",
+          "name": "Marta Shore",
+          "title": "LECTURER, BIOSTATISTICS & HEALTH DATA SCIENCE, U OF M",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2aa6d604-5a9e-4a66-8d5b-bed369bd5db6/Marta+Shore+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Marta Shore teaches biostatistics and biostatistical literacy at the University of Minnesota's School of Public Health.  She is the co-founder and co-chair of the Biostatistics and Health Data Science Community Outreach and Engagement Committee (BCOE), which works with public school science teachers to integrate statistics and data science into their curriculum.  She also teaches crop art and coordinates crop art exhibitions. "
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/marta-shore-45600531/"
+                  }
+              ],
+              "organization": {
+                  "name": "Biostat Community Outreach and Engagement Committee (BCOE)",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/outreach-and-engagement/",
+                          "display": "BCOE Committee"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-mark-keierleber",
+          "name": "Mark Keierleber",
+          "title": "INVESTIGATIVE REPORTER, THE 74",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/777c88b0-ca1b-4124-9824-0be8b4d9f4f2/Mark+Keierleber+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Mark is an investigative reporter at The 74. He specializes in covering school safety, school surveillance, and student civil rights. He is the author of the bi-weekly School (in)Security newsletter. His D4PG workshop on school safety and panel \"The State of Youth Surveillance\" explores how youth surveillance is on the rise in ways that are difficult to track or understand. Through this panel of educators, organizers, journalists, and researchers understand the state of EdTech. What we need to know, what we can expect, and what we can do about it. We invite you to join the conversation!",
+              "Check out Mark's [article on ShotSpotter](https://www.the74million.org/article/minneapolis-schools-secretly-partnered-with-shotspotter-surveillance-company-cyber-attack-reveals/) covering how Minneapolis schools secretly partnered with the surveillance company."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/mkeierleber/"
+                  },
+                  {
+                      "type": "bluesky",
+                      "url": "https://bsky.app/profile/markkeierleber.bsky.social"
+                  }
+              ],
+              "organization": {
+                  "name": "The 74",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.the74million.org/",
+                          "display": "the74million.org"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-shreya-sampath",
+          "name": "Shreya Sampath",
+          "title": "RISING JUNIOR, THE GEORGE WASHINGTON UNIVERSITY",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/be52bab1-5d7c-43aa-9ad6-e24d78dc7576/Shreya+Sampath+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Shreya Sampath is a rising junior at The George Washington University studying economics, international affairs, and technology policy. She is interested in exploring the impact of AI on civil rights, privacy, and trade, both in the U.S. and globally. With experience in government and youth advocacy, Shreya seeks to develop inclusive policies and empower youth to participate in policy making. She previously served on the executive board at Encode, and interned at the New Jersey Attorney General's Office, ACLU, and the U.S. Senate.",
+              "Beyond her professional career, Shreya is dedicated to community service, particularly in promoting diversity and cultural engagement. In her free time, she loves visiting art museums, sampling different coffee blends, and enjoying live music. Her D4PG workshop \"Youth Advocacy in Technology Policy\" is one you will want to engage with."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/shreya-sampath/"
+                  },
+                  {
+                      "type": "podcast",
+                      "url": "https://creativitysquared.com/podcast/ep62-data-justice-a-i-reimagining-our-future-part-3/",
+                      "display": "Creatively Squared Podcast"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-alicia-ranney",
+          "name": "Alicia Ranney",
+          "pronouns": "she/her",
+          "title": "INDEPENDENT CONSULTANT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/6caf6f18-2bf9-4111-b263-2520b496d024/Alicia_Ranney_Mini_Card_2025-nobg.png?content-type=image%2Fpng",
+          "bio": [
+              "Alicia Ranney is an independent consultant. She works with the community in various capacities in data analysis. Alicia has over a decade of experience supporting nonprofit social service providers in strategic data decision-making, database development, and uplifting data justice in all aspects of evaluation. She spends her off work time enjoying her family, and wishing for a deeper relationship with her two cats (but who is she kidding)."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/alicia-ranney-3516709/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-adam-cowing",
+          "name": "Adam Cowing",
+          "title": "SENIOR CLIENT DATA CONSULTANT, MACC",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/855f278a-ad46-44b1-b7e8-7caf5628da6e/Adam+Cowing+Mini+Card+2025.PNG?content-type=image%2Fpng",
+          "bio": [
+              "Adam Cowing is Senior Client Data Consultant at MACC. He has a Masters in Public Policy from the Humphrey School of Public Affairs with a concentration in nonprofit leadership and management. He has skills and experience in data analysis, information systems management, program administration, policy implementation, program evaluation, and strong written and verbal communication."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/adamcowing/"
+                  }
+              ],
+              "organization": {
+                  "name": "MACC",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.macc-mn.org/AboutUs/Leadership.aspx",
+                          "display": "macc-mn.org"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-an-gargaiola",
+          "name": "An Garagiola",
+          "pronouns": "",
+          "title": "RESEARCH SCIENTIST, MN DEPARTMENT OF HEALTH",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9a67f96f-b542-4149-8671-353f88090617/An+Gargaiola+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "An Garagiola, Bois Forte Band of Chippewa, MPP, is a mother, PhD Candidate, researcher, and writer born and raised in the Twin Cities. An’s dissertation focuses on the intersection of Indigenous research sovereignty and policy. She currently serves as the Research Scientist in the Office of American Indian Health at MDH, where she works to Indigenize wellness research, identify sources of holistic well being, and influence systems change through a cultural framework. As a mixed-race Anishinaabekwe of Ojibwe and European descent, An’s work blossoms from relational and place-based roots. An was UMN’s coordinator for The TRUTH Project and co-author on Misplaced Trust where her research unearthed Minnesota’s system of land speculation and wealth transfer from Native Nations that continues to impact American Indian wellness. She is passionate about designing plans that help systems become more equitable, sustainable, and accessible for people who institutions continue to marginalize. As the founder of EchoMaker, an Indigenous consulting firm, she frames her work in the following: “How might systems maximize equitable transformation for Indigenous and communities of color, and, how might relational ways of knowing and being merge with anti-colonial efforts that transform systems into ecosystems of holistic well-being?”"
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/an-garagiola-a91266b8"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://sites.google.com/umn.edu/an-gb/home",
+                      "display": "An Gargaiola"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-matthew-shutte",
+          "name": "Matthew Shutte",
+          "pronouns": "",
+          "title": "PIONEERING TECHNOLOGIST, CO-FOUNDER OF HOLOCHAIN",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ac225530-f175-4c2f-a573-4318734b7a58/Matthew+Shutte+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Matthew Schutte is a pioneering technologist with a deep commitment to enabling communities to manage and share essential resources. As the co-founder of Holochain, he has nourished an open source, decentralized application framework that gives each user control over their data and applications—laying the groundwork for opt-in systems of coordination where resource distribution is equitable and dynamically evolvable. Holochain is not a blockchain and makes use of an elegant design that enables communities to steward themselves without having to rely upon token-based validation incentives. His leadership in launching both Holo, a decentralized cloud hosting marketplace, and Unyt, a platform for mutual credit accounting that fosters flows of economic activity within communities, demonstrate a commitment to using decentralized technology to build practical solutions that solve real world coordination problems. On the Board of Directors at Toward Warm Data, Matthew supports explorations of the complex interdependencies that sustain vibrant, resilient communities. This is both study and practice, rooted in the organizing principles of living systems. His multidisciplinary background—from Berkeley Law to designing digital infrastructures — results in an odd perspective on rethinking resource flows as well as the challenges and possibilities presenting themselves in the coming decades."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/matthewschutte/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-katya-abazajian",
+          "name": "Katya Abazajian",
+          "pronouns": "she/they",
+          "title": "ARTIST, WRITER, PUBLIC RESEARCHER, FOUNDER OF PEOPLE'S DATA PROJECT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/964be15f-13cb-496c-b0b0-412860d7f2ec/Katya+Abazajian+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Katya Abazajian (she/they) is an artist, writer, public researcher, and founder of the People’s Data Project. Their research on speculative data futures and collective data governance methods has been published by the Mozilla Foundation’s Data Futures Lab and the Institute for the Cooperative Digital Economy at the New School. They have previously led national programs to improve government transparency and accountability through open data at the Sunlight Foundation and the Beeck Center at Georgetown University. Katya is a founding member of the Houston Abolitionist Collective, a grassroots collective focused on mutual aid and political education in Houston, and the Shock Forest Group, a decentralized artistic research collective focused on exposing ecological and technological histories of violence through collaborative listening."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/katya-abaz"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://www.katyaabaz.com/",
+                      "display": "katyaabaz.com"
+                  }
+              ],
+              "organization": {
+                  "name": "",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.peoplesdataproject.org/",
+                          "display": "People's Data Project"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-anne-hackman",
+          "name": "Anne Hackman",
+          "pronouns": "",
+          "title": "RESEARCH ASSISTANT, BIOSTATISTICS COMMUNITY OUTREACH & ENGAGEMENT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a8b5671f-64b3-418c-99a4-cc3d2c512325/Anne+Hackman+Mini+Card.png?content-type=image%2Fpng",
+          "bio": [
+              "Anne is a second year Master's student in the Public Health Data Science program at the University of Minnesota. As a research assistant with the University of Minnesota School of Public Health's Biostatistics & Health Data Science Community Outreach and Engagement Committee (BCOE), she worked on creating educational materials to allow middle and high school students to engage with the fields of biostatistics and health data science. She also previously worked as a digital literacy instructor for adults in the Twin Cities and as a Fulbright English Teaching Assistant at a high school in South Korea."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/annehackman/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-andrew-butts",
+          "name": "Andrew Butts",
+          "pronouns": "",
+          "title": "FOUNDER & EXECUTIVE DIRECTOR OF GREEN NEIGHBOR CHALLENGE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/25e9b45b-c7e6-4bab-8bb0-23120764922e/Andrew+Butts+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Systems Thinker. Tinkerer. Educator. Misfit. Andrew Butts is the founder and executive director of Green Neighbor Challenge, a small nonprofit dedicated to helping US residents navigate their home energy transitions. Whether that means building an interactive online toolkit utilizing custom national datasets, connecting and coordinating climate and energy groups across the midwest, hosting free webinars and digital office hours, nurturing a newsletter community, or designing a tabletop-style game involving home appliances, Andrew is willing to do what is needed for people and the planet. For these efforts he was recently selected as a Grist 50 Fixer. Andrew grew up in Pleasant Prairie WI, downwind from the largest coal plant in the state, studied business and film at UW-Madison, environmental policy at UMN, and now resides in Madison, WI. Beyond Green Neighbor Challenge, Andrew serves on the Steering Committee of the REAMP Network, the Leadership Team of the Wisconsin Climate Table, and the Board of Directors of the People's Science Network."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/andrew-d-butts/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-sophie-wang",
+          "name": "Sophie Wang",
+          "pronouns": "",
+          "title": "RESEARCHER, EDUCATOR, ARTIST, ZINE MAKER",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f9ec9bca-f5fb-4082-9922-1d15b71215ef/Sophie+Wang+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Sophie Wang is a Chinese American researcher, educator, artist, and zine maker currently based in the Twin Cities. She makes zines, comics, and other forms of art that bring a critical power lens to science, technology, epistemology, and knowledge-making, as well as other themes like labor history, immigration, and liberatory celebration."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/sophieshenwang/"
+                  },
+                  {
+                      "type": "instagram",
+                      "url": "https:/www.instagram.com/shufshenwang"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https:/www.wangshuf.com/,",
+                      "display": "SHUF"
+                  }
+              ],
+              "organization": {
+                  "name": "",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://wangshuf.bigcartel.com/",
+                          "display": "SHUF"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-chinelo-dike",
+          "name": "Chinelo Dike",
+          "pronouns": "she/her",
+          "title": "BEHAVIOR TECHNICIAN, APARA AUTISM CENTER, NDAUWU FELLOW",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e43f3a40-79db-4c32-b0c0-553d1a8cfcd9/Chinelo+Dike+Mini+Card+2025.PNG?content-type=image%2Fpng",
+          "bio": [
+              "Chinelo Dike (She/her) is a No Data About Us Without Us (NDAUWU) Fellow with the No Tech Criminalization in Education, NOTICE Coalition. She's a recent graduate of the University of Houston and also based in Houston. She now works full-time as a Registered Behavior Technician at Apara Autism Center. She'll also be a panelist for the No Data About Us Without Us panel discussion. We're thrilled to have her join us! Fun fact about Chinelo, she played the clarinet middle school through college!"
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/chinelo-d-2217721a9/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-shayna-karuman",
+          "name": "Shayna Karuman",
+          "pronouns": "",
+          "title": "FINE ARTIST, NDAUWU FELLOW & ARTIST-IN-RESIDENCE",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/95b11c56-6e9f-4c90-a5e9-b387e2e6b383/Shayna+Karuman+Mini+Card+2025.PNG?content-type=image%2Fpng",
+          "bio": [
+              "Shayna Koong Karuman is a Second Generation Malaysian Singaporean American Organizer and Artist. A middle child to two strong and brilliant sisters, Zara and Avisha, she’s been shaped by incredible women, educators, community leaders, and friends from all over, including Boston, Pittsburgh, Singapore, Ipoh, and more. Frequent moves gave Shayna a unique way to connect with others and translate emotion and experience into art and opportunity. Inspired by the rise in police brutality and anti-Asian hate during COVID-19, she co-founded the Asian Night Market to create spaces for AAPI entrepreneurs and foster connections with the Fargo-Moorhead community. The market has grown from 500 to 2,500 attendees and continues to build a network for AAPI entrepreneurs. Themes of identity and love are at the heart of Shayna’s art and activism. With a background in architecture, she draws inspiration from design principles to advance racial justice and civic engagement. Outside of organizing, Shayna volunteers, plays rugby, and experiments with photography and textile arts. Recently relocated, she’s honored to continue her work, connecting and growing communities around AAPI racial justice and activism, with special attention to the legacy of Hmong, Vietnamese, and Laotian organizing."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/shayna-karuman-829a23203/"
+                  }
+              ],
+              "organization": {
+                  "name": "",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.asiannightmarketfm.org/our-team",
+                          "display": "Asian Night Market"
+                      },
+                      {
+                          "type": "website",
+                          "url": "https://www.tciamn.org/noticecoalition/fellowship",
+                          "display": "NOTICE Coalition Fellowship"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-jill-greendeer",
+          "name": "Dr. Jill Greendeer",
+          "pronouns": "she/her",
+          "title": "INDIGENOUS VISIONS RESEARCH & WELLNESS(IVRW) LLC, DREAM OF WILD HEALTH",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/554f523b-cd2e-45a1-8619-fdc2992590d4/Dr.+Jill+Greendeer+Mini+Card+2025.PNG?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Jill Greendeer (she/her), Ho-chunk Nation (enrolled), Potawatomi & Kaw descendent. Program Manager at Dream of Wild Health, Founding Director of Indigenous Visions Research and Wellness (IVRW) LLC. Team member at The Collaboratory for Indigenous Data Governance. Jill has experience working in academic, corporate, clinical, and community settings both within Native communities and outside of Indigenous societies. She has lived experience as an Indigenous woman in both urban and rural environments that adds to her diverse worldview and gives her a strong sense of grounded Indigenous narrative to heal and empower Indigenous people. She recognizes systemic racism and oppression are deeply embedded within healthcare and academia. We continue to see non-Indigenous people benefit at Indigenous communities’ expense, having adverse impacts on Indigenous communities. Her PhD experience gave her a deep call to action filled with necessity and urgency. In these spaces are opportunities to stand her ground, speak truth, share her Indigenous lived experience, and find comfort in uncomfortable spaces, conversations, and initiatives. Protecting the sacred is tremendous work and we all have to do our part to empower Indigenous narratives, perspectives and knowledge."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/jill-greendeer-phd-ma-ms-0815a7262/"
+                  }
+              ],
+              "organization": {
+                  "name": "",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://indigenousdatalab.org/team-member-jill-greendeer/",
+                          "display": "Indigenous Data Lab"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-elina-castillo-jimenez",
+          "name": "Elina Castillo Jiménez",
+          "pronouns": "",
+          "title": "ADVOCACY AND POLICY ADVISOR, AMNESTY INTERNATIONAL",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/270d63d4-89ea-4b9d-ac3f-61b4663d1955/Elina+Castillo+Jime%CC%81nez+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Elina Castillo Jiménez is a feminist human rights lawyer working at the intersection of human rights, surveillance, and public policy — driven by a belief that people, joy, and justice should lead every strategy we build.", 
+              "Elina’s decade-long career has spanned four countries and multi-regional portfolios, from a national focus, to covering the Americas, and now a global stage. She turns complex social justice issues into actionable, people-centered strategies. She’s advised governments, philanthropic foundations, global nonprofits, and international companies — including roles with Amnesty International and Oxfam — on how to lead with impact, center equity, and drive lasting, meaningful change.", 
+              "Along the way, she’s also co-authored groundbreaking research on spyware surveillance as technology-facilitated gender-based violence, became a published author on human rights and racial justice, ositioned her organization as a trusted global voice in human rights and tech accountability, led award-winning campaigns, advised nonprofit boards, companies, and governments, mentored emerging advocates, and had her work featured in CNN, The Washington Post, Libération, Cyberscoop, and other international outlets.", 
+              "Elina’s work has also earned her fellowships from Chevening, the University of Minnesota Human Rights Center, and Harvard-led Minnesota Young American Leaders Program. She is also a bar-admitted attorney in the Dominican Republic and have honors degrees from top law schools in the Dominican Republic, Canada, and the UK.", 
+              "When she’s not advocating for human rights or designing strategies for social impact, you’ll likely find her journaling, dancing, reading, or exploring unfamiliar places — to listen, learn, and rethink what she thought she knew. She often writes about these experiences in her personal blog."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "website",
+                      "url": "hhttps://elinacastillo.com/",
+                      "display": "elinacastillo.com"
+                  },
+                  {
+                      "type": "linkedin",
+                      "url": "https:/www.linkedin.com/in/elinacastillo/"
+                  },
+                  {
+                      "type": "instagram",
+                      "url": "https:/www.instagram.com/elinacastillo/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-jeremy-eugene",
+          "name": "Jeremy Eugene",
+          "pronouns": "",
+          "title": "POET, EDUCATOR, COMMUNITY VOICES FOR PUBLIC EDUCATION, NDAUWU FELLOW",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/6a65c953-76bd-495e-8e55-b792b2d0dbbd/Jeremy+Eugene+Mini+Card+2025.PNG?content-type=image%2Fpng",
+          "bio": [
+              "Jeremy Eugene is a poet, organizer, and educator currently teaching high school English. He is of Trinidadian heritage and resides in Houston. He works with Community Voices for Public Education, a group advocating for equitable schools in the Houston area. Jeremy is a No Data About Us Without Us (NDAUWU) Fellow with the No Tech Criminalization in Education, NOTICE Coalition. He will be a panelist for the No Data About Us Without Us and The State of Youth Surveillance panel discussions. We're thrilled to have him join us!"
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https:/www.linkedin.com/in/jeremy-eugene-74345173/"
+                  },
+                  {
+                      "type": "website",
+                      "url": "https://www.tciamn.org/noticecoalition/fellowship",
+                      "display": "NOTICE Coalition Fellowship"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-catherine-squires",
+          "name": "Dr. Catherine Squires",
+          "title": "WRITER, EDITOR, YOGA INSTRUCTOR, D4PG PROGRAMS COORDINATOR",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0c659c27-2cb5-4e53-acec-48a70c89b457/Dr.+Catherine+R.+Squires+Mini+Card+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Catherine R. Squires is a writer, editor and yoga practitioner. She believes movement, storytelling, art making and collective learning are forms of healing that guide us toward more ethical, sustainable ways of being in the world. Through eclectic mixes of writing, movement, art, and history, she conveys stories, curates curricula and facilitates programs to support fully embodied voices. Catherine has engaged in multiple community partnerships in the Twin Cities to uplift and share local Black histories, support BIPOC writers, share accessible yoga practices, curate panels, host conferences and facilitate intergenerational story sharing. Catherine is the author of multiple books and articles on media, race, gender, and politics, including Dispatches from the Color Line (2007) and The Post-Racial Mystique (2014), and the edited collection Dangerous Discourses: Feminism, Gun Violence & Civic Life (2016). After a two-plus decade career in academia, she retired from her position as Associate Dean of the Humphrey School of Public Affairs and Professor of Communication Studies at the University of Minnesota, where she is now professor emerita. Dr. Squires is currently working to support the work of local organizations, editing, writing, and facilitating healing spaces. "
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/catherine-r-squires-3379657/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-clarence-okoh",
+          "name": "Clarence Okoh",
+          "title": "SENIOR ATTORNEY, GEORGETOWN, CO-FOUNDER OF THE NOTICE COALITION",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/99f2a797-bbba-4044-af29-c9fbecff5e01/Clarence+Okoh+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Clarence Okoh is a civil and human rights attorney, researcher, and policy advocate who works in deep collaboration with communities to create transformative social change. Clarence is the Senior Attorney at the Center on Privacy and Technology at Georgetown Law. He is also a co-founder of the No Tech Criminalization in Education (NOTICE) Coalition.",
+            "His current work examines the societal implications of artificial intelligence and other emerging technologies on the rights, freedoms, and material conditions of Black people and other historically marginalized communities. This work reflects his longstanding professional commitment to building just futures through bold, innovative, imaginative legal and policy solutions. Clarence has lead research and advocacy campaigns that influenced legislative, legal and public policy outcomes at the federal, state and local levels while widening pathways for greater community leadership in democratic governance.",
+            "An Alabama native, Okoh began his career leading direct service initiatives to support families with low incomes and Black communities in his home state. Clarence received his bachelor’s degree in political science with a minor in human rights at the University of Chicago. Clarence is a graduate of New York University School of Law, where he was a Root-Tilden-Kern Scholar. While in law school, Clarence was part of the Criminal Defense and Re-Entry Clinic and the Civil Rights Clinic; he was also a Colloquia Editor for the NYU Review of Law & Social Change. He also served as a legal aide in the Civil Rights Bureau of the New York State Attorney General’s Office."
+          ],
+          "social": {
+            "personal": [
+                {
+                    "type": "linkedin",
+                    "url": "https://www.linkedin.com/in/clarenceokoh/"
+                },
+                {
+                    "type": "bluesky",
+                    "url": "https://bsky.app/profile/clarenceokoh.bsky.social"
+                },
+                {
+                    "type": "website",
+                    "url": "https://www.clarenceokoh.com/",
+                    "display": "clarenceokoh.com"
                 }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-roderic-crooks",
-            "name": "Dr. Roderic N. Crooks",
-            "pronouns": "he/him/his",
-            "title": "ASSISTANT PROFESSOR, DEPARTMENT OF INFORMATICS, UC IRVINE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f2fe79af-fec8-41ec-b96e-783b2a8adea1/Roderic+mini+Card+D4PG+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Roderic N. Crooks (he/him/his) is an assistant professor in the Department of Informatics at UC Irvine. His research examines how the use of digital technology by public institutions contributes to the minoritization of working-class communities of color. His current project explores how community organizers in working-class communities of color use data for activist projects, even as they dispute the proliferation of data-intensive technologies in education, law enforcement, financial services, and other vital sites of public life. He has published extensively in human-computer interaction (HCI), science and technology studies (STS), and social science venues on topics including political theories of online participation, equity of access, and document theory."
             ],
-            "promotional": {
-                "books": [
-                    {
-                        "title": "Access is Capture: How Edtech Reproduces Racial Inequality",
-                        "cover_image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2f6e15da-b3fc-4413-888d-6501f6f3b28b/roderic-book-cover.png?content-type=image%2Fpng",
-                        "purchase_url": "https://bookshop.org/p/books/access-is-capture-how-edtech-reproduces-racial-inequality-roderic-n-crooks/21346902?ean=9780520393288&next=t",
-                        "label": "Learn More",
-                        "description": ""
-                    }
+            "organization":{
+              "name": "NOTICE Coalition",
+              "links": [
+                {
+                  "type": "linkedin",
+                  "url": "https://www.linkedin.com/company/no-tech-criminalization-in-education-notice-coalition/"
+                },
+                {
+                  "type": "website",
+                  "url": "https://www.tciamn.org/noticecoalition/about",
+                  "display": "NOTICE Coalition"
+                }
+              ]
+            }
+        },
+        "workshops": []
+      },
+      {
+          "id": "speaker-chelsea-barabas",
+          "name": "Dr. Chelsea Barabas",
+          "title": "CHALLENGER & EXAMINER, CURATOR & PROJECT LEAD AT THE EDGELANDS INSTITUTE, NOTICE COALITION LEADERSHIP",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/bb0a12ad-94a1-4e25-b9d3-679a8120f5e9/Chelsea+Barabas+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Chelsea Barabas is a community-centered researcher working on a wide range of issues related to technology and social justice. Chelsea is currently the Lead Curator and Researcher for the Edgelands Institute in Houston, TX. She also serves on the leadership team of the No Tech Criminalization in Education (NOTICE) Coalition.",
+            "Chelsea recently completed her PhD at the MIT Media Lab, where her research examined the role of technology as a battleground for long-standing struggles for racial justice in the United States. Her work has been covered in places like The New York Times, The Atlantic, Wired, Motherboard, Newsweek, Boston Globe, and CBC. These days she splits her time between Nairobi, Kenya and Austin, Texas."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/chelsea-barabas/"
+              },
+              {
+                "type": "website",
+                "url": "https://www.chelsbar.com/",
+                "display": "chelsbar.com"
+              }
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-christianna-thomas",
+          "name": "Christianna Thomas",
+          "title": "COMMUNITY UNIFIER, STUDENT ORGANIZER & DIRECTOR AT SEAT, NDAUWU FELLOW",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/fae31fe4-dda4-4aa0-8690-a630aabe49bd/Christianna+Thomas+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Christianna Thomas is a student organizer and advocate, 1st generation immigrant, and a high school junior. She is a Director at SEAT, Students Engaged in Advancing Texas and is a part of the No Data About Us Without Us (NDAUWU) Fellowship, a collaborative initiative with the No Tech Criminalization in Education (NOTICE) Coalition.In her research, Christianna explores how digital surveillance tools such as web filters are being used in Houston public schools to shape what students can access, learn and interact with. Her work highlights how these systems can reinforce inequality and create hidden barriers to education.",
+            "Christianna's journey into advocacy sprouted when her district was taken over by the state and she saw what occurs when students are silenced. Though she is young, her goal is to create change from the ground up. Through her work she strives to push forward positive change and minoritized voices to, slowly but surely, form a more equitable society."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/christianna-thomas-85500324a/"
+              }
+            ],
+            "organization": {
+              "name": "SEAT",
+              "links": [
+                {
+                  "type": "linkedin",
+                  "url": "https://www.linkedin.com/company/students-engaged-in-advancing-texas/"
+                },
+                {
+                  "type": "website",
+                  "url": "https://www.studentsengaged.org/about",
+                  "display": "SEAT"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+        "id": "speaker-cassie-scharber",
+        "name": "Dr. Cassie Scharber",
+        "title": "ASSOC. PROFESSOR, LEARNING TECHNOLOGIES, U OF M",
+        "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/666af599-0e01-4681-97ed-e0f5f26480bd/Cassie+Scharber+Mini+Card+2025.png?content-type=image%2Fpng",
+        "pronouns": "she/her/hers",
+        "bio": [
+          "Dr. Cassie Scharber is an Associate Professor of Learning Technologies, Director of L+T Collaborative, and Bonnie Westby Huebner Chair in Education and Technology at the University of Minnesota.",
+          "Cassie is troubled by the narrow conceptions and practices of literacy and learning that proliferate in schools and current educational inequalities that are rooted in the gendered, racist, and classist histories of U.S. schooling. Her scholarship, service, and teaching explore and challenge these issues.",
+          "She is a community-engaged scholar and former K12 teacher. With her colleagues at the L+T Collaborative, she leads long-term research-practice partnerships with local school districts focused on technology integration, computer science education, and online learning. She is also involved with CSforAll-MN, a collective effort committed to advancing equitable computer science education policies and opportunities for every K12 student in Minnesota."
+        ],
+        "social": {
+          "organization": {
+            "name": "L+T Collaborative, University of Minnesota",
+            "links": [
+              {
+                "type": "website",
+                "url": "https://lt.umn.edu/faculty/CassieScharber",
+                "display": "lt.umn.edu/faculty/CassieScharber"
+              }
+            ]
+          }
+        },
+        "workshops": []
+      },
+      {
+          "id": "speaker-ed-vogel",
+          "name": "Ed Vogel",
+          "title": "SENIOR POLICY RESEARCHER, SURVEILLANCE RESISTANCE LAB NOTICE COALITION LEADERSHIP",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/1bff23d5-df04-4672-baed-d77f1437c8a2/Ed+Vogel+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Ed Vogel is the Senior Policy Researcher with the Surveillance Resistance Lab. He has more than fifteen years of experience in movement spaces and organizing in Chicago as a member of Lucy Parsons Labs, Chicago Community Bond Fund, Believers Bail Out, and Free Us: the Chicago EM Collective. Ed is currently a board member with Chicago Torture Justice Center, Corporate Accountability Lab, Ecosystems of Care, and DontCallThePolice.com"
+          ],
+          "social": {
+            "organization": {
+              "name": "Surveillance Resistance Lab",
+              "links": [
+                {
+                  "type": "website",
+                  "url": "https://surveillanceresistancelab.org/",
+                  "display": "surveillanceresistancelab.org"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-khadijah-zahid",
+          "name": "Khadijah Zahid",
+          "title": "IDA B. WELLS FELLOW AT RESEARCH IN ACTION, RIA",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/b5bdc296-c943-4459-8ac3-28a1598a8b22/Khadijah+Zahid+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Khadijah Zahid is an Ida B. Wells Fellow at Research in Action (RIA). Khadijah is adept at leveraging research to drive advocacy and impact. She has witnessed firsthand how injustices impact everyday realities— who has access to resources, whose opinions are heard, and whose humanity is acknowledged whether via legislation, research, or direct action. She believes that research is not just gathering information, it’s studying systematic barriers and creating policies that disrupt the status quo.",
+            "Through quantitative analysis and community-based methods, Khadijah sees her work at RIA as a bridge between data and impact, providing her the opportunity to reclaim research as a tool for liberation and justice."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/khadijahzahid/"
+              }
+            ],
+            "organization": {
+              "name": "Research in Action",
+              "links": [
+                {
+                  "type": "website",
+                  "url": "https://www.researchinaction.com/staff",
+                  "display": "Research in Action Staff"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-vyjayanthi-vadrevu",
+          "name": "Vyjayanthi Vadrevu",
+          "title": "",
+          "photo": "",
+          "bio": [],
+          "social": {},
+          "workshops": []
+      },
+      {
+          "id": "speaker-sharon-kennedy-vickers",
+          "name": "Sharon Kennedy Vickers",
+          "title": "CEO OF SOFTWARE FOR GOOD",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ca51895c-7838-479f-8228-57338458a941/Sharon+Kennedy+Vickers+Mini+Card+2025.png?content-type=image%2Fpng",
+          "pronouns": "she/her",
+          "bio": [
+            "Sharon Kennedy Vickers is the CEO of Software for Good. Sharon leverages over twenty years of leadership and software engineering experience to connect people to resources needed to live fully and free. She has served in multiple sectors including private, nonprofit, education, and government. She joins Software for Good after five years serving residents in the City of Saint Paul and the global civic technology community as Chief Information Officer (CIO), overseeing cybersecurity, infrastructure and operations, digital solutions, technology business management and digital communications, and supporting 15 business units/departments. She was responsible for ensuring the city used data and technology to create a more welcoming, just, and inclusive Saint Paul by co-creating people-centered digital solutions. Sharon is a champion for equity in tech and is intentionally focused on creating an inclusive digital economy in Minnesota, including as co-founder of Techquity.MN and co-organizer of Code Switch, a civic hackathon."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/sharonkennedyvickers/"
+              }
+            ],
+            "organizations": [
+              {
+                "name": "Software for Good",
+                "links": [
+                  {
+                    "type": "linkedin",
+                    "url": "https://www.linkedin.com/company/software-for-good/posts/?feedView=all",
+                    "display": "Software for Good - LinkedIn"
+                  },
+                  {
+                    "type": "website",
+                    "url": "https://softwareforgood.com/people/sharon-kennedy-vickers/",
+                    "display": "Software for Good – Sharon Kennedy Vickers"
+                  }
                 ]
-            },
-            "social": {
-                "personal": [
-                    {
-                        "type": "website",
-                        "url": "https://www.rncrooks.info",
-                        "display": "rncrooks.info"
-                    }
+              },
+              {
+                "name": "Code Switch",
+                "links": [
+                  {
+                    "type": "website",
+                    "url": "https://www.codeswitch.mn/",
+                    "display": "Code Switch"
+                  }
                 ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-angela-smith",
-            "name": "Dr. Angela D. R. Smith",
-            "title": "ASSISTANT PROFESSOR, SCHOOL OF INFORMATION, UTX AUSTIN",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e6264e6e-93e8-4c04-bca8-9134ae2c302d/Dr.+Smith+Mini+Card+2025+1.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Angela Smith is an Assistant Professor at the [School of Information](https://www.ischool.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/). Dr. Smith received her doctoral degree from Northwestern University in Technology & Social Behavior, a joint degree in Communications and Computer Science. Her research is in the field of Human-Computer Interaction, Computer-Supported Cooperative Work, and Information Sciences. Her current research explores how critical and intersectional theoretical lenses can inform an assets-based participatory design of technologies to support historically marginalized groups, such as individuals of color and individuals experiencing homelessness, in pursuing sustainable, emancipatory transformations and socially responsible technology experiences. Through qualitative, participatory design methods, Dr. Smith seeks to co-construct knowledge, conscientiazation, and design interventions with my populations."
+              }
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-dheera-yalamanchili",
+          "name": "Dheera Yalamanchili",
+          "title": "RESEARCH SUPPORT SPECIALIST AT RESEARCH IN ACTION, RIA",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/62246238-8d49-4ced-8929-6150e438dfb7/Dheera+Yalamanchili+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Dheera Yalamanchili is a Research Support Specialist at Research in Action (RIA), leading projects that redirect power, transform relationships, and create radical change. She's passionate about equity-centered research and believes in the importance and power of community-led action.",
+            "Dheera is a Macalester College alumn and got has got undergraduate degree studying Environmental Studies and Psychology. Her background and upbringing have fueled a desire to actively engage in work and research that prioritizes equity. During her undergraduate journey, she had the opportunity to collaborate with diverse communities on a variety of projects focused on environmental justice, where she saw firsthand the strength of community-based action and the powerful changes it can initiate."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/dheera-yalamanchili-16288124b/"
+              }
             ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/angeladrobinsonsmith"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://angeladrsmith.com",
-                        "display": "angeladrsmith.com"
-                    }
+            "organization": {
+              "name": "Research in Action",
+              "links": [
+                {
+                  "type": "website",
+                  "url": "https://www.researchinaction.com/what-we-do",
+                  "display": "Research in Action"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-angie-meija",
+          "name": "Dr. Angie Meija",
+          "title": "SENIOR RESEARCH ASSOCIATION AND RESEARCH DESIGN MANAGER AT RESEARCH IN ACTION, RIA",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/19e0b26d-5d50-4dde-9bc0-7557cbd2f5b7/Dr.+Angie+P.+Meija+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Angie P. Meija is Senior Research Associate and Research Design Manager at Research in Action (RIA). As an interdisciplinary scholar and community activist, she employs evidence-based practices to address social justice issues. Her research focuses on the intersections of health disparities and socio-emotional health with qualitative, arts-based ethnographic methods to analyze social issues of power and domination as they affect marginalized groups.",
+            "As a cisgender woman of Mexican and Central American descent who embodies multiple disabilities and has survived incidents of reproductive oppression, she believes in the transformative power of synthesizing research tools with testimonio and other forms of speaking truth to power in creating just worlds. Her goals as a researcher are enhanced by the ethos and vision of nepantlerismo – a Nahualt term used by Mexican feminist and queer theorist Gloria Anzaldúa to describe the ability to stand between and straddle multiple worlds and the desire to build puentes (bridges) and facilitate passages between them. She is always seeking to be a vulnerable co-learner and co-creator while ensuring that our communities are empowered to demand accountability, especially from those with more socially advantaged identities. She believes that the opportunity and space that RIA has provides allows her to engage in this work while using her more than 15 years of training in community-based participatory research.",
+            "Angie received her PhD in Philosophy with an specialization in Sociology from Syracuse University's Maxwell School of Citizenship and Public Affairs."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/angiemejia/"
+              }
+            ],
+            "organization": {
+              "name": "Research in Action",
+              "links": [
+                {
+                  "type": "website",
+                  "url": "https://www.researchinaction.com/staff",
+                  "display": "Research in Action"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-madasen-briggs",
+          "name": "Dr. Madasen Briggs",
+          "title": "LEAD JR RESEARCH ASSISTANT AT RESEARCH IN ACTION, RIA",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/bdca4e66-a308-4893-9dfa-08fb8d4745c7/Dr.+Madasen+Briggs+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+            "Dr. Madasen Briggs is a community-engaged, mixed-methods Researcher and Social Psychologist. She is the Lead Junior Research Associate at Research in Action (RIA), offering services that the power of research by centering community expertise to drive actionable solutions for racial justice.",
+            "Madasen's personal background and journey through academia kindled a passion for the ways that equity and justice are entwined with knowledge production and access. She has her PhD in Behavioral Science with a specialization in social psychology. She was fortunate to receive additional training in areas like educational and health psychology, but her research passions have always centered the interplay between the self and environments/society, particularly as it relates to collective liberation. Prior to joining RIA, She was a Data Analyst and a Qualitative Research Consultant throughout her graduate degree. Within She is most excited to platform impacted peoples and co-develop strategies that drive meaningful change."
+          ],
+          "social": {
+            "personal": [
+              {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/madasen-briggs/"
+              }
+            ],
+            "organization": {
+              "name": "Research in Action",
+              "links": [
+                {
+                  "type": "website",
+                  "url": "https://www.researchinaction.com/staff",
+                  "display": "Research in Action"
+                }
+              ]
+            }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-hana-dinku",
+          "name": "Hana Dinku",
+          "title": "DIRECTOR OF THE LEALTAD-SUZUKI CENTER FOR SOCIAL JUSTICE AT MACALESTER",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f830536e-45c0-46d2-aa1d-a0aac21f0df6/Hana+Dinku+Mini+Card+2025.png?content-type=image%2Fpng",
+          "pronouns": "she/her/hers",
+          "bio": [
+              "Hana Dinku is the Director of the Lealtad-Suzuki Center for Social Justice at Macalester College. Hana is a passionate advocate for educational equity. Her education, professional work, and community organizing focus on the intersection of education, race, gender, and social justice. She is committed to working with educators and community members to dismantle systems of oppression and empower youth through liberatory education."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/hana-d-04a56253/"
+                  }
+              ],
+              "organization": {
+                  "name": "Lealtad-Suzuki Center for Social Justice, Macalester College",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.macalester.edu/social-justice/staff/hanadinku/",
+                          "display": "Macalester Social Justice Staff"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-ishmael-israel",
+          "name": "Dr. Ishmael Israel",
+          "title": "ATTORNEY AT LEXCON LAW, EXECUTIVE DIRECTOR OF UMOJA COMMUNITY DEVELOPMENT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4682caca-a44a-46c5-8b9c-c9013682a5c0/Dr.+Ishmael+Israel+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Dr. Ishmael Israel is an attorney at Lexicon Law, Pllc, Chief Compliance Officer at Security Solutions Professional Agency (SSPA), and Executive Director at Umoja Community Development Corporation (UCDC). Ishmael has been an advocate for his local community and residents in Minneapolis, MN throughout his career. Across a span of 20 years, he has developed expertise in real estate financing, organization and contractual compliance, construction, and commercial leasing and residential contract development and negotiation.",
+              "Ishmael has a Doctorate of Jurisprudence, Litigation, Contracts, and Real Property from Mitchell Hamline School of Law and has a graduate degree in Institute of Executive Director Leadership from the University of St. Thomas."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/ishmael-israel-esquire/"
+                  }
+              ],
+              "organization": {
+                  "name": "Umoja Community Development Corporation",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://umojacdc.org/",
+                          "display": "UCDC"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-jayden-thunberg",
+          "name": "Jayden Thunberg",
+          "title": "STRATEGIC DATA LEADER AT DISPATCH, EID CHAMPION",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c0e1ed01-5fe1-4289-803b-a84e3abdbecc/Jayden+Thunberg+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Jayden Thunberg is the Strategic Data Builder at Dispatch and passionate about building systems that scale across tools, teams, and business goals. She co-leads a modern data platform, connects cross-functional priorities, and designs processes that bring structure and clarity to fast moving environments.",
+              "Jayden's work spans business intelligence, data engineering, and product strategy with a focuses on aligning long-term vision with actionable outcomes. She mentors a growing team, help define KPIs and workflows, and translate complexity into decisions that move the business forward.",
+              "Beyond the data, Jayden champions inclusive leadership and organizational growth. She believes in building not just better systems, but better environments for people to thrive in. She cares deeply about impact, integrity, and creating space for diverse voices in every room she's in."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/jayden-thunberg/"
+                  }
+              ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-jonathan-rodriguez",
+          "name": "Jonathan Rodriguez",
+          "title": "FOUNDER, FREE J.ROD PODCAST",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ba9a67e4-50ab-4c9d-ad3c-579ca4a9a5d9/Jonathan+Rodriguez+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Jonathan Rodriguez is a proud Houstonian born in Fifth Ward and raised in Cloverleaf. He is eager to serve and give back to his community. He is motivated to help youth live above the odds by using his lived experience to help advocate for change in our communities. Jonathan has had to overcome adversity, and his Christian faith and education have helped him see how to change and empower others. He is particularly passionate about giving youth second chances and promoting alternatives to incarceration. Jonathan encouraged his brother, now an employee at NASA, to find himself and push for more. He hopes to do the same with the youth he serves. In his free time, he enjoys drawing portraits to uplift others. Jonathan lives by the motto, \"Know yourself, and then you will be the best at what YOU can be!”"
+          ],
+          "social": {
+              "organization": {
+                  "name": "Notice Coalition Fellowship",
+                  "links": [
+                      {
+                          "type": "website",
+                          "url": "https://www.tciamn.org/noticecoalition/fellowship",
+                          "display": "Notice Coalition Fellowship"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-tammie-campbel",
+          "name": "Tammie Campbel",
+          "title": "FOUNDER AND EXECUTIVE DIRECTOR, HONEY BROWN HOPE FOUNDATION",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ee12a709-169a-49cf-8e54-29f6f82bec48/Tammie+Campbell+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Tammie Lang Campbell is a nationally recognized, award-winning civil rights leader and founder of the Honey Brown Hope Foundation, a non-profit organization that provides resources and support connected to its causes civil rights and environmental stewardship. She has nearly three decades of experience advocating for criminal justice policy reform; addressing disparaging disciplinary policies fueling the school-to-prison pipeline; promoting environmental stewardship; and sharing the untold history of the civil rights era with youth and their families. Campbell is also an author and sought-after speaker who has received numerous national, state and local awards for her work. She is a graduate of Alcorn State University and considers her two adult children, Shar-day and Dennis Jr., as her greatest blessings."
+          ],
+          "social": {
+              "organizations": [
+                {
+                  "name": "Honey Brown Hope Foundation",
+                  "links": [
+                      {
+                          "type": "linkedin",
+                          "url": "https://www.linkedin.com/company/honey-brown-hope-foundation/"
+                      },
+                      {
+                          "type": "website",
+                          "url": "https://www.honeybrownhope.org/founder",
+                          "display": "Honey Brown Hope Foundation"
+                      }
+                  ]
+              },
+              {
+                "name": "Notice Coalition Fellowship",
+                "links": [
+                  {
+                    "type": "website",
+                    "url": "https://www.tciamn.org/noticecoalition/fellowship",
+                    "display": "Notice Coalition Fellowship"
+                  }
                 ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-imene-ghernati",
-            "name": "Dr. Imène Ghernati",
-            "title": "FOUNDER OF THE STEAM LEARNING INSTITUTE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/282899bc-0c6a-4362-8144-e6e1a15a04d9/Dr.+Imene+Ghernati+Mini+Card+D4PG+2025+1.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Imène Ghernati (إيمان غرناطي) is the founder of the STEAM Learning Institute. She has over 30 years of education experience preparing students, teachers, and leaders for diverse classrooms. A former veterinarian and scientist, she has spent the past 15 years in urban education in the Bay Area. She is also the co-founder of the Summer Academy Program, a partnership between Gateway Schools and the University of San Francisco, where she directed the program for two years and started a Makerspace. Imène is from the Algerian Diaspora and has lived in the Bay area since 2008. She is the proud mother of two multicultural boys."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/im%C3%A8ne-ghernati-phd-%D8%A5%D9%8A%D9%85%D8%A7%D9%86-%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-201ab84/"
-                    },
-                    {
-                        "type": "instagram",
-                        "url": "https://www.instagram.com/ifghernati/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.steamlearninginstitute.com/",
-                        "display": "steamlearninginstitute.com"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-tanya-clark",
-            "name": "Dr. Tanya Clark",
-            "title": "ASSISTANT PROFESSOR, ENGLISH DEPARTMENT, MOREHOUSE COLLEGE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/493110ca-3040-450d-8062-cc39a284a8c5/Tanya+Mini+Card+D4Pg+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Tanya N. Clark is an Assistant Professor of English at Morehouse College. She received her BA in English from Clark Atlanta University, her MA in English from the University of Rhode Island, and her Ph.D. in English with a Certification in Women's Studies from Temple University. Her primary areas of teaching and research are 19th and 20th century African American and American literature, African American literary criticism, and Women's and Gender Studies. Dr. Clark's childhood fondness of horror, magical realism, and sci-fi continues to fuel her work. Her expertise lies in Afrofuturism, a cultural movement that reimagines the past, present, and future through a Black lens. She uses Afrofuturism to explore how Black identity, agency, and resiliency intersect to foster black liberation and futurity.",
-                "Dr. Clark has been a part of the English Department since 2017. As a member of the assessment and composition committees, Dr. Clark has helped the department revamp their Composition courses, customize the Composition textbook, and revise student learning objectives. She has taught Composition, Creative Nonfiction, American Literature, and African American Literature. Her most popular (and beloved) course is Blacks in Wonderland, an FYE-class that focuses on Black speculative fiction and film and genres such as sci-fi, horror, fantasy, and Afrofuturism. In this class she invites students to challenge conventions and shape a more vibrant and equitable world through the exploration of alternate realities and transformative narratives. An avid researcher and writer, Dr. Clark's most recent scholarly publications are \"Mission, Morals and the Metaverse: How Morehouse College is Transforming Undergraduate Education in the Sciences and Humanities with Virtual Reality,\" which she co-authored with Morehouse's own Drs. Hamilton, Morris, and Vereen and \"Hagar Revisited: Afrofuturism, Pauline Hopkins, and Reclamation in the Colored American Magazine and Beyond.\"",
-                "The latter work is part of a book-project that uses womanist and speculative frameworks, particularly horror and Afrofuturism, to analyze the early African American author Pauline Elizabeth Hopkins and her work with the Colored American Magazine. She is also writing an article called \"Enter As You Are: Black Women Against Injustice and Racial Violence, Then and Now,\" where she explores the rich tapestry of history, biography, and narrative journalism through the lens of Black women's activism during the early 20th century. In her spare time, she dabbles with writing a memoir entitled Birth, Loss, and Trouble: My Pregnant Story about her experiences with infertility, twin pregnancy, pregnancy loss, and motherhood in which she situates herself as Afrofuturist subject battling intersecting oppressions within the technologically advanced space of today's American healthcare system. Last, and certainly not least, she is bonus mom to Jared, who will be attending Kennesaw State University in the fall, and mom to twin boys, Qunicy and Maurice, who already consider themselves Men of Morehouse, despite being only 11-years old."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/tanya-clark-863762248/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-anita-chikkatur",
-            "name": "Dr. Anita Chikkatur",
-            "pronouns": "she/her/hers",
-            "title": "PROFESSOR IN THE DEPARTMENT OF EDUCATIONAL STUDIES, CARLETON COLLEGE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d3fe6b38-3351-4bb6-88a7-dc51a1655165/Anita+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Professor in the Department of Educational Studies, Carleton College, Northfield, MN.Anita attended public middle and high schools in New York City and identifies deeply as a New Yorker. Her research and teaching interests include student and teacher perspectives on race, gender, and sexuality and issues of diversity and difference in educational institutions. Her research broadly focuses on how educational institutions can be supportive and resource-full environments for everyone (students, teachers, and staff) so that no one has to be individually resilient or exceptional. From 2018-2022, she was the co-principal investigator on an AmeriCorps-funded participatory action research (PAR) project in Faribault, Minnesota, collaborating with youth, parents, teachers, and administrators. You can find more information about the project [here](https://participatoryactionresearch.sites.carleton.edu/carleton-faribault-par-collaboration/)(also available in [Spanish](https://participatoryactionresearch.sites.carleton.edu/es/inicio/) and [Somali](https://participatoryactionresearch.sites.carleton.edu/so/home/) ). [That website](https://participatoryactionresearch.sites.carleton.edu/) also has general resources and information about PAR.",
-                "She is currently the principal investigator of a second AmeriCorps funded grant that builds on the networks developed from the first grant and focuses on Youth Participatory Action Research in five Minnesota school districts. More information about this grant can be found [here](https://participatoryactionresearch.sites.carleton.edu/2022-americorps-ypar-grant/). Anita is a member of the [Education for Liberation Network, Minnesota chapter](https://www.edliberation.org/chapters/edlibmn/) and of The Spoilers Collective, a group of academics of color, who produce [a podcast called “The Drip”](https://thedrippingspoilers.com/?page_id=65) where they discuss books by authors of color."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/anita-chikkatur-b492514/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://thedrippingspoilers.com/?page_id=65",
-                        "display": "thedrippingspoilers.com"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-vyjayanthi-vadrevu",
-            "name": "Vyjayanthi Vadrevu",
-            "title": "FOUNDER OF INCLUYA, APPLIED ANTHROPOLOGIST",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/eb638328-a754-423b-a672-42bd938761f8/Vyjayanthi+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Vyjayanthi Neha Vadrevu is the founder of Incluya, an emotionally intelligent AI coach leading people from financial anxiety to financial resilience. The company was born out of her years of anthropological research for Capital One and Charles Schwab, where her philosophy of looking at problems holistically and culturally led to deeply impactful solutions.",
-                "Her path as an anthropologist was inspired by her multicultural upbringing in Chicago, and [her training in Indian classical dance](https://vimeo.com/413808975?embedded=true&source=vimeo_logo&owner=1128734), which she has cultivated since her childhood, and performed at venues like the Kennedy Center and Symphony Space. She was an adjunct professor of Applied Anthropology and Autoethnography at the City University of New York."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/vyjayanthi-vadrevu/"
-                    }
-                ],
-                "organizations": [
-                    {
-                        "name": "Incluya",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.incluya.com/",
-                                "display": "incluya.com"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Rasa",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.rasa.nyc/about",
-                                "display": "rasa.nyc"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-kill-joy",
-            "name": "Kill Joy",
-            "title": "STREET ARTIST & PUPPETEER, KITCHEN TABLE PUPPET & PRESS GROUP",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ff5e2dd0-6ba5-41d1-8ca5-acd49f7f6f49/Kill+Joy+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Kill Joy’s work is grounded in honoring the earth and seeking environmental and social justice through both radically imaginative worlds and supporting frontline social movements. Her work is an interpretation of world mythology and a study of nature’s cycles. She integrates storytelling and ancient symbolism with calls to spiritual and political awareness and action. Kill joy is an artist-in-residence at the American Civil Liberties Union of Texas, ACLU TX, and a fellow and artist-in-residence at No Data About Us Without Us. Killy joy works as a street artist and as a puppeteer at Kitchen Table Puppets and Press Group."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "instagram",
-                        "url": "https://www.instagram.com/kill.joy.land/?hl=en"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://joyland.space/",
-                        "display": "joyland.space"
-                    }
-                ],
-                "organization": {
-                    "name": "Kitchen Table Puppets and Press Group",
-                    "links": [
-                        {
-                            "type": "instagram",
-                            "url": "https://www.instagram.com/kitchentable.puppetspress/?hl=en"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-marta-shore",
-            "name": "Marta Shore",
-            "title": "LECTURER, BIOSTATISTICS & HEALTH DATA SCIENCE, U OF M",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2aa6d604-5a9e-4a66-8d5b-bed369bd5db6/Marta+Shore+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Marta Shore teaches biostatistics and biostatistical literacy at the University of Minnesota's School of Public Health.  She is the co-founder and co-chair of the Biostatistics and Health Data Science Community Outreach and Engagement Committee (BCOE), which works with public school science teachers to integrate statistics and data science into their curriculum.  She also teaches crop art and coordinates crop art exhibitions. "
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/marta-shore-45600531/"
-                    }
-                ],
-                "organization": {
-                    "name": "Biostat Community Outreach and Engagement Committee (BCOE)",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/outreach-and-engagement/",
-                            "display": "BCOE Committee"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-mark-keierleber",
-            "name": "Mark Keierleber",
-            "title": "INVESTIGATIVE REPORTER, THE 74",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/777c88b0-ca1b-4124-9824-0be8b4d9f4f2/Mark+Keierleber+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Mark is an investigative reporter at The 74. He specializes in covering school safety, school surveillance, and student civil rights. He is the author of the bi-weekly School (in)Security newsletter. His D4PG workshop on school safety and panel \"The State of Youth Surveillance\" explores how youth surveillance is on the rise in ways that are difficult to track or understand. Through this panel of educators, organizers, journalists, and researchers understand the state of EdTech. What we need to know, what we can expect, and what we can do about it. We invite you to join the conversation!",
-                "Check out Mark's [article on ShotSpotter](https://www.the74million.org/article/minneapolis-schools-secretly-partnered-with-shotspotter-surveillance-company-cyber-attack-reveals/) covering how Minneapolis schools secretly partnered with the surveillance company."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/mkeierleber/"
-                    },
-                    {
-                        "type": "bluesky",
-                        "url": "https://bsky.app/profile/markkeierleber.bsky.social"
-                    }
-                ],
-                "organization": {
-                    "name": "The 74",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.the74million.org/",
-                            "display": "the74million.org"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-shreya-sampath",
-            "name": "Shreya Sampath",
-            "title": "RISING JUNIOR, THE GEORGE WASHINGTON UNIVERSITY",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/be52bab1-5d7c-43aa-9ad6-e24d78dc7576/Shreya+Sampath+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Shreya Sampath is a rising junior at The George Washington University studying economics, international affairs, and technology policy. She is interested in exploring the impact of AI on civil rights, privacy, and trade, both in the U.S. and globally. With experience in government and youth advocacy, Shreya seeks to develop inclusive policies and empower youth to participate in policy making. She previously served on the executive board at Encode, and interned at the New Jersey Attorney General's Office, ACLU, and the U.S. Senate.",
-                "Beyond her professional career, Shreya is dedicated to community service, particularly in promoting diversity and cultural engagement. In her free time, she loves visiting art museums, sampling different coffee blends, and enjoying live music. Her D4PG workshop \"Youth Advocacy in Technology Policy\" is one you will want to engage with."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/shreya-sampath/"
-                    },
-                    {
-                        "type": "podcast",
-                        "url": "https://creativitysquared.com/podcast/ep62-data-justice-a-i-reimagining-our-future-part-3/",
-                        "display": "Creatively Squared Podcast"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-alicia-ranney",
-            "name": "Alicia Ranney",
-            "pronouns": "she/her",
-            "title": "INDEPENDENT CONSULTANT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/6caf6f18-2bf9-4111-b263-2520b496d024/Alicia_Ranney_Mini_Card_2025-nobg.png?content-type=image%2Fpng",
-            "bio": [
-                "Alicia Ranney is an independent consultant. She works with the community in various capacities in data analysis. Alicia has over a decade of experience supporting nonprofit social service providers in strategic data decision-making, database development, and uplifting data justice in all aspects of evaluation. She spends her off work time enjoying her family, and wishing for a deeper relationship with her two cats (but who is she kidding)."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/alicia-ranney-3516709/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-adam-cowing",
-            "name": "Adam Cowing",
-            "title": "SENIOR CLIENT DATA CONSULTANT, MACC",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/855f278a-ad46-44b1-b7e8-7caf5628da6e/Adam+Cowing+Mini+Card+2025.PNG?content-type=image%2Fpng",
-            "bio": [
-                "Adam Cowing is Senior Client Data Consultant at MACC. He has a Masters in Public Policy from the Humphrey School of Public Affairs with a concentration in nonprofit leadership and management. He has skills and experience in data analysis, information systems management, program administration, policy implementation, program evaluation, and strong written and verbal communication."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/adamcowing/"
-                    }
-                ],
-                "organization": {
-                    "name": "MACC",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.macc-mn.org/AboutUs/Leadership.aspx",
-                            "display": "macc-mn.org"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-an-gargaiola",
-            "name": "An Garagiola",
-            "pronouns": "",
-            "title": "RESEARCH SCIENTIST, MN DEPARTMENT OF HEALTH",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9a67f96f-b542-4149-8671-353f88090617/An+Gargaiola+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "An Garagiola, Bois Forte Band of Chippewa, MPP, is a mother, PhD Candidate, researcher, and writer born and raised in the Twin Cities. An’s dissertation focuses on the intersection of Indigenous research sovereignty and policy. She currently serves as the Research Scientist in the Office of American Indian Health at MDH, where she works to Indigenize wellness research, identify sources of holistic well being, and influence systems change through a cultural framework. As a mixed-race Anishinaabekwe of Ojibwe and European descent, An’s work blossoms from relational and place-based roots. An was UMN’s coordinator for The TRUTH Project and co-author on Misplaced Trust where her research unearthed Minnesota’s system of land speculation and wealth transfer from Native Nations that continues to impact American Indian wellness. She is passionate about designing plans that help systems become more equitable, sustainable, and accessible for people who institutions continue to marginalize. As the founder of EchoMaker, an Indigenous consulting firm, she frames her work in the following: “How might systems maximize equitable transformation for Indigenous and communities of color, and, how might relational ways of knowing and being merge with anti-colonial efforts that transform systems into ecosystems of holistic well-being?”"
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/an-garagiola-a91266b8"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://sites.google.com/umn.edu/an-gb/home",
-                        "display": "An Gargaiola"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-matthew-shutte",
-            "name": "Matthew Shutte",
-            "pronouns": "",
-            "title": "PIONEERING TECHNOLOGIST, CO-FOUNDER OF HOLOCHAIN",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ac225530-f175-4c2f-a573-4318734b7a58/Matthew+Shutte+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Matthew Schutte is a pioneering technologist with a deep commitment to enabling communities to manage and share essential resources. As the co-founder of Holochain, he has nourished an open source, decentralized application framework that gives each user control over their data and applications—laying the groundwork for opt-in systems of coordination where resource distribution is equitable and dynamically evolvable. Holochain is not a blockchain and makes use of an elegant design that enables communities to steward themselves without having to rely upon token-based validation incentives. His leadership in launching both Holo, a decentralized cloud hosting marketplace, and Unyt, a platform for mutual credit accounting that fosters flows of economic activity within communities, demonstrate a commitment to using decentralized technology to build practical solutions that solve real world coordination problems. On the Board of Directors at Toward Warm Data, Matthew supports explorations of the complex interdependencies that sustain vibrant, resilient communities. This is both study and practice, rooted in the organizing principles of living systems. His multidisciplinary background—from Berkeley Law to designing digital infrastructures — results in an odd perspective on rethinking resource flows as well as the challenges and possibilities presenting themselves in the coming decades."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/matthewschutte/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-katya-abazajian",
-            "name": "Katya Abazajian",
-            "pronouns": "she/they",
-            "title": "ARTIST, WRITER, PUBLIC RESEARCHER, FOUNDER OF PEOPLE'S DATA PROJECT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/964be15f-13cb-496c-b0b0-412860d7f2ec/Katya+Abazajian+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Katya Abazajian (she/they) is an artist, writer, public researcher, and founder of the People’s Data Project. Their research on speculative data futures and collective data governance methods has been published by the Mozilla Foundation’s Data Futures Lab and the Institute for the Cooperative Digital Economy at the New School. They have previously led national programs to improve government transparency and accountability through open data at the Sunlight Foundation and the Beeck Center at Georgetown University. Katya is a founding member of the Houston Abolitionist Collective, a grassroots collective focused on mutual aid and political education in Houston, and the Shock Forest Group, a decentralized artistic research collective focused on exposing ecological and technological histories of violence through collaborative listening."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/katya-abaz"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.katyaabaz.com/",
-                        "display": "katyaabaz.com"
-                    }
-                ],
-                "organization": {
-                    "name": "",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.peoplesdataproject.org/",
-                            "display": "People's Data Project"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-anne-hackman",
-            "name": "Anne Hackman",
-            "pronouns": "",
-            "title": "RESEARCH ASSISTANT, BIOSTATISTICS COMMUNITY OUTREACH & ENGAGEMENT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a8b5671f-64b3-418c-99a4-cc3d2c512325/Anne+Hackman+Mini+Card.png?content-type=image%2Fpng",
-            "bio": [
-                "Anne is a second year Master's student in the Public Health Data Science program at the University of Minnesota. As a research assistant with the University of Minnesota School of Public Health's Biostatistics & Health Data Science Community Outreach and Engagement Committee (BCOE), she worked on creating educational materials to allow middle and high school students to engage with the fields of biostatistics and health data science. She also previously worked as a digital literacy instructor for adults in the Twin Cities and as a Fulbright English Teaching Assistant at a high school in South Korea."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/annehackman/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-andrew-butts",
-            "name": "Andrew Butts",
-            "pronouns": "",
-            "title": "FOUNDER & EXECUTIVE DIRECTOR OF GREEN NEIGHBOR CHALLENGE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/25e9b45b-c7e6-4bab-8bb0-23120764922e/Andrew+Butts+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Systems Thinker. Tinkerer. Educator. Misfit. Andrew Butts is the founder and executive director of Green Neighbor Challenge, a small nonprofit dedicated to helping US residents navigate their home energy transitions. Whether that means building an interactive online toolkit utilizing custom national datasets, connecting and coordinating climate and energy groups across the midwest, hosting free webinars and digital office hours, nurturing a newsletter community, or designing a tabletop-style game involving home appliances, Andrew is willing to do what is needed for people and the planet. For these efforts he was recently selected as a Grist 50 Fixer. Andrew grew up in Pleasant Prairie WI, downwind from the largest coal plant in the state, studied business and film at UW-Madison, environmental policy at UMN, and now resides in Madison, WI. Beyond Green Neighbor Challenge, Andrew serves on the Steering Committee of the REAMP Network, the Leadership Team of the Wisconsin Climate Table, and the Board of Directors of the People's Science Network."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/andrew-d-butts/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-sophie-wang",
-            "name": "Sophie Wang",
-            "pronouns": "",
-            "title": "RESEARCHER, EDUCATOR, ARTIST, ZINE MAKER",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f9ec9bca-f5fb-4082-9922-1d15b71215ef/Sophie+Wang+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Sophie Wang is a Chinese American researcher, educator, artist, and zine maker currently based in the Twin Cities. She makes zines, comics, and other forms of art that bring a critical power lens to science, technology, epistemology, and knowledge-making, as well as other themes like labor history, immigration, and liberatory celebration."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/sophieshenwang/"
-                    },
-                    {
-                        "type": "instagram",
-                        "url": "https:/www.instagram.com/shufshenwang"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https:/www.wangshuf.com/,",
-                        "display": "SHUF"
-                    }
-                ],
-                "organization": {
-                    "name": "",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://wangshuf.bigcartel.com/",
-                            "display": "SHUF"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-chinelo-dike",
-            "name": "Chinelo Dike",
-            "pronouns": "she/her",
-            "title": "BEHAVIOR TECHNICIAN, APARA AUTISM CENTER, NDAUWU FELLOW",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e43f3a40-79db-4c32-b0c0-553d1a8cfcd9/Chinelo+Dike+Mini+Card+2025.PNG?content-type=image%2Fpng",
-            "bio": [
-                "Chinelo Dike (She/her) is a No Data About Us Without Us (NDAUWU) Fellow with the No Tech Criminalization in Education, NOTICE Coalition. She's a recent graduate of the University of Houston and also based in Houston. She now works full-time as a Registered Behavior Technician at Apara Autism Center. She'll also be a panelist for the No Data About Us Without Us panel discussion. We're thrilled to have her join us! Fun fact about Chinelo, she played the clarinet middle school through college!"
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/chinelo-d-2217721a9/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-shayna-karuman",
-            "name": "Shayna Karuman",
-            "pronouns": "",
-            "title": "FINE ARTIST, NDAUWU FELLOW & ARTIST-IN-RESIDENCE",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/95b11c56-6e9f-4c90-a5e9-b387e2e6b383/Shayna+Karuman+Mini+Card+2025.PNG?content-type=image%2Fpng",
-            "bio": [
-                "Shayna Koong Karuman is a Second Generation Malaysian Singaporean American Organizer and Artist. A middle child to two strong and brilliant sisters, Zara and Avisha, she’s been shaped by incredible women, educators, community leaders, and friends from all over, including Boston, Pittsburgh, Singapore, Ipoh, and more. Frequent moves gave Shayna a unique way to connect with others and translate emotion and experience into art and opportunity. Inspired by the rise in police brutality and anti-Asian hate during COVID-19, she co-founded the Asian Night Market to create spaces for AAPI entrepreneurs and foster connections with the Fargo-Moorhead community. The market has grown from 500 to 2,500 attendees and continues to build a network for AAPI entrepreneurs. Themes of identity and love are at the heart of Shayna’s art and activism. With a background in architecture, she draws inspiration from design principles to advance racial justice and civic engagement. Outside of organizing, Shayna volunteers, plays rugby, and experiments with photography and textile arts. Recently relocated, she’s honored to continue her work, connecting and growing communities around AAPI racial justice and activism, with special attention to the legacy of Hmong, Vietnamese, and Laotian organizing."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/shayna-karuman-829a23203/"
-                    }
-                ],
-                "organization": {
-                    "name": "",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.asiannightmarketfm.org/our-team",
-                            "display": "Asian Night Market"
-                        },
-                        {
-                            "type": "website",
-                            "url": "https://www.tciamn.org/noticecoalition/fellowship",
-                            "display": "NOTICE Coalition Fellowship"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-jill-greendeer",
-            "name": "Dr. Jill Greendeer",
-            "pronouns": "she/her",
-            "title": "INDIGENOUS VISIONS RESEARCH & WELLNESS(IVRW) LLC, DREAM OF WILD HEALTH",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/554f523b-cd2e-45a1-8619-fdc2992590d4/Dr.+Jill+Greendeer+Mini+Card+2025.PNG?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Jill Greendeer (she/her), Ho-chunk Nation (enrolled), Potawatomi & Kaw descendent. Program Manager at Dream of Wild Health, Founding Director of Indigenous Visions Research and Wellness (IVRW) LLC. Team member at The Collaboratory for Indigenous Data Governance. Jill has experience working in academic, corporate, clinical, and community settings both within Native communities and outside of Indigenous societies. She has lived experience as an Indigenous woman in both urban and rural environments that adds to her diverse worldview and gives her a strong sense of grounded Indigenous narrative to heal and empower Indigenous people. She recognizes systemic racism and oppression are deeply embedded within healthcare and academia. We continue to see non-Indigenous people benefit at Indigenous communities’ expense, having adverse impacts on Indigenous communities. Her PhD experience gave her a deep call to action filled with necessity and urgency. In these spaces are opportunities to stand her ground, speak truth, share her Indigenous lived experience, and find comfort in uncomfortable spaces, conversations, and initiatives. Protecting the sacred is tremendous work and we all have to do our part to empower Indigenous narratives, perspectives and knowledge."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/jill-greendeer-phd-ma-ms-0815a7262/"
-                    }
-                ],
-                "organization": {
-                    "name": "",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://indigenousdatalab.org/team-member-jill-greendeer/",
-                            "display": "Indigenous Data Lab"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-elina-castillo-jimenez",
-            "name": "Elina Castillo Jiménez",
-            "pronouns": "",
-            "title": "ADVOCACY AND POLICY ADVISOR, AMNESTY INTERNATIONAL",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/270d63d4-89ea-4b9d-ac3f-61b4663d1955/Elina+Castillo+Jime%CC%81nez+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Elina Castillo Jiménez is a feminist human rights lawyer working at the intersection of human rights, surveillance, and public policy — driven by a belief that people, joy, and justice should lead every strategy we build.",
-                "Elina’s decade-long career has spanned four countries and multi-regional portfolios, from a national focus, to covering the Americas, and now a global stage. She turns complex social justice issues into actionable, people-centered strategies. She’s advised governments, philanthropic foundations, global nonprofits, and international companies — including roles with Amnesty International and Oxfam — on how to lead with impact, center equity, and drive lasting, meaningful change.",
-                "Along the way, she’s also co-authored groundbreaking research on spyware surveillance as technology-facilitated gender-based violence, became a published author on human rights and racial justice, ositioned her organization as a trusted global voice in human rights and tech accountability, led award-winning campaigns, advised nonprofit boards, companies, and governments, mentored emerging advocates, and had her work featured in CNN, The Washington Post, Libération, Cyberscoop, and other international outlets.",
-                "Elina’s work has also earned her fellowships from Chevening, the University of Minnesota Human Rights Center, and Harvard-led Minnesota Young American Leaders Program. She is also a bar-admitted attorney in the Dominican Republic and have honors degrees from top law schools in the Dominican Republic, Canada, and the UK.",
-                "When she’s not advocating for human rights or designing strategies for social impact, you’ll likely find her journaling, dancing, reading, or exploring unfamiliar places — to listen, learn, and rethink what she thought she knew. She often writes about these experiences in her personal blog."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "website",
-                        "url": "hhttps://elinacastillo.com/",
-                        "display": "elinacastillo.com"
-                    },
-                    {
-                        "type": "linkedin",
-                        "url": "https:/www.linkedin.com/in/elinacastillo/"
-                    },
-                    {
-                        "type": "instagram",
-                        "url": "https:/www.instagram.com/elinacastillo/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-jeremy-eugene",
-            "name": "Jeremy Eugene",
-            "pronouns": "",
-            "title": "POET, EDUCATOR, COMMUNITY VOICES FOR PUBLIC EDUCATION, NDAUWU FELLOW",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/6a65c953-76bd-495e-8e55-b792b2d0dbbd/Jeremy+Eugene+Mini+Card+2025.PNG?content-type=image%2Fpng",
-            "bio": [
-                "Jeremy Eugene is a poet, organizer, and educator currently teaching high school English. He is of Trinidadian heritage and resides in Houston. He works with Community Voices for Public Education, a group advocating for equitable schools in the Houston area. Jeremy is a No Data About Us Without Us (NDAUWU) Fellow with the No Tech Criminalization in Education, NOTICE Coalition. He will be a panelist for the No Data About Us Without Us and The State of Youth Surveillance panel discussions. We're thrilled to have him join us!"
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https:/www.linkedin.com/in/jeremy-eugene-74345173/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.tciamn.org/noticecoalition/fellowship",
-                        "display": "NOTICE Coalition Fellowship"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-catherine-squires",
-            "name": "Dr. Catherine Squires",
-            "title": "WRITER, EDITOR, YOGA INSTRUCTOR, D4PG PROGRAMS COORDINATOR",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0c659c27-2cb5-4e53-acec-48a70c89b457/Dr.+Catherine+R.+Squires+Mini+Card+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Catherine R. Squires is a writer, editor and yoga practitioner. She believes movement, storytelling, art making and collective learning are forms of healing that guide us toward more ethical, sustainable ways of being in the world. Through eclectic mixes of writing, movement, art, and history, she conveys stories, curates curricula and facilitates programs to support fully embodied voices. Catherine has engaged in multiple community partnerships in the Twin Cities to uplift and share local Black histories, support BIPOC writers, share accessible yoga practices, curate panels, host conferences and facilitate intergenerational story sharing. Catherine is the author of multiple books and articles on media, race, gender, and politics, including Dispatches from the Color Line (2007) and The Post-Racial Mystique (2014), and the edited collection Dangerous Discourses: Feminism, Gun Violence & Civic Life (2016). After a two-plus decade career in academia, she retired from her position as Associate Dean of the Humphrey School of Public Affairs and Professor of Communication Studies at the University of Minnesota, where she is now professor emerita. Dr. Squires is currently working to support the work of local organizations, editing, writing, and facilitating healing spaces. "
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/catherine-r-squires-3379657/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-clarence-okoh",
-            "name": "Clarence Okoh",
-            "title": "SENIOR ATTORNEY, GEORGETOWN, CO-FOUNDER OF THE NOTICE COALITION",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/99f2a797-bbba-4044-af29-c9fbecff5e01/Clarence+Okoh+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Clarence Okoh is a civil and human rights attorney, researcher, and policy advocate who works in deep collaboration with communities to create transformative social change. Clarence is the Senior Attorney at the Center on Privacy and Technology at Georgetown Law. He is also a co-founder of the No Tech Criminalization in Education (NOTICE) Coalition.",
-                "His current work examines the societal implications of artificial intelligence and other emerging technologies on the rights, freedoms, and material conditions of Black people and other historically marginalized communities. This work reflects his longstanding professional commitment to building just futures through bold, innovative, imaginative legal and policy solutions. Clarence has lead research and advocacy campaigns that influenced legislative, legal and public policy outcomes at the federal, state and local levels while widening pathways for greater community leadership in democratic governance.",
-                "An Alabama native, Okoh began his career leading direct service initiatives to support families with low incomes and Black communities in his home state. Clarence received his bachelor’s degree in political science with a minor in human rights at the University of Chicago. Clarence is a graduate of New York University School of Law, where he was a Root-Tilden-Kern Scholar. While in law school, Clarence was part of the Criminal Defense and Re-Entry Clinic and the Civil Rights Clinic; he was also a Colloquia Editor for the NYU Review of Law & Social Change. He also served as a legal aide in the Civil Rights Bureau of the New York State Attorney General’s Office."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/clarenceokoh/"
-                    },
-                    {
-                        "type": "bluesky",
-                        "url": "https://bsky.app/profile/clarenceokoh.bsky.social"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.clarenceokoh.com/",
-                        "display": "clarenceokoh.com"
-                    }
-                ],
-                "organization": {
-                    "name": "NOTICE Coalition",
-                    "links": [
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/no-tech-criminalization-in-education-notice-coalition/"
-                        },
-                        {
-                            "type": "website",
-                            "url": "https://www.tciamn.org/noticecoalition/about",
-                            "display": "NOTICE Coalition"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-chelsea-barabas",
-            "name": "Dr. Chelsea Barabas",
-            "title": "CHALLENGER & EXAMINER, CURATOR & PROJECT LEAD AT THE EDGELANDS INSTITUTE, NOTICE COALITION LEADERSHIP",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/bb0a12ad-94a1-4e25-b9d3-679a8120f5e9/Chelsea+Barabas+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Chelsea Barabas is a community-centered researcher working on a wide range of issues related to technology and social justice. Chelsea is currently the Lead Curator and Researcher for the Edgelands Institute in Houston, TX. She also serves on the leadership team of the No Tech Criminalization in Education (NOTICE) Coalition.",
-                "Chelsea recently completed her PhD at the MIT Media Lab, where her research examined the role of technology as a battleground for long-standing struggles for racial justice in the United States. Her work has been covered in places like The New York Times, The Atlantic, Wired, Motherboard, Newsweek, Boston Globe, and CBC. These days she splits her time between Nairobi, Kenya and Austin, Texas."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/chelsea-barabas/"
-                    },
-                    {
-                        "type": "website",
-                        "url": "https://www.chelsbar.com/",
-                        "display": "chelsbar.com"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-christianna-thomas",
-            "name": "Christianna Thomas",
-            "title": "COMMUNITY UNIFIER, STUDENT ORGANIZER & DIRECTOR AT SEAT, NDAUWU FELLOW",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/fae31fe4-dda4-4aa0-8690-a630aabe49bd/Christianna+Thomas+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Christianna Thomas is a student organizer and advocate, 1st generation immigrant, and a high school junior. She is a Director at SEAT, Students Engaged in Advancing Texas and is a part of the No Data About Us Without Us (NDAUWU) Fellowship, a collaborative initiative with the No Tech Criminalization in Education (NOTICE) Coalition.In her research, Christianna explores how digital surveillance tools such as web filters are being used in Houston public schools to shape what students can access, learn and interact with. Her work highlights how these systems can reinforce inequality and create hidden barriers to education.",
-                "Christianna's journey into advocacy sprouted when her district was taken over by the state and she saw what occurs when students are silenced. Though she is young, her goal is to create change from the ground up. Through her work she strives to push forward positive change and minoritized voices to, slowly but surely, form a more equitable society."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/christianna-thomas-85500324a/"
-                    }
-                ],
-                "organization": {
-                    "name": "SEAT",
-                    "links": [
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/students-engaged-in-advancing-texas/"
-                        },
-                        {
-                            "type": "website",
-                            "url": "https://www.studentsengaged.org/about",
-                            "display": "SEAT"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-cassie-scharber",
-            "name": "Dr. Cassie Scharber",
-            "title": "ASSOC. PROFESSOR, LEARNING TECHNOLOGIES, U OF M",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/666af599-0e01-4681-97ed-e0f5f26480bd/Cassie+Scharber+Mini+Card+2025.png?content-type=image%2Fpng",
-            "pronouns": "she/her/hers",
-            "bio": [
-                "Dr. Cassie Scharber is an Associate Professor of Learning Technologies, Director of L+T Collaborative, and Bonnie Westby Huebner Chair in Education and Technology at the University of Minnesota.",
-                "Cassie is troubled by the narrow conceptions and practices of literacy and learning that proliferate in schools and current educational inequalities that are rooted in the gendered, racist, and classist histories of U.S. schooling. Her scholarship, service, and teaching explore and challenge these issues.",
-                "She is a community-engaged scholar and former K12 teacher. With her colleagues at the L+T Collaborative, she leads long-term research-practice partnerships with local school districts focused on technology integration, computer science education, and online learning. She is also involved with CSforAll-MN, a collective effort committed to advancing equitable computer science education policies and opportunities for every K12 student in Minnesota."
-            ],
-            "social": {
-                "organization": {
-                    "name": "L+T Collaborative, University of Minnesota",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://lt.umn.edu/faculty/CassieScharber",
-                            "display": "lt.umn.edu/faculty/CassieScharber"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-ed-vogel",
-            "name": "Ed Vogel",
-            "title": "SENIOR POLICY RESEARCHER, SURVEILLANCE RESISTANCE LAB NOTICE COALITION LEADERSHIP",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/1bff23d5-df04-4672-baed-d77f1437c8a2/Ed+Vogel+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Ed Vogel is the Senior Policy Researcher with the Surveillance Resistance Lab. He has more than fifteen years of experience in movement spaces and organizing in Chicago as a member of Lucy Parsons Labs, Chicago Community Bond Fund, Believers Bail Out, and Free Us: the Chicago EM Collective. Ed is currently a board member with Chicago Torture Justice Center, Corporate Accountability Lab, Ecosystems of Care, and DontCallThePolice.com"
-            ],
-            "social": {
-                "organization": {
-                    "name": "Surveillance Resistance Lab",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://surveillanceresistancelab.org/",
-                            "display": "surveillanceresistancelab.org"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-khadijah-zahid",
-            "name": "Khadijah Zahid",
-            "title": "IDA B. WELLS FELLOW AT RESEARCH IN ACTION, RIA",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/b5bdc296-c943-4459-8ac3-28a1598a8b22/Khadijah+Zahid+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Khadijah Zahid is an Ida B. Wells Fellow at Research in Action (RIA). Khadijah is adept at leveraging research to drive advocacy and impact. She has witnessed firsthand how injustices impact everyday realities— who has access to resources, whose opinions are heard, and whose humanity is acknowledged whether via legislation, research, or direct action. She believes that research is not just gathering information, it’s studying systematic barriers and creating policies that disrupt the status quo.",
-                "Through quantitative analysis and community-based methods, Khadijah sees her work at RIA as a bridge between data and impact, providing her the opportunity to reclaim research as a tool for liberation and justice."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/khadijahzahid/"
-                    }
-                ],
-                "organization": {
-                    "name": "Research in Action",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.researchinaction.com/staff",
-                            "display": "Research in Action Staff"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-vyjayanthi-vadrevu",
-            "name": "Vyjayanthi Vadrevu",
-            "title": "",
-            "photo": "",
-            "bio": [],
-            "social": {},
-            "workshops": []
-        },
-        {
-            "id": "speaker-sharon-kennedy-vickers",
-            "name": "Sharon Kennedy Vickers",
-            "title": "CEO OF SOFTWARE FOR GOOD",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ca51895c-7838-479f-8228-57338458a941/Sharon+Kennedy+Vickers+Mini+Card+2025.png?content-type=image%2Fpng",
-            "pronouns": "she/her",
-            "bio": [
-                "Sharon Kennedy Vickers is the CEO of Software for Good. Sharon leverages over twenty years of leadership and software engineering experience to connect people to resources needed to live fully and free. She has served in multiple sectors including private, nonprofit, education, and government. She joins Software for Good after five years serving residents in the City of Saint Paul and the global civic technology community as Chief Information Officer (CIO), overseeing cybersecurity, infrastructure and operations, digital solutions, technology business management and digital communications, and supporting 15 business units/departments. She was responsible for ensuring the city used data and technology to create a more welcoming, just, and inclusive Saint Paul by co-creating people-centered digital solutions. Sharon is a champion for equity in tech and is intentionally focused on creating an inclusive digital economy in Minnesota, including as co-founder of Techquity.MN and co-organizer of Code Switch, a civic hackathon."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/sharonkennedyvickers/"
-                    }
-                ],
-                "organizations": [
-                    {
-                        "name": "Software for Good",
-                        "links": [
-                            {
-                                "type": "linkedin",
-                                "url": "https://www.linkedin.com/company/software-for-good/posts/?feedView=all",
-                                "display": "Software for Good - LinkedIn"
-                            },
-                            {
-                                "type": "website",
-                                "url": "https://softwareforgood.com/people/sharon-kennedy-vickers/",
-                                "display": "Software for Good – Sharon Kennedy Vickers"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Code Switch",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.codeswitch.mn/",
-                                "display": "Code Switch"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-dheera-yalamanchili",
-            "name": "Dheera Yalamanchili",
-            "title": "RESEARCH SUPPORT SPECIALIST AT RESEARCH IN ACTION, RIA",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/62246238-8d49-4ced-8929-6150e438dfb7/Dheera+Yalamanchili+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dheera Yalamanchili is a Research Support Specialist at Research in Action (RIA), leading projects that redirect power, transform relationships, and create radical change. She's passionate about equity-centered research and believes in the importance and power of community-led action.",
-                "Dheera is a Macalester College alumn and got has got undergraduate degree studying Environmental Studies and Psychology. Her background and upbringing have fueled a desire to actively engage in work and research that prioritizes equity. During her undergraduate journey, she had the opportunity to collaborate with diverse communities on a variety of projects focused on environmental justice, where she saw firsthand the strength of community-based action and the powerful changes it can initiate."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/dheera-yalamanchili-16288124b/"
-                    }
-                ],
-                "organization": {
-                    "name": "Research in Action",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.researchinaction.com/what-we-do",
-                            "display": "Research in Action"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-angie-meija",
-            "name": "Dr. Angie Meija",
-            "title": "SENIOR RESEARCH ASSOCIATION AND RESEARCH DESIGN MANAGER AT RESEARCH IN ACTION, RIA",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/19e0b26d-5d50-4dde-9bc0-7557cbd2f5b7/Dr.+Angie+P.+Meija+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Angie P. Meija is Senior Research Associate and Research Design Manager at Research in Action (RIA). As an interdisciplinary scholar and community activist, she employs evidence-based practices to address social justice issues. Her research focuses on the intersections of health disparities and socio-emotional health with qualitative, arts-based ethnographic methods to analyze social issues of power and domination as they affect marginalized groups.",
-                "As a cisgender woman of Mexican and Central American descent who embodies multiple disabilities and has survived incidents of reproductive oppression, she believes in the transformative power of synthesizing research tools with testimonio and other forms of speaking truth to power in creating just worlds. Her goals as a researcher are enhanced by the ethos and vision of nepantlerismo – a Nahualt term used by Mexican feminist and queer theorist Gloria Anzaldúa to describe the ability to stand between and straddle multiple worlds and the desire to build puentes (bridges) and facilitate passages between them. She is always seeking to be a vulnerable co-learner and co-creator while ensuring that our communities are empowered to demand accountability, especially from those with more socially advantaged identities. She believes that the opportunity and space that RIA has provides allows her to engage in this work while using her more than 15 years of training in community-based participatory research.",
-                "Angie received her PhD in Philosophy with an specialization in Sociology from Syracuse University's Maxwell School of Citizenship and Public Affairs."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/angiemejia/"
-                    }
-                ],
-                "organization": {
-                    "name": "Research in Action",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.researchinaction.com/staff",
-                            "display": "Research in Action"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-madasen-briggs",
-            "name": "Dr. Madasen Briggs",
-            "title": "LEAD JR RESEARCH ASSISTANT AT RESEARCH IN ACTION, RIA",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/bdca4e66-a308-4893-9dfa-08fb8d4745c7/Dr.+Madasen+Briggs+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Madasen Briggs is a community-engaged, mixed-methods Researcher and Social Psychologist. She is the Lead Junior Research Associate at Research in Action (RIA), offering services that the power of research by centering community expertise to drive actionable solutions for racial justice.",
-                "Madasen's personal background and journey through academia kindled a passion for the ways that equity and justice are entwined with knowledge production and access. She has her PhD in Behavioral Science with a specialization in social psychology. She was fortunate to receive additional training in areas like educational and health psychology, but her research passions have always centered the interplay between the self and environments/society, particularly as it relates to collective liberation. Prior to joining RIA, She was a Data Analyst and a Qualitative Research Consultant throughout her graduate degree. Within She is most excited to platform impacted peoples and co-develop strategies that drive meaningful change."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/madasen-briggs/"
-                    }
-                ],
-                "organization": {
-                    "name": "Research in Action",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.researchinaction.com/staff",
-                            "display": "Research in Action"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-hana-dinku",
-            "name": "Hana Dinku",
-            "title": "DIRECTOR OF THE LEALTAD-SUZUKI CENTER FOR SOCIAL JUSTICE AT MACALESTER",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f830536e-45c0-46d2-aa1d-a0aac21f0df6/Hana+Dinku+Mini+Card+2025.png?content-type=image%2Fpng",
-            "pronouns": "she/her/hers",
-            "bio": [
-                "Hana Dinku is the Director of the Lealtad-Suzuki Center for Social Justice at Macalester College. Hana is a passionate advocate for educational equity. Her education, professional work, and community organizing focus on the intersection of education, race, gender, and social justice. She is committed to working with educators and community members to dismantle systems of oppression and empower youth through liberatory education."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/hana-d-04a56253/"
-                    }
-                ],
-                "organization": {
-                    "name": "Lealtad-Suzuki Center for Social Justice, Macalester College",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.macalester.edu/social-justice/staff/hanadinku/",
-                            "display": "Macalester Social Justice Staff"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-ishmael-israel",
-            "name": "Ishmael Israel",
-            "title": "ATTORNEY AT LEXCON LAW, EXECUTIVE DIRECTOR OF UMOJA COMMUNITY DEVELOPMENT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4682caca-a44a-46c5-8b9c-c9013682a5c0/Dr.+Ishmael+Israel+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Dr. Ishmael Israel is an attorney at Lexicon Law, Pllc, Chief Compliance Officer at Security Solutions Professional Agency (SSPA), and Executive Director at Umoja Community Development Corporation (UCDC). Ishmael has been an advocate for his local community and residents in Minneapolis, MN throughout his career. Across a span of 20 years, he has developed expertise in real estate financing, organization and contractual compliance, construction, and commercial leasing and residential contract development and negotiation.",
-                "Ishmael has a Doctorate of Jurisprudence, Litigation, Contracts, and Real Property from Mitchell Hamline School of Law and has a graduate degree in Institute of Executive Director Leadership from the University of St. Thomas."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/ishmael-israel-esquire/"
-                    }
-                ],
-                "organization": {
-                    "name": "Umoja Community Development Corporation",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://umojacdc.org/",
-                            "display": "UCDC"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-jayden-thunberg",
-            "name": "Jayden Thunberg",
-            "title": "STRATEGIC DATA LEADER AT DISPATCH, EID CHAMPION",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c0e1ed01-5fe1-4289-803b-a84e3abdbecc/Jayden+Thunberg+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Jayden Thunberg is the Strategic Data Builder at Dispatch and passionate about building systems that scale across tools, teams, and business goals. She co-leads a modern data platform, connects cross-functional priorities, and designs processes that bring structure and clarity to fast moving environments.",
-                "Jayden's work spans business intelligence, data engineering, and product strategy with a focuses on aligning long-term vision with actionable outcomes. She mentors a growing team, help define KPIs and workflows, and translate complexity into decisions that move the business forward.",
-                "Beyond the data, Jayden champions inclusive leadership and organizational growth. She believes in building not just better systems, but better environments for people to thrive in. She cares deeply about impact, integrity, and creating space for diverse voices in every room she's in."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/jayden-thunberg/"
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-jonathan-rodriguez",
-            "name": "Jonathan Rodriguez",
-            "title": "FOUNDER, FREE J.ROD PODCAST",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ba9a67e4-50ab-4c9d-ad3c-579ca4a9a5d9/Jonathan+Rodriguez+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Jonathan Rodriguez is a proud Houstonian born in Fifth Ward and raised in Cloverleaf. He is eager to serve and give back to his community. He is motivated to help youth live above the odds by using his lived experience to help advocate for change in our communities. Jonathan has had to overcome adversity, and his Christian faith and education have helped him see how to change and empower others. He is particularly passionate about giving youth second chances and promoting alternatives to incarceration. Jonathan encouraged his brother, now an employee at NASA, to find himself and push for more. He hopes to do the same with the youth he serves. In his free time, he enjoys drawing portraits to uplift others. Jonathan lives by the motto, \"Know yourself, and then you will be the best at what YOU can be!”"
-            ],
-            "social": {
-                "organization": {
-                    "name": "Notice Coalition Fellowship",
-                    "links": [
-                        {
-                            "type": "website",
-                            "url": "https://www.tciamn.org/noticecoalition/fellowship",
-                            "display": "Notice Coalition Fellowship"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-tammie-campbel",
-            "name": "Tammie Campbel",
-            "title": "FOUNDER AND EXECUTIVE DIRECTOR, HONEY BROWN HOPE FOUNDATION",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/ee12a709-169a-49cf-8e54-29f6f82bec48/Tammie+Campbell+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Tammie Lang Campbell is a nationally recognized, award-winning civil rights leader and founder of the Honey Brown Hope Foundation, a non-profit organization that provides resources and support connected to its causes civil rights and environmental stewardship. She has nearly three decades of experience advocating for criminal justice policy reform; addressing disparaging disciplinary policies fueling the school-to-prison pipeline; promoting environmental stewardship; and sharing the untold history of the civil rights era with youth and their families. Campbell is also an author and sought-after speaker who has received numerous national, state and local awards for her work. She is a graduate of Alcorn State University and considers her two adult children, Shar-day and Dennis Jr., as her greatest blessings."
-            ],
-            "social": {
-                "organizations": [
-                    {
-                        "name": "Honey Brown Hope Foundation",
-                        "links": [
-                            {
-                                "type": "linkedin",
-                                "url": "https://www.linkedin.com/company/honey-brown-hope-foundation/"
-                            },
-                            {
-                                "type": "website",
-                                "url": "https://www.honeybrownhope.org/founder",
-                                "display": "Honey Brown Hope Foundation"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Notice Coalition Fellowship",
-                        "links": [
-                            {
-                                "type": "website",
-                                "url": "https://www.tciamn.org/noticecoalition/fellowship",
-                                "display": "Notice Coalition Fellowship"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-marika-pfefferkorn",
-            "name": "Marika Pfefferkorn",
-            "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44f8a303-77c6-44f4-a5d7-07075d993c89/Marika+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
-            "bio": [
-                "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "twitter",
-                        "url": "https://twitter.com/Maptruenorth"
-                    },
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"
-                    }
-                ],
-                "organization": {
-                    "name": "Twin Cities Innovation Alliance",
-                    "links": [
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/TCIAMN"
-                        },
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        },
-        {
-            "id": "speaker-aasim-shabazz",
-            "name": "Aasim Shabazz",
-            "title": "TCIA CO-FOUNDER, PRESIDENT",
-            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4dca1ea8-d439-4755-9808-60aff19f33d6/Aasim+Shabazz+Mini+Card+2025.png?content-type=image%2Fpng",
-            "bio": [
-                "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
-            ],
-            "social": {
-                "personal": [
-                    {
-                        "type": "linkedin",
-                        "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"
-                    }
-                ],
-                "organization": {
-                    "name": "Twin Cities Innovation Alliance",
-                    "links": [
-                        {
-                            "type": "twitter",
-                            "url": "https://twitter.com/TCIAMN"
-                        },
-                        {
-                            "type": "linkedin",
-                            "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
-                        }
-                    ]
-                }
-            },
-            "workshops": []
-        }
-    ]
+              }
+            ]
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-marika-pfefferkorn",
+          "name": "Marika Pfefferkorn",
+          "title": "TCIA CO-FOUNDER, SOLUTIONS & SUSTAINABILITY OFFICER",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44f8a303-77c6-44f4-a5d7-07075d993c89/Marika+Mini+Card+D4PG+2025+%231.png?content-type=image%2Fpng",
+          "bio": [
+              "As an interdisciplinary and cross-sector thought leader and community advocate, Marika is a change agent working to transform systems and scale successes across education, technology, civic leadership and entrepreneurship. Ms. Pfefferkorn works along the continuum from community to theory to practice, integrating collective cultural wisdom and applying a restorative lens to upend punitive conditions in education, and to reimagine education through a liberatory lens. She has successfully co-led campaigns to end discriminatory suspension practices in Minnesota schools, to remove the presence of police in Minneapolis and St. Paul schools, to increase investment in indigenous restorative practices in education and community settings and successfully advocated for a Ethnic Studies requirement in Mn schools. Marika has cofounded and led the Solutions not Suspensions Coalition, and Education for Liberation MN Network, and participates as a member of the Safety Not surveillance Coalition and Dignity in Schools Campaign."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "twitter",
+                      "url": "https://twitter.com/Maptruenorth"
+                  },
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/marika-a-pfefferkorn-6a45bb11/"
+                  }
+              ],
+              "organization": {
+                  "name": "Twin Cities Innovation Alliance",
+                  "links": [
+                      {
+                          "type": "twitter",
+                          "url": "https://twitter.com/TCIAMN"
+                      },
+                      {
+                          "type": "linkedin",
+                          "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      },
+      {
+          "id": "speaker-aasim-shabazz",
+          "name": "Aasim Shabazz",
+          "title": "TCIA CO-FOUNDER, PRESIDENT",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4dca1ea8-d439-4755-9808-60aff19f33d6/Aasim+Shabazz+Mini+Card+2025.png?content-type=image%2Fpng",
+          "bio": [
+              "Aasim Shabazz is a vision-driven technologist, co-founder, and president of Twin Cities Innovation Alliance (TCIA). Aasim drives innovative solutions to complex problems faced by communities and organizations. Aasim serves as the architect of the TCIA's annual Data 4 Public Good conference—a cultivated experience for meaningful contributions, co-powering, change-making, and relationship-building in digital justice. Throughout his career, Aasim has contributed leadership by serving on various boards and commissions, including advancing Minnesota equitable light rail development—where he served as a founding co-chair of the Blue Line Coalition."
+          ],
+          "social": {
+              "personal": [
+                  {
+                      "type": "linkedin",
+                      "url": "https://www.linkedin.com/in/aasimshabazziaskcagile/"
+                  }
+              ],
+              "organization": {
+                  "name": "Twin Cities Innovation Alliance",
+                  "links": [
+                      {
+                          "type": "twitter",
+                          "url": "https://twitter.com/TCIAMN"
+                      },
+                      {
+                          "type": "linkedin",
+                          "url": "https://www.linkedin.com/company/twin-cities-innovation-alliance"
+                      }
+                  ]
+              }
+          },
+          "workshops": []
+      }
+  ]
 }
