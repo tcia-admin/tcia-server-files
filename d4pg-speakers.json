@@ -1,0 +1,16 @@
+{
+  "speakers": [
+    {
+      "id": "speaker-jane-doe",
+      "photo": "images/speakers/jane-doe.jpg"
+    },
+    {
+      "id": "speaker-john-smith",
+      "photo": "images/speakers/john-smith.jpg"
+    },
+    {
+      "id": "speaker-alex-lee",
+      "photo": "images/speakers/alex-lee.jpg"
+    }
+  ]
+} 
