@@ -3,13 +3,41 @@
   "date": "July 16",
   "events": [
     {
-      "id": "new-1750442048273",
-      "title": "Breakfast & Opening Remarks",
-      "startTime": "08:30",
-      "endTime": "10:00",
-      "type": "keynote",
-      "location": "TBD",
+      "id": "new-1752510617191",
+      "title": "Registration & Breakfast Open",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "type": "break",
+      "location": "Kagin Ballroom",
       "description": ""
+    },
+    {
+      "id": "new-1752510713632",
+      "title": "Welcome & Opening Remarks",
+      "startTime": "09:15",
+      "endTime": "10:00",
+      "type": "social",
+      "location": "Kagin Ballroom",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Aasim Shabazz",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Marika Pfefferkorn",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Hana Dinku",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
     },
     {
       "id": "new-1750442381253",
