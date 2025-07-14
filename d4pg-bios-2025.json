@@ -818,19 +818,19 @@
       {
           "id": "speaker-ed-vogel",
           "name": "Ed Vogel",
-          "title": "SENIOR POLICY RESEARCHER, SURVEILLANCE RESISTANCE LAB NOTICE COALITION LEADERSHIP",
-          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/2c8a7add-1e2e-452a-a012-673f09f5a294/2025_Speaker_Ed_Med.png?content-type=image%2Fpng",
+          "title": "NOTICE COALITION MEMBER",
+          "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/1bff23d5-df04-4672-baed-d77f1437c8a2/Ed+Vogel+Mini+Card+2025.png?content-type=image%2Fpng",
           "bio": [
-            "Ed Vogel is the Senior Policy Researcher with the Surveillance Resistance Lab. He has more than fifteen years of experience in movement spaces and organizing in Chicago as a member of Lucy Parsons Labs, Chicago Community Bond Fund, Believers Bail Out, and Free Us: the Chicago EM Collective. Ed is currently a board member with Chicago Torture Justice Center, Corporate Accountability Lab, Ecosystems of Care, and DontCallThePolice.com"
+            "Ed Vogel is a member of the No Tech Criminalization in Education (NOTICE) Coalition. He has more than fifteen years of experience in movement spaces and organizing in Chicago as a member of Lucy Parsons Labs, Chicago Community Bond Fund, Believers Bail Out, and Free Us: the Chicago EM Collective. Ed is currently a board member with Chicago Torture Justice Center, Corporate Accountability Lab, Ecosystems of Care, and DontCallThePolice.com"
           ],
           "social": {
-            "organization": {
-              "name": "Surveillance Resistance Lab",
+            "organization":{
+              "name": "NOTICE Coalition",
               "links": [
                 {
                   "type": "website",
-                  "url": "https://surveillanceresistancelab.org/",
-                  "display": "surveillanceresistancelab.org"
+                  "url": "https://www.tciamn.org/noticecoalition/about",
+                  "display": "NOTICE Coalition"
                 }
               ]
             }
