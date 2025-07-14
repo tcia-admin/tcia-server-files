@@ -1,16 +1,176 @@
 {
-  "speakers": [
-    {
-      "id": "speaker-jane-doe",
-      "photo": "images/speakers/jane-doe.jpg"
-    },
-    {
-      "id": "speaker-john-smith",
-      "photo": "images/speakers/john-smith.jpg"
-    },
-    {
-      "id": "speaker-alex-lee",
-      "photo": "images/speakers/alex-lee.jpg"
-    }
-  ]
-} 
+    "speakers": [
+        {
+            "id": "speaker-cierra-kaler-jones",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/89946c95-b2b8-4611-8869-2702c23bea06/Dr.+Cierra+Kaler-Jones+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-roderic-crooks",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/fbb14655-6a87-4114-8379-0dae94f8ff19/Dr+Crooks+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-tanya-clark",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a7c42dd8-a0f3-4724-acc5-2f237328035e/Dr.+Tanya+Clark+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-angela-smith",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ddd1a3f-da2b-41d2-a0ee-d8ef13d5df06/Dr+Smith+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-imene-ghernati",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a73b2a03-1bbb-49c9-80cc-48ca4b3fe7ac/Dr.+Ghernati+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-anita-chikkatur",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/7c27af7e-b282-4cd4-808b-2bb05dd629bc/Dr.+Anita+Chikkatur+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-vyjayanthi-vadrevu",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f0f50932-7e9d-404d-8f0d-7939b8f33c2b/Vyjayanthi+Final+.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-kill-joy",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/aef4fc0a-f346-481e-8560-1a27e92f053e/Kill+Joy+Speaker+Card+2025+Final+Again.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-marta-shore",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c683e60d-d8f3-44cb-9f50-93fd75bb9092/Marta+Shore+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-mark-keierleber",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c6bb9ad3-fadf-4c0b-9023-b9118608b982/Mark+Keierleber+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-shreya-sampath",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/94f5d325-f8c5-4096-a39c-d4eaa054ed51/Shreya+Sampath+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-alicia-ranney",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c2863c4b-862d-4336-b6dc-0dca4eeffcd1/Alicia+1.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-adam-cowing",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a07fbfb6-c044-4e87-b849-f717a3d73f32/Adam+Cowing+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-anne-hackman",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ff62520-f691-4e33-9492-1c9bee903e3d/Anne+Hackman+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-matthew-shutte",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/63427723-c206-45ac-a768-eca0f1bcacbe/Matthew+Schutte+Speaker+Card+2025+FINAL.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-an-gargaiola",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f9d821b9-b4b5-42ee-8bce-0fb9108a0f05/An+Garagiola+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-katya-abazajian",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/e346d5ee-0782-4362-86a0-f0c28c6e0f53/Katya+Abazajian+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-andrew-butts",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/83ff7600-5265-4a91-a00d-25de629cde34/Andrew+Butts+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-sophie-wang",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/81361c34-5698-4018-9aa8-a743543c5385/Sophie+Wang+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-shayna-karuman",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/7cb2fa93-7a4a-4b24-8509-28202a74cdb8/Shayna+Karuman+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-chinelo-dike",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/47e97ebb-bf89-4e97-8d4f-186b01b72d15/Chinelo+Dike+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-elina-castillo-jimenez",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/12b88c43-01e1-4c6b-9ae9-2185c4591638/Elina+Castillo+Jime%CC%81nez+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-jill-greendeer",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/25013a18-ad59-4167-a20e-3b8643f22b7a/Dr.+Jill+Greendeer+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-jeremy-eugene",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/fe8d6bc0-17f5-4da1-870c-b42df55874e6/Jeremy+Eugene+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-catherine-squires",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9cb2f96b-e557-4460-9616-97ea4d3f68b2/Dr.+Catherine+R.+Squires+Speaker+Card+2025+%231.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-chelsea-barabas",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d9040181-1da9-46c7-a438-b22862af6fea/Dr.+Chelsea+Barabas+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-christianna-thomas",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/11ce977c-cb54-43ee-b2bb-5695705dae5b/Christianna+Thomas+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-clarence-okoh",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/83e394b5-7b12-4530-98a2-d33c75fc9ffd/Clarence+Okoh+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-cassie-scharber",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4b589e0d-e949-48be-978b-13e6fa083f2b/Cassie+Scharber+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-ed-vogel",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/5e002090-30e8-4e96-a1d8-211e3e622f2b/2025_Speaker_Ed.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-khadijah-zahid",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0d2cade8-675e-47cb-a6c9-49119b3b4681/Khadijah+Zahid+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-vyjayanthi-vadrevu",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/f0f50932-7e9d-404d-8f0d-7939b8f33c2b/Vyjayanthi+Final+.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-sharon-kennedy-vickers",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/01eadfa3-233f-4cbe-a484-461ed1df4fc9/Sharon+Kennedy+Vickers+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-dheera-yalamanchili",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/cb9a138d-e4b4-48c4-bf95-2a4fa36820c1/Dheera+Yalamanchili+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-angie-meija",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/37b5a840-0a5a-4d6d-9f05-70ff81842d60/Dr.+Angie+P.+Meija+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-madasen-briggs",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0fd8675b-c86d-4d71-852e-bfc452dc8c20/Dr.+Madasen+Briggs+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-hana-dinku",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/19642b35-a748-4960-acbf-4056b6a7eceb/Hana+Dinku+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-ishmael-israel",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c1f291cf-0836-4123-965a-7ad54a989da0/Dr.+Ishmael+Israel+Speaker+card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-jayden-thunberg",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/08ead17e-94fa-4bbe-bc2c-2a2756cf173d/Jayden+Thunberg+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-jonathan-rodriguez",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/99a92b98-bee7-4623-8b3e-27069b7bad75/Jonathan+Rodriguez+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-tammie-campbel",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/1f1575bb-62ac-49c0-afcc-f04af19c7d27/Tammie+Campbell+Speaker+Card+2025.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-marika-pfefferkorn",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/170695b1-ca37-4631-9aae-44f014e0362b/Marika+Pfefferkorn+Final.png?content-type=image%2Fpng"
+        },
+        {
+            "id": "speaker-aasim-shabazz",
+            "photo": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/08cc079f-f50b-43bf-8d51-f330949a78e4/Aasim+Shabazz+Final.png?content-type=image%2Fpng"
+        }
+    ]
+}
