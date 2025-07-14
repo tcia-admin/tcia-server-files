@@ -55,7 +55,7 @@
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "Davis Court",
+      "location": "CC 229",
       "description": "We have the opportunity to attempt anything we can imagine, but our imagination itself can so often be quite limited. Through a lightly structured series of discussions, we will stretch one another's perception by weaving explorations of the past, the future and even the present, to push beyond the known, and into the unimaginable.",
       "people": {
         "speakers": [
@@ -105,7 +105,7 @@
     },
     {
       "id": "new-1750445814460",
-      "title": "Spotlight on EdTech: Workshopping Abolitionist & Reformist Framework",
+      "title": "Building an EdTech Policy Framework: Abolitionist VS Reformist Primer",
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
@@ -168,7 +168,7 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "Davis Court",
+      "location": "CC 229",
       "description": "This workshop explores the intersection of data, technology, and narrative power-building, equipping participants with strategies to counter harmful narratives and push forward liberatory, community-centered ones. Through collective discussion and interactive tools, we will analyze how digital justice, AI, and data privacy impact narratives, identify opportunities for cross-organizational collaboration, and explore ways to use data ethically to build community-driven stories that drive systemic change. ",
       "people": {
         "speakers": [
