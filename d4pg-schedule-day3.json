@@ -13,7 +13,7 @@
     },
     {
       "id": "new-1750448139133",
-      "title": "Plenary Discussion - Digital Resilience & Digital Futures",
+      "title": "Digital Resilience & Digital Futures",
       "startTime": "09:30",
       "endTime": "10:30",
       "type": "panel",
@@ -21,6 +21,11 @@
       "description": "",
       "people": {
         "speakers": [
+          {
+            "name": "Dr. Catherine Squires",
+            "title": null,
+            "image": null
+          },
           {
             "name": "Sharon Kennedy Vickers",
             "title": null,
@@ -45,7 +50,17 @@
       "people": {
         "speakers": [
           {
-            "name": "Jill Greender",
+            "name": "Dr. Catherine Squires",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "Dr. Jill Greendeer",
+            "title": null,
+            "image": null
+          },
+          {
+            "name": "An Garagiola",
             "title": null,
             "image": null
           },
@@ -86,7 +101,7 @@
       "startTime": "13:00",
       "endTime": "15:00",
       "type": "workshop",
-      "location": "HUM 402",
+      "location": "CC 229",
       "description": "Funders and human service nonprofits rely on participant data for accountability, case management, compliance, and decision-making. How often are community members involved in decisions about what data are collected, how it’s used, and the resulting impact? What are the costs of collecting data without considering its implications? What are the opportunities missed when we continue with \"the way things have always been done\"? The Metropolitan Alliance of Connected Communities offers an equity lens for nonprofits to consider when designing their evaluation plans or data strategies",
       "people": {
         "speakers": [
