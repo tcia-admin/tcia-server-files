@@ -109,7 +109,7 @@
       "startTime": "10:45",
       "endTime": "11:45",
       "type": "workshop",
-      "location": "HUM 400",
+      "location": "Markim 117/Davis Court",
       "description": "You may be familiar with Critical Resistance's Reformist reforms vs. abolitionist steps to end the IMPRISONMENT framework.  The NOTICE Coalition imagines a similar framework specific to education and EdTech.  You are invited to workshop with us as we build a framework of our own.  We pulled together the building blocks, now we need your input to ensure that we are building a model that works for those of us in the work",
       "people": {
         "speakers": [
@@ -237,12 +237,30 @@
       "startTime": "13:00",
       "endTime": "14:30",
       "type": "workshop",
-      "location": "TBD",
+      "location": "HUM 409",
       "description": "This session helps legal and nonprofit professionals responsibly integrate AI tools like ChatGPT into their workflows while safeguarding privacy, ethics, and compliance. Panelists will offer real-world use cases, live demonstrations, and frameworks to evaluate risk, policy, and productivity. Attendees will leave with practical prompts, governance strategies, and tools for using AI without compromising confidentiality. The session includes an interactive Q&A to address concerns and crowdsource solutions.",
       "people": {
         "speakers": [
           {
             "name": "Ishmael Israel",
+            "title": null,
+            "image": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-1752513309461",
+      "title": "The Family Business: What Monster-Fighting in Bitter Root Teaches Us About Gender and Resistance",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "type": "workshop",
+      "location": "Markim 117/Davis Court",
+      "description": "",
+      "people": {
+        "speakers": [
+          {
+            "name": "Dr. Tanya Clark",
             "title": null,
             "image": null
           }
