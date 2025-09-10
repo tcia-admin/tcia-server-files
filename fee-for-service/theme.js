@@ -102,7 +102,7 @@
             data.supportNeeded = supportNeeded;
             
             // Basic validation
-            const requiredFields = ['organizationName', 'contactName', 'contactEmail', 'projectStage', 'focusArea', 'projectDescription'];
+            const requiredFields = ['organizationName', 'contactName', 'contactEmail', 'role', 'location', 'projectStage', 'focusArea', 'budget', 'timelineDates', 'projectDescription', 'specificNeeds'];
             const missingFields = requiredFields.filter(field => !data[field] || data[field].trim() === '');
             
             if (missingFields.length > 0) {
