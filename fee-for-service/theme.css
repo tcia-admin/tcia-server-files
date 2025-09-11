@@ -204,11 +204,11 @@ html { scroll-behavior: smooth; }
 }
 
 /* Content wrapper for proper spacing */
-.content-wrapper {
+/*.content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
-}
+}*/
 
 /* Sections */
 .section {
