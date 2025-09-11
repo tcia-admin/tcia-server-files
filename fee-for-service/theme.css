@@ -195,9 +195,16 @@ html { scroll-behavior: smooth; }
     border: 0;
 }
 
-/* Container */
+/* Container - Wide for Squarespace compatibility */
 .container {
     width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Content wrapper for proper spacing */
+.content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
@@ -726,6 +733,9 @@ html { scroll-behavior: smooth; }
     align-items: center;
     justify-content: space-between;
     height: 72px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
 }
 
 .nav__brand {
@@ -862,6 +872,9 @@ html { scroll-behavior: smooth; }
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
 }
 
 .hero__title {
@@ -1048,6 +1061,12 @@ html { scroll-behavior: smooth; }
 /* Tabbed Content System */
 .tabs-container {
     padding: 4rem 0;
+}
+
+.tabs-container .container > * {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
 }
 
 .tab-content {
@@ -1533,6 +1552,9 @@ html { scroll-behavior: smooth; }
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 2rem auto;
+    padding: 0 var(--spacing-lg);
 }
 
 .footer-section h4 {
@@ -1560,8 +1582,10 @@ html { scroll-behavior: smooth; }
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem var(--spacing-lg) 0;
     border-top: 1px solid var(--metal-silver);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-bottom p {
@@ -1613,8 +1637,10 @@ html { scroll-behavior: smooth; }
     .nav__menu {
         position: fixed;
         top: 72px;
-        left: 1rem;
-        right: 1rem;
+        left: var(--spacing-lg);
+        right: var(--spacing-lg);
+        max-width: calc(1200px - 2 * var(--spacing-lg));
+        margin: 0 auto;
         background: linear-gradient(135deg, 
             rgba(248,249,250,0.95), 
             rgba(232,234,237,0.95)
@@ -1649,6 +1675,7 @@ html { scroll-behavior: smooth; }
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
+        padding: 0 var(--spacing-lg);
     }
     
     .hero__title {
