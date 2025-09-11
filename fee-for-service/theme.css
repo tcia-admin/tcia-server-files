@@ -181,7 +181,7 @@ body {
 html { scroll-behavior: smooth; }
 
 /* Offset anchor positioning for sticky header */
-[id] { scroll-margin-top: 84px; }
+[id] { scroll-margin-top: 90px; }
 
 .sr-only {
     position: absolute;
@@ -203,12 +203,6 @@ html { scroll-behavior: smooth; }
     padding: 0;
 }
 
-/* Content wrapper for proper spacing */
-/*.content-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--spacing-lg);
-}*/
 
 /* Sections */
 .section {
@@ -732,7 +726,7 @@ html { scroll-behavior: smooth; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    height: 80px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
@@ -741,34 +735,42 @@ html { scroll-behavior: smooth; }
 .nav__brand {
     display: inline-flex;
     align-items: center;
-    gap: 0.75rem;
     color: var(--brand-navy);
     text-decoration: none;
     font-weight: 600;
+    transition: transform 200ms ease;
 }
 
-.nav__title {
-    font-size: 1.2rem;
-    letter-spacing: 0.5px;
+.nav__brand:hover {
+    transform: scale(1.02);
 }
 
 .nav__logo {
     display: inline-grid;
     place-items: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
     background: linear-gradient(135deg, var(--metal-platinum), var(--metal-pearl));
     border: 1px solid var(--metal-silver);
     box-shadow: 
-        0 4px 12px rgba(0,0,0,0.04),
+        0 4px 16px rgba(0,0,0,0.06),
         inset 0 1px 0 rgba(255,255,255,0.1);
+    transition: all 200ms ease;
+}
+
+.nav__logo:hover {
+    box-shadow: 
+        0 6px 20px rgba(2,166,158,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.2);
+    border-color: var(--brand-teal);
 }
 
 .nav__logo-img { 
-    width: 80%; 
-    height: 80%; 
-    object-fit: contain; 
+    width: 85%; 
+    height: 85%; 
+    object-fit: contain;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
 }
 
 .nav__toggle {
@@ -1636,7 +1638,7 @@ html { scroll-behavior: smooth; }
     
     .nav__menu {
         position: fixed;
-        top: 72px;
+        top: 80px;
         left: var(--spacing-lg);
         right: var(--spacing-lg);
         max-width: calc(1200px - 2 * var(--spacing-lg));
