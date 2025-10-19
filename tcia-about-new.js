@@ -190,10 +190,10 @@ if (window.tciaInitialized) {
            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b4f0335-4bb4-4195-8803-8abf2a64c63b/Raaya2.jpg?content-type=image%2Fjpeg"
        },
        {
-            name: "Leon Thompson",
-            role: "Web Developer",
-            bio: "",
-            image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/7403a8fc-cc66-44b3-b7d2-be6341fe6d89/Leon.jpeg?content-type=image%2Fjpeg"
+           name: "Dr. Catherine Squires",
+           role: "",
+           bio: "",
+           image: "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/1604595790157-2NVDKFUBHLKZ9053NKQM/catherine_squires-CLA2-hires_16x9_0.jpg?content-type=image%2Fjpeg"
        },
        {
            name: "Dr. Talaya Tolfree",
