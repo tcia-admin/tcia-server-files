@@ -263,7 +263,7 @@ if (window.tciaInitialized) {
             cardBack.setAttribute('data-index', index);
             cardBack.innerHTML = `
                        <h3 class="member-role">${member.role}</h3>
-                       <p>Click for more info</p>
+                       <p style="margin-top: 20px; font-size: 1.1em; opacity: 0.9;">👉 Click for full profile</p>
             `;
             
             // Add the direct click handler here - before adding to DOM
@@ -271,6 +271,7 @@ if (window.tciaInitialized) {
                 console.log('Card back clicked:', index);
                 showMemberPopup(teamMembers[index]);
                 e.stopPropagation();
+                e.preventDefault();
             };
             
             cardInner.appendChild(cardFront);
@@ -292,6 +293,8 @@ if (window.tciaInitialized) {
        const popupSpecialty = popup.querySelector('.popup-specialty');
        const popupBio = popup.querySelector('.popup-bio');
        const popupBioContainer = popup.querySelector('.popup-bio-container');
+       const infoColumn = popup.querySelector('.info-column');
+       const imageColumn = popup.querySelector('.image-column');
 
        popupImage.src = member.image;
        popupName.textContent = member.name;
@@ -307,13 +310,36 @@ if (window.tciaInitialized) {
                return `<p><span class="drop-cap">${firstLetter}</span>${restOfParagraph}</p>`;
            }).join('');
            popupBioContainer.style.display = 'block';
+           // Reset to two-column layout
+           infoColumn.style.flex = '1';
+           imageColumn.style.flex = '1';
        } else {
            popupBioContainer.style.display = 'none';
+           // Center the image when there's no bio
+           popupContent.style.flexDirection = 'column';
+           popupContent.style.justifyContent = 'center';
+           popupContent.style.alignItems = 'center';
+           infoColumn.style.flex = 'none';
+           infoColumn.style.width = '100%';
+           infoColumn.style.paddingRight = '0';
+           infoColumn.style.textAlign = 'center';
+           imageColumn.style.flex = 'none';
+           imageColumn.style.marginTop = '30px';
        }
 
        popup.style.display = 'flex';
        void popup.offsetWidth;
        popup.classList.add('show');
+       
+       // Reset layout on close
+       popup.addEventListener('click', function resetLayout(e) {
+           if (e.target === popup || e.target.classList.contains('close')) {
+               popupContent.style.flexDirection = 'row';
+               popupContent.style.justifyContent = 'flex-start';
+               popupContent.style.alignItems = 'flex-start';
+               popup.removeEventListener('click', resetLayout);
+           }
+       }, { once: true });
    }
    
    function closeMemberPopup() {
