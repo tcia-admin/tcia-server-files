@@ -183,224 +183,17 @@ h2 {
     }
 }
 
-.event-info {
-    /*background: #1f3070e6;*/
-    background: var(--d4pg-navy);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: var(--spacing-lg) var(--spacing-xl);
-    border: 2px solid rgba(255, 137, 119, 0.3);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    color: var(--d4pg-white);
-    width: 100%;
-    max-width: 500px;
-}
-
-.event-date {
-    font-size: var(--font-size-xl);
-    font-weight: bold;
-    margin-bottom: var(--spacing-sm);
-    color: var(--d4pg-coral);
-}
-
-.event-location {
-    font-size: var(--font-size-lg);
-    line-height: 1.4;
-    margin-bottom: var(--spacing-sm);
-}
-
-.event-price {
-    /*background: linear-gradient(135deg, var(--d4pg-coral) 0%, var(--d4pg-coral-dark) 100%);*/
-    /*background: linear-gradient(135deg, #1f3070e6 0%, #1f3070e6 100%);*/
-    background: linear-gradient(135deg, var(--d4pg-navy) 0%, var(--d4pg-navy) 100%);
-    border-radius: 15px;
-    padding: var(--spacing-lg) var(--spacing-xl);
+.merch-link-container {
     margin: var(--spacing-lg) 0;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    max-width: 500px;
-    width: 100%;
+}
+
+.merch-btn {
+    background: linear-gradient(135deg, var(--d4pg-coral) 0%, var(--d4pg-pink) 100%);
+}
+
+.merch-btn:hover {
+    transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 127, 109, 0.4);
-    transition: transform 0.3s ease;
-}
-
-.event-price:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(255, 127, 109, 0.6);
-}
-
-.accessibility-message {
-    /*background: rgba(255, 255, 255, 0.15);*/
-    background: var(--d4pg-coral-dark);
-    border-radius: 12px;
-    padding: var(--spacing-md) var(--spacing-lg);
-    margin-bottom: var(--spacing-xl);
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-md);
-    backdrop-filter: blur(10px);
-    text-align: left;
-}
-
-.accessibility-icon {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-}
-
-.accessibility-text {
-    font-size: var(--font-size-base);
-    color: rgba(255, 255, 255, 0.95);
-    line-height: 1.5;
-    font-weight: 500;
-    text-align: left;
-}
-
-.pricing-options {
-    display: flex;
-    gap: var(--spacing-lg);
-    margin-bottom: var(--spacing-xl);
-    justify-content: center;
-}
-
-.price-option {
-    flex: 1;
-    max-width: 220px;
-    text-align: center;
-    padding: var(--spacing-lg) var(--spacing-md);
-    border-radius: 12px;
-    /*background: rgba(255, 255, 255, 0.12);*/
-    background: var(--d4pg-coral-dark);
-    border: 2px solid rgba(255, 255, 255, 0.25);
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.price-option:hover {
-    background: rgba(255, 255, 255, 0.18);
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-.price-option.primary-option {
-    /*background: rgba(255, 255, 255, 0.25);*/
-    background: var(--d4pg-coral-dark);
-    border-color: rgba(255, 255, 255, 0.4);
-    transform: translateY(-5px);
-}
-
-.price-option.primary-option::before {
-    content: "RECOMMENDED";
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--d4pg-yellow);
-    color: var(--d4pg-navy);
-    font-size: 0.75rem;
-    font-weight: bold;
-    padding: 4px 12px;
-    border-radius: 12px;
-    letter-spacing: 0.5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.price-label {
-    font-size: var(--font-size-base);
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: var(--spacing-sm);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.price-amount {
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    margin-bottom: var(--spacing-sm);
-    line-height: 1;
-}
-
-.price-description {
-    font-size: var(--font-size-sm);
-    color: rgba(255, 255, 255, 0.85);
-    font-weight: 500;
-    line-height: 1.3;
-}
-
-.price-details {
-    font-size: var(--font-size-base);
-    margin-top: var(--spacing-md);
-    text-align: center;
-}
-
-.price-details-link {
-    color: white;
-    text-decoration: underline;
-    font-weight: 700;
-    transition: all 0.2s ease;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: var(--font-size-base);
-}
-
-.price-details-link:hover {
-    color: var(--d4pg-yellow);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.early-bird-tag {
-    background-color: var(--d4pg-yellow);
-    color: var(--d4pg-navy);
-    font-size: var(--font-size-xs);
-    font-weight: bold;
-    padding: var(--spacing-xs) var(--spacing-sm);
-    border-radius: 20px;
-    display: inline-block;
-    margin-bottom: var(--spacing-sm);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    animation: pulse 2s infinite;
-}
-
-.price-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-sm);
-}
-
-.original-price {
-    font-size: var(--font-size-lg);
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: line-through;
-    font-weight: 500;
-}
-
-.price-amount {
-    font-size: var(--font-size-3xl);
-    font-weight: bold;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.price-details {
-    font-size: var(--font-size-sm);
-    margin-top: var(--spacing-xs);
-}
-
-.price-details-link {
-    color: white;
-    text-decoration: underline;
-    font-weight: 600;
-    transition: color 0.2s ease;
-}
-
-.price-details-link:hover {
-    color: var(--d4pg-yellow);
 }
 
 .promo-code {
@@ -417,63 +210,6 @@ h2 {
     background: rgba(243, 224, 75, 0.2);
     padding: 2px 8px;
     border-radius: 4px;
-}
-
-/* Compact sponsors section */
-.hero-sponsors {
-    width: 100%;
-    max-width: 900px;
-}
-
-.sponsors-section {
-    margin-bottom: var(--spacing-lg);
-}
-
-.sponsors-title {
-    font-size: var(--font-size-xl);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: var(--spacing-lg);
-    color: var(--d4pg-white);
-    text-align: center;
-    font-weight: bold;
-    font-family: var(--font-accent);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    position: relative;
-}
-
-.sponsors-title::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background: linear-gradient(90deg, var(--d4pg-coral) 0%, var(--d4pg-yellow) 100%);
-    border-radius: 2px;
-}
-
-.sponsors-logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--spacing-lg);
-    margin: 0 auto;
-}
-
-.sponsors-image {
-    max-width: 150px !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-    transition: transform 0.3s ease;
-    filter: brightness(1.1) contrast(1.1);
-}
-
-.sponsors-image:hover {
-    transform: scale(1.1);
 }
 
 /* Multimedia/Sizzle Reel Section */
@@ -943,48 +679,11 @@ h2 {
         margin: 0 auto;
     }
 
-    .pricing-options {
-        flex-direction: column;
-        gap: var(--spacing-sm);
-    }
-
-    .accessibility-message {
-        padding: var(--spacing-sm);
-    }
-
-    .accessibility-text {
-        font-size: var(--font-size-xs);
-    }
-
-    .price-amount {
-        font-size: var(--font-size-xl);
-    }
 }
 
 @media screen and (max-width: 480px) {
     .nav-container {
         padding: 0 var(--spacing-sm);
-    }
-
-    .pricing-options {
-        flex-direction: column;
-        gap: var(--spacing-sm);
-    }
-
-    .accessibility-message {
-        padding: var(--spacing-sm);
-    }
-
-    .accessibility-text {
-        font-size: var(--font-size-xs);
-    }
-
-    .price-amount {
-        font-size: var(--font-size-xl);
-    }
-
-    .price-label {
-        font-size: var(--font-size-sm);
     }
 }
 
@@ -1318,15 +1017,6 @@ h2 {
         letter-spacing: 1px;
     }
 
-    .event-info {
-        padding: var(--spacing-md) var(--spacing-lg);
-    }
-
-    .event-price {
-        max-width: 100%;
-        padding: var(--spacing-md);
-    }
-
     .multimedia-content {
         grid-template-columns: 1fr;
         gap: var(--spacing-xl);
@@ -1359,14 +1049,6 @@ h2 {
         height: 35px;
     }
 
-    .sponsors-logo-container {
-        gap: var(--spacing-md);
-    }
-
-    .sponsors-image {
-        max-width: 120px !important;
-    }
-
     .scholarship-banner {
         margin: var(--spacing-lg) 0;
         padding: var(--spacing-md) var(--spacing-lg);
@@ -1383,14 +1065,6 @@ h2 {
     .scholarship-contact {
         font-size: var(--font-size-med);
         padding: var(--spacing-sm) var(--spacing-md);
-    }
-
-    .speakers-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .schedule-item {
-        grid-template-columns: 100px 1fr;
     }
 
     .registration-title p {
@@ -1436,109 +1110,6 @@ h2 {
     .hero-tagline {
         font-size: var(--font-size-2xl);
     }
-
-    .speakers-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Speakers Section */
-.speakers-section {
-    padding: var(--spacing-4xl) 0;
-    background-color: var(--d4pg-navy);
-}
-
-.speakers-container {
-    text-align: center;
-}
-
-.speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--spacing-xl);
-    margin-top: var(--spacing-3xl);
-}
-
-.speaker-card {
-    background-color: var(--d4pg-blue);
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.speaker-card:hover {
-    transform: translateY(-5px);
-}
-
-.speaker-photo-container {
-    position: relative;
-    padding-top: 100%; /* 1:1 Aspect Ratio */
-    background-color: var(--speaker-bg-blue);
-    overflow: hidden;
-}
-
-.speaker-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: scale(0.8);
-}
-
-.speaker-info {
-    padding: var(--spacing-md);
-    text-align: center;
-}
-
-.speaker-name {
-    font-size: var(--font-size-lg);
-    margin-bottom: var(--spacing-xs);
-}
-
-.speaker-title {
-    font-size: var(--font-size-sm);
-    color: rgba(255, 255, 255, 0.8);
-}
-
-/* Schedule Section */
-.schedule-section {
-    padding: var(--spacing-4xl) 0;
-    background-color: var(--d4pg-navy);
-}
-
-.schedule-day {
-    margin-bottom: var(--spacing-3xl);
-}
-
-.day-title {
-    font-size: var(--font-size-xl);
-    margin-bottom: var(--spacing-lg);
-    color: var(--d4pg-coral);
-}
-
-.schedule-item {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: var(--spacing-lg);
-    margin-bottom: var(--spacing-lg);
-    padding-bottom: var(--spacing-lg);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.schedule-time {
-    font-weight: bold;
-    color: var(--d4pg-yellow);
-}
-
-.schedule-content h3 {
-    margin-bottom: var(--spacing-xs);
-}
-
-.schedule-description {
-    opacity: 0.8;
 }
 
 /* Register Section */
@@ -1564,34 +1135,6 @@ h2 {
     text-align: center;
     margin-top: 0;
     padding-top: var(--spacing-xl);
-}
-
-.discount-intro {
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: var(--spacing-md);
-    background-color: var(--d4pg-light-blue);
-    padding: 6px 16px;
-    border-radius: 24px;
-    color: var(--d4pg-navy);
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-}
-
-.discount-title {
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.discount-arrow {
-    margin-left: 10px;
-    animation: bounce 1.5s infinite;
-    font-size: 1.2rem;
-}
-
-@keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(5px); }
 }
 
 .discount-badges {
@@ -1717,36 +1260,10 @@ h2 {
 }
 
 /* Goals/Benefits Section */
-.benefits-section {
-    padding: var(--spacing-4xl) 0;
-}
-
-.benefits-list {
-    list-style: none;
-    margin-top: var(--spacing-2xl);
-}
-
-.benefit-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: var(--spacing-lg);
-}
-
-.benefit-item::before {
-    content: "•";
-    color: var(--d4pg-coral);
-    font-size: var(--font-size-xl);
-    margin-right: var(--spacing-md);
-}
-
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
     .hero-tagline {
         font-size: var(--font-size-3xl);
-    }
-    
-    .event-price {
-        max-width: 90%;
     }
 
     .section-title {
@@ -1755,14 +1272,6 @@ h2 {
 
     .about-grid {
         grid-template-columns: 1fr;
-    }
-
-    .speakers-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .schedule-item {
-        grid-template-columns: 100px 1fr;
     }
 
     .registration-title p {
@@ -1787,10 +1296,6 @@ h2 {
 @media screen and (max-width: 480px) {
     .hero-tagline {
         font-size: var(--font-size-2xl);
-    }
-
-    .speakers-grid {
-        grid-template-columns: 1fr;
     }
 }
 
@@ -1851,10 +1356,6 @@ h2 {
     color: rgba(0, 0, 0, 0.8);
     background-color: var(--d4pg-yellow);
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.6);
-}
-
-.promo-spacer {
-    height: var(--spacing-2xl);
 }
 
 /* Mobile responsive adjustments */
@@ -1929,121 +1430,6 @@ h2 {
     .speaker {
         flex: 0 0 80%; /* Adjust the width to make images fit well in a single row */
     }
-}
-
-/* Add this after the registration section */
-.hotel-info-section {
-    background-color: var(--d4pg-navy);
-    padding: var(--spacing-4xl) var(--spacing-2xl);
-    margin-top: 0;
-}
-
-.hotel-info-container {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: rgba(31, 48, 112, 0.7);
-    border-radius: var(--border-radius);
-    padding: var(--spacing-2xl);
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-2xl);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-.hotel-info-container:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(255, 127, 109, 0.4);
-}
-
-.hotel-icon {
-    font-size: 3rem;
-    color: var(--d4pg-yellow);
-    flex-shrink: 0;
-}
-
-.hotel-content {
-    flex-grow: 1;
-}
-
-.hotel-content h2 {
-    font-size: var(--font-size-xl);
-    color: var(--d4pg-white);
-    margin-bottom: var(--spacing-md);
-}
-
-.hotel-content p {
-    font-size: var(--font-size-med);
-    color: var(--d4pg-light-blue);
-    margin-bottom: var(--spacing-lg);
-}
-
-.hotel-cta {
-    display: inline-block;
-    background-color: var(--d4pg-coral);
-    color: var(--d4pg-white);
-    padding: var(--spacing-sm) var(--spacing-lg);
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.hotel-cta:hover {
-    background-color: var(--d4pg-yellow);
-    color: var(--d4pg-navy);
-    transform: translateY(-2px);
-}
-
-@media screen and (max-width: 768px) {
-    .hotel-info-container {
-        flex-direction: column;
-        text-align: center;
-        gap: var(--spacing-lg);
-    }
-}
-
-.early-bird-tag {
-    background-color: rgba(176, 255, 224, 0.2); 
-    color: var(--d4pg-white);
-    font-size: var(--font-size-xs);
-    font-weight: bold;
-    padding: var(--spacing-xs) var(--spacing-sm);
-    border-radius: 4px;
-    display: inline-block;
-    margin-bottom: var(--spacing-sm);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.promo-code {
-    font-size: var(--font-size-base);
-    margin-top: var(--spacing-xs);
-    color: var(--d4pg-light-blue);
-}
-
-.promo-code span {
-    font-weight: bold;
-    color: var(--d4pg-white);
-    letter-spacing: 1px;
-}
-
-.booking-deadline {
-    font-size: var(--font-size-sm);
-    color: var(--d4pg-yellow);
-    font-weight: bold;
-    margin-bottom: var(--spacing-md);
-}
-
-.hotel-link {
-    color: var(--d4pg-coral);
-    text-decoration: underline;
-    transition: color 0.2s ease;
-}
-
-.hotel-link:hover {
-    color: var(--d4pg-yellow);
 }
 
 /* Student discount section styles */
@@ -2200,34 +1586,6 @@ h2 {
     .schedule-sidebar.open {
         left: 0;
     }
-}
-
-.pricing-options {
-    flex-direction: column;
-    gap: var(--spacing-md);
-    align-items: center;
-}
-
-.price-option {
-    max-width: 280px;
-    width: 100%;
-}
-
-.accessibility-message {
-    padding: var(--spacing-md);
-    gap: var(--spacing-sm);
-}
-
-.accessibility-text {
-    font-size: var(--font-size-sm);
-}
-
-.price-amount {
-    font-size: 2rem;
-}
-
-.price-label {
-    font-size: var(--font-size-sm);
 }
 
 /* Community Partners & Supporters Section */
@@ -4259,10 +3617,6 @@ h2 {
     font-style: italic;
 }
 
-.speaker-title-text {
-    /* Inherits styling from parent .speaker-modal-title */
-}
-
 /* Donation Styles - Strategic placement throughout the page */
 
 /* === MAIN DONATION SECTION === */
@@ -4457,78 +3811,6 @@ h2 {
         transform: translateY(-3px);
         box-shadow: 0 12px 30px rgba(255, 127, 109, 0.5);
     }
-}
-
-/* === INLINE DONATION CTAs === */
-.inline-donation-cta {
-    background: linear-gradient(135deg, rgba(255, 127, 109, 0.1) 0%, rgba(74, 219, 151, 0.1) 100%);
-    border: 2px solid rgba(255, 127, 109, 0.3);
-    border-radius: 16px;
-    padding: var(--spacing-xl);
-    margin: var(--spacing-xl) 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.inline-donation-cta::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-    transform: rotate(45deg);
-    animation: donation-cta-shimmer 3s ease-in-out infinite;
-}
-
-@keyframes donation-cta-shimmer {
-    0% {
-        transform: translateX(-100%) translateY(-100%) rotate(45deg);
-    }
-    50% {
-        transform: translateX(100%) translateY(100%) rotate(45deg);
-    }
-    100% {
-        transform: translateX(-100%) translateY(-100%) rotate(45deg);
-    }
-}
-
-.inline-donation-text {
-    font-size: var(--font-size-lg);
-    color: var(--d4pg-white);
-    margin-bottom: var(--spacing-md);
-    font-weight: 600;
-    position: relative;
-    z-index: 2;
-}
-
-.inline-donation-btn {
-    background: var(--d4pg-coral);
-    color: var(--d4pg-white);
-    border: none;
-    border-radius: 50px;
-    padding: var(--spacing-md) var(--spacing-xl);
-    font-family: var(--font-accent);
-    font-weight: bold;
-    font-size: var(--font-size-base);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: var(--spacing-sm);
-    position: relative;
-    z-index: 2;
-}
-
-.inline-donation-btn:hover {
-    background: var(--d4pg-coral-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(255, 127, 109, 0.4);
 }
 
 /* === COMPACT DONATION BANNERS === */
