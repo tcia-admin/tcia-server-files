@@ -3054,6 +3054,7 @@ h2 {
     backdrop-filter: blur(15px);
     transition: all 0.5s ease;
     cursor: default;
+    min-height: 400px;
 }
 
 .workshop-main-panel:hover {
@@ -4669,57 +4670,15 @@ h2 {
         padding: 2rem 0;
     }
     
-    /* Mobile adjustments for gallery trigger button */
-    .gallery-trigger-btn {
-        width: 70px;
-        height: 70px;
-        right: 20px;
-        font-size: 28px;
-        border-width: 2px;
-    }
-    
-    /* Mobile adjustments for arrow pointer */
+    /* Hide gallery trigger button and arrow on mobile */
+    .gallery-trigger-btn,
     .gallery-arrow-pointer {
-        right: 100px;
-    }
-    
-    .gallery-arrow-pointer::before {
-        border-left-width: 16px;
-        border-top-width: 10px;
-        border-bottom-width: 10px;
-    }
-    
-    .gallery-arrow-pointer::after {
-        font-size: 12px;
-        padding: 4px 8px;
-        right: 25px;
+        display: none;
     }
 }
 
 @media (max-width: 480px) {
-    .gallery-trigger-btn {
-        width: 65px;
-        height: 65px;
-        right: 15px;
-        font-size: 24px;
-        border-width: 2px;
-    }
-    
-    .gallery-arrow-pointer {
-        right: 90px;
-    }
-    
-    .gallery-arrow-pointer::before {
-        border-left-width: 14px;
-        border-top-width: 8px;
-        border-bottom-width: 8px;
-    }
-    
-    .gallery-arrow-pointer::after {
-        font-size: 11px;
-        padding: 3px 6px;
-        right: 20px;
-    }
+    /* Gallery elements already hidden at tablet size */
 }
 
 /* Gallery Image Modal */
@@ -4823,13 +4782,6 @@ h2 {
     
     .gallery-drawer-content {
         padding: 1rem;
-    }
-    
-    .gallery-trigger-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
-        right: 20px;
     }
     
     .gallery-drawer-header {
