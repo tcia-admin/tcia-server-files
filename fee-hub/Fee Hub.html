@@ -1,0 +1,3015 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TCIA • Service Hub</title>
+    <meta name="description" content="Explore TCIA's comprehensive suite of services - from workshops to fiscal sponsorship.">
+    <meta name="theme-color" content="#061531">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== CSS CUSTOM PROPERTIES ===== */
+        :root {
+            /* Brand Colors */
+            --brand-red: #ec1a3c;
+            --brand-yellow: #f3b54a;
+            --brand-green: #01752d;
+            --brand-teal: #02a69e;
+            --brand-navy: #061531;
+            --brand-white: #f4f4f4;
+            --brand-black: #000000;
+            --brand-blue: #1a3070;
+            --brand-grey: #eaeaea;
+            
+            /* Metallic Foundation */
+            --metal-pearl: #f8f9fa;
+            --metal-platinum: #e8eaed;
+            --metal-silver: #d1d5db;
+            --metal-chrome: #9ca3af;
+            --metal-red-tint: #f4f4f6;
+            --metal-teal-tint: #f6f8f8;
+            --metal-yellow-tint: #f9f8f6;
+            --metal-navy-accent: #2d3748;
+            
+            /* Typography */
+            --font-light: 300;
+            --font-regular: 400;
+            --font-medium: 500;
+            --font-semibold: 600;
+            --font-bold: 700;
+            
+            /* Spacing */
+            --space-xs: 4px;
+            --space-sm: 8px;
+            --space-md: 16px;
+            --space-lg: 24px;
+            --space-xl: 32px;
+            --space-2xl: 48px;
+            --space-3xl: 64px;
+            --space-4xl: 96px;
+            
+            /* Transitions */
+            --transition-fast: 150ms ease-out;
+            --transition-base: 200ms ease-out;
+            --transition-smooth: 300ms ease-in-out;
+        }
+        
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--metal-pearl);
+            color: var(--brand-navy);
+            line-height: 1.6;
+            font-size: 16px;
+            overflow-x: hidden;
+        }
+        
+        /* ===== NAVIGATION ===== */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent;
+            backdrop-filter: none;
+            border-bottom: 1px solid transparent;
+            box-shadow: none;
+            transition: all var(--transition-smooth);
+        }
+        
+        .nav.scrolled {
+            background: rgba(248, 249, 250, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--metal-silver);
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+        }
+        
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: var(--space-md) var(--space-lg);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .nav__brand {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--brand-white);
+            font-weight: var(--font-semibold);
+            font-size: 1.25rem;
+            transition: var(--transition-smooth);
+        }
+        
+        .nav.scrolled .nav__brand {
+            color: var(--brand-navy);
+        }
+        
+        .nav__logo-img {
+            height: 50px;
+            width: auto;
+            background: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+        
+        .nav__toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: var(--space-sm);
+        }
+        
+        .nav__toggle-bar {
+            width: 24px;
+            height: 2px;
+            background: var(--brand-white);
+            transition: var(--transition-base);
+        }
+        
+        .nav.scrolled .nav__toggle-bar {
+            background: var(--brand-navy);
+        }
+        
+        .nav__menu {
+            display: flex;
+            gap: var(--space-lg);
+        }
+        
+        .nav__link {
+            color: var(--brand-white);
+            text-decoration: none;
+            font-weight: var(--font-medium);
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 6px;
+            transition: var(--transition-base);
+            position: relative;
+        }
+        
+        .nav.scrolled .nav__link {
+            color: var(--brand-navy);
+        }
+        
+        .nav__link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--brand-teal);
+        }
+        
+        .nav.scrolled .nav__link:hover {
+            background: var(--metal-platinum);
+            color: var(--brand-teal);
+        }
+        
+        /* ===== HERO SECTION ===== */
+        .hero {
+            position: relative;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            padding: 120px var(--space-lg) var(--space-4xl);
+            background: linear-gradient(135deg, var(--brand-navy) 0%, var(--metal-navy-accent) 100%);
+            overflow: hidden;
+        }
+        
+        .hero__bg {
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(2, 166, 158, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(236, 26, 60, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+        
+        .hero__grid {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.3;
+            animation: grid-flow 20s linear infinite;
+        }
+        
+        @keyframes grid-flow {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+        
+        .hero__content {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-4xl);
+            align-items: center;
+        }
+        
+        .hero__text h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: var(--font-bold);
+            line-height: 1.1;
+            margin-bottom: var(--space-lg);
+            color: var(--brand-white);
+        }
+        
+        .hero__subtitle {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            color: var(--brand-teal);
+            font-weight: var(--font-semibold);
+            margin-bottom: var(--space-md);
+        }
+        
+        .hero__description {
+            font-size: 1.125rem;
+            color: var(--metal-platinum);
+            margin-bottom: var(--space-2xl);
+            line-height: 1.7;
+        }
+        
+        .hero__cta {
+            display: flex;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+        }
+        
+        .hero__visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hero__image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.4),
+                0 0 0 1px rgba(255, 255, 255, 0.1);
+            background: transparent;
+            padding: 20px;
+        }
+        
+        /* ===== BUTTONS ===== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-weight: var(--font-medium);
+            font-size: 1rem;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: all var(--transition-base);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn--primary {
+            background: linear-gradient(135deg, var(--metal-platinum), var(--metal-pearl));
+            border: 1px solid var(--metal-silver);
+            color: var(--brand-navy);
+            box-shadow: 
+                0 2px 8px rgba(0, 0, 0, 0.06),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+        
+        .btn--primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 
+                0 4px 16px rgba(2, 166, 158, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            border-color: var(--brand-teal);
+        }
+        
+        .btn--ghost {
+            background: transparent;
+            border: 2px solid var(--metal-silver);
+            color: var(--brand-white);
+        }
+        
+        .btn--ghost:hover {
+            border-color: var(--brand-teal);
+            background: var(--metal-teal-tint);
+            color: var(--brand-teal);
+        }
+        
+        /* ===== SERVICES SECTION ===== */
+        .services {
+            padding: var(--space-4xl) var(--space-lg);
+            background: linear-gradient(135deg, #e8eaed 0%, #d1d5db 100%);
+            position: relative;
+            overflow: visible;
+            z-index: auto;
+        }
+        
+        /* Decorative Background Elements */
+        .services__decoration {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.15;
+            pointer-events: none;
+        }
+        
+        .services__decoration--1 {
+            width: 300px;
+            height: 300px;
+            background: var(--brand-teal);
+            top: 10%;
+            left: -5%;
+        }
+        
+        .services__decoration--2 {
+            width: 200px;
+            height: 200px;
+            background: var(--brand-red);
+            top: 60%;
+            right: -3%;
+        }
+        
+        .services__decoration--3 {
+            width: 250px;
+            height: 250px;
+            background: var(--brand-yellow);
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        /* Overlapping circles like the example */
+        .services__brand-circles {
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            width: 400px;
+            height: 200px;
+            opacity: 0.2;
+            pointer-events: none;
+        }
+        
+        .brand-circle {
+            position: absolute;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .brand-circle--red {
+            background: var(--brand-red);
+            left: 0;
+            top: 0;
+        }
+        
+        .brand-circle--teal {
+            background: var(--brand-teal);
+            left: 100px;
+            top: 0;
+        }
+        
+        .brand-circle--yellow {
+            background: var(--brand-yellow);
+            left: 200px;
+            top: 0;
+        }
+        
+        .services__container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-4xl);
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            font-weight: var(--font-bold);
+            color: var(--brand-navy);
+            margin-bottom: var(--space-md);
+        }
+        
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--metal-navy-accent);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .services__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-xl);
+            justify-items: center;
+        }
+        
+        /* ===== SERVICE CARDS ===== */
+        .service-card {
+            background: white;
+            border: 2px solid var(--metal-silver);
+            border-radius: 24px;
+            padding: 0;
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            transition: all var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        
+        /* Card Image Container */
+        .service-card__image-wrapper {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 22px 22px 0 0;
+        }
+        
+        .service-card__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform var(--transition-smooth);
+        }
+        
+        .service-card:hover .service-card__image {
+            transform: scale(1.05);
+        }
+        
+        /* Icon Badge in Content */
+        .service-card__icon-badge {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: var(--card-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            margin: 0 auto var(--space-lg);
+        }
+        
+        .service-card__icon-badge svg {
+            width: 40px;
+            height: 40px;
+            stroke: white;
+            fill: none;
+            stroke-width: 2.5;
+        }
+        
+        /* Card Content Area */
+        .service-card__content {
+            padding: var(--space-2xl);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        /* Expanded card image height */
+        .service-card.expanded .service-card__image-wrapper {
+            height: 250px;
+        }
+        
+        /* Interactive Grid Canvas */
+        .service-card__grid-canvas {
+            position: absolute;
+            inset: 0;
+            z-index: 10;
+            pointer-events: auto;
+            border-radius: 0 0 22px 22px;
+        }
+        
+        /* Hide canvas and show static grid on expanded cards */
+        .service-card.expanded .service-card__grid-canvas {
+            display: none;
+        }
+        
+        .service-card.expanded .service-card__content::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.5;
+            z-index: 0;
+            pointer-events: none;
+            border-radius: 0 0 22px 22px;
+        }
+        
+        .service-card--filled.expanded .service-card__content::before {
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+        }
+        
+        /* Content items above grid - clickable */
+        .service-card__content > *:not(.service-card__grid-canvas) {
+            position: relative;
+            z-index: 20;
+            pointer-events: auto;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--card-accent, var(--brand-teal));
+            transform: scaleX(0);
+            transition: transform var(--transition-smooth);
+            transform-origin: left;
+        }
+        
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .service-card:not(.expanded):hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 
+                0 16px 56px rgba(0, 0, 0, 0.12),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            border-color: var(--card-accent, var(--brand-teal));
+        }
+        
+        .service-card--filled:not(.expanded):hover {
+            box-shadow: 
+                0 16px 56px rgba(0, 0, 0, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Expanded Card State */
+        .service-card.expanded {
+            position: fixed !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) scale(1) !important;
+            z-index: 10001 !important;
+            width: 90%;
+            max-width: 700px;
+            max-height: 85vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: cardExpand 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            pointer-events: auto !important;
+            isolation: isolate;
+        }
+        
+        @keyframes cardExpand {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -50%) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+        
+        /* Card Overlay Backdrop */
+        .card-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(6, 21, 49, 0.75);
+            z-index: 10000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity var(--transition-smooth);
+            isolation: isolate;
+        }
+        
+        .card-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        /* Card Color Variants - Using only 3 colors: Red, Teal, Yellow */
+        .service-card--workshops {
+            --card-accent: var(--brand-red);
+        }
+        
+        .service-card--facilitation {
+            --card-accent: var(--brand-teal);
+        }
+        
+        .service-card--visualization {
+            --card-accent: var(--brand-yellow);
+        }
+        
+        .service-card--speaking {
+            --card-accent: var(--brand-red);
+        }
+        
+        .service-card--fiscal {
+            --card-accent: var(--brand-teal);
+        }
+        
+        .service-card--residencies {
+            --card-accent: var(--brand-yellow);
+        }
+        
+        .service-card--advising {
+            --card-accent: var(--brand-red);
+        }
+        
+        .service-card--research {
+            --card-accent: var(--brand-teal);
+        }
+        
+        /* Filled Card Styles */
+        .service-card--filled .service-card__content {
+            background: var(--card-accent);
+            color: white;
+            border-radius: 0 0 22px 22px;
+        }
+        
+        .service-card--filled .service-card__icon-badge {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .service-card--filled .service-card__icon-badge svg {
+            stroke: white;
+        }
+        
+        .service-card--filled .service-card__title {
+            color: white;
+        }
+        
+        .service-card--filled .service-card__description {
+            color: rgba(255, 255, 255, 0.95);
+        }
+        
+        .service-card--filled .service-card__learn-more {
+            border-color: white;
+            color: white;
+        }
+        
+        .service-card--filled .service-card__learn-more:hover {
+            background: white;
+            color: var(--card-accent);
+        }
+        
+        .service-card--filled .service-card__hint {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .service-card--filled .service-card__btn {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+        
+        .service-card--filled .service-card__btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: white;
+        }
+        
+        .service-card--filled .service-card__btn--primary {
+            background: white;
+            border-color: white;
+            color: var(--card-accent);
+        }
+        
+        .service-card--filled .service-card__btn--primary:hover {
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .service-card--filled .service-card__actions {
+            border-top-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .service-card--filled .service-card__close {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+        
+        .service-card--filled .service-card__close:hover {
+            background: white;
+            color: var(--card-accent);
+        }
+        
+        /* Outline Card Styles */
+        .service-card--outline {
+            background: var(--metal-pearl);
+            border-color: var(--card-accent);
+        }
+        
+        .service-card--outline .service-card__icon-badge {
+            background: var(--card-accent);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-card--outline .service-card__icon-badge svg {
+            stroke: white;
+        }
+        
+        .service-card--outline .service-card__learn-more {
+            border-color: var(--card-accent);
+            color: var(--card-accent);
+        }
+        
+        .service-card--outline .service-card__learn-more:hover {
+            background: var(--card-accent);
+            color: white;
+        }
+        
+        .service-card--outline .service-card__learn-more::before {
+            border-color: var(--card-accent);
+        }
+        
+        /* Legacy icon container removed - now using icon-badge */
+        
+        .service-card__title {
+            font-size: 1.5rem;
+            font-weight: var(--font-semibold);
+            color: var(--brand-navy);
+            margin-bottom: var(--space-md);
+            text-align: center;
+        }
+        
+        .service-card__description {
+            color: var(--metal-navy-accent);
+            line-height: 1.7;
+            flex: 1;
+            display: none;
+            margin-bottom: var(--space-lg);
+            text-align: left;
+        }
+        
+        .service-card.expanded .service-card__description {
+            display: block;
+        }
+        
+        .service-card.expanded .service-card__content {
+            align-items: stretch;
+            text-align: left;
+        }
+        
+        .service-card.expanded .service-card__title {
+            text-align: left;
+        }
+        
+        /* Learn More Button - Default State */
+        .service-card__learn-more {
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-weight: var(--font-medium);
+            font-size: 1rem;
+            text-decoration: none;
+            border: 2px solid var(--card-accent, var(--brand-teal));
+            background: transparent;
+            color: var(--card-accent, var(--brand-teal));
+            cursor: pointer;
+            transition: all var(--transition-base);
+            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-sm);
+            position: relative;
+            overflow: hidden;
+            margin-top: auto;
+        }
+        
+        .service-card__learn-more::after {
+            content: '→';
+            transition: transform var(--transition-base);
+        }
+        
+        .service-card__learn-more:hover {
+            background: var(--card-accent, var(--brand-teal));
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .service-card__learn-more:hover::after {
+            transform: translateX(4px);
+        }
+        
+        /* Pulse animation for learn more button */
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.3);
+                opacity: 0;
+            }
+        }
+        
+        .service-card__learn-more::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border: 2px solid var(--card-accent, var(--brand-teal));
+            border-radius: 8px;
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        .service-card.expanded .service-card__learn-more {
+            display: none;
+        }
+        
+        /* Mobile Click Hint */
+        .service-card__hint {
+            display: none;
+            font-size: 0.875rem;
+            color: var(--metal-chrome);
+            margin-top: var(--space-md);
+            font-style: italic;
+            transition: all var(--transition-smooth);
+        }
+        
+        .service-card--filled .service-card__hint {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        @media (max-width: 768px) {
+            .service-card__hint {
+                display: block;
+            }
+        }
+        
+        /* Desktop Hover Hint */
+        @media (min-width: 769px) {
+            .service-card:hover .service-card__hint {
+                display: block;
+                animation: hintFadeIn 0.3s ease-out;
+            }
+        }
+        
+        @keyframes hintFadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-5px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .service-card.expanded .service-card__hint {
+            display: none;
+        }
+        
+        /* Expanded Card Actions */
+        .service-card__actions {
+            display: none;
+            margin-top: var(--space-xl);
+            padding-top: var(--space-xl);
+            border-top: 1px solid var(--metal-silver);
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-sm);
+        }
+        
+        .service-card.expanded .service-card__actions {
+            display: grid;
+        }
+        
+        .service-card__btn {
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: var(--font-medium);
+            font-size: 0.875rem;
+            text-decoration: none;
+            border: 1px solid var(--metal-silver);
+            background: var(--metal-pearl);
+            color: var(--brand-navy);
+            cursor: pointer;
+            transition: all var(--transition-base);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+        }
+        
+        .service-card__btn:hover {
+            transform: translateY(-2px);
+            border-color: var(--card-accent, var(--brand-teal));
+            color: var(--card-accent, var(--brand-teal));
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .service-card__btn--primary {
+            background: linear-gradient(135deg, var(--card-accent, var(--brand-teal)), rgba(255, 255, 255, 0.1));
+            border-color: var(--card-accent, var(--brand-teal));
+            color: white;
+        }
+        
+        .service-card__btn--primary:hover {
+            opacity: 0.9;
+            color: white;
+        }
+        
+        /* Close button for expanded card */
+        .service-card__close {
+            display: none;
+            position: absolute;
+            top: var(--space-lg);
+            right: var(--space-lg);
+            background: var(--metal-pearl);
+            border: 1px solid var(--metal-silver);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--brand-navy);
+            cursor: pointer;
+            transition: all var(--transition-base);
+            z-index: 10;
+        }
+        
+        .service-card.expanded .service-card__close {
+            display: flex;
+        }
+        
+        .service-card__close:hover {
+            background: var(--brand-red);
+            color: white;
+            transform: rotate(90deg);
+        }
+        
+        /* ===== MODAL ===== */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            background: rgba(6, 21, 49, 0.5);
+            backdrop-filter: blur(8px);
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-lg);
+            opacity: 0;
+            transition: opacity var(--transition-smooth);
+        }
+        
+        .modal.active {
+            display: flex;
+            opacity: 1;
+        }
+        
+        .modal__content {
+            background: var(--metal-pearl);
+            border: 1px solid var(--metal-silver);
+            border-radius: 16px;
+            padding: var(--space-2xl);
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            transform: scale(0.9);
+            transition: transform var(--transition-smooth);
+        }
+        
+        .modal.active .modal__content {
+            transform: scale(1);
+        }
+        
+        .modal__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-xl);
+            padding-bottom: var(--space-md);
+            border-bottom: 1px solid var(--metal-silver);
+        }
+        
+        .modal__title {
+            font-size: 1.5rem;
+            font-weight: var(--font-semibold);
+            color: var(--brand-navy);
+        }
+        
+        .modal__close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--metal-chrome);
+            padding: var(--space-sm);
+            line-height: 1;
+            transition: var(--transition-base);
+        }
+        
+        .modal__close:hover {
+            color: var(--brand-navy);
+            transform: scale(1.1);
+        }
+        
+        /* ===== FORM ===== */
+        .form-group {
+            margin-bottom: var(--space-lg);
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: var(--space-sm);
+            font-weight: var(--font-medium);
+            color: var(--brand-navy);
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--metal-silver);
+            border-radius: 6px;
+            background: var(--metal-pearl);
+            font-family: inherit;
+            font-size: 1rem;
+            color: var(--brand-navy);
+            transition: var(--transition-base);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--brand-teal);
+            box-shadow: 0 0 0 2px rgba(2, 166, 158, 0.1);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .btn--full {
+            width: 100%;
+        }
+        
+        /* ===== PAST PROJECTS SECTION ===== */
+        .past-projects {
+            padding: var(--space-4xl) var(--space-lg);
+            background: linear-gradient(135deg, var(--brand-navy) 0%, var(--metal-navy-accent) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .past-projects .section-title {
+            color: var(--brand-white);
+        }
+        
+        .past-projects .section-subtitle {
+            color: var(--metal-platinum);
+        }
+        
+        .past-projects__bg {
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(2, 166, 158, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(236, 26, 60, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+        
+        .past-projects__grid {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.3;
+            animation: grid-flow 20s linear infinite;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-2xl);
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .project-card {
+            background: white;
+            border: 2px solid var(--metal-silver);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all var(--transition-smooth);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+            border-color: var(--brand-teal);
+        }
+        
+        .project-card__images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            background: var(--metal-silver);
+            padding: 2px;
+        }
+        
+        .project-card__image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .project-card__content {
+            padding: var(--space-xl);
+        }
+        
+        .project-card__title {
+            font-size: 1.5rem;
+            font-weight: var(--font-semibold);
+            color: var(--brand-navy);
+            margin-bottom: var(--space-md);
+        }
+        
+        .project-card__description {
+            color: var(--metal-navy-accent);
+            line-height: 1.7;
+        }
+        
+        /* ===== PAST CLIENTS SECTION ===== */
+        .past-clients {
+            padding: var(--space-4xl) var(--space-lg);
+            background: linear-gradient(135deg, #e8eaed 0%, #d1d5db 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Decorative Background Elements for Past Clients */
+        .past-clients__decoration {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.15;
+            pointer-events: none;
+        }
+        
+        .past-clients__decoration--1 {
+            width: 300px;
+            height: 300px;
+            background: var(--brand-teal);
+            top: 10%;
+            left: -5%;
+        }
+        
+        .past-clients__decoration--2 {
+            width: 200px;
+            height: 200px;
+            background: var(--brand-red);
+            top: 60%;
+            right: -3%;
+        }
+        
+        .past-clients__decoration--3 {
+            width: 250px;
+            height: 250px;
+            background: var(--brand-yellow);
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        /* Brand Circles for Past Clients */
+        .past-clients__brand-circles {
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            width: 400px;
+            height: 200px;
+            opacity: 0.2;
+            pointer-events: none;
+        }
+        
+        .testimonial-wheel-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 500px;
+            position: relative;
+            perspective: 2000px;
+            z-index: 1;
+        }
+        
+        .testimonial-wheel {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform-style: preserve-3d;
+        }
+        
+        .testimonial-item {
+            position: absolute;
+            width: 500px;
+            max-width: 90%;
+            left: 50%;
+            top: 50%;
+            transform-origin: center center;
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0.4;
+            pointer-events: none;
+        }
+        
+        .testimonial-item.active {
+            opacity: 1;
+            pointer-events: auto;
+            z-index: 10;
+        }
+        
+        .testimonial-item.left,
+        .testimonial-item.right {
+            opacity: 0.6;
+            z-index: 5;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border: 2px solid var(--metal-silver);
+            border-radius: 16px;
+            padding: var(--space-2xl);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+            display: flex;
+            align-items: center;
+            gap: var(--space-xl);
+            transition: all var(--transition-smooth);
+        }
+        
+        .testimonial-item.active .testimonial-card {
+            border-color: var(--brand-teal);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+        }
+        
+        .testimonial-logo {
+            flex-shrink: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            background: var(--metal-pearl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: var(--font-bold);
+            color: var(--brand-teal);
+            font-family: 'Georgia', serif;
+            border: 2px solid var(--metal-silver);
+        }
+        
+        .testimonial-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 8px;
+        }
+        
+        .testimonial-content {
+            flex: 1;
+        }
+        
+        .testimonial-quote {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: var(--brand-navy);
+            margin-bottom: var(--space-md);
+            font-style: italic;
+            position: relative;
+        }
+        
+        .testimonial-quote::before {
+            content: '"';
+            font-size: 3rem;
+            color: var(--brand-teal);
+            position: absolute;
+            left: -20px;
+            top: -10px;
+            opacity: 0.3;
+        }
+        
+        .testimonial-author {
+            font-weight: var(--font-semibold);
+            color: var(--brand-navy);
+        }
+        
+        .testimonial-role {
+            color: var(--metal-chrome);
+            font-size: 0.875rem;
+        }
+        
+        .wheel-controls {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-md);
+            margin-top: var(--space-2xl);
+        }
+        
+        .wheel-nav-btn {
+            background: white;
+            border: 2px solid var(--metal-silver);
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-base);
+            font-size: 1.5rem;
+            color: var(--brand-navy);
+        }
+        
+        .wheel-nav-btn:hover {
+            background: var(--brand-teal);
+            color: white;
+            border-color: var(--brand-teal);
+            transform: scale(1.1);
+        }
+        
+        .wheel-indicators {
+            display: flex;
+            gap: var(--space-sm);
+            margin-top: var(--space-lg);
+        }
+        
+        .wheel-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--metal-silver);
+            cursor: pointer;
+            transition: all var(--transition-base);
+        }
+        
+        .wheel-indicator.active {
+            background: var(--brand-teal);
+            transform: scale(1.3);
+        }
+        
+        @media (max-width: 768px) {
+            .testimonial-wheel-container {
+                height: auto;
+                min-height: 450px;
+            }
+            
+            .testimonial-item {
+                width: 90%;
+            }
+            
+            .testimonial-card {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .testimonial-logo {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* ===== CONTACT SECTION ===== */
+        .contact-section {
+            background: linear-gradient(135deg, var(--brand-navy) 0%, var(--metal-navy-accent) 100%);
+            padding: var(--space-4xl) var(--space-lg);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(2, 166, 158, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(236, 26, 60, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+        
+        .contact-section__container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .contact-section .section-title {
+            color: var(--brand-white);
+            text-align: center;
+            margin-bottom: var(--space-md);
+        }
+        
+        .contact-section .section-subtitle {
+            color: var(--metal-platinum);
+            text-align: center;
+            margin-bottom: var(--space-4xl);
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-4xl);
+            align-items: start;
+        }
+        
+        .contact-form-wrapper {
+            background: rgba(248, 249, 250, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: var(--space-2xl);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .contact-form-wrapper h3 {
+            color: var(--brand-white);
+            font-size: 1.5rem;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .contact-form-wrapper .form-group label {
+            color: var(--metal-platinum);
+        }
+        
+        .contact-form-wrapper .form-group input,
+        .contact-form-wrapper .form-group textarea,
+        .contact-form-wrapper .form-group select {
+            background: rgba(248, 249, 250, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--brand-white);
+        }
+        
+        .contact-form-wrapper .form-group input::placeholder,
+        .contact-form-wrapper .form-group textarea::placeholder {
+            color: var(--metal-chrome);
+        }
+        
+        .contact-form-wrapper .form-group input:focus,
+        .contact-form-wrapper .form-group textarea:focus,
+        .contact-form-wrapper .form-group select:focus {
+            background: rgba(248, 249, 250, 0.15);
+            border-color: var(--brand-teal);
+        }
+        
+        .contact-info-panel {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xl);
+        }
+        
+        .contact-info-card {
+            background: rgba(248, 249, 250, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: var(--space-xl);
+        }
+        
+        .contact-info-card h3 {
+            color: var(--brand-white);
+            font-size: 1.25rem;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .contact-method {
+            margin-bottom: var(--space-md);
+        }
+        
+        .contact-method:last-child {
+            margin-bottom: 0;
+        }
+        
+        .contact-label {
+            display: block;
+            color: var(--metal-chrome);
+            font-size: 0.875rem;
+            margin-bottom: var(--space-xs);
+        }
+        
+        .contact-link {
+            color: var(--brand-teal);
+            text-decoration: none;
+            font-weight: var(--font-medium);
+            transition: var(--transition-base);
+        }
+        
+        .contact-link:hover {
+            color: var(--brand-yellow);
+        }
+        
+        .contact-hours {
+            color: var(--metal-platinum);
+            line-height: 1.7;
+        }
+        
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--brand-navy);
+            color: var(--brand-white);
+            padding: var(--space-3xl) var(--space-lg) var(--space-lg);
+            margin-top: 0;
+        }
+        
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-2xl);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .footer-section h4 {
+            font-size: 1.125rem;
+            margin-bottom: var(--space-md);
+            color: var(--brand-teal);
+        }
+        
+        .footer-section p {
+            color: var(--metal-platinum);
+            line-height: 1.7;
+        }
+        
+        .footer-section a {
+            color: var(--brand-teal);
+            text-decoration: none;
+            transition: var(--transition-base);
+        }
+        
+        .footer-section a:hover {
+            color: var(--brand-yellow);
+        }
+        
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: var(--space-lg);
+            border-top: 1px solid var(--metal-navy-accent);
+            text-align: center;
+            color: var(--metal-chrome);
+        }
+        
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .hero__content {
+                grid-template-columns: 1fr;
+                gap: var(--space-2xl);
+            }
+            
+            .hero__visual {
+                order: -1;
+            }
+            
+            .services__grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: var(--space-2xl);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav__toggle {
+                display: flex;
+            }
+            
+            .nav__menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--metal-pearl);
+                border-bottom: 1px solid var(--metal-silver);
+                flex-direction: column;
+                padding: var(--space-lg);
+                display: none;
+            }
+            
+            .nav__menu.active {
+                display: flex;
+            }
+            
+            .hero {
+                min-height: auto;
+                padding: 100px var(--space-md) var(--space-2xl);
+            }
+            
+            .hero__cta {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+            
+            .services {
+                padding: var(--space-2xl) var(--space-md);
+            }
+            
+            .services__grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-card__actions {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-card.expanded {
+                width: 95%;
+                max-height: 90vh;
+            }
+            
+            .contact-section {
+                padding: var(--space-2xl) var(--space-md);
+            }
+            
+            .modal__content {
+                padding: var(--space-lg);
+            }
+        }
+        
+        /* ===== ANIMATIONS ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* ===== UTILITY CLASSES ===== */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="nav">
+        <div class="nav__inner">
+            <a href="https://tciamn.org" class="nav__brand" aria-label="Twin Cities Innovation Alliance Home">
+                <img class="nav__logo-img" src="https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/d938cbda-a43f-485d-bc14-9eb929752606/TCIA_Logo_T.png?content-type=image%2Fpng" alt="Twin Cities Innovation Alliance logo" loading="eager" decoding="async">
+            </a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <nav id="nav-menu" class="nav__menu" aria-label="Primary">
+                <a href="#services" class="nav__link">Services</a>
+                <!-- <a href="#past-projects" class="nav__link">Past Projects</a>
+                <a href="#past-clients" class="nav__link">Past Clients</a> -->
+                <a href="#governance" class="nav__link">Governance</a>
+                <a href="https://tciamn.org" class="nav__link">TCIA Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg" aria-hidden="true">
+                <div class="hero__grid"></div>
+            </div>
+            <div class="hero__content">
+                <div class="hero__text reveal">
+                    <h1>Service Hub</h1>
+                    <p class="hero__subtitle">Comprehensive support for your organization's success</p>
+                    <p class="hero__description">Explore our full suite of services designed to help your organization thrive. From professional development workshops to fiscal sponsorship, we provide the expertise and infrastructure you need.</p>
+                    <div class="hero__cta">
+                        <a href="#services" class="btn btn--primary">Explore Services</a>
+                        <button class="btn btn--ghost" onclick="openContactModal('general')">Get In Touch</button>
+                    </div>
+                </div>
+                <div class="hero__visual reveal">
+                    <img class="hero__image" src="https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/c919c1df-185f-45ed-bc36-c5bf2b027d69/F4S_Hero.png?content-type=image%2Fpng" alt="TCIA Services" loading="eager" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <!-- Decorative Background Elements -->
+            <div class="services__decoration services__decoration--1"></div>
+            <div class="services__decoration services__decoration--2"></div>
+            <div class="services__decoration services__decoration--3"></div>
+            
+            <!-- Brand Circles -->
+            <div class="services__brand-circles">
+                <div class="brand-circle brand-circle--red"></div>
+                <div class="brand-circle brand-circle--teal"></div>
+                <div class="brand-circle brand-circle--yellow"></div>
+            </div>
+            
+            <div class="services__container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Choose the right service for your needs, or combine multiple offerings for comprehensive support</p>
+                </div>
+                
+                <div class="services__grid">
+                    <!-- Workshops -->
+                    <article class="service-card service-card--workshops service-card--filled reveal" data-service="workshops">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=500&fit=crop" alt="Workshop team collaboration" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Workshops</h3>
+                            <p class="service-card__description">We provide workshops that help with the learning of tech, social and digital justice and more. We offer a library of workshops and customization to your needs. These workshops are created to accommodate a variety of audiences, including community members, administrators, youth and school board.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Facilitation -->
+                    <article class="service-card service-card--facilitation service-card--outline reveal" data-service="facilitation">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=800&h=500&fit=crop" alt="Facilitation and collaboration" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Facilitation</h3>
+                            <p class="service-card__description">We faciliate and create spaces where community members and changemakers can come together to solve problems, and create solutions through discussion and planned actions.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Visualization and Storytelling -->
+                    <article class="service-card service-card--visualization service-card--filled reveal" data-service="visualization">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/bbc90cf8-83c1-4613-9822-cf4368a75a69/data+visualization.jpg?content-type=image%2Fjpeg" alt="Data visualization and storytelling" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Visualization and Storytelling</h3>
+                            <p class="service-card__description">We transform and convert complex research, or data into visually engaging and accessible formats to drive change and impact in forms of creative media such as zines, and infographics.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Public Speaking -->
+                    <article class="service-card service-card--speaking service-card--outline reveal" data-service="speaking">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=500&fit=crop" alt="Public speaking and presentations" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Public Speaking</h3>
+                            <p class="service-card__description">Engaging speakers for conferences, events, and community gatherings. Our thought leaders deliver compelling presentations on innovation, technology, education, and community development that inspire action and spark conversation.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Fiscal Sponsorship -->
+                    <article class="service-card service-card--fiscal service-card--filled reveal" data-service="fiscal">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop" alt="Fiscal sponsorship and support" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Fiscal Sponsorship</h3>
+                            <p class="service-card__description">From fiscal sponsorship to operational support, TCIA provides the infrastructure and expertise your venture need to thrive and succeed.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="/fee-demo" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- In-School Residencies -->
+                    <article class="service-card service-card--residencies service-card--outline reveal" data-service="residencies">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/4a6ee9da-7d96-4624-9d4e-e934cfcff9b2/residency.jpg?content-type=image%2Fjpeg" alt="Educational programs and residencies" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 14l9-5-9-5-9 5 9 5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">In-School Residencies</h3>
+                            <p class="service-card__description">We partner with schools to provide residencies that pair students with the opportunity to foster learning:
+                            <br><br>
+                            • AI literacy<br>
+                            • <a href="https://tciamn.org/steam" style="color: inherit; text-decoration: underline;">STEAM Initiatives</a><br>
+                            • Digital Justice
+                            </p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="https://tciamn.org/steam" class="service-card__btn">Visit STEAM Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Advising -->
+                    <article class="service-card service-card--advising service-card--filled reveal" data-service="advising">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&h=500&fit=crop" alt="Strategic advising and consulting" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Advising</h3>
+                            <p class="service-card__description">Strategic guidance and expert consultation for organizations seeking to navigate complex challenges and opportunities:
+                            <br><br>
+                            • Coalitions<br>
+                            • Government Entities
+                            </p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Research -->
+                    <article class="service-card service-card--research service-card--outline reveal" data-service="research">
+                        <button class="service-card__close" aria-label="Close">×</button>
+                        <div class="service-card__image-wrapper">
+                            <img class="service-card__image" src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=800&h=500&fit=crop" alt="Research and analysis" loading="lazy">
+                        </div>
+                        <div class="service-card__content">
+                            <canvas class="service-card__grid-canvas"></canvas>
+                            <div class="service-card__icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-card__title">Research</h3>
+                            <p class="service-card__description">Comprehensive research services to inform decision-making and drive meaningful impact. We conduct in-depth analysis and evaluation to support your organization's mission and strategic goals.</p>
+                            <button class="service-card__learn-more">Learn More</button>
+                            <p class="service-card__hint">Click to find out more</p>
+                            <div class="service-card__actions">
+                                <a href="#" class="service-card__btn">Download PDF</a>
+                                <a href="#" class="service-card__btn">Visit Page</a>
+                                <button class="service-card__btn service-card__btn--primary" data-scroll-to-contact>Contact Us</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Projects Section -->
+<!--          
+        <section id="past-projects" class="past-projects">
+            <div class="past-projects__bg" aria-hidden="true">
+                <div class="past-projects__grid"></div>
+            </div>
+            <div class="section-header reveal">
+                <h2 class="section-title">Past Projects</h2>
+                <p class="section-subtitle">A selection of our impactful work across communities and organizations</p>
+            </div>
+            
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+                    <div class="project-card__images">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=400&fit=crop" alt="Jamal's Journey visualization" loading="lazy">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=400&fit=crop" alt="Jamal's Journey collaboration" loading="lazy">
+                    </div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Jamal's Journey</h3>
+                        <p class="project-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </article>
+                
+                <article class="project-card reveal">
+                    <div class="project-card__images">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=400&fit=crop" alt="Mural community engagement" loading="lazy">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=400&h=400&fit=crop" alt="Mural creation" loading="lazy">
+                    </div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Mural</h3>
+                        <p class="project-card__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                    </div>
+                </article>
+                
+
+                <article class="project-card reveal">
+                    <div class="project-card__images">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop" alt="D4 2025 Puppet Show" loading="lazy">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop" alt="D4 2025 Puppet Show performance" loading="lazy">
+                    </div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">D4 2025 Puppet Show</h3>
+                        <p class="project-card__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+                    </div>
+                </article>
+                
+
+                <article class="project-card reveal">
+                    <div class="project-card__images">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop" alt="Octavia's Collage artwork" loading="lazy">
+                        <img class="project-card__image" src="https://images.unsplash.com/photo-1541367777708-7905fe3296c0?w=400&h=400&fit=crop" alt="Octavia's Collage display" loading="lazy">
+                    </div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Octavia's Collage</h3>
+                        <p class="project-card__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    -->
+
+        <!-- Past Clients Section -->
+         <!--
+        <section id="past-clients" class="past-clients">
+            
+            <div class="past-clients__decoration past-clients__decoration--1"></div>
+            <div class="past-clients__decoration past-clients__decoration--2"></div>
+            <div class="past-clients__decoration past-clients__decoration--3"></div>
+            
+            
+            <div class="past-clients__brand-circles">
+                <div class="brand-circle brand-circle--red"></div>
+                <div class="brand-circle brand-circle--teal"></div>
+                <div class="brand-circle brand-circle--yellow"></div>
+            </div>
+            
+            <div class="section-header reveal">
+                <h2 class="section-title">Past Clients</h2>
+                <p class="section-subtitle">Trusted partnerships with organizations making a difference</p>
+            </div>
+            
+            <div class="testimonial-wheel-container">
+                <div class="testimonial-wheel" id="testimonial-wheel">
+                    
+                    <div class="testimonial-item active" data-index="0">
+                        <div class="testimonial-card">
+                            <div class="testimonial-logo">
+                                Lorem ipsum dolor
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="testimonial-author">Lorem ipsum dolor</div>
+                                <div class="testimonial-role">Executive Director</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item" data-index="1">
+                        <div class="testimonial-card">
+                            <div class="testimonial-logo">
+                                Lorem ipsum dolor
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div class="testimonial-author">Lorem ipsum dolor</div>
+                                <div class="testimonial-role">Program Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item" data-index="2">
+                        <div class="testimonial-card">
+                            <div class="testimonial-logo">
+                                Nexus
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <div class="testimonial-author">Lorem ipsum dolor</div>
+                                <div class="testimonial-role">Community Lead</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item" data-index="3">
+                        <div class="testimonial-card">
+                            <div class="testimonial-logo">
+                                Apex
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="testimonial-author">Lorem ipsum dolor</div>
+                                <div class="testimonial-role">Director of Operations</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="testimonial-item" data-index="4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-logo">
+                                Lorem ipsum dolor
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                                <div class="testimonial-author">Lorem ipsum dolor</div>
+                                <div class="testimonial-role">Chief Strategy Officer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="wheel-controls">
+                    <button class="wheel-nav-btn" id="wheel-prev" aria-label="Previous testimonial">←</button>
+                    <div class="wheel-indicators" id="wheel-indicators"></div>
+                    <button class="wheel-nav-btn" id="wheel-next" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- Governance Section -->
+        <section id="governance" class="past-projects">
+            <div class="past-projects__bg" aria-hidden="true">
+                <div class="past-projects__grid"></div>
+            </div>
+            <div class="section-header reveal">
+                <h2 class="section-title">Governance</h2>
+                <p class="section-subtitle">Information about TCIA's governance structure and practices</p>
+            </div>
+            
+            <div class="services__container">
+                <div class="card glass reveal" style="max-width: 800px; margin: 0 auto; padding: var(--space-3xl); background: white; border: 2px solid var(--metal-silver); border-radius: 24px; text-align: center;">
+                    <p style="color: var(--metal-navy-accent); font-size: 1.125rem; line-height: 1.7;">
+                        Governance details coming soon. This section will provide information about TCIA's leadership, board structure, and organizational practices.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-section__container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Ready to get started? Let's discuss how TCIA can support your goals.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper reveal">
+                        <h3>Send Us a Message</h3>
+                        <form id="main-contact-form" onsubmit="handleMainFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="contact-name">Name *</label>
+                                <input type="text" id="contact-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email *</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="contact-phone">Phone</label>
+                                <input type="tel" id="contact-phone" name="phone">
+                            </div> -->
+                            <div class="form-group">
+                                <label for="contact-organization">Organization</label>
+                                <input type="text" id="contact-organization" name="organization">
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="contact-service">Service Interested In</label>
+                                <select id="contact-service" name="service">
+                                    <option value="">Select a service...</option>
+                                    <option value="workshops">Workshops</option>
+                                    <option value="facilitation">Facilitation</option>
+                                    <option value="visualization">Visualization and Storytelling</option>
+                                    <option value="speaking">Public Speaking</option>
+                                    <option value="fiscal">Fiscal Sponsorship</option>
+                                    <option value="residencies">In-School Residencies</option>
+                                    <option value="advising">Advising</option>
+                                    <option value="research">Research</option>
+                                    <option value="multiple">Multiple Services</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                            </div> -->
+                            <div class="form-group">
+                                <label for="contact-message">Message *</label>
+                                <textarea id="contact-message" name="message" rows="5" required placeholder="Tell us about your project or inquiry..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info-panel">
+                        <div class="contact-info-card reveal">
+                            <h3>Contact Information</h3>
+                            <div class="contact-method">
+                                <span class="contact-label">General Inquiries</span>
+                                <a href="mailto:admin@tciamn.org" class="contact-link">admin@tciamn.org</a>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-label">Fiscal Sponsorship</span>
+                                <a href="mailto:fiscal@tciamn.org" class="contact-link">fiscal@tciamn.org</a>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+16515657376" class="contact-link">651.565.7376</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card reveal">
+                            <h3>Office Hours</h3>
+                            <div class="contact-hours">
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                <p>Saturday - Sunday: Closed</p>
+                                <p style="margin-top: 16px; color: var(--metal-chrome); font-size: 0.875rem;">We typically respond to inquiries within 1-2 business days.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card reveal">
+                            <h3>Location</h3>
+                            <div class="contact-hours">
+                                <p>Twin Cities Innovation Alliance</p>
+                                <p>Minneapolis-St. Paul Metro Area</p>
+                                <p>Minnesota, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Card Overlay Backdrop -->
+    <div class="card-overlay" id="card-overlay"></div>
+
+    <!-- Contact Modal (Hidden - not used anymore) -->
+    <div id="contact-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display: none !important;">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2 id="modal-title" class="modal__title">Contact Us</h2>
+                <button class="modal__close" onclick="closeContactModal()" aria-label="Close modal">×</button>
+            </div>
+            <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization</label>
+                    <input type="text" id="organization" name="organization">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Interested In</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service...</option>
+                        <option value="workshops">Workshops</option>
+                        <option value="facilitation">Facilitation</option>
+                        <option value="visualization">Visualization and Storytelling</option>
+                        <option value="speaking">Public Speaking</option>
+                        <option value="fiscal">Fiscal Sponsorship</option>
+                        <option value="residencies">In-School Residencies</option>
+                        <option value="advising">Advising</option>
+                        <option value="research">Research</option>
+                        <option value="multiple">Multiple Services</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Twin Cities Innovation Alliance</h4>
+                <p>Supporting innovation and technology for thriving communities.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:admin@tciamn.org">admin@tciamn.org</a></p>
+                <p>Phone: <a href="tel:+16515657376">651.565.7376</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <p>Workshops • Facilitation • Visualization • Speaking • Fiscal Sponsorship • Residencies</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Twin Cities Innovation Alliance. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Navigation Scroll Effect
+        const nav = document.querySelector('.nav');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Mobile Navigation Toggle
+        const navToggle = document.querySelector('.nav__toggle');
+        const navMenu = document.querySelector('.nav__menu');
+        
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+                navToggle.setAttribute('aria-expanded', !isExpanded);
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Card Expansion System
+        const serviceCards = document.querySelectorAll('.service-card');
+        const cardOverlay = document.getElementById('card-overlay');
+        let expandedCard = null;
+        let cardOriginalParent = null;
+        let cardOriginalNextSibling = null;
+
+        // Function to expand a card
+        function expandCard(card) {
+            if (expandedCard) {
+                collapseCard(expandedCard);
+            }
+            
+            // Store original position in DOM
+            cardOriginalParent = card.parentNode;
+            cardOriginalNextSibling = card.nextSibling;
+            
+            // Move card to body (next to overlay)
+            document.body.appendChild(card);
+            
+            card.classList.add('expanded');
+            cardOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            expandedCard = card;
+        }
+
+        // Function to collapse a card
+        function collapseCard(card) {
+            card.classList.remove('expanded');
+            cardOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+            
+            // Move card back to original position
+            if (cardOriginalParent) {
+                if (cardOriginalNextSibling) {
+                    cardOriginalParent.insertBefore(card, cardOriginalNextSibling);
+                } else {
+                    cardOriginalParent.appendChild(card);
+                }
+            }
+            
+            expandedCard = null;
+            cardOriginalParent = null;
+            cardOriginalNextSibling = null;
+        }
+
+        // Add click handlers to all cards
+        serviceCards.forEach(card => {
+            // Click on card or "Learn More" button to expand
+            const learnMoreBtn = card.querySelector('.service-card__learn-more');
+            
+            card.addEventListener('click', (e) => {
+                // If card is expanded, stop propagation to prevent closing
+                if (card.classList.contains('expanded')) {
+                    e.stopPropagation();
+                    return;
+                }
+                
+                // Don't expand if clicking on action buttons or links
+                if (!e.target.closest('.service-card__actions') && 
+                    !e.target.closest('.service-card__close')) {
+                    expandCard(card);
+                }
+            });
+            
+            // Close button
+            const closeBtn = card.querySelector('.service-card__close');
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                collapseCard(card);
+            });
+        });
+
+        // Close card when clicking overlay
+        cardOverlay.addEventListener('click', () => {
+            if (expandedCard) {
+                collapseCard(expandedCard);
+            }
+        });
+
+        // Close card on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && expandedCard) {
+                collapseCard(expandedCard);
+            }
+        });
+
+        // Scroll to contact section when "Contact Us" button is clicked
+        document.querySelectorAll('[data-scroll-to-contact]').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Close expanded card first if there is one
+                if (expandedCard) {
+                    collapseCard(expandedCard);
+                }
+                
+                // Smooth scroll to contact section
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                    contactSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form Submission Handler (Modal)
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries());
+            
+            // Here you would typically send the data to your backend
+            console.log('Modal form submitted:', data);
+            
+            // Show success message
+            alert('Thank you for your interest! We\'ll be in touch soon.');
+            
+            // Reset form and close modal
+            event.target.reset();
+            closeContactModal();
+        }
+        
+        // Main Contact Form Submission Handler
+        async function handleMainFormSubmit(event) {
+            event.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries());
+            
+            // Add timestamp
+            data.timestamp = new Date().toISOString();
+            data.page = 'Service Hub';
+            
+            // Get the submit button to show loading state
+            const submitBtn = event.target.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            
+            try {
+                // Zapier webhook URL for form submissions
+                const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/1126530/us4ufgm/';
+                
+                // Convert data to URLSearchParams for form-encoded format (avoids CORS issues)
+                const formBody = new URLSearchParams(data);
+                
+                const response = await fetch(zapierWebhookUrl, {
+                    method: 'POST',
+                    body: formBody,
+                });
+                
+                if (response.ok) {
+                    // Show success message
+                    alert('Thank you for contacting us! We\'ll get back to you within 1-2 business days.');
+                    
+                    // Reset form
+                    event.target.reset();
+                } else {
+                    throw new Error('Failed to submit form');
+                }
+            } catch (error) {
+                console.error('Form submission error:', error);
+                alert('There was an error submitting your message. Please try emailing us directly at admin@tciamn.org');
+            } finally {
+                // Restore button state
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ========================================
+        // INTERACTIVE SQUARE GRID SYSTEM
+        // ========================================
+        
+        class InteractiveSquareGrid {
+            constructor(canvas, cardElement) {
+                this.canvas = canvas;
+                this.card = cardElement;
+                this.ctx = canvas.getContext('2d');
+                this.squares = [];
+                this.activeSquares = new Set();
+                
+                // Twinkle frequency: lower = more frequent, higher = less frequent
+                // 0.01 = 1% chance per frame (~60fps), so roughly once every 1.67 seconds per square
+                this.twinkleFrequency = 0.001; // Adjust this value: 0.001 (very frequent) to 0.05 (rare)
+                
+                // Twinkle duration in frames (60fps)
+                // 30 frames = 0.5 seconds, 60 frames = 1 second, 120 frames = 2 seconds
+                this.twinkleDuration = 180; // Adjust this value: 30 (fast) to 180 (slow)
+                
+                // Get card accent color
+                const computedStyle = getComputedStyle(cardElement);
+                const accentColor = computedStyle.getPropertyValue('--card-accent').trim();
+                this.isFilled = cardElement.classList.contains('service-card--filled');
+                
+                // Set colors based on card type
+                if (this.isFilled) {
+                    this.gridColor = 'rgba(255, 255, 255, 0.1)';
+                    this.activeColor = 'rgba(255, 255, 255, 0.4)';
+                    this.glowColor = 'rgba(255, 255, 255, 0.6)';
+                } else {
+                    // Parse accent color for RGB values
+                    this.gridColor = accentColor ? `${accentColor}33` : 'rgba(0, 0, 0, 0.03)';
+                    this.activeColor = accentColor ? `${accentColor}66` : 'rgba(0, 0, 0, 0.2)';
+                    this.glowColor = accentColor || 'rgba(0, 0, 0, 0.4)';
+                }
+                
+                this.setupCanvas();
+                this.generateSquareGrid();
+                this.bindEvents();
+                this.animate();
+            }
+            
+            setupCanvas() {
+                const rect = this.card.querySelector('.service-card__content').getBoundingClientRect();
+                this.canvas.width = rect.width;
+                this.canvas.height = rect.height;
+                
+                this.squareSize = 40;
+            }
+            
+            generateSquareGrid() {
+                const cols = Math.ceil(this.canvas.width / this.squareSize);
+                const rows = Math.ceil(this.canvas.height / this.squareSize);
+                
+                this.squares = [];
+                
+                for (let row = 0; row < rows; row++) {
+                    for (let col = 0; col < cols; col++) {
+                        this.squares.push({
+                            x: col * this.squareSize,
+                            y: row * this.squareSize,
+                            active: false,
+                            glow: 0,
+                            twinkleFrame: 0,  // Current frame of twinkle animation
+                            isTwinkling: false, // Whether currently animating
+                            id: `${row}_${col}`
+                        });
+                    }
+                }
+            }
+            
+            // Ease-in-out function for smooth animation
+            easeInOutCubic(t) {
+                return t < 0.5 
+                    ? 4 * t * t * t 
+                    : 1 - Math.pow(-2 * t + 2, 3) / 2;
+            }
+            
+            drawSquare(x, y, size, active = false, glow = 0) {
+                // Only draw if there's something to show
+                if (!active && glow <= 0) {
+                    // Draw subtle grid line
+                    this.ctx.strokeStyle = this.gridColor;
+                    this.ctx.lineWidth = 1;
+                    this.ctx.strokeRect(x, y, size, size);
+                    return;
+                }
+                
+                // Set colors based on state
+                const intensity = Math.max(glow, active ? 1 : 0);
+                
+                if (intensity > 0) {
+                    // Draw glow effect
+                    this.ctx.shadowBlur = 8 + intensity * 8;
+                    this.ctx.shadowColor = this.glowColor;
+                    
+                    // Fill square with color
+                    this.ctx.fillStyle = this.activeColor.replace(/[\d.]+\)$/g, `${0.2 * intensity})`);
+                    this.ctx.fillRect(x, y, size, size);
+                    
+                    // Draw brighter border
+                    this.ctx.strokeStyle = this.activeColor.replace(/[\d.]+\)$/g, `${0.5 + 0.5 * intensity})`);
+                    this.ctx.lineWidth = 2;
+                    this.ctx.strokeRect(x, y, size, size);
+                    
+                    // Reset shadow
+                    this.ctx.shadowBlur = 0;
+                } else {
+                    // Draw normal grid line
+                    this.ctx.strokeStyle = this.gridColor;
+                    this.ctx.lineWidth = 1;
+                    this.ctx.strokeRect(x, y, size, size);
+                }
+            }
+            
+            bindEvents() {
+                // Bind to canvas for full coverage
+                this.canvas.addEventListener('mousemove', (e) => {
+                    // Only active on non-expanded cards
+                    if (this.card.classList.contains('expanded')) return;
+                    
+                    const rect = this.canvas.getBoundingClientRect();
+                    const mouseX = e.clientX - rect.left;
+                    const mouseY = e.clientY - rect.top;
+                    
+                    // Check which squares are near the mouse
+                    this.squares.forEach(square => {
+                        const squareCenterX = square.x + this.squareSize / 2;
+                        const squareCenterY = square.y + this.squareSize / 2;
+                        const distance = Math.sqrt(
+                            (mouseX - squareCenterX) ** 2 + (mouseY - squareCenterY) ** 2
+                        );
+                        
+                        if (distance < this.squareSize * 1.5) {
+                            square.active = true;
+                            this.activeSquares.add(square.id);
+                        } else {
+                            square.active = false;
+                            this.activeSquares.delete(square.id);
+                        }
+                    });
+                });
+                
+                this.canvas.addEventListener('mouseleave', () => {
+                    this.squares.forEach(square => {
+                        square.active = false;
+                    });
+                    this.activeSquares.clear();
+                });
+                
+                // Ripple on canvas click (but buttons will capture their own clicks due to higher z-index)
+                this.canvas.addEventListener('click', (e) => {
+                    // Only create ripple on non-expanded cards
+                    if (this.card.classList.contains('expanded')) return;
+                    
+                    // Don't interfere with button clicks
+                    if (e.target !== this.canvas) return;
+                    
+                    // Create ripple effect from click point
+                    const rect = this.canvas.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const clickY = e.clientY - rect.top;
+                    
+                    this.createRipple(clickX, clickY);
+                });
+            }
+            
+            createRipple(centerX, centerY) {
+                const maxDistance = Math.max(this.canvas.width, this.canvas.height);
+                let currentRadius = 0;
+                const speed = 10;
+                
+                const ripple = () => {
+                    currentRadius += speed;
+                    
+                    this.squares.forEach(square => {
+                        const squareCenterX = square.x + this.squareSize / 2;
+                        const squareCenterY = square.y + this.squareSize / 2;
+                        const distance = Math.sqrt(
+                            (centerX - squareCenterX) ** 2 + (centerY - squareCenterY) ** 2
+                        );
+                        
+                        if (distance >= currentRadius - 30 && distance <= currentRadius + 30) {
+                            square.glow = Math.max(square.glow, 1);
+                        }
+                    });
+                    
+                    if (currentRadius < maxDistance) {
+                        requestAnimationFrame(ripple);
+                    }
+                };
+                
+                ripple();
+            }
+            
+            animate() {
+                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+                
+                // Update all squares
+                this.squares.forEach(square => {
+                    // Update twinkle animation
+                    if (square.isTwinkling) {
+                        square.twinkleFrame++;
+                        
+                        // Calculate progress (0 to 1)
+                        const progress = square.twinkleFrame / this.twinkleDuration;
+                        
+                        if (progress >= 1) {
+                            // Animation complete
+                            square.isTwinkling = false;
+                            square.twinkleFrame = 0;
+                            square.glow = 0;
+                        } else {
+                            // Apply easing to create smooth fade in and out
+                            const easedProgress = this.easeInOutCubic(progress);
+                            // Peak at 0.5 progress, using sine wave for smooth in/out
+                            square.glow = Math.sin(progress * Math.PI) * 0.8;
+                        }
+                    }
+                    
+                    // Decay glow effect for non-twinkle glows (from ripples)
+                    if (square.glow > 0 && !square.isTwinkling) {
+                        square.glow -= 0.03;
+                        if (square.glow < 0) square.glow = 0;
+                    }
+                    
+                    this.drawSquare(square.x, square.y, this.squareSize, square.active, square.glow);
+                });
+                
+                // Trigger new random twinkles
+                if (Math.random() < this.twinkleFrequency) {
+                    const randomSquare = this.squares[Math.floor(Math.random() * this.squares.length)];
+                    if (!randomSquare.isTwinkling && !randomSquare.active) {
+                        randomSquare.isTwinkling = true;
+                        randomSquare.twinkleFrame = 0;
+                    }
+                }
+                
+                requestAnimationFrame(() => this.animate());
+            }
+            
+            resize() {
+                this.setupCanvas();
+                this.generateSquareGrid();
+            }
+        }
+        
+        // Initialize interactive grids for all service cards (disabled on mobile)
+        const interactiveGrids = [];
+        const isMobile = window.matchMedia('(max-width: 768px)').matches;
+        
+        if (!isMobile) {
+            document.querySelectorAll('.service-card').forEach(card => {
+                const canvas = card.querySelector('.service-card__grid-canvas');
+                if (canvas) {
+                    const grid = new InteractiveSquareGrid(canvas, card);
+                    interactiveGrids.push(grid);
+                }
+            });
+            
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                interactiveGrids.forEach(grid => grid.resize());
+            });
+        } else {
+            // On mobile, hide all canvases
+            document.querySelectorAll('.service-card__grid-canvas').forEach(canvas => {
+                canvas.style.display = 'none';
+            });
+        }
+        
+        // ========================================
+        // 3D HORIZONTAL CAROUSEL (COVERFLOW STYLE)
+        // ========================================
+        
+        class TestimonialWheel {
+            constructor(container) {
+                this.container = container;
+                this.wheel = document.getElementById('testimonial-wheel');
+                this.items = Array.from(this.wheel.querySelectorAll('.testimonial-item'));
+                this.currentIndex = 0;
+                this.totalItems = this.items.length;
+                this.autoRotateInterval = null;
+                
+                this.init();
+            }
+            
+            init() {
+                // Create indicators
+                this.createIndicators();
+                
+                // Set initial positions
+                this.updatePositions();
+                
+                // Bind controls
+                document.getElementById('wheel-prev').addEventListener('click', () => this.prev());
+                document.getElementById('wheel-next').addEventListener('click', () => this.next());
+                
+                // Auto-rotate
+                this.startAutoRotate();
+                
+                // Pause on hover
+                this.container.addEventListener('mouseenter', () => this.stopAutoRotate());
+                this.container.addEventListener('mouseleave', () => this.startAutoRotate());
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'ArrowLeft') this.prev();
+                    if (e.key === 'ArrowRight') this.next();
+                });
+            }
+            
+            createIndicators() {
+                const indicatorsContainer = document.getElementById('wheel-indicators');
+                this.indicators = [];
+                
+                for (let i = 0; i < this.totalItems; i++) {
+                    const indicator = document.createElement('div');
+                    indicator.className = 'wheel-indicator';
+                    if (i === 0) indicator.classList.add('active');
+                    indicator.addEventListener('click', () => this.goTo(i));
+                    indicatorsContainer.appendChild(indicator);
+                    this.indicators.push(indicator);
+                }
+            }
+            
+            updatePositions() {
+                const spacing = 280; // Horizontal spacing between cards
+                const rotationAngle = 45; // Degrees to rotate side cards
+                
+                this.items.forEach((item, index) => {
+                    const relativePosition = index - this.currentIndex;
+                    
+                    // Calculate horizontal offset from center
+                    const xOffset = relativePosition * spacing;
+                    
+                    // Calculate Z offset (cards to the side move back in space)
+                    const zOffset = Math.abs(relativePosition) * -150;
+                    
+                    // Calculate rotation (cards to left rotate right, cards to right rotate left)
+                    let rotateY = 0;
+                    if (relativePosition < 0) {
+                        // Cards to the left - rotate to face slightly right
+                        rotateY = rotationAngle;
+                    } else if (relativePosition > 0) {
+                        // Cards to the right - rotate to face slightly left
+                        rotateY = -rotationAngle;
+                    }
+                    // Center card has 0 rotation
+                    
+                    // Calculate scale based on distance from center
+                    const scale = relativePosition === 0 ? 1 : 0.85;
+                    
+                    // Set transform with 3D rotation
+                    item.style.transform = `
+                        translate(-50%, -50%)
+                        translateX(${xOffset}px)
+                        translateZ(${zOffset}px)
+                        rotateY(${rotateY}deg)
+                        scale(${scale})
+                    `;
+                    
+                    // Update classes and z-index
+                    item.classList.remove('active', 'left', 'right');
+                    
+                    if (relativePosition === 0) {
+                        item.classList.add('active');
+                        item.style.zIndex = 10;
+                    } else if (relativePosition < 0) {
+                        item.classList.add('left');
+                        item.style.zIndex = 10 - Math.abs(relativePosition);
+                    } else {
+                        item.classList.add('right');
+                        item.style.zIndex = 10 - Math.abs(relativePosition);
+                    }
+                    
+                    // Opacity based on distance from center
+                    if (relativePosition === 0) {
+                        item.style.opacity = 1;
+                    } else if (Math.abs(relativePosition) === 1) {
+                        item.style.opacity = 0.7;
+                    } else if (Math.abs(relativePosition) === 2) {
+                        item.style.opacity = 0.4;
+                    } else {
+                        item.style.opacity = 0.2;
+                    }
+                });
+                
+                // Update indicators
+                this.indicators.forEach((indicator, index) => {
+                    if (index === this.currentIndex) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            }
+            
+            next() {
+                this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+                this.updatePositions();
+                this.resetAutoRotate();
+            }
+            
+            prev() {
+                this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+                this.updatePositions();
+                this.resetAutoRotate();
+            }
+            
+            goTo(index) {
+                this.currentIndex = index;
+                this.updatePositions();
+                this.resetAutoRotate();
+            }
+            
+            startAutoRotate() {
+                this.autoRotateInterval = setInterval(() => {
+                    this.next();
+                }, 5000); // Rotate every 5 seconds
+            }
+            
+            stopAutoRotate() {
+                if (this.autoRotateInterval) {
+                    clearInterval(this.autoRotateInterval);
+                    this.autoRotateInterval = null;
+                }
+            }
+            
+            resetAutoRotate() {
+                this.stopAutoRotate();
+                this.startAutoRotate();
+            }
+        }
+        
+        // Initialize testimonial carousel
+        const testimonialContainer = document.querySelector('.testimonial-wheel-container');
+        if (testimonialContainer) {
+            const testimonialWheel = new TestimonialWheel(testimonialContainer);
+        }
+    </script>
+</body>
+</html>
