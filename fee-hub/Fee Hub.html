@@ -2242,7 +2242,7 @@
                         <div class="contact-info-card reveal">
                             <h3>Office Hours</h3>
                             <div class="contact-hours">
-                                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM CST</p>
                                 <p>Saturday - Sunday: Closed</p>
                                 <p style="margin-top: 16px; color: var(--metal-chrome); font-size: 0.875rem;">We typically respond to inquiries within 1-2 business days.</p>
                             </div>
@@ -2818,28 +2818,28 @@
         }
         
         // Initialize interactive grids for all service cards (disabled on mobile)
-        const interactiveGrids = [];
-        const isMobile = window.matchMedia('(max-width: 768px)').matches;
+        // const interactiveGrids = [];
+        // const isMobile = window.matchMedia('(max-width: 768px)').matches;
         
-        if (!isMobile) {
-            document.querySelectorAll('.service-card').forEach(card => {
-                const canvas = card.querySelector('.service-card__grid-canvas');
-                if (canvas) {
-                    const grid = new InteractiveSquareGrid(canvas, card);
-                    interactiveGrids.push(grid);
-                }
-            });
+        // if (!isMobile) {
+        //     document.querySelectorAll('.service-card').forEach(card => {
+        //         const canvas = card.querySelector('.service-card__grid-canvas');
+        //         if (canvas) {
+        //             const grid = new InteractiveSquareGrid(canvas, card);
+        //             interactiveGrids.push(grid);
+        //         }
+        //     });
             
-            // Handle window resize
-            window.addEventListener('resize', () => {
-                interactiveGrids.forEach(grid => grid.resize());
-            });
-        } else {
-            // On mobile, hide all canvases
-            document.querySelectorAll('.service-card__grid-canvas').forEach(canvas => {
-                canvas.style.display = 'none';
-            });
-        }
+        //     // Handle window resize
+        //     window.addEventListener('resize', () => {
+        //         interactiveGrids.forEach(grid => grid.resize());
+        //     });
+        // } else {
+        //     // On mobile, hide all canvases
+        //     document.querySelectorAll('.service-card__grid-canvas').forEach(canvas => {
+        //         canvas.style.display = 'none';
+        //     });
+        // }
         
         // ========================================
         // 3D HORIZONTAL CAROUSEL (COVERFLOW STYLE)
