@@ -1,29 +1,5 @@
 [
   {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44335c10-193a-4945-86ac-a801937eac0d/Jamals+Journey+Cover.png?content-type=image%2Fpng",
-    "title": "Jamal's Journey: A Student Data Walkthrough",
-    "date": "March 25, 2025",
-    "type": "REPORT",
-    "downloadUrl": "https://www.tciamn.org/s/Jamals-Journey.pdf",
-    "tooltip": "Download - Jamal's Journey - PDF"
-  },
-    {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b1a771a-4fce-4357-895c-52583b89376b/Digital+Pushout+Cover.png?content-type=image%2Fpng",
-    "title": "Digital Pushout - SEF Issues Forum",
-    "date": "March 25, 2025",
-    "type": "REPORT",
-    "downloadUrl": "https://www.tciamn.org/s/Digital-Pushout-SEF-Issues-Forum.pdf",
-    "tooltip": "Download - Digital Pushout - SEF Issues Forum - PDF"
-  },
-  {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ae1fe48-01ac-4004-b3cb-0b63ba5bcedf/Houston+Diagnostic+Report+-+Title+Page.png?content-type=image%2Fpng",
-    "title": "Digital surveillance in Texas schools: A System Reinforcing Inequality Under the Guise of Safety",
-    "date": "March 20, 2025",
-    "type": "REPORT",
-    "downloadUrl": "https://www.tciamn.org/s/report-houston-12-02.pdf",
-    "tooltip": "Download - Digital Surveillance in Texas Schools - PDF"
-  },
-  {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
     "title": "Automating School Surveillance: How Student Vape Detection Technologies Threaten to Expand the School-to-Prison Pipeline in Minnesota and Beyond",
     "date": "December 19, 2024",
@@ -38,6 +14,47 @@
     "type": "FACT SHEET",
     "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
     "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/24eb4361-da02-4d11-85a5-2080ad2108f7/Notice+Project+Presentation.png?content-type=image%2Fpng",
+    "title": "AI Surveillance in Education",
+    "date": "May 5, 2025",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/Notice-Project-Presentation.pdf",
+    "tooltip": "Download - AI Surveillance in Education - PDF"
+  },
+  {
+    "image": "http://i3.ytimg.com/vi/GK6kJ418oqY/hqdefault.jpg", 
+    "title": "Trust But Verify: Using AI Audits to Guide Responsible Government Tech",
+    "date": "May 5, 2025",
+    "type": "VIDEO",
+    "videoUrl": "https://www.youtube.com/embed/GK6kJ418oqY",
+    "downloadUrl": "https://youtu.be/GK6kJ418oqY", 
+    "tooltip": "Watch - Trust But Verify: Using AI Audits to Guide Responsible Government Tech"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b1a771a-4fce-4357-895c-52583b89376b/Digital+Pushout+Cover.png?content-type=image%2Fpng",
+    "title": "Digital Pushout - SEF Issues Forum",
+    "date": "March 25, 2025",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/Digital-Pushout-SEF-Issues-Forum.pdf",
+    "tooltip": "Download - Digital Pushout - SEF Issues Forum - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/44335c10-193a-4945-86ac-a801937eac0d/Jamals+Journey+Cover.png?content-type=image%2Fpng",
+    "title": "Jamal's Journey: A Student Data Walkthrough",
+    "date": "March 25, 2025",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/Jamals-Journey.pdf",
+    "tooltip": "Download - Jamal's Journey - PDF"
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/9ae1fe48-01ac-4004-b3cb-0b63ba5bcedf/Houston+Diagnostic+Report+-+Title+Page.png?content-type=image%2Fpng",
+    "title": "Digital surveillance in Texas schools: A System Reinforcing Inequality Under the Guise of Safety",
+    "date": "March 20, 2025",
+    "type": "REPORT",
+    "downloadUrl": "https://www.tciamn.org/s/report-houston-12-02.pdf",
+    "tooltip": "Download - Digital Surveillance in Texas Schools - PDF"
   },
   {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/123ddc1a-cf1f-4af3-aa19-6a764c10a6e1/cctv-surveillance-camera-stock-1920p.jpg",
