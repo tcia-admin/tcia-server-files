@@ -32,19 +32,19 @@
     "tooltip": "Download - AI Surveillance in Education - PDF"
   },
   {
-    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
-    "title": "Vape Detection Report Fact Sheet",
-    "date": "December 18, 2024",
-    "type": "FACT SHEET",
-    "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
-    "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
-  },
-  {
     "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/0b1a771a-4fce-4357-895c-52583b89376b/Digital+Pushout+Cover.png?content-type=image%2Fpng",
     "title": "Digital Pushout - SEF Issues Forum",
     "date": "March 25, 2025",
     "type": "REPORT",
     "downloadUrl": "https://www.tciamn.org/s/Digital-Pushout-SEF-Issues-Forum.pdf",
     "tooltip": "Download - Digital Pushout - SEF Issues Forum - PDF"
+  },
+    {
+    "image": "https://images.squarespace-cdn.com/content/5b9081c58ab7224793278e1d/a0a1ae2c-568f-42fd-9e89-eee2cf7151f4/Vape+Detection+Image2.png",
+    "title": "Vape Detection Report Fact Sheet",
+    "date": "December 18, 2024",
+    "type": "FACT SHEET",
+    "downloadUrl": "https://www.tciamn.org/s/MNVapeReportFactSheet1.pdf",
+    "tooltip": "Download - Vape Detection Report Fact Sheet - PDF"
   }
 ]
